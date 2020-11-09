@@ -1,6 +1,6 @@
 <template>
   <div>
-    <b-navbar toggleable="lg" type="dark" variant="info">
+    <b-navbar toggleable="lg" type="light" variant="primary">
       <b-navbar-brand href="#">
         <img src="/images/Logo-Yep-300x122.png" alt="yeptrainingen" />
       </b-navbar-brand>

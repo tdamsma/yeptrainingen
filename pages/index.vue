@@ -1,11 +1,27 @@
-<template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1 class="title">Yep Trainingen</h1>
-      <div class="links"></div>
-    </div>
-  </div>
+<template lang="pug">
+div
+  .jumbotron.jumbotron-fluid
+    .container
+      h1.display-4 Benieuwd naar het digitale aanbod van Yep?
+      p.lead
+        | Doordat fysieke trainingen in deze tijd niet altijd wenselijk zijn,
+        a(href="https://yeptrainingen.nl/trainingsaanbod/") begeleiden wij je ook graag digitaal!
+
+  .container-fluid.container-right
+    .row
+      .col-md
+        h1.display-7 Neem je talenten serieus.
+      .col-md.full-width
+        .float-right
+          <img src="/images/Trainers_van_YEP-1.png" alt="Team" />
+  .jumbotron.jumbotron-fluid
+    .container
+      h1.display-4 &ltSpringest widget&gt
+
+  .container
+    p Wij doen dit via groepstrainingen, talentprogramma’s en traineeprogramma’s en individuele coaching.
+    p Als ambitieuze persoon wil je krachtig in je organisatie staan en een tastbare bijdrage leveren. Je bent niet op zoek naar een trainer die als expert vertelt hoe jij je werk moet doen. Je wilt zelf verschillende aanpakken ervaren en beslissen wat het beste werkt. Je wilt de specifieke uitdagingen die je op dit moment in je werk ervaart zo direct mogelijk terugzien in een training. Ook vind je het belangrijk dat andere deelnemers gedreven en gemotiveerd in de training staan.
+    p In onze trainingen ga je actief aan de slag met jouw uitdagingen, op een directe en soms confronterende manier. Wij houden je een spiegel voor, jij boekt samen met andere deelnemers zichtbare resultaten.
 </template>
 
 <script lang="ts">
@@ -13,36 +29,3 @@ import Vue from "vue";
 
 export default Vue.extend({});
 </script>
-
-<style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-
-.title {
-  font-family: "Quicksand", "Source Sans Pro", -apple-system, BlinkMacSystemFont,
-    "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-  display: block;
-  font-weight: 300;
-  font-size: 100px;
-  color: #35495e;
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 300;
-  font-size: 42px;
-  color: #526488;
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-</style>

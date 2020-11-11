@@ -1,28 +1,67 @@
 // custom.scss
 
 // All of your custom SCSS variables go first
-$primary:      white;
-$secondary:     rgb(255, 228, 0);
-$light:         #f1f1f1 ;
-$dark:          #c44242 ;//then bootstrap & bootstrap-vue should be added after 
-//all other custom scss files or css should be added here
-$color:  #ff00aa;
-$enable-rounded: true;
-$blue:    #00ff6a;
+// see options in node_modules/bootstrap/scss/_variables.scss
+$font-family-sans-serif: "Roboto", sans-serif;
+
+
+$primary:       #FFE400;
+$secondary:     #797F83;
+$light:         #EBEBE6;
+$dark:          #585656;
 
 $enable-shadows: true;
 $enable-gradients: true;
-$grid-breakpoints: (
-  xs: 0,
-  sm: 456px,
-  md: 789px,
-  lg: 999px,
-  xl: 1234px
-);
-$bv-enable-table-stacked: false;
 
-$body-bg: #000;
-$body-color: #111;
+
+  
+//then bootstrap & bootstrap-vue should be added after 
+//all other custom scss files or css should be added here
 //so that they inherit the custom SCSS variables
 @import 'bootstrap/scss/bootstrap.scss';
 @import 'bootstrap-vue/src/index.scss';
+
+body {
+  background-color: #F2F2F2;
+}
+.navbar {
+  font-family: "Dosis", sans-serif;
+  padding: 0;
+  font-weight: 500;
+  font-size: 18px;
+}
+.jumbotron { 
+  background-color: $primary;
+  color: $dark;
+  a {
+    color: darken($blue, 15%);
+  }
+}
+h1,h2 {
+  font-family: "Dosis", sans-serif;
+}
+.full-width {
+  padding-right: 0;
+  padding-right: 0;
+}
+
+@include media-breakpoint-between(lg, xl) {
+  .container-right {
+    padding-left: calc(calc(calc(100% - 1140px) / 2) + 15px); 
+  }
+}
+@include media-breakpoint-between(md, lg) {
+  .container-right {
+    padding-left: calc(calc(calc(100% - 960px) / 2) + 15px); 
+  }
+}
+@include media-breakpoint-between(sm, md) {
+  .container-right {
+    padding-left: calc(calc(calc(100% - 720px) / 2) + 15px); 
+  }
+}
+@include media-breakpoint-between(0, sm) {
+  .container-right {
+    padding-left: calc(calc(calc(100% - 540px) / 2) + 15px); 
+  }
+}

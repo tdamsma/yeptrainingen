@@ -17,7 +17,7 @@ div
           <img src="/images/Trainers_van_YEP-1.png" alt="Team" />
   .jumbotron.jumbotron-fluid
     .container
-      h1.display-4 &ltSpringest widget&gt
+      h1.display-4 &ltSpringest widget hier&gt
 
   .container
     p Wij doen dit via groepstrainingen, talentprogramma’s en traineeprogramma’s en individuele coaching.

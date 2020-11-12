@@ -5,6 +5,7 @@ div
       h1.display-4 Benieuwd naar het digitale aanbod van Yep?
       p.lead
         | Doordat fysieke trainingen in deze tijd niet altijd wenselijk zijn,
+        |
         a(href="https://yeptrainingen.nl/trainingsaanbod/") begeleiden wij je ook graag digitaal!
 
   .container-fluid.container-right
@@ -16,7 +17,7 @@ div
           <img src="/images/Trainers_van_YEP-1.png" alt="Team" />
   .jumbotron.jumbotron-fluid
     .container
-      h1.display-4 &ltSpringest widget&gt
+      h1.display-4 &ltSpringest widget hier&gt
 
   .container
     p Wij doen dit via groepstrainingen, talentprogramma’s en traineeprogramma’s en individuele coaching.
@@ -25,7 +26,7 @@ div
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue'
 
-export default Vue.extend({});
+export default Vue.extend({})
 </script>

@@ -5,7 +5,7 @@ div
       b-navbar-brand(href="#")
         img(src="/images/Logo-Yep-300x122.png", alt="yeptrainingen")
 
-      b-navbar-toggle target="nav-collapse"
+      b-navbar-toggle(target="nav-collapse")
 
       b-collapse#nav-collapse(is-nav="")
         b-navbar-nav
@@ -18,14 +18,4 @@ div
 </template>
 
 <style>
-.NuxtLogo {
-  animation: 1s appear;
-  margin: auto;
-}
-
-@keyframes appear {
-  0% {
-    opacity: 0;
-  }
-}
 </style>

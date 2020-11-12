@@ -12,11 +12,13 @@ div
     .row
       .col-md
         h1.display-7 Neem je talenten serieus.
+        Springest
       .col-md.full-width
         .float-right
           <img src="/images/Trainers_van_YEP-1.png" alt="Team" />
   .jumbotron.jumbotron-fluid
     .container
+      Springest
       h1.display-4 &ltSpringest widget hier&gt
 
   .container
@@ -26,7 +28,7 @@ div
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
 
-export default Vue.extend({})
+export default Vue.extend({});
 </script>

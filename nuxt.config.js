@@ -13,7 +13,8 @@ export default {
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
-      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dosis:wght@500;600&display=swap' }
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap' }
     ]
   },
 
@@ -42,9 +43,13 @@ export default {
     // https://go.nuxtjs.dev/content
     '@nuxt/content'
   ],
+  // https://bootstrap-vue.org/docs
   bootstrapVue: {
     bootstrapCSS: false,
-    bootstrapVueCSS: false
+    bootstrapVueCSS: false,
+    icons: false,
+    // components: ['BNav', 'BNavbar', 'BNavbarNav', 'BNavbarBrand', 'BNavbarToggle', 'BNavItem', 'BNavText', 'BCollapse', 'BNavItemDropdown'],
+    // directives: ['VBModal', 'VBPopover', 'VBTooltip', 'VBScrollspy', 'VBToggle', 'VBVisible', 'VBHover']
   },
   module: {
     rules: [

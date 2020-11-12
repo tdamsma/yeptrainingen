@@ -12,8 +12,8 @@ export default {
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
-      { rel: "preconnect", href: "https://fonts.gstatic.com", },
-      { rel: "stylesheet", href: "https://fonts.googleapis.com/css2?family=Dosis:wght@500;600&display=swap", },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css2?family=Dosis:wght@500;600&display=swap' }
     ]
   },
 
@@ -50,9 +50,9 @@ export default {
     rules: [
       {
         test: /\.s[ac]ss$/i,
-        use: ['style-loader', 'css-loader', 'sass-loader',],
-      },
-    ],
+        use: ['style-loader', 'css-loader', 'sass-loader']
+      }
+    ]
   },
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)

@@ -32,45 +32,45 @@ div
         | Terug
 </template>
 <script>
-import { jsonp } from 'vue-jsonp'
+import { jsonp } from "vue-jsonp";
 
 export default {
-  data () {
+  data() {
     return {
       springestData: {},
-      t: 0
-    }
+      t: 0,
+    };
   },
   computed: {
-    reviews () {
-      return this.springestData.reviews ? this.springestData.reviews : []
+    reviews() {
+      return this.springestData.reviews ? this.springestData.reviews : [];
     },
-    reviewsDoubled () {
-      console.log(this.reviews.concat(this.reviews).length)
-      return this.reviews.concat(this.reviews)
+    reviewsDoubled() {
+      console.log(this.reviews.concat(this.reviews).length);
+      return this.reviews.concat(this.reviews);
     },
-    selectedReviews () {
-      return this.reviewsDoubled.slice(this.t, this.t + 3).reverse()
-    }
+    selectedReviews() {
+      return this.reviewsDoubled.slice(this.t, this.t + 3).reverse();
+    },
   },
-  mounted () {
-    this.init()
+  mounted() {
+    this.init();
   },
-  created () {
-    setInterval(() => (this.t = (this.t + 1) % this.reviews.length), 4000)
+  created() {
+    setInterval(() => (this.t = (this.t + 1) % this.reviews.length), 4000);
   },
   methods: {
-    async init () {
+    async init() {
       const result = await jsonp(
-        'https://www.springest.nl/yep-trainingen-2/reviews.jsonp',
+        "https://www.springest.nl/yep-trainingen-2/reviews.jsonp",
         {
-          callbackName: 'SpringestReviewWidget'
+          callbackName: "SpringestReviewWidget",
         }
-      )
-      this.springestData = result
-    }
-  }
-}
+      );
+      this.springestData = result;
+    },
+  },
+};
 </script>
 
 <style scoped>

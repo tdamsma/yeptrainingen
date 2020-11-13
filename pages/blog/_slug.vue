@@ -2,7 +2,7 @@
 div
   .container
     .row
-      .col-lg-8
+      .col-lg-9
         img.img-fluid(:src="article.img", :alt="article.alt")
         h2 {{ article.title }}
 
@@ -10,7 +10,7 @@ div
 
         .blog-details-body
           nuxt-content(:document="article")
-      .col-lg-4
+      .col-lg-3
         nuxt-link.font-bold(
           v-if="next",
           :to="{ name: 'blog-slug', params: { slug: next.slug } }"
@@ -23,34 +23,34 @@ div
 
 <script>
 export default {
-  async asyncData ({ $content, params }) {
-    const article = await $content('blog', params.slug).fetch()
+  async asyncData({ $content, params }) {
+    const article = await $content("blog", params.slug).fetch();
 
-    const [prev, next] = await $content('blog')
-      .only(['title', 'slug'])
-      .sortBy('createdAt', 'asc')
+    const [prev, next] = await $content("blog")
+      .only(["title", "slug"])
+      .sortBy("createdAt", "asc")
       .surround(params.slug)
-      .fetch()
+      .fetch();
 
     return {
       article,
       prev,
-      next
-    }
+      next,
+    };
   },
 
   methods: {
-    formatDate (date) {
-      const options = { year: 'numeric', month: 'short', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
-    }
+    formatDate(date) {
+      const options = { year: "numeric", month: "short", day: "numeric" };
+      return new Date(date).toLocaleDateString("en", options);
+    },
   },
-  head () {
+  head() {
     return {
-      title: 'YEP trainingen blog'
-    }
-  }
-}
+      title: "YEP trainingen blog",
+    };
+  },
+};
 </script>
 
 <style>

@@ -62,7 +62,7 @@ export default {
   methods: {
     async init () {
       const result = await jsonp(
-        'http://www.springest.nl/yep-trainingen-2/reviews.jsonp',
+        'https://www.springest.nl/yep-trainingen-2/reviews.jsonp',
         {
           callbackName: 'SpringestReviewWidget'
         }

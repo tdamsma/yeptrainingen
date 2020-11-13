@@ -65,3 +65,25 @@ h1,h2 {
     padding-left: calc(calc(calc(100% - 540px) / 2) + 15px); 
   }
 }
+
+@include media-breakpoint-between(lg, 9999999) {
+  .modal-content {
+    min-height: 80vh;
+    min-width: 100%;
+  }
+}
+
+@include media-breakpoint-between(0, lg) {
+  .modal-dialog.modal-xl {
+    max-width: 100%;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100vh;
+    display: flex;
+    position: fixed;
+    z-index: 100000;
+  }
+}

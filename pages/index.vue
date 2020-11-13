@@ -12,15 +12,12 @@ div
     .row
       .col-md
         h1.display-7 Neem je talenten serieus.
-        Springest
       .col-md.full-width
         .float-right
           <img src="/images/Trainers_van_YEP-1.png" alt="Team" />
   .jumbotron.jumbotron-fluid
     .container
-      Springest
-      h1.display-4 &ltSpringest widget hier&gt
-
+      SpringestCustom
   .container
     p Wij doen dit via groepstrainingen, talentprogramma’s en traineeprogramma’s en individuele coaching.
     p Als ambitieuze persoon wil je krachtig in je organisatie staan en een tastbare bijdrage leveren. Je bent niet op zoek naar een trainer die als expert vertelt hoe jij je werk moet doen. Je wilt zelf verschillende aanpakken ervaren en beslissen wat het beste werkt. Je wilt de specifieke uitdagingen die je op dit moment in je werk ervaart zo direct mogelijk terugzien in een training. Ook vind je het belangrijk dat andere deelnemers gedreven en gemotiveerd in de training staan.

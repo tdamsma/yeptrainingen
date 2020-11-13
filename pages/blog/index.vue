@@ -7,7 +7,7 @@ div
         | Ons leuke blog
   .container
     div(v-for="article of articles")
-      b-card.overflow-hidden(no-body='')
+      b-card.mt-5.overflow-hidden(no-body='')
         b-row(no-gutters='')
           b-col(md='4')
             b-card-img.rounded-0(:src="article.img", :alt="article.alt")

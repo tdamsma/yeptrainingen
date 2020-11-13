@@ -12,17 +12,24 @@ intro: "Haal jij alles uit een training? Lees eens de volgende omschrijvingen en
 
 Haal jij alles uit een training? Lees eens de volgende omschrijvingen en stel jezelf deze vraag. Pak jij de rol van klant, toeschouwer of regisseur wanneer je deelneemt? En wat maakt het uit?
 
-![Om en om fruit pakken](/images/blog/fruit.png)
+**Klant**: 
 
-**Klant**: De deelnemer die zegt: “Wat heb jij mij te bieden? Bied maar aan en dan zie ik wel wat ik ermee doe.”
+> “Wat heb jij mij te bieden? Bied maar aan en dan zie ik wel wat ik ermee doe.”
 
-**Toeschouwer**: De deelnemer die zegt: “ik sta er open in vandaag, ik zie wel wat er op me af komt.”
+**Toeschouwer**: 
 
-**Regisseur**: De deelnemer die zegt: “ik wil weten waarom ik weerstand tegenkom in een bepaald type gesprek en hoe ik dit kan voorkomen”
+> “ik sta er open in vandaag, ik zie wel wat er op me af komt.”
+
+**Regisseur**: 
+
+> “ik wil weten waarom ik weerstand tegenkom in een bepaald type gesprek en hoe ik dit kan voorkomen”
 
 Wie gaat er uiteindelijk met de meeste winst op pad?
 
+![Om en om fruit pakken](/images/blog/fruit.png)
+
 Ik zal het nader toelichten:
+
 De klant is een deel van de tijd bezig met een theoretische discussie, om de aangeboden stof te plaatsen in een abstract kader en de trainer en materie op waarde te schatten. En tenslotte is er misschien ook wat tijd over om na te denken over wat de materie en trainer te bieden hebben voor de eigen situatie.
 
 De toeschouwer vindt bepaalde delen interessanter en herkenbaarder dan andere delen. Maar ervaart zelf geen probleem en heeft dus geen handvat nodig. Oefeningen zijn snel klaar en blijven afstandelijk. Er kan wel een eye-opener zijn en oefeningen kunnen als nuttig worden ervaren. Maar

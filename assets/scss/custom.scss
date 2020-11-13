@@ -87,3 +87,14 @@ h1,h2 {
     z-index: 100000;
   }
 }
+
+blockquote {
+  border-left: 3px solid $primary;
+  font-style: italic;
+  padding-left: 2em;
+  padding-top: 19px;
+  padding-bottom: 1px;
+  position: relative;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}

@@ -3,55 +3,65 @@ div
   .container
     .row
       .col-lg-9
-        img.img-fluid(:src="article.img", :alt="article.alt")
-        h2 {{ article.title }}
+        .container
+          img.img-fluid(:src="article.img", :alt="article.alt")
+          h2 {{ article.title }}
 
-        p {{ formatDate(article.updatedAt) }}
+          p {{ formatDate(article.updatedAt) }}
 
-        .blog-details-body
-          nuxt-content(:document="article")
+          .blog-details-body
+            nuxt-content(:document="article")
+
+      // bar rechts met links
       .col-lg-3
-        nuxt-link.font-bold(
-          v-if="next",
-          :to="{ name: 'blog-slug', params: { slug: next.slug } }"
-        ) {{ next.title }}
-        nuxt-link.font-bold(
-          v-if="prev",
-          :to="{ name: 'blog-slug', params: { slug: prev.slug } }"
-        ) {{ prev.title }}
+        div(v-for="article of surroundingArticles")
+          b-card.mt-5.overflow-hidden(v-if="article" no-body='' bg-variant="dark" text-variant="white")
+            b-card-img.rounded-0(:src="article.img", :alt="article.alt")
+            b-card-body.p-3
+              b-card-title.smalltext {{article.title}}
+            nuxt-link.stretched-link.font-bold(
+              :to="{ name: 'blog-slug', params: { slug: article.slug } }"
+          )
 </template>
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const article = await $content("blog", params.slug).fetch();
+  async asyncData ({ $content, params }) {
+    const article = await $content('blog', params.slug).fetch()
 
-    const [prev, next] = await $content("blog")
-      .only(["title", "slug"])
-      .sortBy("createdAt", "asc")
+    const surroundingArticles = await $content('blog')
+      .only(['title', 'slug', 'img', 'alt'])
+      .sortBy('createdAt', 'asc')
       .surround(params.slug)
-      .fetch();
+      .fetch()
 
     return {
       article,
-      prev,
-      next,
-    };
+      surroundingArticles
+    }
   },
 
   methods: {
-    formatDate(date) {
-      const options = { year: "numeric", month: "short", day: "numeric" };
-      return new Date(date).toLocaleDateString("en", options);
-    },
+    formatDate (date) {
+      const options = { year: 'numeric', month: 'short', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
+    }
   },
-  head() {
+  head () {
     return {
-      title: "YEP trainingen blog",
-    };
-  },
-};
+      title: 'YEP trainingen blog'
+    }
+  }
+}
 </script>
 
-<style>
+<style lang="scss">
+@import "assets/scss/custom.scss";
+.smalltext {
+  font-size: 16px;
+}
+
+.nuxt-content > p > img {
+  width: 100%;
+}
 </style>

@@ -10,7 +10,7 @@ div
       b-collapse#nav-collapse(is-nav="")
         b-navbar-nav.ml-4
           b-nav-item(to="/") Yep
-          b-nav-item(href="#") Ons team
+          b-nav-item(href="/team") Ons team
           b-nav-item(href="#") Trainingsaanbod
           b-nav-item(href="#") Coachingsaanbod
           b-nav-item(href="#") Voor werkgevers

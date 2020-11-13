@@ -42,28 +42,28 @@ div
       p
         | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
         | a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-  //- p.mt-4
-  //-   | Slide #: {{ slide }}
-  //-   br
-  //-   |
-  //-   | Sliding: {{ sliding }}
+  p.mt-4
+    | Slide #: {{ slide }}
+    br
+    |
+    | Sliding: {{ sliding }}
 </template>
 
 <script>
 export default {
-  data() {
+  data () {
     return {
       slide: 0,
-      sliding: null,
-    };
+      sliding: null
+    }
   },
   methods: {
-    onSlideStart(slide) {
-      this.sliding = true;
+    onSlideStart () {
+      this.sliding = true
     },
-    onSlideEnd(slide) {
-      this.sliding = false;
-    },
-  },
-};
+    onSlideEnd () {
+      this.sliding = false
+    }
+  }
+}
 </script>

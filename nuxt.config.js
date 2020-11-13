@@ -1,32 +1,32 @@
 export default {
   // Target (https://go.nuxtjs.dev/config-target)
-  target: "static",
+  target: 'static',
 
   // Global page headers (https://go.nuxtjs.dev/config-head)
   head: {
-    title: "yeptrainingen",
+    title: 'yeptrainingen',
     meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "description", name: "description", content: "" }
+      { charset: 'utf-8' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'description', name: 'description', content: '' }
     ],
     link: [
-      { rel: "icon", type: "image/x-icon", href: "/favicon.png" },
-      { rel: "preconnect", href: "https://fonts.gstatic.com" },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.png' },
+      { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       {
-        rel: "stylesheet",
+        rel: 'stylesheet',
         href:
-          "https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap"
+          'https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap'
       },
       {
-        rel: "stylesheet",
-        href: "https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap'
       }
     ]
   },
 
   // Global CSS (https://go.nuxtjs.dev/config-css)
-  css: ["@/assets/scss/custom.scss"],
+  css: ['@/assets/scss/custom.scss'],
 
   // Plugins to run before rendering page (https://go.nuxtjs.dev/config-plugins)
   plugins: [],
@@ -37,16 +37,16 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/typescript
-    "@nuxt/typescript-build"
+    '@nuxt/typescript-build'
   ],
 
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    "@nuxt/http",
+    '@nuxt/http',
     // https://go.nuxtjs.dev/bootstrap
-    "bootstrap-vue/nuxt",
+    'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/content
-    "@nuxt/content"
+    '@nuxt/content'
   ],
   // https://bootstrap-vue.org/docs
   bootstrapVue: {
@@ -60,7 +60,7 @@ export default {
     rules: [
       {
         test: /\.s[ac]ss$/i,
-        use: ["style-loader", "css-loader", "sass-loader"]
+        use: ['style-loader', 'css-loader', 'sass-loader']
       }
     ]
   },
@@ -70,4 +70,4 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {}
-};
+}

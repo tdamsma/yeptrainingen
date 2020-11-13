@@ -10,7 +10,7 @@ div
               h1
                 b-badge(variant="primary") {{review.TrainingReview.rating}}
           .p-2.flex-fill.bd-highlight
-            blockquote.blockquote 
+            blockquote.blockquote
               p.mb-2 {{ review.TrainingReview.description }}
 
   b-modal#modal-1.modal-fullscreen(size="xl")
@@ -32,45 +32,45 @@ div
         | Terug
 </template>
 <script>
-import { jsonp } from "vue-jsonp";
+import { jsonp } from 'vue-jsonp'
 
 export default {
-  data() {
+  data () {
     return {
       springestData: {},
-      t: 0,
-    };
-  },
-  mounted() {
-    this.init();
-  },
-  created() {
-    setInterval(() => (this.t = (this.t + 1) % this.reviews.length), 4000);
-  },
-  methods: {
-    async init() {
-      const result = await jsonp(
-        "http://www.springest.nl/yep-trainingen-2/reviews.jsonp",
-        {
-          callbackName: "SpringestReviewWidget",
-        }
-      );
-      this.springestData = result;
-    },
+      t: 0
+    }
   },
   computed: {
-    reviews() {
-      return this.springestData.reviews ? this.springestData.reviews : [];
+    reviews () {
+      return this.springestData.reviews ? this.springestData.reviews : []
     },
-    reviewsDoubled() {
-      console.log(this.reviews.concat(this.reviews).length);
-      return this.reviews.concat(this.reviews);
+    reviewsDoubled () {
+      console.log(this.reviews.concat(this.reviews).length)
+      return this.reviews.concat(this.reviews)
     },
-    selectedReviews() {
-      return this.reviewsDoubled.slice(this.t, this.t + 3).reverse();
-    },
+    selectedReviews () {
+      return this.reviewsDoubled.slice(this.t, this.t + 3).reverse()
+    }
   },
-};
+  mounted () {
+    this.init()
+  },
+  created () {
+    setInterval(() => (this.t = (this.t + 1) % this.reviews.length), 4000)
+  },
+  methods: {
+    async init () {
+      const result = await jsonp(
+        'http://www.springest.nl/yep-trainingen-2/reviews.jsonp',
+        {
+          callbackName: 'SpringestReviewWidget'
+        }
+      )
+      this.springestData = result
+    }
+  }
+}
 </script>
 
 <style scoped>

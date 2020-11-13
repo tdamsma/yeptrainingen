@@ -1,12 +1,12 @@
 <template>
   <div>
     <div class="springest-review-widget">
-      <a href="//www.springest.nl/yep-trainingen-2#ervaringen"
-        >Lees ervaringen met Yep Trainingen op Springest…</a
-      >
+      <a
+        href="//www.springest.nl/yep-trainingen-2#ervaringen"
+      >Lees ervaringen met Yep Trainingen op Springest…</a>
     </div>
     <p>
-      <script src="//www.springest.nl/reviewwidget.js" async=""></script>
+      <script src="//www.springest.nl/reviewwidget.js" async="" />
     </p>
   </div>
 </template>

@@ -9,12 +9,12 @@ div
 
       b-collapse#nav-collapse(is-nav="")
         b-navbar-nav
-          b-nav-item(href="#") Yep
+          b-nav-item(to="/") Yep
           b-nav-item(href="#") Ons team
           b-nav-item(href="#") Trainingsaanbod
           b-nav-item(href="#") Coachingsaanbod
           b-nav-item(href="#") Voor werkgevers
-          b-nav-item(href="#") Blog
+          b-nav-item(to="/blog") Blog
 </template>
 
 <style>

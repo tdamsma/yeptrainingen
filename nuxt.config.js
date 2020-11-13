@@ -48,7 +48,7 @@ export default {
   bootstrapVue: {
     bootstrapCSS: false,
     bootstrapVueCSS: false,
-    icons: false,
+    icons: false
     // components: ['BNav', 'BNavbar', 'BNavbarNav', 'BNavbarBrand', 'BNavbarToggle', 'BNavItem', 'BNavText', 'BCollapse', 'BNavItemDropdown'],
     // directives: ['VBModal', 'VBPopover', 'VBTooltip', 'VBScrollspy', 'VBToggle', 'VBVisible', 'VBHover']
   },

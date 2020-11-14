@@ -13,18 +13,15 @@ div
       .col-md
         h1.display-7 Neem je talenten serieus.
       .col-md.full-width
-        b-img-lazy(
-          style="width: 100%",
-          blank-color="#777",
-          src="~/assets/images/Trainers_van_YEP-1.png",
-          :srcset="require('~/assets/images/Trainers_van_YEP-1.png?resize&sizes[]=100&sizes[]=200&sizes[]=500').srcSet"
-        )
+        .float-right
+          b-img(
+            width=566,
+            height=320,
+            blank-color="#777",
+            src="~/assets/images/Trainers_van_YEP-1.png",
+            :srcset="require('~/assets/images/Trainers_van_YEP-1.png?sizes[]=233&sizes[]=566').srcSet"
+          )
 
-        img(
-          style="width: 100%",
-          src="~/assets/images/Trainers_van_YEP-1.png",
-          alt="Team"
-        )
   .jumbotron.jumbotron-fluid
     .container
       //- SpringestCustom
@@ -35,7 +32,7 @@ div
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import Vue from 'vue'
 
-export default Vue.extend({});
+export default Vue.extend({})
 </script>

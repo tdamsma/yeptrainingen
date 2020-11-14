@@ -1,6 +1,6 @@
 ---
 title: Hoe behoud je het teamgevoel als niemand op kantoor werkt?
-img: ~/assets/images/blog/blog/thuiswerken.jpg
+img: /images/blog/thuiswerken.jpg
 alt: Thuiswerken op de bank
 tags:
  - teamgevoel

@@ -4,8 +4,8 @@ div
     .row
       .col-lg-9
         .container
-        
-          img.img-fluid(:src="titleImage", :alt="article.alt")
+
+          img.img-fluid(:src="article.img", :alt="article.alt")
           h2 {{ article.title }}
 
           p {{ formatDate(article.updatedAt) }}
@@ -27,34 +27,32 @@ div
 
 <script>
 export default {
-  async asyncData({ $content, params }) {
-    const article = await $content("blog", params.slug).fetch();
+  async asyncData ({ $content, params }) {
+    const article = await $content('blog', params.slug).fetch()
 
-    const surroundingArticles = await $content("blog")
-      .only(["title", "slug", "img", "alt"])
-      .sortBy("createdAt", "asc")
+    const surroundingArticles = await $content('blog')
+      .only(['title', 'slug', 'img', 'alt'])
+      .sortBy('createdAt', 'asc')
       .surround(params.slug)
-      .fetch();
-    const titleImage = require(article.img);
+      .fetch()
     return {
       article,
-      surroundingArticles,
-      titleImage,
-    };
+      surroundingArticles
+    }
   },
 
   methods: {
-    formatDate(date) {
-      const options = { year: "numeric", month: "short", day: "numeric" };
-      return new Date(date).toLocaleDateString("en", options);
-    },
+    formatDate (date) {
+      const options = { year: 'numeric', month: 'short', day: 'numeric' }
+      return new Date(date).toLocaleDateString('en', options)
+    }
   },
-  head() {
+  head () {
     return {
-      title: "YEP trainingen blog",
-    };
-  },
-};
+      title: 'YEP trainingen blog'
+    }
+  }
+}
 </script>
 
 <style lang="scss">

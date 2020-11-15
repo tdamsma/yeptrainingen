@@ -4,6 +4,7 @@ div
     .row
       .col-lg-9
         .container
+
           img.img-fluid(:src="article.img", :alt="article.alt")
           h2 {{ article.title }}
 
@@ -34,7 +35,6 @@ export default {
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
       .fetch()
-
     return {
       article,
       surroundingArticles

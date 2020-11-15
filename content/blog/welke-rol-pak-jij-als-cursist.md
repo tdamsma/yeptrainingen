@@ -26,7 +26,7 @@ Haal jij alles uit een training? Lees eens de volgende omschrijvingen en stel je
 
 Wie gaat er uiteindelijk met de meeste winst op pad?
 
-![Om en om fruit pakken](/images/blog/fruit.png)
+![Om en om fruit pakken](@/assets/images/blog/fruit.png)
 
 Ik zal het nader toelichten:
 

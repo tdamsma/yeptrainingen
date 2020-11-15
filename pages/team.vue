@@ -1,60 +1,47 @@
 <template lang="pug">
 div
-  b-carousel#carousel-1(
-    v-model="slide",
-    :interval="4000",
-    controls="",
-    indicators="",
-    background="#ababab",
-    img-width="1024",
-    img-height="480",
-    style="text-shadow: 1px 1px 2px #333;",
-    @sliding-start="onSlideStart",
-    @sliding-end="onSlideEnd"
-  )
-    // Text slides with image
-    b-carousel-slide(
-      caption="First slide",
-      text="Nulla vitae elit libero, a pharetra augue mollis interdum.",
-      img-src="https://picsum.photos/1024/480/?image=52"
+  .container
+    b-carousel#carousel-1(
+      v-model="slide",
+      :interval="2000",
+      controls="",
+      indicators="",
+      background="#ababab",
+      img-width="1024",
+      img-height="180",
+      style="text-shadow: 1px 1px 2px #333;",
+      @sliding-start="onSlideStart",
+      @sliding-end="onSlideEnd"
     )
-    // Slides with custom text
-    b-carousel-slide(img-src="https://picsum.photos/1024/480/?image=54")
-      h1 Hello world!
-    // Slides with image only
-    b-carousel-slide(img-src="https://picsum.photos/1024/480/?image=58")
-    // Slides with img slot
-    // Note the classes .d-block and .img-fluid to prevent browser default image alignment
-    b-carousel-slide
-      template(#img="")
-        img.d-block.img-fluid.w-100(
-          width="1024",
-          height="480",
-          src="https://picsum.photos/1024/480/?image=55",
-          alt="image slot"
-        )
-    // Slide with blank fluid image to maintain slide aspect ratio
-    b-carousel-slide(
-      caption="Blank Image",
-      img-blank="",
-      img-alt="Blank image"
-    )
-      p
-        | Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eros felis, tincidunt
-        | a tincidunt eget, convallis vel est. Ut pellentesque ut lacus vel interdum.
-  p.mt-4
-    | Slide #: {{ slide }}
-    br
-    |
-    | Sliding: {{ sliding }}
+      // Text slides with image
+
+      // Slides with img slot
+      // Note the classes .d-block and .img-fluid to prevent browser default image alignment
+      b-carousel-slide(
+        v-for="responsiveImage of responsiveImages",
+        caption="Training",
+        text="Echt een hele leuke was dit")
+        template(#img="")
+          b-img-lazy(
+            fluid-grow
+            :src="responsiveImage.src",
+            :srcset="responsiveImage.srcSet",
+            sizes='50vw',
+            :blank-src="responsiveImage.placeholder",
+            :blank-width="responsiveImage.width",
+            :blank-height="responsiveImage.height",
+            alt="alt text voor een plaatje"
+          )
 </template>
 
 <script>
+const responsiveImages = Array.from(Array(13).keys()).map(
+  n => require(`~/assets/images/training/training-${n + 1}.jpg?resize&placeholder=true&sizes[]=100,sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048`)
+)
 export default {
   data () {
     return {
-      slide: 0,
-      sliding: null
+      responsiveImages
     }
   },
   methods: {

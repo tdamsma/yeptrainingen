@@ -46,7 +46,6 @@ export default {
       return this.springestData.reviews ? this.springestData.reviews : []
     },
     reviewsDoubled () {
-      console.log(this.reviews.concat(this.reviews).length)
       return this.reviews.concat(this.reviews)
     },
     selectedReviews () {

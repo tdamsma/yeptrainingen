@@ -10,7 +10,7 @@ div
       b-card.mt-5.overflow-hidden(no-body='')
         b-row(no-gutters='')
           b-col(md='4')
-            b-card-img.rounded-0(:src="article.img2.src", :alt="article.alt")
+            b-card-img.rounded-0(:src="require(`~/static${article.img}?size=369`)", :alt="article.alt")
           b-col(md='8')
             b-card-body(:title="article.title")
               b-card-text {{article.intro}}
@@ -27,15 +27,10 @@ export default {
       .sortBy('createdAt', 'asc')
       .limit(100)
       .fetch()
-    articles.map((a) => {
-      a.img2 = require(`~/static${a.img}?size=369`);
-       console.log(a.img2); 
-       return a})
     return {
       articles
     }
   },
-
   methods: {
     formatDate (date) {
       const options = { year: 'numeric', month: 'short', day: 'numeric' }

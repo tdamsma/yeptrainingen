@@ -1,12 +1,14 @@
 <template>
   <div class="container">
-    <div class="my-5" style="width: 200px">Space</div>
+    <div class="my-5" style="width: 200px">
+      Space
+    </div>
 
     <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
       <div
-        class="col mb-4"
         v-for="responsiveImage of responsiveImages.slice(0, 5)"
         :key="responsiveImage.src"
+        class="col mb-4"
       >
         <!-- Card -->
         <div class="card h-100 card-cascade wider reverse">

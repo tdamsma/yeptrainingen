@@ -15,7 +15,7 @@ div
           b-nav-item(to="/") Yep
           b-nav-item(href="/team") Ons team
           b-nav-item(href="/trainingsaanbod") Trainingsaanbod
-          b-nav-item(href="#") Coachingsaanbod
+          b-nav-item(href="/coachingsaanbod") Coachingsaanbod
           b-nav-item(href="#") Voor werkgevers
           b-nav-item(to="/blog") Blog
 </template>

@@ -27,14 +27,16 @@
             />
 
             <a href="#!">
-              <div class="mask rgba-white-slight"></div>
+              <div class="mask rgba-white-slight" />
             </a>
           </div>
 
           <!--Card content-->
           <div class="card-body card-body-cascade">
             <!--Title-->
-            <h4 class="card-title">Card title</h4>
+            <h4 class="card-title">
+              Card title
+            </h4>
             <!--Text-->
             <p class="card-text">
               Some quick example text to build on the card title and make up the
@@ -49,12 +51,14 @@
         <!-- Card -->
       </div>
     </div>
-    <div class="my-5" style="width: 200px">Space</div>
+    <div class="my-5" style="width: 200px">
+      Space
+    </div>
     <div class="row row-cols-1 row-cols-md-3">
       <div
-        class="col mb-4"
         v-for="responsiveImage of responsiveImages.slice(4, 8)"
         :key="responsiveImage.src"
+        class="col mb-4"
       >
         <!-- Card -->
         <div class="card card-cascade narrower">
@@ -73,14 +77,16 @@
             />
 
             <a href="#!">
-              <div class="mask rgba-white-slight"></div>
+              <div class="mask rgba-white-slight" />
             </a>
           </div>
 
           <!--Card content-->
           <div class="card-body card-body-cascade">
             <!--Title-->
-            <h4 class="card-title">Card title</h4>
+            <h4 class="card-title">
+              Card title
+            </h4>
             <!--Text-->
             <p class="card-text">
               Some quick example text to build on the card title and make up the
@@ -95,12 +101,14 @@
         <!-- Card -->
       </div>
     </div>
-    <div class="my-5" style="width: 200px">Space</div>
+    <div class="my-5" style="width: 200px">
+      Space
+    </div>
     <div class="row row-cols-1 row-cols-md-3">
       <div
-        class="col mb-4"
         v-for="responsiveImage of responsiveImages.slice(8)"
         :key="responsiveImage.src"
+        class="col mb-4"
       >
         <!-- Card -->
         <div class="card card-cascade wider">
@@ -119,14 +127,16 @@
               alt="alt text voor een plaatje"
             />
             <a href="#!">
-              <div class="mask rgba-white-slight"></div>
+              <div class="mask rgba-white-slight" />
             </a>
           </div>
 
           <!--Card content-->
           <div class="card-body card-body-cascade">
             <!--Title-->
-            <h4 class="card-title">Card title</h4>
+            <h4 class="card-title">
+              Card title
+            </h4>
             <!--Text-->
             <p class="card-text">
               Some quick example text to build on the card title and make up the
@@ -143,7 +153,6 @@
     </div>
   </div>
 </template>
-
 
 <script>
 const responsiveImages = Array.from(Array(13).keys()).map(

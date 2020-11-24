@@ -2,13 +2,28 @@
 
 // All of your custom SCSS variables go first
 // see options in node_modules/bootstrap/scss/_variables.scss
-$font-family-sans-serif: "Roboto", sans-serif;
+// $font-family-sans-serif: "Roboto", sans-serif;
+
+
+// http://colormind.io/bootstrap/
+// $light-shades:   #F9F6F4;
+// $light-accent:   #937B92;
+// $brand:          #FFE400;
+// $dark-accent:    #055025;
+// $dark-shades:    #241C2F;
+
+// $primary:       #f0d718;
+// $info:          #241c2f;
+// $success:       #7dbb3f;
+// $warning:       #fbab07;
+// $danger:        #f44336;
+
 
 
 $primary:       #FFE400;
-$secondary:     #797F83;
-$light:         #EBEBE6;
-$dark:          #585656;
+$secondary:     #055025;
+$light:         #F9F6F4;
+$dark:          #241C2F;
 
 $enable-shadows: true;
 $enable-gradients: true;
@@ -89,12 +104,11 @@ h1,h2 {
 }
 
 blockquote {
-  border-left: 3px solid $primary;
+  border-left: 5px solid $primary;
   font-style: italic;
-  padding-left: 2em;
+  padding-left: 1em;
   padding-top: 19px;
   padding-bottom: 1px;
-  position: relative;
   margin-top: 10px;
   margin-bottom: 10px;
 }

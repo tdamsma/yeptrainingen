@@ -27,14 +27,16 @@ $dark:          #241C2F;
 
 $enable-shadows: true;
 $enable-gradients: true;
-
+$enable-rounded: true;
 
   
 //then bootstrap & bootstrap-vue should be added after 
 //all other custom scss files or css should be added here
 //so that they inherit the custom SCSS variables
+@import 'materia_variables.scss';
 @import 'bootstrap/scss/bootstrap.scss';
 @import 'bootstrap-vue/src/index.scss';
+@import 'materia_bootswatch.scss';
 
 body {
   background-color: #F2F2F2;
@@ -49,7 +51,7 @@ body {
   background-color: $primary;
   color: $dark;
   a {
-    color: darken($blue, 15%);
+    color: $secondary;
   }
 }
 h1,h2 {

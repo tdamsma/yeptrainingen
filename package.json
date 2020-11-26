@@ -12,7 +12,7 @@
     "lint": "yarn lint:js"
   },
   "dependencies": {
-    "@nuxt/content": "^1.9.0",
+    "@nuxt/content": "^1.11.1",
     "@nuxt/http": "^0.6.0",
     "@nuxt/typescript-runtime": "^2.0.0",
     "@nuxtjs/eslint-config-typescript": "^4.0.0",

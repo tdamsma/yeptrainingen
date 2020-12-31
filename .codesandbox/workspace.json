@@ -16,5 +16,9 @@
       1920,
       1080
     ]
+  },
+  "container": {
+    "startScript": "dev",
+    "node": "14"
   }
 }

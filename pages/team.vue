@@ -2,7 +2,6 @@
 div
   .container
     b-carousel#carousel-1(
-      v-model="slide",
       :interval="2000",
       controls="",
       indicators="",
@@ -19,11 +18,12 @@ div
       // Note the classes .d-block and .img-fluid to prevent browser default image alignment
       b-carousel-slide(
         v-for="responsiveImage of responsiveImages",
+        :key="responsiveImage.src",
         caption="Training",
         text="Echt een hele leuke was dit")
         template(#img="")
           b-img-lazy(
-            fluid-grow
+            fluid-grow,
             :src="responsiveImage.src",
             :srcset="responsiveImage.srcSet",
             sizes='50vw',
@@ -41,14 +41,16 @@ const responsiveImages = Array.from(Array(13).keys()).map(
 export default {
   data () {
     return {
-      responsiveImages
+      responsiveImages,
+      slide: 0,
+      sliding: null
     }
   },
   methods: {
-    onSlideStart () {
+    onSlideStart (_slide) {
       this.sliding = true
     },
-    onSlideEnd () {
+    onSlideEnd (_slide) {
       this.sliding = false
     }
   }

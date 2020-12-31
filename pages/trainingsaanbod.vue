@@ -1,13 +1,14 @@
 <template lang="pug">
 div
   b-img-lazy(
-    v-for="responsiveImage of responsiveImages",
+    v-for="responsiveImage of responsiveImages"
+    :key="responsiveImage.src"
     fluid-grow
-    :src="responsiveImage.src",
-    :srcset="responsiveImage.srcSet",
-    sizes='50vw',
-    :blank-src="responsiveImage.placeholder",
-    :blank-width="responsiveImage.width",
+    :src="responsiveImage.src"
+    :srcset="responsiveImage.srcSet"
+    sizes='50vw'
+    :blank-src="responsiveImage.placeholder"
+    :blank-width="responsiveImage.width"
     :blank-height="responsiveImage.height"
   )
 </template>
@@ -20,14 +21,6 @@ export default {
   data () {
     return {
       responsiveImages
-    }
-  },
-  methods: {
-    onSlideStart () {
-      this.sliding = true
-    },
-    onSlideEnd () {
-      this.sliding = false
     }
   }
 }

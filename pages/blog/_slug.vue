@@ -40,16 +40,16 @@ export default {
       surroundingArticles
     }
   },
+  head () {
+    return {
+      title: 'YEP trainingen blog'
+    }
+  },
 
   methods: {
     formatDate (date) {
       const options = { year: 'numeric', month: 'short', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
-    }
-  },
-  head () {
-    return {
-      title: 'YEP trainingen blog'
     }
   }
 }

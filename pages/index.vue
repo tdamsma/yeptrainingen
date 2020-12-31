@@ -31,7 +31,7 @@ div
     p In onze trainingen ga je actief aan de slag met jouw uitdagingen, op een directe en soms confronterende manier. Wij houden je een spiegel voor, jij boekt samen met andere deelnemers zichtbare resultaten.
 </template>
 
-<script lang="ts">
+<script>
 import Vue from 'vue'
 
 export default Vue.extend({})

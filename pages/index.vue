@@ -4,8 +4,9 @@ div
     .container
       h1.display-4 Benieuwd naar het digitale aanbod van Yep?
       p.lead
-        | Doordat fysieke trainingen in deze tijd niet altijd wenselijk zijn,
+        | Doordat fysieke trainingen in deze coronatijd niet altijd wenselijk zijn,
         |
+
         a(href="https://yeptrainingen.nl/trainingsaanbod/") begeleiden wij je ook graag digitaal!
 
   .container-fluid.container-right
@@ -32,7 +33,7 @@ div
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
+import Vue from "vue";
 
-export default Vue.extend({})
+export default Vue.extend({});
 </script>

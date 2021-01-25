@@ -16,7 +16,7 @@
     "@nuxt/content": "^1.9.0",
     "@nuxt/http": "^0.6.0",
     "@nuxt/typescript-runtime": "^2.0.0",
-    "bootstrap": "^4.5.2",
+    "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.21.2",
     "core-js": "^3.6.5",
     "file-loader": "^6.2.0",

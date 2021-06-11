@@ -5,10 +5,10 @@ div
       .col-lg-9
         .container
 
-          img.img-fluid(:src="article.img", :alt="article.alt")
+          img.img-fluid(:src="require(`~/content/blog/${article.img}?size=800`)", :alt="article.alt")
           h2 {{ article.title }}
 
-          p {{ formatDate(article.updatedAt) }}
+          p {{ formatDate(article.date) }}
 
           .blog-details-body
             nuxt-content(:document="article")
@@ -17,7 +17,7 @@ div
       .col-lg-3
         div(v-for="article of surroundingArticles")
           b-card.mt-5.overflow-hidden(v-if="article" no-body='' bg-variant="dark" text-variant="white")
-            b-card-img.rounded-0(:src="article.img", :alt="article.alt")
+            b-card-img.rounded-0(:src="require(`~/content/blog/${article.img}?size=255`)", :alt="article.alt")
             b-card-body.p-3
               b-card-title.smalltext {{article.title}}
             nuxt-link.stretched-link.font-bold(

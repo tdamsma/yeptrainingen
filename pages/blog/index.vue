@@ -10,10 +10,14 @@ div
       b-card.mt-5.overflow-hidden(no-body='')
         b-row(no-gutters='')
           b-col(md='4')
-            b-card-img.rounded-0(:src="require(`~/static${article.img}?size=369`)", :alt="article.alt")
+            .rect-img-container
+              b-card-img.rect-img.rounded-circle(:src="require(`~/content/blog/${article.img}?size=500`)", :alt="article.alt")
           b-col(md='8')
             b-card-body(:title="article.title")
-              b-card-text {{article.intro}}
+              b-card-text
+                p {{article.tags}}
+                p {{article.categories}}
+                p {{article.intro}}
           nuxt-link.stretched-link.font-bold(
             :to="{ name: 'blog-slug', params: { slug: article.slug } }"
           )
@@ -46,4 +50,20 @@ export default {
 </script>
 
 <style>
+  .rect-img-container {
+    position: relative;
+  }
+
+  .rect-img-container::after {
+    content: "";
+    display: block;
+    padding-bottom: 100%;
+  }
+
+  .rect-img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
 </style>

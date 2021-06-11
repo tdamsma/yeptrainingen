@@ -1,13 +1,14 @@
 ---
 title: Welke rol pak jij als cursist?
-img: /images/blog/boodschappen.jpg
+img: welke-rol-pak-jij-als-cursist-boodschappen.jpg
 alt: Wie doet de boodschappen?
+date: 2021-04-27
+intro: "Haal jij alles uit een training? Lees eens de volgende omschrijvingen en stel jezelf deze vraag. Pak jij de rol van klant, toeschouwer of regisseur wanneer je deelneemt? En wat maakt het uit?"
 tags:
   - deelnemerrollen
 categories:
   - effectiviteit
-  - Talent
-intro: "Haal jij alles uit een training? Lees eens de volgende omschrijvingen en stel jezelf deze vraag. Pak jij de rol van klant, toeschouwer of regisseur wanneer je deelneemt? En wat maakt het uit?"
+  - talent
 ---
 
 Haal jij alles uit een training? Lees eens de volgende omschrijvingen en stel jezelf deze vraag. Pak jij de rol van klant, toeschouwer of regisseur wanneer je deelneemt? En wat maakt het uit?
@@ -26,7 +27,7 @@ Haal jij alles uit een training? Lees eens de volgende omschrijvingen en stel je
 
 Wie gaat er uiteindelijk met de meeste winst op pad?
 
-![Om en om fruit pakken](@/assets/images/blog/fruit.png)
+![Om en om fruit pakken](./welke-rol-pak-jij-als-cursist-fruit.png)
 
 Ik zal het nader toelichten:
 

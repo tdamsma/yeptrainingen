@@ -45,7 +45,7 @@ export default {
     inlineImageLimit: 1000,
     imagesName: ({ isDev }) => isDev ? '[path][name][hash:optimized]-[width].[ext]' : 'img/[contenthash:7]-[width].[ext]',
     responsiveImagesName: ({ isDev }) => isDev ? '[path][name]--[width][hash:optimized].[ext]' : 'img/[contenthash:7]-[width].[ext]',
-    handleImages: ['jpeg', 'png', 'svg', 'webp', 'gif'],
+    handleImages: ['jpg', 'jpeg', 'png', 'svg', 'webp', 'gif'],
     optimizeImages: true,
     optimizeImagesInDev: true,
     defaultImageLoader: 'img-loader',
@@ -94,7 +94,11 @@ export default {
   },
 
   // Content module configuration (https://go.nuxtjs.dev/config-content)
-  content: {},
+  content: {
+    markdown: {
+      rehypePlugins: ["~/plugins/rehype-content-image.js"]
+    }
+  },
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {}

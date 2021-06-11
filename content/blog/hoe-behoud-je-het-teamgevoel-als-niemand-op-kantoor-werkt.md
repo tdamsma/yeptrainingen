@@ -1,6 +1,6 @@
 ---
 title: Hoe behoud je het teamgevoel als niemand op kantoor werkt?
-img: /images/blog/thuiswerken.jpg
+img: hoe-behoud-je-het-teamgevoel-als-niemand-op-kantoor-werkt.jpg
 alt: Thuiswerken op de bank
 tags:
  - teamgevoel
@@ -9,7 +9,8 @@ tags:
 categories:
  - carrière
  - effectiviteit
-intro: "We zien tijdens onze trainingen dat veel mensen hun draai in het thuiswerken goed hebben gevonden. Het werk loopt, men is efficiënt, veert mee, leert, experimenteert. Maar één ding horen we zo vaak, één ding dat echt zonde is: de verbinding en de lol in het team is wel echt minder in deze tijd."
+intro: >
+    We zien tijdens onze trainingen dat veel mensen hun draai in het thuiswerken goed hebben gevonden. Het werk loopt, men is efficiënt, veert mee, leert, experimenteert. Maar één ding horen we zo vaak, één ding dat echt zonde is: de verbinding en de lol in het team is wel echt minder in deze tijd.
 ---
 
 We zien tijdens onze trainingen dat veel mensen hun draai in het thuiswerken goed hebben gevonden. Het werk loopt, men is efficiënt, veert mee, leert, experimenteert. Maar één ding horen we zo vaak, één ding dat echt zonde is: de verbinding en de lol in het team is wel echt minder in deze tijd.

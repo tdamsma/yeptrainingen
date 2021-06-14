@@ -7,7 +7,6 @@ div
         | Doordat fysieke trainingen in deze tijd niet altijd wenselijk zijn,
         |
         a(href="https://yeptrainingen.nl/trainingsaanbod/") begeleiden wij je ook graag digitaal!
-
   .container-fluid.container-right
     .row
       .col-md
@@ -26,9 +25,20 @@ div
     .container
       //- SpringestCustom
   .container
-    p Wij doen dit via groepstrainingen, talentprogramma’s en traineeprogramma’s en individuele coaching.
-    p Als ambitieuze persoon wil je krachtig in je organisatie staan en een tastbare bijdrage leveren. Je bent niet op zoek naar een trainer die als expert vertelt hoe jij je werk moet doen. Je wilt zelf verschillende aanpakken ervaren en beslissen wat het beste werkt. Je wilt de specifieke uitdagingen die je op dit moment in je werk ervaart zo direct mogelijk terugzien in een training. Ook vind je het belangrijk dat andere deelnemers gedreven en gemotiveerd in de training staan.
-    p In onze trainingen ga je actief aan de slag met jouw uitdagingen, op een directe en soms confronterende manier. Wij houden je een spiegel voor, jij boekt samen met andere deelnemers zichtbare resultaten.
+    p De drang om te leren.
+    p Wij zien het bij zo veel professionals.
+    p En we weten hoe graag organisaties daar ruimte voor willen maken.
+    p Wij zijn er voor professionals die staan te popelen om hun stem verder te ontdekken en te laten horen. Die een idee hebben over hoe het anders kan en willen weten hoe ze dat binnen hun organisatie waar kunnen maken. Die soms nog aan zichzelf twijfelen en merken dat organisaties complex zijn. Maar die zich razendsnel nieuwe vaardigheden eigen willen maken. Enerzijds om zelf te groeien, anderzijds omdat ze weten dat ze een tastbare bijdrage kunnen leveren aan de organisatie en de samenleving als ze echt ergens voor durven staan.
+
+  .container
+    p Yep is hét trainingsbureau voor gedreven professionals.
+    h2 Krachtig
+    p In korte tijd zichtbaar effectief.
+    h2 Actief
+    p Leren door te experimenteren.
+    h2 Flexibel
+    p Jouw ontwikkelvraag staat centraal.
+    p Voorbeelden van onze trainingen en case studies vind je hier. Op zoek naar coaching voor jezelf of je medewerkers? Lees hier verder.
 </template>
 
 <script>

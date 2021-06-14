@@ -41,8 +41,11 @@ jobs:
           restore-keys: |
             ${{ runner.os }}-yarn-
 
+      - name: Install eslint
+        run: yarn global add eslint
+
       - name: Install dependencies 👨🏻‍💻
-        run: yarn --production=false
+        run: yarn 
 
       - name: Run linter 👀
         run: yarn lint

@@ -28,6 +28,9 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
+      - name: Install nuxt
+        run: yarn global add nuxt
+
       - name: Install dependencies
         run: yarn
 

@@ -9,8 +9,29 @@ div
         a(href="https://yeptrainingen.nl/trainingsaanbod/") begeleiden wij je ook graag digitaal!
   .container-fluid.container-right
     .row
+      .container
+        b-img(
+          width=600,
+          blank-color="#777",
+          src="~/assets/images/training-yep.jpg",
+          :srcset="require('~/assets/images/training-yep.jpg?sizes[]=233&sizes[]=566').srcSet"
+        )
+        .text-overlay
+          h1.title
+            div(style='text-decoration: underline;') INZICHT, DURF EN VAARDIGHEID
+            div VOOR MAATSCHAPPELIJKE IMPACT
+          h2.subtitle Trainings- en coachingsbureau voor gedreven professionals
+  .jumbotron.jumbotron-fluid
+    .container
+      p SpringestCustom
+  
+  .container-fluid.container-right
+    .row
       .col-md
-        h1.display-7 Neem je talenten serieus.
+        br
+        br
+        h1.display-4 Neem je talenten serieus.
+        br
       .col-md.full-width
         .float-right
           b-img(
@@ -21,9 +42,6 @@ div
             :srcset="require('~/assets/images/Trainers_van_YEP-1.png?sizes[]=233&sizes[]=566').srcSet"
           )
 
-  .jumbotron.jumbotron-fluid
-    .container
-      //- SpringestCustom
   .container
     p De drang om te leren.
     p Wij zien het bij zo veel professionals.
@@ -46,3 +64,41 @@ import Vue from 'vue'
 
 export default Vue.extend({})
 </script>
+
+<style lang="scss">
+@import "assets/scss/custom.scss";
+.container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 48px;
+  right: 16px;
+  background-color: $primary;
+  padding: 5px;
+}
+
+.text-overlay .title {
+  color: $dark;
+  font-size: 45px;
+}
+.text-overlay .subtitle {
+  color: $gray-600;
+  font-size: 30px;
+}
+
+@include media-breakpoint-between(0, lg) {
+  .text-overlay .title {
+    font-size: 30px;
+  }
+  .text-overlay .subtitle {
+    font-size: 20px;
+  }
+}
+
+.jumbotron {
+  margin-bottom: 0rem;
+}
+
+</style>

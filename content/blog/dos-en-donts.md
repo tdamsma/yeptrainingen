@@ -1,6 +1,6 @@
 ---
 title: Do's en Don'ts digitale vergaderingen
-img: dos-en-donts-1.jpeg
+img: dos-en-donts-1.jpg
 alt: laptop open op bureau
 date: 2020-03-18
 intro: Voor wie nog niet gewend is aan het samenwerken via beeldbelapplicaties, zetten we graag wat tips op een rij. Zo maak je direct een professionele indruk!
@@ -15,7 +15,7 @@ english-version: Do's and Don'ts digital meetings
 
 Nu het Corona-virus wereldwijd een aangepaste manier van werken vraagt, proberen teams er het beste van te maken door met behulp van videobellen, digitaal vergaderen en conference calls toch tot effectieve samenwerking te komen. En dat gaat best!
 
-![scherm vol dieren die samen op Zoom zitten](dos-en-donts-2.png)
+![scherm vol dieren die samen op Zoom zitten](./dos-en-donts-2.png)
 
 Voor wie het nog niet gewend was, zetten wij graag wat do's en don'ts op een rij, zodat je meteen professioneel bezig bent en niet alles zelf door schade en schande hoeft te ontdekken!
 

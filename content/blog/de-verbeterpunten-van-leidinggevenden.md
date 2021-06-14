@@ -17,7 +17,7 @@ Uit onderzoek van onderzoeksbureau Motivaction in opdracht voor YoungCapital is 
 
 **Het belang van een goede manager**
 
-![Foto van vrouwen in gesprek op het werk](de-verbeterpunten-van-2.png)
+![Foto van vrouwen in gesprek op het werk](./de-verbeterpunten-van-2.png)
 
 Maar liefst 84 procent van de jonge medewerkers waaronder het onderzoek is uitgevoerd (groep van 17 – 25 jarigen) geeft aan dat hun leidinggevende een grote invloed heeft op hun werkgeluk. Veel jonge medewerkers laten weten dat een slechte relatie met een manager heeft gezorgd voor vertrek bij een organisatie. Managers spelen dus een sleutelrol bij het behouden van jonge medewerkers in een organisatie.
 
@@ -25,7 +25,7 @@ Maar liefst 84 procent van de jonge medewerkers waaronder het onderzoek is uitge
 
 Tijdens het onderzoek is er ook aan de jonge medewerkers gevraagd welke eigenschappen zij het belangrijkst vinden in een werkgever. Uit het onderzoek bleek dat 'waardering tonen' als belangrijkst werd gevonden gevolgd door 'afspraken nakomen' en vertrouwen tonen'. De top 6 is compleet met de eigenschappen 'toegankelijk zijn' en 'op een goede manier feedback geven'. Wat opvalt is dat alle eigenschappen te maken hebben met duidelijkheid scheppen en waardering tonen.
 
-![Belangrijkste eigenschappen van werkgevers volgens jonge medewerkers tot 25 jaar](de-verbeterpunten-van-3.jpg)
+![Belangrijkste eigenschappen van werkgevers volgens jonge medewerkers tot 25 jaar](./de-verbeterpunten-van-3.jpg)
 
 Hoogleraar organisatiepsychologie prof. dr. Astrid Homan vermoedt dat de behoefte aan waardering voornamelijk te maken heeft met een verlangen naar zekerheid. Veel jonge medewerkers zijn onzeker over hun loopbaan binnen een bedrijf omdat ze geen vast contract hebben. Als je als manager waardering toont, laat je zien dat je tevreden met ze bent en dat geeft goede hoop op een contractverlenging.
 
@@ -56,7 +56,7 @@ Mochten er groeimogelijkheden zijn binnen het bedrijf, laat dit dan vooral weten
 Kortom, laat jouw medewerkers weten dat ze belangrijk zijn en geef ze een gevoel van zekerheid. Zo haal je het maximale uit jouw werknemers.
 
 Foto bovenin: [Woman vector created by slidesgo - www.freepik.com](https://www.freepik.com/free-photos-vectors/woman)
- Dit Gastblog is geschreven door:
- 
 
-![Foto en mini bio Daphne](de-verbeterpunten-van-3.png)
+Dit Gastblog is geschreven door:
+ 
+![Foto en mini bio Daphne](./de-verbeterpunten-van-3.png)

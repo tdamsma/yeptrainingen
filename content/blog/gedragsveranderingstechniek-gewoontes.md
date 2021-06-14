@@ -1,6 +1,6 @@
 ---
-title: Aan de slag: Gedragsveranderingstechniek: Verander je gewoontes
-img: gedragsveranderingstechniek-gewoontes-1.jpeg
+title: "Aan de slag: Gedragsveranderingstechniek: Verander je gewoontes"
+img: gedragsveranderingstechniek-gewoontes-1.jpg
 alt: schema van een dagelijkse routine
 date: 2018-11-30
 intro: Zit je jezelf in de weg rond een bepaald thema, dan is het de moeite waard om je verwachtingen zelf of samen met een coach te onderzoeken. Aan de hand van de oefeningen in dit blog kun je daarmee direct een start maken.

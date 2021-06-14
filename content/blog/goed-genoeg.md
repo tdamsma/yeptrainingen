@@ -1,6 +1,6 @@
 ---
-title: Aan de slag: Goed Genoeg
-img: goed-genoeg-1.jpeg
+title: "Goed Genoeg"
+img: goed-genoeg-1.jpg
 alt: jongen die zich verwondert
 date: 2019-03-29
 intro: Wanneer je je blijft verwonderen, blijf je je ontwikkelen.
@@ -12,7 +12,7 @@ tags:
 categories:
  - Positieve Psychologie
  - Talentontwikkeling
-english-version: Get to work: Good enough
+english-version: Good enough
 ---
 Ooit zag ik een oude monnik op tv. Zijn hele leven had hij in het klooster doorgebracht. Toen de interviewer hem vroeg, ‘Wat wenst u nog van het leven? Wat zou u nog willen worden?’, antwoordde hij ‘Ik zou zo graag monnik willen zijn’. ‘Maar u bent toch monnik? Niemand is meer monnik dan u!’ ‘Ja', zei hij, 'maar toch heb ik het gevoel, dat ik het nog méér...’ Met zijn handen maakte de oude man een gebaar, alsof hij ‘het’ probeerde te pakken. 
 
@@ -30,7 +30,7 @@ Ik wens iedereen zo’n inspirerende verwondering toe! _Wat zou dit voor jou zij
 *   Pak eens een ander perspectief. Bekijk je tuin vanaf je tuintafel of neem in een gesprek een andere rol aan.
 *   Lift mee op de natuurlijke verwondering van een kind. Neem de tijd om met een kind uit je omgeving mee te kijken, diens belangstelling te volgen en automatisch ga jij je ook verwonderen.
 
-![Vader en zoon spelen](goed-genoeg-2.jpg) Verwonder-ze!
+![Vader en zoon spelen](./goed-genoeg-2.jpg) Verwonder-ze!
 
 > “wie zich niet ergert maar verwondert, wordt geen tachtig maar honderd!”
 

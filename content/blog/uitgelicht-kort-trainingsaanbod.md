@@ -1,6 +1,6 @@
 ---
-title: Aan de slag: Uitgelicht kort trainingsaanbod voor young professionals (30-180 minuten)
-img: uitgelicht-kort-trainingsaanbod-1.PNG
+title: "Uitgelicht kort trainingsaanbod voor young professionals (30-180 minuten)"
+img: uitgelicht-kort-trainingsaanbod-1.png
 alt: lamp met schijnwerper
 date: 2018-3-26
 intro: Zit je jezelf in de weg rond een bepaald thema, dan is het de moeite waard om je verwachtingen zelf of samen met een coach te onderzoeken. Aan de hand van de oefeningen in dit blog kun je daarmee direct een start maken.

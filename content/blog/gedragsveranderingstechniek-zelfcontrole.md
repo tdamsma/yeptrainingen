@@ -1,6 +1,6 @@
 ---
-title: Aan de slag: Gedragsveranderingstechniek: Zelfcontrole toepassen.
-img: gedragsveranderingstechniek-zelfcontrole-1.jpeg
+title: "Aan de slag: Gedragsveranderingstechniek: Zelfcontrole toepassen."
+img: gedragsveranderingstechniek-zelfcontrole-1.jpg
 alt: Een spierbal
 date: 2018-08-17
 intro: Zit je jezelf in de weg rond een bepaald thema, dan is het de moeite waard om je verwachtingen zelf of samen met een coach te onderzoeken. Aan de hand van de oefeningen in dit blog kun je daarmee direct een start maken.

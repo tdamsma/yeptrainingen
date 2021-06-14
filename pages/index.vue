@@ -24,7 +24,7 @@ div
   .jumbotron.jumbotron-fluid
     .container
       p SpringestCustom
-  
+
   .container-fluid.container-right
     .row
       .col-md

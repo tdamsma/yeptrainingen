@@ -58,5 +58,5 @@ Kortom, laat jouw medewerkers weten dat ze belangrijk zijn en geef ze een gevoel
 Foto bovenin: [Woman vector created by slidesgo - www.freepik.com](https://www.freepik.com/free-photos-vectors/woman)
 
 Dit Gastblog is geschreven door:
- 
+
 ![Foto en mini bio Daphne](./de-verbeterpunten-van-3.png)

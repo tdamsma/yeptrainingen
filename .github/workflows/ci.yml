@@ -24,7 +24,7 @@ jobs:
         uses: actions/checkout@master
 
       - name: Setup node env 🏗
-        uses: actions/setup-node@v2.1.4
+        uses: actions/setup-node@v2.1.5
         with:
           node-version: ${{ matrix.node }}
 
@@ -40,9 +40,6 @@ jobs:
           key: ${{ runner.os }}-yarn-${{ hashFiles('**/yarn.lock') }}
           restore-keys: |
             ${{ runner.os }}-yarn-
-
-      - name: Install eslint
-        run: yarn global add eslint
 
       - name: Install dependencies 👨🏻‍💻
         run: yarn 

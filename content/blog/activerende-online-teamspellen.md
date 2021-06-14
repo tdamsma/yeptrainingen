@@ -4,11 +4,10 @@ img: activerende-online-teamspellen-1.jpg
 alt: Blije actieve mensen
 date: 2021-04-27
 intro: Bij Yep zoeken we steeds naar nieuwe vormen en spellen om ook het digitale leren prettig en energiek te houden. Ik dit blog deel ik een aantal van mijn favoriete activerende teamspelletjes en digitale werkvormen met jullie!
-credits: Images Marijn Damsma Author  Marijn Damsma
+credits: Images Marijn Damsma Author Marijn Damsma
 tags: 
-  - hybridevents
-  - hybridwork
-  - digitalattendees
+  - hybride trainingen
+  - digitaal samenwerken
 categories:
  - Begeleidingsvaardigheden
 english-version: Activating online team games and workflows

@@ -2,7 +2,7 @@ const visit = require('unist-util-visit')
 
 module.exports = function nuxtContentImages () {
   // console.log(info)
-  return function transformer (tree, file) {
+  return function transformer (tree, _file) {
     visit(tree, 'element', visitor)
 
     function visitor (node) {

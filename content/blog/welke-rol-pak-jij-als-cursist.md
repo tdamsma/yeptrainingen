@@ -1,14 +1,15 @@
 ---
 title: Welke rol pak jij als cursist?
 img: welke-rol-pak-jij-als-cursist-boodschappen.jpg
-alt: Wie doet de boodschappen?
-date: 2021-04-27
+alt: persoon maakt keuze in supermarkt
+date: 2020-11-09
 intro: "Haal jij alles uit een training? Lees eens de volgende omschrijvingen en stel jezelf deze vraag. Pak jij de rol van klant, toeschouwer of regisseur wanneer je deelneemt? En wat maakt het uit?"
 tags:
-  - deelnemerrollen
+  - deelnemerrol
+  - leerresultaat
 categories:
-  - effectiviteit
-  - talent
+  - Trainingseffectiviteit
+  - Persoonlijke ontwikkeling
 ---
 
 Haal jij alles uit een training? Lees eens de volgende omschrijvingen en stel jezelf deze vraag. Pak jij de rol van klant, toeschouwer of regisseur wanneer je deelneemt? En wat maakt het uit?

@@ -96,7 +96,7 @@ export default {
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {
     markdown: {
-      rehypePlugins: ["~/plugins/rehype-content-image.js"]
+      rehypePlugins: ['~/plugins/rehype-content-image.js']
     }
   },
 

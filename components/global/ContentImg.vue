@@ -37,38 +37,6 @@ const requireFromContent = (contentPath) => {
   return result
 }
 
-const requireFromAssets = (assetsPath) => {
-  let result
-  const ext = path.extname(assetsPath)
-  const name = path.basename(assetsPath, ext)
-  const dir = path.dirname(assetsPath)
-  // IMPORTANT
-  // Every fixed string parts of the following require calls, like folder name, path separators
-  // and file extensions, are crucial for narrowing down the required module path before the
-  // variable part of the string is determined, see here:
-  // https://webpack.js.org/guides/dependency-management/#require-with-expression
-  switch (ext) {
-    case '.svg':
-      result = require(`~/assets/${path.join(dir, name)}.svg`)
-      break
-    case '.png':
-      result = require(`~/assets/${path.join(dir, name)}.png`)
-      break
-    case '.jpg':
-      result = require(`~/assets/${path.join(dir, name)}.jpg`)
-      break
-    case '.jpeg':
-      result = require(`~/assets/${path.join(dir, name)}.jpeg`)
-      break
-    case '.gif':
-      result = require(`~/assets/${path.join(dir, name)}.gif`)
-      break
-    default:
-      result = null
-  }
-  return result
-}
-
 export default {
   name: 'ContentImg',
   props: {
@@ -90,16 +58,6 @@ export default {
         } else {
           throw new Error('\'./\' should be used only in \'.md\' files!')
         }
-      // } else if (
-      //   this.src.startsWith('~/content/') ||
-      //   this.src.startsWith('@/content/')
-      // ) {
-      //   return requireFromContent(this.src.slice(10))
-      // } else if (
-      //   this.src.startsWith('~/assets/') ||
-      //   this.src.startsWith('@/assets/')
-      // ) {
-      //   return requireFromAssets(this.src.slice(9))
       } else {
         return this.src
       }

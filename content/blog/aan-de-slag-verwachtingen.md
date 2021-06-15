@@ -1,6 +1,6 @@
 ---
-title: Aan de slag: onze verwachtingen zijn de moeite waard
-img: Aan-de-slag-1.jpg
+title: "Aan de slag: onze verwachtingen zijn de moeite waard"
+img: aan-de-slag-1.jpg
 alt: bijschrift
 date: 2020-06-3
 intro: Zit je jezelf in de weg rond een bepaald thema, dan is het de moeite waard om je verwachtingen zelf of samen met een coach te onderzoeken. Aan de hand van de oefeningen in dit blog kun je daarmee direct een start maken.
@@ -12,7 +12,7 @@ tags:
 categories:
  - Effectiviteit
  - Positieve Psychologie
-english-version: Get to work: Your expectations are worth your while
+english-version: "Get to work: Your expectations are worth your while"
 ---
 
 **Over de link tussen onze verwachtingen en onze ervaring van geluk wordt al heel lang geschreven. Mo Gawdat kwam zelfs met een formule: _geluk = realiteit – verwachting_ (De logica van geluk, 2017). Deze sluit aan bij een reeks aan wetenschappelijk gefundeerde theorieën, onderzoeken en publicaties (denk aan de cognitieve gedragstherapie RET en het meer recente ACT). Zit je jezelf in de weg rond een bepaald thema, dan is het de moeite waard om je verwachtingen zelf of samen met een coach te onderzoeken. Aan de hand van de oefeningen in dit blog kun je daarmee direct een start maken.**
@@ -23,7 +23,7 @@ Het staat buiten kijf dat verwachtingen kunnen leiden tot mentale wrevel. Maar h
 
 We beschrijven drie stappen die je kunt nemen om je verwachtingen op een gestructureerde manier tegen het licht te houden:
 
-![twee personen met virtual reality bril op](./an-de-slag-2.jpg)
+![twee personen met virtual reality bril op](./aan-de-slag-2.jpg)
 
 *   Stap 1. Bewust worden van belemmerende verwachtingen.
 *   Stap 2. Vervangen van verwachtingen door bewust gekozen opvattingen.
@@ -58,7 +58,7 @@ Soms weet je zelf al van welke belemmerende verwachting je last hebt. In andere 
 
 Veel van onze verwachtingen hebben we afgeleid van wat onze ouders en verzorgers ons hebben meegegeven: “Doe voorzichtig”, “Doe je best”, “Gedraag je”. Ik vermoed dat iedereen deze woorden wel herkent. Onderdeel van het onderzoek naar verwachtingen is de vraag hoe jij zelf aankijkt tegen bepaalde thema’s waarop je vastloopt. Met andere woorden: Wat vind jij eigenlijk? Wat is jouw opvatting? Vind jij echt dat iedereen altijd op tijd moet komen? Hieronder vind je een simpele manier om daarachter te komen!
 
-![dame met virtual reality bril op](./an-de-slag-1.jpg)
+![dame met virtual reality bril op](./aan-de-slag-1.jpg)
 
 > Je hebt aan het eind van de vorige oefening één van de zinnen omcirkeld, bijvoorbeeld: ik moet altijd zo snel mogelijk reageren op berichten (mails, appjes) van anderen waarin mij iets gevraagd wordt.
 > 

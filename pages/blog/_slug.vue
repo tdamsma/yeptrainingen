@@ -69,6 +69,5 @@ export default {
   -webkit-filter: drop-shadow(5px 5px 5px #999);
   filter: drop-shadow(5px 5px 5px #999);
   margin-bottom: 20px;
-
 }
 </style>

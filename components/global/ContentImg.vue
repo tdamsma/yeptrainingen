@@ -23,10 +23,10 @@ const requireFromContent = (contentPath) => {
       result = require(`~/content/${path.join(dir, name)}.png?size=800&format=webp`)
       break
     case '.jpg':
-      result = require(`~/content/${path.join(dir, name)}.jpg?webp&size=800`)
+      result = require(`~/content/${path.join(dir, name)}.jpg?size=800&format=webp`)
       break
     case '.jpeg':
-      result = require(`~/content/${path.join(dir, name)}.jpeg?size=800`)
+      result = require(`~/content/${path.join(dir, name)}.jpeg?size=800&format=webp`)
       break
     case '.gif':
       result = require(`~/content/${path.join(dir, name)}.gif?size=800`)

@@ -36,7 +36,7 @@ Aan het begin van de dag heb je nog de meeste zelfcontrole; je wilskracht-spier 
 
 ### Tip #3: Geef je wilskracht rust.
 
-![Rust in hersenen](gedragsveranderingstechniek-zelfcontrole-2.jpg)
+![Rust in hersenen](./gedragsveranderingstechniek-zelfcontrole-2.jpg)
 
 Als je de wilskracht rust geeft, kan het opladen en kan je het weer volledig inzetten. Is er een taak die je met plezier doet? Plan die taak dan tussen de andere taken in die meer wilskracht vereisen. Neem tussendoor genoeg pauze. Als je minder vermoeid bent, kan je makkelijker je wilskracht inzetten. Door overdag regelmatig op te laden, heb je ’s avonds nog genoeg zelfbeheersing om niet te snacken en wel te sporten.
 

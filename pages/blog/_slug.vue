@@ -5,39 +5,39 @@ div
       .col-lg-9
         .container
           .text-center
-            img.img-fluid(style='max-height: 800px;', :src="require(`~/content/blog/${article.img}?size=800`)", :alt="article.alt")
-          h2 {{ article.title }}
+            img.img-fluid(style='max-height: 800px;', :src="require(`~/content/blog/${document.img}?size=800`)", :alt="document.alt")
+          h2 {{ document.title }}
 
-          p {{ formatDate(article.date) }}
+          p {{ formatDate(document.date) }}
 
           .blog-details-body
-            nuxt-content(:document="article")
+            nuxt-content(:document="document")
 
       // bar rechts met links
       .col-lg-3
-        div(v-for="article of surroundingArticles")
-          b-card.mt-5.overflow-hidden(v-if="article" no-body='' bg-variant="dark" text-variant="white")
-            b-card-img.rounded-0(:src="require(`~/content/blog/${article.img}?size=255`)", :alt="article.alt")
+        div(v-for="document of surroundingDocuments")
+          b-card.mt-5.overflow-hidden(v-if="document" no-body='' bg-variant="dark" text-variant="white")
+            b-card-img.rounded-0(:src="require(`~/content/blog/${document.img}?size=255`)", :alt="document.alt")
             b-card-body.p-3
-              b-card-title.smalltext {{article.title}}
+              b-card-title.smalltext {{document.title}}
             nuxt-link.stretched-link.font-bold(
-              :to="{ name: 'blog-slug', params: { slug: article.slug } }"
+              :to="{ name: 'blog-slug', params: { slug: document.slug } }"
           )
 </template>
 
 <script>
 export default {
   async asyncData ({ $content, params }) {
-    const article = await $content('blog', params.slug).fetch()
+    const document = await $content('blog', params.slug).fetch()
 
-    const surroundingArticles = await $content('blog')
+    const surroundingDocuments = await $content('blog')
       .only(['title', 'slug', 'img', 'alt'])
       .sortBy('createdAt', 'asc')
       .surround(params.slug)
       .fetch()
     return {
-      article,
-      surroundingArticles
+      document,
+      surroundingDocuments
     }
   },
   head () {

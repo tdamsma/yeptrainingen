@@ -37,7 +37,7 @@ Reactie B: Je zoekt je leidinggevende op en vertelt haar dat het jou niet gaat l
 
 Uit deze voorbeelden, waarbij bij Reactie A minder afstand wordt bewaard dan bij Reactie B, blijkt dat afstand bewaren wel een interessant en complex begrip is! Het gaat niet alleen om fysieke afstand. Het gaat ook over de mate waarin je je inleeft en meevoelt met de andere persoon, de mate waarin jij een verantwoordelijkheid op je neemt voor een situatie van een ander.
 
-![Mensen bij elkaar in verschillende ondersteunende opstellingen](een-professionele-afstand-bewaren-2.png)
+![Mensen bij elkaar in verschillende ondersteunende opstellingen](./een-professionele-afstand-bewaren-2.png)
 
 ##Wat gebeurt er als je geen afstand bewaart?##
 -------------------------------------------

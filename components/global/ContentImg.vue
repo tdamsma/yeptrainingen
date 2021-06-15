@@ -17,7 +17,7 @@ const requireFromContent = (contentPath) => {
   // https://webpack.js.org/guides/dependency-management/#require-with-expression
   switch (ext) {
     case '.svg':
-      result = require(`~/content/${path.join(dir, name)}$.svg?size=800`)
+      result = require(`~/content/${path.join(dir, name)}.svg?size=800`)
       break
     case '.png':
       result = require(`~/content/${path.join(dir, name)}.png?size=800&format=webp`)
@@ -56,7 +56,7 @@ export default {
           if (dir.startsWith(path.sep)) { dir = dir.replace(path.sep, '') }
           return requireFromContent(path.join(dir, this.src))
         } else {
-          throw new Error('\'./\' should be used only in \'.md\' files!')
+          throw new Error(`'./' should be used only in '.md' files!, ${this.src}, ${this.$parent}`)
         }
       } else {
         return this.src

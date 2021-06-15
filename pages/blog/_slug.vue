@@ -63,6 +63,7 @@ export default {
 
 .nuxt-content > p > img {
   max-height: 500px;
+  max-width: 100%;
   display: block;
   margin-left: auto;
   margin-right: auto;

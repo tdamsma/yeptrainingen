@@ -58,7 +58,7 @@ Wij hebben afgelopen najaar enige ervaring opgedaan met het verzorgen van fysiek
 * Zeg niet te makkelijk 'ja' als iemand last-minute vraagt om online mee te doen. Je kunt natuurlijk redeneren dat het geen kwaad kan omdat alles wat die persoon meekrijgt mooi meegenomen is. In werkelijkheid kan er een situatie ontstaan waarin de digitale deelnemer zich niet gehoord en gezien voelt of dat jij je niet volledig kunt concentreren omdat je ineens je aandacht moet verdelen.
 * Praat achteraf nog even na met de online deelnemers om te zien of er daar nog iets nodig is. Wij vinden dit steeds erg leerzaam voor onszelf: wat hebben de deelnemers gemist? Wat werkte?
 
-![](./hybride-bijeenkomsten-3.png)
+![Vergadering met deelnemers via scherm](./hybride-bijeenkomsten-3.png)
 
  Hoewel we natuurlijk nog niet precies weten hoe we elkaar tegen die tijd mogen gaan ontmoeten, is er een grote kans dat we daarbij gebruik gaan maken van nieuwe hybride vormen. Die verandering is natuurlijk zeer welkom na een jaar van (voor velen) uitsluitend digitaal werken. Met de juiste voorbereiding kan het veel opleveren! Wij zijn er klaar voor, jij ook?
 

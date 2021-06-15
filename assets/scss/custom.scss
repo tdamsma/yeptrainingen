@@ -47,7 +47,46 @@ body {
   font-weight: 500;
   font-size: 18px;
 }
-.jumbotron { 
+.container {
+  position: relative;
+}
+
+.text-overlay {
+  position: absolute;
+  top: 48px;
+  right: 16px;
+  
+  padding: 5px;
+}
+
+.text-overlay .title {
+  color: $dark;
+  font-size: 45px;
+}
+.text-overlay .subtitle {
+  color: $gray-600;
+  font-size: 30px;
+}
+
+@include media-breakpoint-between(0, md) {
+  .text-overlay .title {
+    font-size: 25px;
+  }
+  .text-overlay .subtitle {
+    font-size: 16px;
+  }
+}
+
+.jumbotron {
+  margin-bottom: 0rem;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+}
+.jumbotron.jumbotron-fluid {
+
+}
+
+.yep-geel {
   background-color: $primary;
   color: $dark;
   a {

@@ -4,8 +4,8 @@ div
     .row
       .col-lg-9
         .container
-
-          img.img-fluid(:src="require(`~/content/blog/${article.img}?size=800`)", :alt="article.alt")
+          .text-center
+            img.img-fluid(style='max-height: 800px;', :src="require(`~/content/blog/${article.img}?size=800`)", :alt="article.alt")
           h2 {{ article.title }}
 
           p {{ formatDate(article.date) }}
@@ -62,6 +62,13 @@ export default {
 }
 
 .nuxt-content > p > img {
-  width: 100%;
+  max-height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-filter: drop-shadow(5px 5px 5px #999);
+  filter: drop-shadow(5px 5px 5px #999);
+  margin-bottom: 20px;
+
 }
 </style>

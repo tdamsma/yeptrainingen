@@ -9,10 +9,10 @@ div
     div(v-for="article of articles")
       b-card.mt-5.overflow-hidden(no-body='')
         b-row(no-gutters='')
-          b-col(md='4')
-            .rect-img-container
-              b-card-img.rect-img.rounded-circle(:src="require(`~/content/blog/${article.img}?size=500`)", :alt="article.alt")
-          b-col(md='8')
+          b-col(md='2')
+            .rect-img-container(style='margin: 20px')
+              b-card-img.rect-img.rounded-circle(:src="require(`~/content/blog/${article.img}?size=300`)", :alt="article.alt")
+          b-col(md='10')
             b-card-body(:title="article.title")
               b-card-text
                 p {{article.tags}}

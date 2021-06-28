@@ -14,8 +14,9 @@ div
         b-navbar-nav.ml-4
           b-nav-item(to="/") Yep
           b-nav-item(href="/team") Ons team
-          b-nav-item(href="/trainingsaanbod") Trainingsaanbod
+          b-nav-item(href="/trainingsaanbod") Trainingen
           b-nav-item(href="/coachingsaanbod") Coachingsaanbod
+          b-nav-item(href="/coaching") Coaching
           b-nav-item(href="#") Voor werkgevers
           b-nav-item(to="/blog") Blog
 </template>

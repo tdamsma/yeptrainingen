@@ -15,6 +15,8 @@ intro: >
 
 We zien tijdens onze trainingen dat veel mensen hun draai in het thuiswerken goed hebben gevonden. Het werk loopt, men is efficiënt, veert mee, leert, experimenteert. Maar één ding horen we zo vaak, één ding dat echt zonde is: de verbinding en de lol in het team is wel echt minder in deze tijd.
 
+[Alleen thuis werken](./hoe-behoud-je-het-teamgevoel-als-niemand-op-kantoor-werkt.jpg)
+
 Voor ons aanleiding om in dit blogbericht aandacht te richten op hoe je in digitale tijden zorgt voor meer lol en verbinding in het team!
 
 
@@ -28,7 +30,7 @@ Een huddle is een korte samenkomst in de ochtend met jouw team. Je kunt de huddl
 
 ‘Wat ga je vandaag doen?’
 
-‘Waar je hulp bij nodig?’
+‘Waar je heb je hulp bij nodig?’
 
 Door middel van de huddle is iedereen in het team op de hoogte van elkaar, wordt zichtbaarder dat ieder bijdraagt aan het proces en wordt een behoefte aan hulp in een vroeg stadium gesignaleerd.
 

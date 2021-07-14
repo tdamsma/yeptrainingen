@@ -22,7 +22,7 @@ div
 </template>
 
 <style lang="scss">
-@import "assets/scss/custom.scss";
+@import 'assets/scss/custom.scss';
 @include media-breakpoint-down(sm) {
   .navbar-brand > img {
     height: 50px;

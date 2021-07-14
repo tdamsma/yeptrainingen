@@ -1,15 +1,9 @@
 <template>
   <div class="container">
-    <div class="my-5" style="width: 200px">
-      Space
-    </div>
+    <div class="my-5" style="width: 200px">Space</div>
 
     <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
-      <div
-        v-for="responsiveImage of responsiveImages.slice(0, 5)"
-        :key="responsiveImage.src"
-        class="col mb-4"
-      >
+      <div v-for="responsiveImage of responsiveImages.slice(0, 5)" :key="responsiveImage.src" class="col mb-4">
         <!-- Card -->
         <div class="card h-100 card-cascade wider reverse">
           <!--Card image-->
@@ -34,32 +28,19 @@
           <!--Card content-->
           <div class="card-body card-body-cascade">
             <!--Title-->
-            <h4 class="card-title">
-              Card title
-            </h4>
+            <h4 class="card-title">Card title</h4>
             <!--Text-->
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <button type="button" class="btn btn-light-blue btn-md">
-              Read more
-            </button>
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
           </div>
         </div>
         <!-- Card -->
       </div>
     </div>
-    <div class="my-5" style="width: 200px">
-      Space
-    </div>
+    <div class="my-5" style="width: 200px">Space</div>
     <div class="row row-cols-1 row-cols-md-3">
-      <div
-        v-for="responsiveImage of responsiveImages.slice(4, 8)"
-        :key="responsiveImage.src"
-        class="col mb-4"
-      >
+      <div v-for="responsiveImage of responsiveImages.slice(4, 8)" :key="responsiveImage.src" class="col mb-4">
         <!-- Card -->
         <div class="card card-cascade narrower">
           <!--Card image-->
@@ -84,32 +65,19 @@
           <!--Card content-->
           <div class="card-body card-body-cascade">
             <!--Title-->
-            <h4 class="card-title">
-              Card title
-            </h4>
+            <h4 class="card-title">Card title</h4>
             <!--Text-->
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <button type="button" class="btn btn-light-blue btn-md">
-              Read more
-            </button>
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
           </div>
         </div>
         <!-- Card -->
       </div>
     </div>
-    <div class="my-5" style="width: 200px">
-      Space
-    </div>
+    <div class="my-5" style="width: 200px">Space</div>
     <div class="row row-cols-1 row-cols-md-3">
-      <div
-        v-for="responsiveImage of responsiveImages.slice(8)"
-        :key="responsiveImage.src"
-        class="col mb-4"
-      >
+      <div v-for="responsiveImage of responsiveImages.slice(8)" :key="responsiveImage.src" class="col mb-4">
         <!-- Card -->
         <div class="card card-cascade wider">
           <!--Card image-->
@@ -134,18 +102,11 @@
           <!--Card content-->
           <div class="card-body card-body-cascade">
             <!--Title-->
-            <h4 class="card-title">
-              Card title
-            </h4>
+            <h4 class="card-title">Card title</h4>
             <!--Text-->
-            <p class="card-text">
-              Some quick example text to build on the card title and make up the
-              bulk of the card's content.
-            </p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <button type="button" class="btn btn-light-blue btn-md">
-              Read more
-            </button>
+            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
           </div>
         </div>
         <!-- Card -->
@@ -155,11 +116,11 @@
 </template>
 
 <script>
-const responsiveImages = Array.from(Array(13).keys()).map(
-  n => require(`~/assets/images/training/training-${n + 1}.jpg?resize&placeholder=true&sizes[]=100,sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048`)
+const responsiveImages = Array.from(Array(13).keys()).map((n) =>
+  require(`~/assets/images/training/training-${n + 1}.jpg?resize&placeholder=true&sizes[]=100,sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048`)
 )
 export default {
-  data () {
+  data() {
     return {
       responsiveImages
     }
@@ -168,20 +129,20 @@ export default {
 </script>
 
 <script>
-const responsiveImages = Array.from(Array(13).keys()).map(
-  n => require(`~/assets/images/training/training-${n + 1}.jpg?resize&placeholder=true&sizes[]=100,sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048`)
+const responsiveImages = Array.from(Array(13).keys()).map((n) =>
+  require(`~/assets/images/training/training-${n + 1}.jpg?resize&placeholder=true&sizes[]=100,sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048`)
 )
 export default {
-  data () {
+  data() {
     return {
       responsiveImages
     }
   },
   methods: {
-    onSlideStart () {
+    onSlideStart() {
       this.sliding = true
     },
-    onSlideEnd () {
+    onSlideEnd() {
       this.sliding = false
     }
   }
@@ -194,13 +155,12 @@ export default {
   background-position: center;
   background-size: cover;
 }
-.card.card-image [class*="rgba-"] {
+.card.card-image [class*='rgba-'] {
   border-radius: 0.25rem;
 }
 .card.card-cascade .view.view-cascade {
   border-radius: 0.25rem;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
-    0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 .card.card-cascade .view.view-cascade.gradient-card-header {
@@ -228,8 +188,7 @@ export default {
   margin-left: 4%;
   background: #fff;
   border-radius: 0 0 0.25rem 0.25rem;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .card.card-cascade.wider .card-body.card-body-cascade .card-footer {
@@ -240,8 +199,7 @@ export default {
   z-index: 3;
   margin-top: -1rem;
   border-radius: 0.25rem;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
-    0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 .card.card-cascade.narrower {
@@ -288,8 +246,7 @@ export default {
   -webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
   transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
   transition: transform 0.35s ease, opacity 0.35s ease;
-  transition: transform 0.35s ease, opacity 0.35s ease,
-    -webkit-transform 0.35s ease;
+  transition: transform 0.35s ease, opacity 0.35s ease, -webkit-transform 0.35s ease;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transform: translateX(80px);
@@ -301,8 +258,7 @@ export default {
   -webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
   transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
   transition: transform 0.35s ease, opacity 0.35s ease;
-  transition: transform 0.35s ease, opacity 0.35s ease,
-    -webkit-transform 0.35s ease;
+  transition: transform 0.35s ease, opacity 0.35s ease, -webkit-transform 0.35s ease;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transform: translateX(-48px);

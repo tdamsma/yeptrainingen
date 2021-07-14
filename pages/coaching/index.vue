@@ -32,7 +32,7 @@
           button.btn.btn-light-blue.btn-md(type=button) Lees meer
             nuxt-link.stretched-link.font-bold(
               :to="{ name: 'coaching-slug', params: { slug: article.slug } }"
-            ) 
+            )
       // Card
 </template>
 

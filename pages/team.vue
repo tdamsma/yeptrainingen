@@ -8,7 +8,7 @@ div
       background="#ababab",
       img-width="1024",
       img-height="180",
-      style="text-shadow: 1px 1px 2px #333;",
+      style="text-shadow: 1px 1px 2px #333",
       @sliding-start="onSlideStart",
       @sliding-end="onSlideEnd"
     )
@@ -20,13 +20,14 @@ div
         v-for="responsiveImage of responsiveImages",
         :key="responsiveImage.src",
         caption="Training",
-        text="Echt een hele leuke was dit")
+        text="Echt een hele leuke was dit"
+      )
         template(#img="")
           b-img-lazy(
             fluid-grow,
             :src="responsiveImage.src",
             :srcset="responsiveImage.srcSet",
-            sizes='50vw',
+            sizes="50vw",
             :blank-src="responsiveImage.placeholder",
             :blank-width="responsiveImage.width",
             :blank-height="responsiveImage.height",

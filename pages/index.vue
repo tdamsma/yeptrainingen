@@ -10,16 +10,16 @@ div
   .container-fluid.container-right
     .row
       .container
-        .div(style='float: left; max-width: 600px; width: 100%')
+        .div(style="float: left; max-width: 600px; width: 100%")
           b-img(
-            fluid
+            fluid,
             blank-color="#777",
             src="~/assets/images/training-yep.jpg",
             :srcset="require('~/assets/images/training-yep.jpg?sizes[]=233&sizes[]=566').srcSet"
           )
         .text-overlay.yep-geel
           h1.title
-            div(style='text-decoration: underline;') INZICHT, DURF EN VAARDIGHEID
+            div(style="text-decoration: underline") INZICHT, DURF EN VAARDIGHEID
             div VOOR MAATSCHAPPELIJKE IMPACT
           h2.subtitle Trainings- en coachingsbureau voor gedreven professionals
   .jumbotron.jumbotron-fluid.yep-geel
@@ -33,9 +33,9 @@ div
         h1.display-4 Neem je talenten serieus.
         br
       .col-md
-        .div(style='float: right; max-width: 500px; width: 100%')
+        .div(style="float: right; max-width: 500px; width: 100%")
           b-img(
-            fluid
+            fluid,
             blank-color="#777",
             src="~/assets/images/Trainers_van_YEP-1.png",
             :srcset="require('~/assets/images/Trainers_van_YEP-1.png?sizes[]=233&sizes[]=566').srcSet"

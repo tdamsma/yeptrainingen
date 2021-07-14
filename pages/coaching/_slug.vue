@@ -6,60 +6,56 @@ div
         .container
           .text-center
             img.img-fluid(
-              style="max-height: 800px",
-              :src="require(`~/content/coaching/${document.img}?size=800`)",
-              :alt="document.alt"
+              style='max-height: 800px',
+              :src='require(`~/content/coaching/${document.img}?size=800`)',
+              :alt='document.alt'
             )
           h2 {{ document.title }}
 
           p {{ formatDate(document.date) }}
 
           .blog-details-body
-            nuxt-content(:document="document")
+            nuxt-content(:document='document')
 
       // bar rechts met links
       .col-lg-3
-        div(v-for="document of surroundingDocuments")
+        div(v-for='document of surroundingDocuments')
           b-card.mt-5.overflow-hidden(
-            v-if="document",
-            no-body="",
-            bg-variant="dark",
-            text-variant="white"
+            v-if='document',
+            no-body='',
+            bg-variant='dark',
+            text-variant='white'
           )
             b-card-img.rounded-0(
-              :src="require(`~/content/coaching/${document.img}?size=255`)",
-              :alt="document.alt"
+              :src='require(`~/content/coaching/${document.img}?size=255`)',
+              :alt='document.alt'
             )
             b-card-body.p-3
               b-card-title.smalltext {{ document.title }}
             nuxt-link.stretched-link.font-bold(
-              :to="{ name: 'coaching-slug', params: { slug: document.slug } }"
+              :to='{ name: "coaching-slug", params: { slug: document.slug } }'
             )
 </template>
 
 <script>
 export default {
-  async asyncData ({ $content, params }) {
+  async asyncData({ $content, params }) {
     const document = await $content('coaching', params.slug).fetch()
 
-    const surroundingDocuments = await $content('coaching')
-      .only(['title', 'slug', 'img', 'alt'])
-      .sortBy('createdAt', 'asc')
-      .surround(params.slug)
-      .fetch()
+    const surroundingDocuments = await $content('coaching').only(['title', 'slug', 'img', 'alt']).sortBy('createdAt', 'asc').surround(params.slug).fetch()
     return {
       document,
       surroundingDocuments
     }
   },
-  head () {
+  head() {
     return {
       title: 'YEP trainingen coaching'
     }
   },
 
   methods: {
-    formatDate (date) {
+    formatDate(date) {
       const options = { year: 'numeric', month: 'short', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
     }
@@ -68,7 +64,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "assets/scss/custom.scss";
+@import 'assets/scss/custom.scss';
 .smalltext {
   font-size: 16px;
 }

@@ -36,6 +36,3 @@ jobs:
 
       - name: Run linting
         run: yarn lint
-
-      - name: Generate
-        run: yarn run generate

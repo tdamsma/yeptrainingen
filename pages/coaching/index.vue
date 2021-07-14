@@ -1,24 +1,24 @@
 <template lang="pug">
-.container(style="margin-top: 30px")
+.container(style='margin-top: 30px')
   .row.row-cols-1.row-cols-md-3
-    .col.mb-4(v-for="article of articles")
+    .col.mb-4(v-for='article of articles')
       // Card
       .card.card-cascade.narrower
         // Card image
         .view.view-cascade.overlay
-          .container2(style="height: 60%")
+          .container2(style='height: 60%')
             .rect-img-container
               b-card-img.rect-img.card-img-top(
-                fluid-grow="",
-                :src="article.responsiveImage.src",
-                :srcset="article.responsiveImage.srcSet",
-                sizes="50vw",
-                :blank-src="article.responsiveImage.placeholder",
-                :blank-width="article.responsiveImage.width",
-                :blank-height="article.responsiveImage.height",
-                :alt="article.alt"
+                fluid-grow='',
+                :src='article.responsiveImage.src',
+                :srcset='article.responsiveImage.srcSet',
+                sizes='50vw',
+                :blank-src='article.responsiveImage.placeholder',
+                :blank-width='article.responsiveImage.width',
+                :blank-height='article.responsiveImage.height',
+                :alt='article.alt'
               )
-                a(href="#!")
+                a(href='#!')
                   .mask.rgba-white-slight
         // Card content
         .card-body.card-body-cascade
@@ -28,22 +28,16 @@
           // Text
           p.card-text
             | {{ article.title }}
-          // Provides extra visual weight and identifies the primary action in a set of buttons
+          // Provides extra visual weight and identifies the primary action in a set of buttons 
           button.btn.btn-light-blue.btn-md(type=button) Lees meer
-            nuxt-link.stretched-link.font-bold(
-              :to="{ name: 'coaching-slug', params: { slug: article.slug } }"
-            )
+            nuxt-link.stretched-link.font-bold(:to='{ name: "coaching-slug", params: { slug: article.slug } }')
       // Card
 </template>
 
 <script>
 export default {
-  async asyncData ({ $content }) {
-    const articles = await $content('coaching')
-      .only(['title', 'slug', 'img', 'alt', 'intro'])
-      .sortBy('date', 'desc')
-      .limit(100)
-      .fetch()
+  async asyncData({ $content }) {
+    const articles = await $content('coaching').only(['title', 'slug', 'img', 'alt', 'intro']).sortBy('date', 'desc').limit(100).fetch()
 
     return {
       articles: articles.map((a) => {
@@ -52,7 +46,7 @@ export default {
       })
     }
   },
-  head () {
+  head() {
     return {
       title: 'YEP trainingen coaching'
     }
@@ -66,13 +60,12 @@ export default {
   background-position: center;
   background-size: cover;
 }
-.card.card-image [class*="rgba-"] {
+.card.card-image [class*='rgba-'] {
   border-radius: 0.25rem;
 }
 .card.card-cascade .view.view-cascade {
   border-radius: 0.25rem;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
-    0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 .card.card-cascade .view.view-cascade.gradient-card-header {
@@ -100,8 +93,7 @@ export default {
   margin-left: 4%;
   background: #fff;
   border-radius: 0 0 0.25rem 0.25rem;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16),
-    0 2px 10px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
 }
 .card.card-cascade.wider .card-body.card-body-cascade .card-footer {
@@ -112,8 +104,7 @@ export default {
   z-index: 3;
   margin-top: -1rem;
   border-radius: 0.25rem;
-  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18),
-    0 4px 15px 0 rgba(0, 0, 0, 0.15);
+  -webkit-box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
   box-shadow: 0 5px 11px 0 rgba(0, 0, 0, 0.18), 0 4px 15px 0 rgba(0, 0, 0, 0.15);
 }
 .card.card-cascade.narrower {
@@ -160,8 +151,7 @@ export default {
   -webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
   transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
   transition: transform 0.35s ease, opacity 0.35s ease;
-  transition: transform 0.35s ease, opacity 0.35s ease,
-    -webkit-transform 0.35s ease;
+  transition: transform 0.35s ease, opacity 0.35s ease, -webkit-transform 0.35s ease;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transform: translateX(80px);
@@ -173,8 +163,7 @@ export default {
   -webkit-transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
   transition: opacity 0.35s ease, -webkit-transform 0.35s ease;
   transition: transform 0.35s ease, opacity 0.35s ease;
-  transition: transform 0.35s ease, opacity 0.35s ease,
-    -webkit-transform 0.35s ease;
+  transition: transform 0.35s ease, opacity 0.35s ease, -webkit-transform 0.35s ease;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
   -webkit-transform: translateX(-48px);
@@ -252,7 +241,7 @@ export default {
 }
 
 .rect-img-container::after {
-  content: "";
+  content: '';
   display: block;
   padding-bottom: 100%;
   margin-bottom: -30%;

@@ -35,37 +35,34 @@ div
 import { jsonp } from 'vue-jsonp'
 
 export default {
-  data () {
+  data() {
     return {
       springestData: {},
       t: 0
     }
   },
   computed: {
-    reviews () {
+    reviews() {
       return this.springestData.reviews ? this.springestData.reviews : []
     },
-    reviewsDoubled () {
+    reviewsDoubled() {
       return this.reviews.concat(this.reviews)
     },
-    selectedReviews () {
+    selectedReviews() {
       return this.reviewsDoubled.slice(this.t, this.t + 3).reverse()
     }
   },
-  mounted () {
+  mounted() {
     this.init()
   },
-  created () {
+  created() {
     setInterval(() => (this.t = (this.t + 1) % this.reviews.length), 4000)
   },
   methods: {
-    async init () {
-      const result = await jsonp(
-        'https://www.springest.nl/yep-trainingen-2/reviews.jsonp',
-        {
-          callbackName: 'SpringestReviewWidget'
-        }
-      )
+    async init() {
+      const result = await jsonp('https://www.springest.nl/yep-trainingen-2/reviews.jsonp', {
+        callbackName: 'SpringestReviewWidget'
+      })
       this.springestData = result
     }
   }

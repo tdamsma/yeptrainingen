@@ -1,37 +1,45 @@
-<template lang="pug">
-.container(style='margin-top: 30px')
-  .row.row-cols-1.row-cols-md-3
-    .col.mb-4(v-for='article of articles')
-      // Card
-      .card.card-cascade.narrower
-        // Card image
-        .view.view-cascade.overlay
-          .container2(style='height: 60%')
-            .rect-img-container
-              b-card-img.rect-img.card-img-top(
-                fluid-grow='',
-                :src='article.responsiveImage.src',
-                :srcset='article.responsiveImage.srcSet',
-                sizes='50vw',
-                :blank-src='article.responsiveImage.placeholder',
-                :blank-width='article.responsiveImage.width',
-                :blank-height='article.responsiveImage.height',
-                :alt='article.alt'
-              )
-                a(href='#!')
-                  .mask.rgba-white-slight
-        // Card content
-        .card-body.card-body-cascade
-          // Title
-          h4.card-title
-            | {{ article.title }}
-          // Text
-          p.card-text
-            | {{ article.title }}
-          // Provides extra visual weight and identifies the primary action in a set of buttons 
-          button.btn.btn-light-blue.btn-md(type=button) Lees meer
-            nuxt-link.stretched-link.font-bold(:to='{ name: "coaching-slug", params: { slug: article.slug } }')
-      // Card
+<template lang="html">
+  <div class="container" style="margin-top: 30px">
+    <div class="row row-cols-1 row-cols-md-3">
+      <div v-for="article of articles" :key="article.title" class="col mb-4">
+        <!-- Card-->
+        <div class="card card-cascade narrower">
+          <!-- Card image-->
+          <div class="view view-cascade overlay">
+            <div class="container2" style="height: 60%">
+              <div class="rect-img-container">
+                <b-card-img
+                  class="rect-img card-img-top"
+                  fluid-grow=""
+                  :src="article.responsiveImage.src"
+                  :srcset="article.responsiveImage.srcSet"
+                  sizes="50vw"
+                  :blank-src="article.responsiveImage.placeholder"
+                  :blank-width="article.responsiveImage.width"
+                  :blank-height="article.responsiveImage.height"
+                  :alt="article.alt"
+                  ><a href="#!"> <div class="mask rgba-white-slight"></div></a
+                ></b-card-img>
+              </div>
+            </div>
+          </div>
+          <!-- Card content-->
+          <div class="card-body card-body-cascade">
+            <!-- Title-->
+            <h4 class="card-title">{{ article.title }}</h4>
+            <!-- Text-->
+            <p class="card-text">{{ article.title }}</p>
+            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+            <button class="btn btn-light-blue btn-md">
+              Lees meer
+              <nuxt-link class="stretched-link font-bold" :to="{ name: 'coaching-slug', params: { slug: article.slug } }"></nuxt-link>
+            </button>
+          </div>
+        </div>
+        <!-- Card-->
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>

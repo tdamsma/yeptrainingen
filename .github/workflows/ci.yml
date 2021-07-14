@@ -28,11 +28,11 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
 
-      # - name: Install nuxt
-      #   run: yarn global add nuxt
+      - name: Install nuxt
+        run: yarn global add nuxt
 
-      # - name: Install dependencies
-      #   run: yarn install
+      - name: Install dependencies
+        run: yarn install
 
-      # - name: Generate
-      #   run: yarn run generate
+      - name: Run linting
+        run: yarn lint

@@ -1,7 +1,7 @@
 {
-    "eslint.format.enable": true,
-    "vetur.format.defaultFormatter.js": "prettier-eslint",
-    "vetur.format.defaultFormatter.ts": "prettier-tslint",
-    "vetur.experimental.templateInterpolationService": true,
-    "editor.formatOnSave": true
+    "editor.formatOnSave": true,
+    "vetur.validation.template": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    }
 }

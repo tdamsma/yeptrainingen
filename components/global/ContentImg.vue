@@ -1,5 +1,5 @@
 <template>
-  <img :src="source" :alt="alt" :title="title">
+  <img :src="source" :alt="alt" :title="title" />
 </template>
 
 <script>
@@ -45,7 +45,7 @@ export default {
     title: { type: String, default: undefined }
   },
   computed: {
-    source () {
+    source() {
       // './' is meant be used in '.md' files to reference image files located in same the
       // folder with the '.md' file.
       if (this.src.startsWith('./')) {
@@ -53,7 +53,9 @@ export default {
         // console.log(this.$parent.document)
         if (this.$parent.document && this.$parent.document.dir) {
           let dir = this.$parent.document.dir
-          if (dir.startsWith(path.sep)) { dir = dir.replace(path.sep, '') }
+          if (dir.startsWith(path.sep)) {
+            dir = dir.replace(path.sep, '')
+          }
           return requireFromContent(path.join(dir, this.src))
         } else {
           throw new Error(`'./' should be used only in '.md' files!, ${this.src}, ${this.$parent}`)

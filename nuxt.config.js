@@ -15,8 +15,7 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       {
         rel: 'stylesheet',
-        href:
-          'https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap'
       },
       {
         rel: 'stylesheet',
@@ -39,12 +38,11 @@ export default {
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
     '@aceforth/nuxt-optimized-images'
-
   ],
   optimizedImages: {
     inlineImageLimit: 1000,
-    imagesName: ({ isDev }) => isDev ? '[path][name][hash:optimized]-[width].[ext]' : 'img/[contenthash:7]-[width].[ext]',
-    responsiveImagesName: ({ isDev }) => isDev ? '[path][name]--[width][hash:optimized].[ext]' : 'img/[contenthash:7]-[width].[ext]',
+    imagesName: ({ isDev }) => (isDev ? '[path][name][hash:optimized]-[width].[ext]' : 'img/[contenthash:7]-[width].[ext]'),
+    responsiveImagesName: ({ isDev }) => (isDev ? '[path][name]--[width][hash:optimized].[ext]' : 'img/[contenthash:7]-[width].[ext]'),
     handleImages: ['jpg', 'jpeg', 'png', 'svg', 'webp', 'gif'],
     optimizeImages: true,
     optimizeImagesInDev: true,
@@ -102,12 +100,14 @@ export default {
 
   // Build Configuration (https://go.nuxtjs.dev/config-build)
   build: {
-    extend (config) {
+    extend(config) {
       config.module.rules.push({
         test: /\.md$/,
         loader: 'ignore-loader'
       })
+    },
+    babel: {
+      compact: true
     }
   }
-
 }

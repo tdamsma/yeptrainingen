@@ -1,53 +1,55 @@
-<template lang="pug">
-div
-  .container
-    .row
-      .col-lg-9
-        .container
-          .text-center
-            img.img-fluid(style='max-height: 800px;', :src="require(`~/content/blog/${document.img}?size=800`)", :alt="document.alt")
-          h2 {{ document.title }}
-
-          p {{ formatDate(document.date) }}
-
-          .blog-details-body
-            nuxt-content(:document="document")
-
-      // bar rechts met links
-      .col-lg-3
-        div(v-for="document of surroundingDocuments")
-          b-card.mt-5.overflow-hidden(v-if="document" no-body='' bg-variant="dark" text-variant="white")
-            b-card-img.rounded-0(:src="require(`~/content/blog/${document.img}?size=255`)", :alt="document.alt")
-            b-card-body.p-3
-              b-card-title.smalltext {{document.title}}
-            nuxt-link.stretched-link.font-bold(
-              :to="{ name: 'blog-slug', params: { slug: document.slug } }"
-          )
+<template lang="html">
+  <div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-9">
+          <div class="container">
+            <div class="text-center">
+              <img class="img-fluid" style="max-height: 800px" :src="require(`~/content/blog/${document.img}?size=800`)" :alt="document.alt" />
+            </div>
+            <h2>{{ document.title }}</h2>
+            <p>{{ formatDate(document.date) }}</p>
+            <div class="blog-details-body">
+              <nuxt-content :document="document"></nuxt-content>
+            </div>
+          </div>
+        </div>
+        <!-- bar rechts met links-->
+        <div class="col-lg-3">
+          <div v-for="document of surroundingDocuments" :key="document.title">
+            <b-card v-if="document" class="mt-5 overflow-hidden" no-body="" bg-variant="dark" text-variant="white">
+              <b-card-img class="rounded-0" :src="require(`~/content/blog/${document.img}?size=255`)" :alt="document.alt"></b-card-img>
+              <b-card-body class="p-3">
+                <b-card-title class="smalltext">{{ document.title }}</b-card-title>
+              </b-card-body>
+              <nuxt-link class="stretched-link font-bold" :to="{ name: 'blog-slug', params: { slug: document.slug } }"></nuxt-link>
+            </b-card>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </template>
 
 <script>
 export default {
-  async asyncData ({ $content, params }) {
+  async asyncData({ $content, params }) {
     const document = await $content('blog', params.slug).fetch()
 
-    const surroundingDocuments = await $content('blog')
-      .only(['title', 'slug', 'img', 'alt'])
-      .sortBy('createdAt', 'asc')
-      .surround(params.slug)
-      .fetch()
+    const surroundingDocuments = await $content('blog').only(['title', 'slug', 'img', 'alt']).sortBy('createdAt', 'asc').surround(params.slug).fetch()
     return {
       document,
       surroundingDocuments
     }
   },
-  head () {
+  head() {
     return {
       title: 'YEP trainingen blog'
     }
   },
 
   methods: {
-    formatDate (date) {
+    formatDate(date) {
       const options = { year: 'numeric', month: 'short', day: 'numeric' }
       return new Date(date).toLocaleDateString('en', options)
     }
@@ -56,7 +58,7 @@ export default {
 </script>
 
 <style lang="scss">
-@import "assets/scss/custom.scss";
+@import 'assets/scss/custom.scss';
 .smalltext {
   font-size: 16px;
 }

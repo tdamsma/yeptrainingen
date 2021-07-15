@@ -1,6 +1,5 @@
 # See here for image contents: https://github.com/microsoft/vscode-dev-containers/tree/v0.134.0/containers/javascript-node/.devcontainer/base.Dockerfile
-ARG VARIANT="14"
-FROM mcr.microsoft.com/vscode/devcontainers/javascript-node:0-${VARIANT}
+FROM node:14-apline
 
 RUN apt-get update && apt-get -y install --no-install-recommends wget zsh git
 RUN sh -c "$(wget -O- https://github.com/deluan/zsh-in-docker/releases/download/v1.1.1/zsh-in-docker.sh)"

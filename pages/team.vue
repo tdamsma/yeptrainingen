@@ -1,5 +1,7 @@
 <template lang="html">
   <div>
+    
+    <!--
     <div class="container">
       <div class="row justify-content-around mb-1">
         <div v-for="member of members" :key="member.name" class="col-md-3 mt-4 py-3 bg-white">

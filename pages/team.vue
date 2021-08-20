@@ -1,5 +1,7 @@
 <template lang="html">
   <div>
+    
+    <!--
     <div class="container">
       <b-carousel
         id="carousel-1"
@@ -16,6 +18,7 @@
         <!-- Text slides with image-->
         <!-- Slides with img slot-->
         <!-- Note the classes .d-block and .img-fluid to prevent browser default image alignment-->
+        <!--
         <b-carousel-slide v-for="responsiveImage of responsiveImages" :key="responsiveImage.src" caption="Training" text="Echt een hele leuke was dit">
           <template #img="">
             <b-img-lazy
@@ -32,7 +35,63 @@
           </template>
         </b-carousel-slide>
       </b-carousel>
-    </div>
+    </div>-->
+
+     <div class="container">
+        <div class="row justify-content-around mb-4">
+          <div class="col-md-2 mt-4 py-3 bg-white">
+            <b-img
+              fluid="fluid"
+              blank-color="#777"
+              src="~/assets/images/team/IMG_9763-3-300x300.jpg"
+              :srcset="require(`~/assets/images/team/IMG_9763-3-300x300.jpg?sizes[]=200&amp;sizes[]=200`).srcSet" 
+            >
+            </b-img>
+            <h2 class="text-center mt-1">Marijn Damsma-Blaisse</h2>Ik ben psycholoog-trainer en eigenaar van Yep Trainingen. Het werken als trainer vind ik uitdagend en divers – steeds weer zoeken naar díe context waarin een persoon of groep kan ervaren en leren. Ik ben het meest thuis in de onderwerpen communicatie en persoonlijke effectiviteit. Presenteren, inzicht in wie je bent en wat je wil bereiken, persoonlijk leiderschap. Ik hou van het bedenken van nieuwe programma’s, originele werkvormen en het zorgen voor zo veel mogelijk aansluiting op de praktijk van de deelnemers. Door met andere trainers samen te werken en te sparren blijf ik mezelf als trainer ontwikkelen.
+            </div>
+          <div class="col-md-2 mt-4 py-3 bg-white">
+            <b-img
+              fluid="fluid"
+              blank-color="#777"
+              src="~/assets/images/team/Mascha-zwartwit-300x300.jpg"
+              :srcset="require(`~/assets/images/team/Mascha-zwartwit-300x300.jpg?sizes[]=200&amp;sizes[]=200`).srcSet" 
+            >
+            </b-img>
+            <h2 class="text-center mt-1">Mascha Lemmers</h2>Mensen in beweging brengen, fysiek en metaal, dat is wat mij blij maakt. Met een achtegrond in de bewegings- en organisatiewetenschappen en als trainer/adviseur begeleid ik individuen en organisaties bij het vergroten van hun effectiviteit. Dit doe ik door inzicht te geven in het huidige gedrag in communicatie, nieuw handelingsrepertoire aan te reiken, veel te oefenen met nieuw gedrag en niet alleen de inhoud, maar vooral de manier waarop je de inhoud en jezelf presenteert centraal te stellen. Hierdoor verbeteren je eigen prestaties en de prestaties van de organisatie waarvoor je werkt. Actief, open, eerlijk en enthousiast, dat is wat je van mij en mijn werkwijze kunt verwachten.
+          </div>
+          <div class="col-md-2 mt-4 py-3 bg-white">
+            <b-img
+              fluid="fluid"
+              blank-color="#777"
+              src="~/assets/images/team/AnnaStutje-e1588233110438-300x300.jpg"
+              :srcset="require(`~/assets/images/team/AnnaStutje-e1588233110438-300x300.jpg?sizes[]=200&amp;sizes[]=200`).srcSet" 
+            >
+            </b-img>
+            <h2 class="text-center mt-1">Anna Stutje</h2>Het inspireert me om met mensen te werken die de moed en het doorzettingsvermogen hebben om heel bewust hun eigen pad te zoeken. Ook als ze daarvoor spannende besluiten moeten nemen of nieuwe dingen moeten leren. Wat ik het allerliefste doe is zo’n zoektocht van dichtbij begeleiden. Hoe ik dat doe, hangt helemaal af van wie ik tegenover me heb. Bij de één breng ik geduld met me mee als iemand behoefte heeft aan tijd en ruimte om een laagje dieper te gaan. Bij de ander ben ik veel bezig met oefenen en doen, omdat ik weet dat iemand de neiging heeft om het ‘doen’ uit te stellen. Bij Yep kom je me tegen in een rol als coach of als trainer in een intieme trainingssetting.
+          </div>
+          <div class="col-md-2 mt-4 py-3 bg-white">
+            <b-img
+              fluid="fluid"
+              blank-color="#777"
+              src="~/assets/images/team/Trainer-Myrthe-20161015-1-2-300x300.jpg"
+              :srcset="require(`~/assets/images/team/Trainer-Myrthe-20161015-1-2-300x300.jpg?sizes[]=200&amp;sizes[]=200`).srcSet" 
+            >
+            </b-img>
+            <h2 class="text-center mt-1">Myrthe Heuser</h2><i>"Tell me and I will forget, show me and I might remember, involve me and I will learn"</i> – Benjamin Franklin. <br>Hier ben ik het helemaal mee eens! Wanneer mensen ervaringsgericht leren, zie je als het ware lampjes aangaan. Als trainer streef ik ernaar dat mijn groepen dit in een veilige- en prettige leeromgeving kunnen ervaren. Ik vind het heerlijk als mensen nieuw gedrag durven uit te proberen en van elkaar leren in een training. Ik draag daar graag aan bij. Ik ben als psycholoog-trainer het meeste thuis in communicatie en persoonlijke effectiviteit. Wat voor eigenschappen mij verder omschrijven? Pragmatisch, invoelend, warm, kritisch, en observerend. Ik hoop je met mijn trainingen en coaching in beweging te zetten. Beweging tot nadenken, beweging tot nieuw gedrag, en beweging tot groei.
+          </div>
+          <div class="col-md-2 mt-4  py-3 bg-white">
+            <b-img
+              fluid="fluid"
+              blank-color="#777"
+              src="~/assets/images/team/Trainer-Sarah-1-van-1-2-300x300.jpg"
+              :srcset="require(`~/assets/images/team/Trainer-Sarah-1-van-1-2-300x300.jpg?sizes[]=200&amp;sizes[]=200`).srcSet" 
+            >
+            </b-img>
+            <h2 class="text-center mt-1">Sarah <br> van der Vlerk</h2> Ik ben regisseur, trainingsacteur en trainer. Ik vind het belangrijk om inspirerende trainingen te geven, waar je naar buiten loopt met nieuwe ideeën en een frisse blik. Maar ik ben ook een praktische trainer, ik geef concrete handvatten waar je mee aan de slag kunt. Ik geloof in een actieve aanpak, in mijn trainingen wordt niet veel stilgezeten. Door te doen, te experimenteren en te ervaren leer je mijns inziens meer dan door alleen te luisteren.
+          </div>
+        </div>
+      </div>
+
   </div>
 </template>
 

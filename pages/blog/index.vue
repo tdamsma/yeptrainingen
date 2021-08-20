@@ -1,21 +1,15 @@
 <template lang="html">
   <div>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container">
-        <h1 class="display-4">Blog</h1>
-        <p class="lead">Ons leuke blog</p>
-      </div>
-    </div>
     <div class="container">
       <div v-for="article of articles" :key="article.title">
-        <b-card class="mt-5 overflow-hidden" no-body="">
+        <b-card class="mt-2 overflow-hidden shadow-none" no-body="">
           <b-row no-gutters="">
-            <b-col md="2">
+            <b-col md="3">
               <div class="rect-img-container" style="margin: 20px">
                 <b-card-img class="rect-img rounded-circle" :src="require(`~/content/blog/${article.img}?size=500`)" :alt="article.alt"></b-card-img>
               </div>
             </b-col>
-            <b-col md="10">
+            <b-col md="9">
               <b-card-body :title="article.title">
                 <b-card-text>
                   <p>{{ article.tags }}</p>

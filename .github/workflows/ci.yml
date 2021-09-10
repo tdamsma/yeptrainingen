@@ -24,7 +24,7 @@ jobs:
         run: yarn global add nuxt
 
       - name: Install dependencies
-        run: yarn install --chack-files
+        run: yarn install --check-files
 
       - name: Run linting
         run: yarn lint

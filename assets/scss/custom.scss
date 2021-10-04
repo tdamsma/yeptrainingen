@@ -51,12 +51,19 @@ body {
   position: relative;
 }
 
+a {
+  color: $secondary;
+  text-decoration: none;
+  background-color: transparent; }
+a:hover {
+    color: $green;
+    text-decoration: underline; }
+
 .text-overlay {
   position: absolute;
   top: 48px;
-  right: 16px;
-  
-  padding: 5px;
+  left: 40%;
+  padding: 10px 20px 10px 10px;
 }
 
 .text-overlay .title {
@@ -80,8 +87,10 @@ body {
 .jumbotron {
   margin-bottom: 0rem;
   font-family: "Roboto", sans-serif;
-  font-size: 16px;
+  font-size: .95rem;
 }
+
+
 .jumbotron.jumbotron-fluid {
 
 }
@@ -93,6 +102,22 @@ body {
     color: $secondary;
   }
 }
+
+.yep-grijs {
+  background-color: $primary;
+  color: $dark;
+  a {
+    color: $secondary;
+  }
+}
+
+.yep-link {
+  color: $dark;
+  a hover{
+    color: $secondary;
+  }
+}
+
 h1,h2 {
   font-family: "Dosis", sans-serif;
 }

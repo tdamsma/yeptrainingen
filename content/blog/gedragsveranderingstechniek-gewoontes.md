@@ -16,7 +16,7 @@ english-version:
 
 Als jij je persoonlijk wilt ontwikkelen, betekent dat vaak dat je bepaald gedrag wilt veranderen. Misschien wil je na een gesprek met je leidinggevende je werk anders aanpakken. Of misschien heb je jezelf voorgenomen om vaker 'nee' te zeggen, je werk beter na te lezen of meer aandacht te besteden aan relaties met collega's. Een mogelijke manier om je gedrag te veranderen, is door het gebruik van zelfcontrole. In ons [vorige blog](http://yeptrainingen.nl/gedragsveranderingstechniek-zelfcontrole-toepassen/) lees je daar meer over. We hebben al veel zelfcontrole nodig voor alle afleidingen die op ons af komen, keuzes die we moeten maken en taken die we moeten uitvoeren. Daarom is het handig om nog een methode te hebben die je kan gebruiken: je automatische gedrag veranderen.
 
-### Gedragsverandering door gewoontes aan te passen
+## Gedragsverandering door gewoontes aan te passen
 
 Het gedrag wat je automatisch doet, kost weinig mentale energie. Wanneer je nieuw gedrag wilt introduceren en hier een gewoonte van weet te maken, hoef je er dus niet (meer) over na te denken. In de begin fase, vergt dit wel moeite en zal het nog niet automatisch gaan, omdat je oude routines nog 'ingeprogrammeerd' staan. Daar moet je even doorheen. Het gemakkelijkste gaat dat door heel concreet aan jezelf voor te schrijven hoe je het hebben wil. Dit kan door het gebruik van actie-gerichte zinnetjes, ook wel 'implementatie intenties'. Een implementatie intentie (_implementation intention_). Dit is een ‘als-dan’ plan waarin aangegeven wordt waar, wanneer en hoe je het gedrag uit gaat voeren. Probeer daarbij specifiek, concreet en realistisch gedrag te beschrijven. Het klinkt nu wel heel abstract, maar het valt mee! 
 

@@ -37,7 +37,7 @@ Digitale vergaderingen en trainingen kunnen zo veel energie kosten! En dat hoeft
     \- bij het geven van feedback zowel in tweetallen als groepssetting. Door de 'nabijheid' voelt dit prettiger.  
     \- een simpele, verfrissende andere setting  
       
-    1 lastigheidje: Je webcam kan maar in 1 app actief zijn, dus ga je vanuit een videoconferencing tool naar spacial.chat, zorg dan dat iedereen de mic en camera uitzet in het andere programma, alvorens deze aan te kunnen zetten in [spacial.chat](http://spacial.chat).
+    1 lastigheidje: Je webcam kan maar in 1 app actief zijn, dus ga je vanuit een videoconferencing tool naar spacial.chat, zorg dan dat iedereen de mic en camera uitzet in het andere programma, alvorens deze aan te kunnen zetten in [spacial.chat](https://spacial.chat).
 
 ![spacial chat, iemand op de kruk](./activerende-online-teamspellen-3.png)
 

@@ -1,42 +1,59 @@
 <template lang="html">
-  <div class="container" style="margin-top: 30px">
-    <div class="row row-cols-1 row-cols-md-3">
-      <div v-for="article of articles" :key="article.title" class="col mb-4">
-        <!-- Card-->
-        <div class="card card-cascade narrower">
-          <!-- Card image-->
-          <div class="view view-cascade overlay">
-            <div class="container2" style="height: 60%">
-              <div class="rect-img-container">
-                <b-card-img
-                  class="rect-img card-img-top"
-                  fluid-grow=""
-                  :src="article.responsiveImage.src"
-                  :srcset="article.responsiveImage.srcSet"
-                  sizes="50vw"
-                  :blank-src="article.responsiveImage.placeholder"
-                  :blank-width="article.responsiveImage.width"
-                  :blank-height="article.responsiveImage.height"
-                  :alt="article.alt"
-                  ><a href="#!"> <div class="mask rgba-white-slight"></div></a
-                ></b-card-img>
+  <div class="container-fluid" style="margin-top: 30px">
+    <div class="container mb-5">
+      <h1>Coaching</h1>
+      <p>
+        Yep verzorgt coaching voor gedreven professionals waarin het vergroten van je kracht en effect centraal staat. Coaching biedt in twee gevallen uitkomst:
+        wanneer jij (of je medewerker) een erg specifiek leerdoel hebt, waarbij een groepstraining niet nauw aansluit, of wanneer je behoefte hebt aan
+        persoonlijke begeleiding. De coaching kan op zichzelf staan of een aanvulling vormen op een (talenten)programma. Om een idee te krijgen van de thema’s
+        waarop wij andere professionals al hebben begeleid, kun je hieronder een kijkje nemen.
+      </p>
+      <p>
+        Vraag je je af of wij je kunnen begeleiden met jouw specifieke ontwikkeldoel? Dan is het handig om even contact op te nemen! Hier staan onze tarieven.
+        Alle trajecten zijn zowel online als face-to-face beschikbaar en geschikt voor zowel particulieren, ondernemers als medewerkers.<br />
+        We werken doorgaans met een traject van 5 tot 8 sessies. Tijdens een kosteloze intake bepalen we de precieze aanpak.
+      </p>
+
+      <h2 class="text-center mb-3 mt-5">Coachingsmogelijkheden</h2>
+
+      <div class="row row-cols-1 row-cols-md-3">
+        <div v-for="article of articles" :key="article.title" class="col mb-4">
+          <!-- Card-->
+          <div class="card card-cascade narrower" style="min-height: 400px">
+            <!-- Card image-->
+            <div class="view view-cascade overlay">
+              <div class="container2" style="height: 60%">
+                <div class="rect-img-container">
+                  <b-card-img
+                    class="rect-img card-img-top"
+                    fluid-grow=""
+                    :src="article.responsiveImage.src"
+                    :srcset="article.responsiveImage.srcSet"
+                    sizes="50vw"
+                    :blank-src="article.responsiveImage.placeholder"
+                    :blank-width="article.responsiveImage.width"
+                    :blank-height="article.responsiveImage.height"
+                    :alt="article.alt"
+                    ><a href="#!"> <div class="mask rgba-white-slight"></div></a
+                  ></b-card-img>
+                </div>
               </div>
             </div>
+            <!-- Card content-->
+            <div class="card-body card-body-cascade">
+              <!-- Title-->
+              <h4 class="card-title">{{ article.title }}</h4>
+              <!-- Text-->
+              <p class="card-text">{{ article.title }}</p>
+              <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
+              <button class="btn btn-light-blue btn-md">
+                Lees meer >
+                <nuxt-link class="stretched-link font-bold" :to="{ name: 'coaching-slug', params: { slug: article.slug } }"></nuxt-link>
+              </button>
+            </div>
           </div>
-          <!-- Card content-->
-          <div class="card-body card-body-cascade">
-            <!-- Title-->
-            <h4 class="card-title">{{ article.title }}</h4>
-            <!-- Text-->
-            <p class="card-text">{{ article.title }}</p>
-            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <button class="btn btn-light-blue btn-md">
-              Lees meer
-              <nuxt-link class="stretched-link font-bold" :to="{ name: 'coaching-slug', params: { slug: article.slug } }"></nuxt-link>
-            </button>
-          </div>
+          <!-- Card-->
         </div>
-        <!-- Card-->
       </div>
     </div>
   </div>

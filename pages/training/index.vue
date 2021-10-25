@@ -1,149 +1,62 @@
-<template>
-  <div class="container">
-    <div class="my-5" style="width: 200px">Space</div>
-
-    <div class="row row-cols-1 row-cols-md-3 row-cols-lg-4">
-      <div v-for="responsiveImage of responsiveImages.slice(0, 5)" :key="responsiveImage.src" class="col mb-4">
-        <!-- Card -->
-        <div class="card h-100 card-cascade wider reverse">
-          <!--Card image-->
-          <div class="view view-cascade overlay">
-            <b-img-lazy
-              class="card-img-top"
-              fluid-grow
-              :src="responsiveImage.src"
-              :srcset="responsiveImage.srcSet"
-              sizes="50vw"
-              :blank-src="responsiveImage.placeholder"
-              :blank-width="responsiveImage.width"
-              :blank-height="responsiveImage.height"
-              alt="alt text voor een plaatje"
-            />
-
-            <a href="#!">
-              <div class="mask rgba-white-slight" />
-            </a>
-          </div>
-
-          <!--Card content-->
-          <div class="card-body card-body-cascade">
-            <!--Title-->
-            <h4 class="card-title">Card title</h4>
-            <!--Text-->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
-          </div>
-        </div>
-        <!-- Card -->
-      </div>
-    </div>
-    <div class="my-5" style="width: 200px">Space</div>
+<template lang="html">
+  <div class="container" style="margin-top: 30px">
     <div class="row row-cols-1 row-cols-md-3">
-      <div v-for="responsiveImage of responsiveImages.slice(4, 8)" :key="responsiveImage.src" class="col mb-4">
-        <!-- Card -->
-        <div class="card card-cascade narrower">
-          <!--Card image-->
+      <div v-for="article of articles" :key="article.title" class="col mb-4">
+        <!-- Card-->
+        <div class="card card-cascade narrower" style="min-height: 400px">
+          <!-- Card image-->
           <div class="view view-cascade overlay">
-            <b-img-lazy
-              class="card-img-top"
-              fluid-grow
-              :src="responsiveImage.src"
-              :srcset="responsiveImage.srcSet"
-              sizes="50vw"
-              :blank-src="responsiveImage.placeholder"
-              :blank-width="responsiveImage.width"
-              :blank-height="responsiveImage.height"
-              alt="alt text voor een plaatje"
-            />
-
-            <a href="#!">
-              <div class="mask rgba-white-slight" />
-            </a>
+            <div class="container2" style="height: 60%">
+              <div class="rect-img-container">
+                <b-card-img
+                  class="rect-img card-img-top"
+                  fluid-grow=""
+                  :src="article.responsiveImage.src"
+                  :srcset="article.responsiveImage.srcSet"
+                  sizes="50vw"
+                  :blank-src="article.responsiveImage.placeholder"
+                  :blank-width="article.responsiveImage.width"
+                  :blank-height="article.responsiveImage.height"
+                  :alt="article.alt"
+                  ><a href="#!"> <div class="mask rgba-white-slight"></div></a
+                ></b-card-img>
+              </div>
+            </div>
           </div>
-
-          <!--Card content-->
+          <!-- Card content-->
           <div class="card-body card-body-cascade">
-            <!--Title-->
-            <h4 class="card-title">Card title</h4>
-            <!--Text-->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            <!-- Title-->
+            <h4 class="card-title">{{ article.title }}</h4>
+            <!-- Text-->
+            <p class="card-text">{{ article.title }}</p>
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
+            <button class="btn btn-light-blue btn-md">
+              Lees meer
+              <nuxt-link class="stretched-link font-bold" :to="{ name: 'coaching-slug', params: { slug: article.slug } }"></nuxt-link>
+            </button>
           </div>
         </div>
-        <!-- Card -->
-      </div>
-    </div>
-    <div class="my-5" style="width: 200px">Space</div>
-    <div class="row row-cols-1 row-cols-md-3">
-      <div v-for="responsiveImage of responsiveImages.slice(8)" :key="responsiveImage.src" class="col mb-4">
-        <!-- Card -->
-        <div class="card card-cascade wider">
-          <!--Card image-->
-
-          <div class="view view-cascade overlay">
-            <b-img-lazy
-              class="card-img-top"
-              fluid-grow
-              :src="responsiveImage.src"
-              :srcset="responsiveImage.srcSet"
-              sizes="50vw"
-              :blank-src="responsiveImage.placeholder"
-              :blank-width="responsiveImage.width"
-              :blank-height="responsiveImage.height"
-              alt="alt text voor een plaatje"
-            />
-            <a href="#!">
-              <div class="mask rgba-white-slight" />
-            </a>
-          </div>
-
-          <!--Card content-->
-          <div class="card-body card-body-cascade">
-            <!--Title-->
-            <h4 class="card-title">Card title</h4>
-            <!--Text-->
-            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-            <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <button type="button" class="btn btn-light-blue btn-md">Read more</button>
-          </div>
-        </div>
-        <!-- Card -->
+        <!-- Card-->
       </div>
     </div>
   </div>
 </template>
 
 <script>
-const responsiveImages = Array.from(Array(13).keys()).map((n) =>
-  require(`~/assets/images/training/training-${n + 1}.jpg?resize&placeholder=true&sizes[]=100,sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048`)
-)
 export default {
-  data() {
-    return {
-      responsiveImages
-    }
-  }
-}
-</script>
+  async asyncData({ $content }) {
+    const articles = await $content('coaching').only(['title', 'slug', 'img', 'alt', 'intro']).sortBy('date', 'desc').limit(100).fetch()
 
-<script>
-const responsiveImages = Array.from(Array(13).keys()).map((n) =>
-  require(`~/assets/images/training/training-${n + 1}.jpg?resize&placeholder=true&sizes[]=100,sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048`)
-)
-export default {
-  data() {
     return {
-      responsiveImages
+      articles: articles.map((a) => {
+        a.responsiveImage = require(`~/content/coaching/${a.img}?resize&placeholder=true&sizes[]=100,sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048`)
+        return a
+      })
     }
   },
-  methods: {
-    onSlideStart() {
-      this.sliding = true
-    },
-    onSlideEnd() {
-      this.sliding = false
+  head() {
+    return {
+      title: 'YEP trainingen coaching'
     }
   }
 }
@@ -329,5 +242,23 @@ export default {
 .card-wrapper .card-rotating .back {
   -webkit-transition: 1s;
   transition: 1s;
+}
+
+.rect-img-container {
+  position: relative;
+}
+
+.rect-img-container::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+  margin-bottom: -30%;
+}
+
+.rect-img {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  object-fit: cover;
 }
 </style>

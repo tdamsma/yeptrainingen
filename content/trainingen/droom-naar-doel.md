@@ -1,4 +1,3 @@
-
 ---
 title: Training - Van Droom naar Doel
 img: droom-naar-doel-1.jpg

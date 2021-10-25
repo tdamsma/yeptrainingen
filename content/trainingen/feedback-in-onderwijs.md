@@ -1,7 +1,6 @@
-
 ---
 title: Training - Feedback geven in het onderwijs
-img: feedback-geven-onderwijs1.jpg
+img: feedback-in-onderwijs-1.jpg
 ---
 # Feedback geven in het onderwijs
 

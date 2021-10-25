@@ -1,11 +1,11 @@
 <template lang="html">
   <div>
-    <div class="container">
+    <div class="container mt-3 mb-3 bg-white pt-4">
       <div class="row">
         <div class="col-lg-9">
           <div class="container">
-            <div class="text-center">
-              <img class="img-fluid" style="max-height: 800px" :src="require(`~/content/blog/${document.img}?size=800`)" :alt="document.alt" />
+            <div class="text-center mb-4">
+              <img class="img-fluid" style="max-height: 300px" :src="require(`~/content/blog/${document.img}?size=800`)" :alt="document.alt" />
             </div>
             <h2>{{ document.title }}</h2>
             <p>{{ formatDate(document.date) }}</p>
@@ -16,14 +16,16 @@
         </div>
         <!-- bar rechts met links-->
         <div class="col-lg-3">
-          <div v-for="document of surroundingDocuments" :key="document.title">
-            <b-card v-if="document" class="mt-5 overflow-hidden" no-body="" bg-variant="dark" text-variant="white">
-              <b-card-img class="rounded-0" :src="require(`~/content/blog/${document.img}?size=255`)" :alt="document.alt"></b-card-img>
-              <b-card-body class="p-3">
-                <b-card-title class="smalltext">{{ document.title }}</b-card-title>
-              </b-card-body>
-              <nuxt-link class="stretched-link font-bold" :to="{ name: 'blog-slug', params: { slug: document.slug } }"></nuxt-link>
-            </b-card>
+           <div class="border bg-light p-2 text-center">
+            <b-img
+              fluid="fluid"
+              blank-color="#777"
+              src="~/assets/images/omgaanmetstress.jpg"
+              :srcset="require(`~/content/blog/blog_overzicht.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
+            ></b-img>
+            <a href="/blog/" class="d-block mt-2"><< Terug naar overzicht</a>
+        </div>
+            
           </div>
         </div>
       </div>
@@ -72,5 +74,6 @@ export default {
   -webkit-filter: drop-shadow(5px 5px 5px #999);
   filter: drop-shadow(5px 5px 5px #999);
   margin-bottom: 20px;
+  margin-top: 20px;
 }
 </style>

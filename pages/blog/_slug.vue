@@ -16,16 +16,14 @@
         </div>
         <!-- bar rechts met links-->
         <div class="col-lg-3">
-           <div class="border bg-light p-2 text-center">
+          <div class="border bg-light p-2 text-center">
             <b-img
               fluid="fluid"
               blank-color="#777"
               src="~/assets/images/omgaanmetstress.jpg"
               :srcset="require(`~/content/blog/blog_overzicht.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
             ></b-img>
-            <a href="/blog/" class="d-block mt-2"><< Terug naar overzicht</a>
-        </div>
-            
+            <a href="/blog/" class="d-block mt-2">&lt;&lt; Terug naar overzicht</a>
           </div>
         </div>
       </div>

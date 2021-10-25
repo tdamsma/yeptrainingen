@@ -22,4 +22,4 @@ Kortom: wil je beter worden in de omgang met stress, dan is dit coachingstraject
 
 Zie je het zitten om met dit onderwerp in groepsverband aan de slag te gaan en je door anderen te laten inspireren dan kan dat ook.
 
-[afbeelding wolken](./coaching-omgaan-met-stress-2.jpg)
+![afbeelding wolken](./coaching-omgaan-met-stress-2.jpg)

@@ -3,7 +3,7 @@
     <div class="row row-cols-1 row-cols-md-3">
       <div v-for="article of articles" :key="article.title" class="col mb-4">
         <!-- Card-->
-        <div class="card card-cascade narrower" style="min-height:400px">
+        <div class="card card-cascade narrower" style="min-height: 400px">
           <!-- Card image-->
           <div class="view view-cascade overlay">
             <div class="container2" style="height: 60%">
@@ -41,7 +41,7 @@
     </div>
   </div>
 </template>
-  
+
 <script>
 export default {
   async asyncData({ $content }) {

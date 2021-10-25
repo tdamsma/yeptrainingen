@@ -17,7 +17,7 @@ english-version:
 ---
 Op zoek naar een workshop of training die niet te lang duurt, maar die wel tastbaar bijdraagt aan persoonlijke ontwikkeling? Wij hebben een heel divers aanbod en kunnen vaak nog specifieke doelen van de organisatie of vereniging kwijt in de opzet, dus zie deze lijst als globale thema's die uitgebreid, gecombineerd en gespecificeerd kunnen worden. Tip: overleg binnen je vereniging of organisatie welk kort trainingsaanbod voor young professionals jullie voorkeur heeft en ga dan met een trainer van Yep in gesprek om het plan samen verder in te vullen. ![Marijn voor flipover trainingsaanbod Yep](./uitgelicht-kort-trainingsaanbod-2.jpg)
 
-### Communicatie
+## Communicatie
 
 *   Klantcontact verbeteren: luistervaardigheden. Communicatie verloopt zo veel beter als er goed geluisterd wordt! Het klinkt simpel, maar echt, er worden hier zo veel missers in gemaakt! In contact met klanten betekent dit concreet: een betere relatie en meer kansen om producten en diensten te verkopen. (30 -90 minuten) geschikt voor grote groepen.
 *   Netwerken (60-180 minuten) geschikt voor grote groepen. Veel varianten!
@@ -30,14 +30,14 @@ Op zoek naar een workshop of training die niet te lang duurt, maar die wel tastb
 *   Sterk reageren op negatieve opmerkingen/tegenwerpingen (120 minuten) max 15 personen.
 *   STAR-gesprek of sollicitatiegesprek oefenen. (60 minuten) kan in grote groepen. Ook leuk met acteur! Ook inzetbaar als ‘kennismakingsgespreksoefening’ voor ondernemers.
 
-### Teamwerk
+## Teamwerk
 
 *   Evaluatiebijeenkomst – gericht op teamleden of het proces – vooral leuk voorafgaand aan een bedrijfsborrel.
 *   Teamrollen en teamontwikkeling (90-120 minuten) max 20 personen
 *   Droom naar doel – Algemeen geformuleerd idee uitwerken tot concreet actieplan. Leuk voor ondernemers of mensen die moeite hebben om voor hun droom te gaan. Kan super zijn om met klein team de neuzen dezelfde kant op krijgen. Ook heel geschikt (andere opzet) als meer individuele oefening, waarbij we groepen tot wel 100 personen aankunnen die in vijf losse werkvormen hun droom concreet maken en vertalen tot aansprekend actieplan. (60-180 minuten)
 *   Co-creatie (60-180 minuten) 1 of meerdere technieken inzetten om met een groep tot innovatieve ideeën te komen. Beter brainstormen. Kan met een organisatievraagstuk of ik kan een vraagstuk aandragen. Kan in groepen tot 25 personen.
 
-### Persoonlijke effectiviteit
+## Persoonlijke effectiviteit
 
 *   Time management (120-180 minuten) groep van max 25 personen.
 *   Doelen stellen en behalen (120-180 minuten) groep van max 12 personen.
@@ -48,7 +48,7 @@ Op zoek naar een workshop of training die niet te lang duurt, maar die wel tastb
 *   Talent en toekomst – een blik op de eigen talenten en hoe je deze wil benutten in de toekomst. (90-180 minuten) groep max 20 personen.
 *   Online identiteit op scherp (nadruk op LinkedIn). (90 minuten) Groep van max 20 personen.
 
-### Didactiek en dynamiek
+## Didactiek en dynamiek
 
 *   Omgaan met weerstand (120 minuten) met acteur. Groep max 12 personen.
 *   Interactie beïnvloeden (120 – 180 minuten), vrij theoretisch, groep max 12 personen
@@ -58,7 +58,7 @@ Op zoek naar een workshop of training die niet te lang duurt, maar die wel tastb
 *   Boeien en binden: hoe zorg je ervoor dat jouw boodschap blijft hangen? (120 minuten) groepsgrootte kan variëren.
 *   Improviseren: op speelse wijze leren om positief en vol zelfvertrouwen samen te werken. 60 - 180 minuten, 12 personen.
 
-### Individueel
+## Individueel
 
 *   Opstellen van persoonlijk profiel of POP
 *   Coaching

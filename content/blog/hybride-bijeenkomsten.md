@@ -21,7 +21,7 @@ Wij hebben afgelopen najaar enige ervaring opgedaan met het verzorgen van fysiek
 
 ![Mensen in meeting](./hybride-bijeenkomsten-2.png)
 
-### Welke problemen kom je zoal tegen bij een hybride bijeenkomst?
+## Welke problemen kom je zoal tegen bij een hybride bijeenkomst?
 
 * De reguliere webcam laat maar een beperkt deel van de groep zien
 * De geïntegreerde webcam-microfoons zijn erop gemaakt om achtergrond ruis te ‘cancelen’, hierdoor is geluid dat wat meer op afstand van de microfoon wordt gemaakt vaak zeer slecht te horen voor de digitale groep
@@ -32,12 +32,12 @@ Wij hebben afgelopen najaar enige ervaring opgedaan met het verzorgen van fysiek
 
 ## Sta jij straks voor een hybride groep? **We zetten onze tips voor je op een rij!**
 
-### Verwachtingen
+## Verwachtingen
 
 * Maak afspraken over wanneer men zich digitaal mag aanmelden en wat een digitale deelname betekent. Soms kun je een volledig parallel programma optuigen en op andere momenten heb je misschien geen gelegenheid om je aandacht te verdelen. In dat laatste geval willen mensen misschien toch digitaal ‘meeluisteren’ met een overleg.
 * Spreek af wat de digitale deelnemer kan doen bij technische problemen of als de bijeenkomst toch niet goed te volgen blijkt te zijn.
 
-### Techniek
+## Techniek
 
 * Een microfoon die van veraf werkt is echt nodig – anders valt het geluid steeds weg. Ook helpt het om de automatische ‘ruis verwijdering’ uit te schakelen.
 * Een 360 graden webcam zoals een Meeting Owl kunnen wij zeker aanbevelen. Op die manier komt zowel de groep als de spreker met eventueel het whiteboard in beeld.
@@ -47,7 +47,7 @@ Wij hebben afgelopen najaar enige ervaring opgedaan met het verzorgen van fysiek
 * Zorg dat je wat eerder in de ruimte bent om de techniek te testen.
 * Sommige locaties bieden zalen aan waar de conference tools en bijvoorbeeld livestream mogelijkheden al klaar staan. Dit is handig voor als het maar een enkele keer voorkomt en je er zelf niet bedreven in bent om de conference tools in te stellen. Op zo’n locatie doen ze het vaker en heb je de technische ondersteuning nabij!
 
-### Aandacht verdelen
+## Aandacht verdelen
 
 * Wij merken dat het echt zwaar is om je aandacht over 2 groepen te verdelen. Zwaarder dan we hadden gedacht. Daarom raden wij aan om de verantwoordelijkheden te verdelen over minimaal 2 mensen. Het kan zijn dat je co-trainer of moderator de digitale groep kan ‘dragen’, of, dit werkt tot nu toe het beste – koppel elke digitale deelnemer aan een fysieke deelnemer.
 * Start meteen met de dynamiek die je in je bijeenkomst wil hebben. Vraag deelnemers bijvoorbeeld om met elkaar uit te wisselen over een stelling of vraag en zorg dat daarbij de digitale deelnemers meteen goed aan bod komen. In de eerste 10 minuten zet je de toon.

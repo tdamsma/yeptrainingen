@@ -26,21 +26,21 @@ In het voorbeeld probeert Annemarie met wilskracht een goed voornemen toe te pas
 
 Het gebruik van wilskracht, ook wel zelfcontrole genoemd, is een psychologische methode die je kan gebruiken om je gedrag te veranderen. Zelfcontrole zorgt ervoor dat je je impulsen kan bedwingen en ervoor kiest om acties te ondernemen die goed zijn voor je lange termijn doelen. Zelfcontrole uitoefenen kost energie. Uit veel onderzoek blijkt dat als mensen in de eerste taak zelfcontrole nodig hebben, ze in de volgende taak minder zelfcontrole gebruiken. Een persoon is tijdelijk minder succesvol in het toepassen van wilskracht. Dit wordt _ego depletion_ genoemd. Een breed gedragen theorie, de _self-control strenght theory_, vergelijkt zelfcontrole met een spier die moe kan zijn nadat je de spier hebt gebruikt. De consequenties hiervan zijn dat het lastiger is om je gedrag te veranderen met wilskracht als je die wilskracht ook voor andere aspecten gebruikt. Naar aanleiding van deze theorie zijn er een paar tips waar je rekening mee kan houden als je je eigen gedrag wilt veranderen.
 
-### Tip #1: Bedenken waar je wilskracht voor gebruikt
+## Tip #1: Bedenken waar je wilskracht voor gebruikt
 
 Waar heb jij allemaal wilskracht voor nodig? Zijn er doorlopende zaken die zelfcontrole vereisen, zoals een streng dieet of het onderdrukken van irritaties over een collega? En welk soort taken in je werk doe je met behulp van zelfcontrole? Het is een eerste stap om je hiervan bewust te worden. Je kan dan je zelfcontrole beter inzetten.
 
-### Tip #2: Doe de lastige of nieuwe taken aan het begin van je dag.
+## Tip #2: Doe de lastige of nieuwe taken aan het begin van je dag.
 
 Aan het begin van de dag heb je nog de meeste zelfcontrole; je wilskracht-spier is uitgerust. Het is daarom handig om als eerste met de moeilijkste taak te beginnen. Als je nieuw gedrag wilt introduceren, is het handig om dit aan het begin van de dag te doen. Bedenk aan het begin van de dag wat op je to-do lijst staat en stel jezelf de vraag ‘waar heb ik het minste zin in of waar zie ik tegenop om te doen?’. Begin dan juist met die taak! Bijkomend voordeel is dat het lekker voelt als die taak gedaan is en het niet als een donkere wolk boven je hoofd blijft hangen.
 
-### Tip #3: Geef je wilskracht rust.
+## Tip #3: Geef je wilskracht rust.
 
 ![Rust in hersenen](./gedragsveranderingstechniek-zelfcontrole-2.jpg)
 
 Als je de wilskracht rust geeft, kan het opladen en kan je het weer volledig inzetten. Is er een taak die je met plezier doet? Plan die taak dan tussen de andere taken in die meer wilskracht vereisen. Neem tussendoor genoeg pauze. Als je minder vermoeid bent, kan je makkelijker je wilskracht inzetten. Door overdag regelmatig op te laden, heb je ’s avonds nog genoeg zelfbeheersing om niet te snacken en wel te sporten.
 
-### Tip #4: Beloon en motiveer jezelf.
+## Tip #4: Beloon en motiveer jezelf.
 
 De vergelijking met de spier gaat niet altijd op. Als je spieren moe zijn na een work-out, helpt een beloning niet om ze weer uitgerust te laten zijn. Bij wilskracht helpen motivatie en beloning wel. Als er een beloning tegenover staat, is het makkelijker om zelfcontrole uit te oefenen. Beloon jezelf na een taak waar veel wilskracht voor nodig was, bijvoorbeeld door jezelf een compliment te geven. Of haal een lekker kopje thee na een uur focussen. Daarnaast is het makkelijker om zelfcontrole op te brengen als je jezelf helpt herinneren wat je motivatie is.
 

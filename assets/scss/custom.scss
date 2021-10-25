@@ -24,6 +24,7 @@ $primary:       #FFE000;
 $secondary:     #055025;
 $light:         #F9F6F4;
 $dark:          #241C2F;
+$green:         #2c8d56;
 
 $enable-shadows: true;
 $enable-gradients: true;
@@ -54,10 +55,13 @@ body {
 a {
   color: $secondary;
   text-decoration: none;
-  background-color: transparent; }
+  background-color: transparent; 
+}
+
 a:hover {
     color: $green;
-    text-decoration: underline; }
+    text-decoration: underline;
+}
 
 .text-overlay {
   position: absolute;
@@ -116,6 +120,20 @@ a:hover {
   a hover{
     color: $secondary;
   }
+}
+
+.link-geel {
+  color: $primary;
+}
+
+.link-geel:hover{
+  color: $primary;
+  text-decoration: underline;
+}
+
+.link-groen:hover{
+  color: $green;
+  text-decoration: underline;
 }
 
 h1,h2 {

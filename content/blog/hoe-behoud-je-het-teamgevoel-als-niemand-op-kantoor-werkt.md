@@ -76,4 +76,4 @@ Dit waren onze tips. Heb je een reactie of aanvulling, dan zien we die graag ter
 
 Dit blog is geschreven in een samenwerking tussen Thomas van Zwieten en Marijn Damsma-Blaisse
 
-Beeld: [Designed by Freepik](http://www.freepik.com)
+Beeld: [Designed by Freepik](https://www.freepik.com)

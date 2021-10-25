@@ -1,4 +1,3 @@
-
 ---
 title: Online - Verbindend Beeldbellen
 img: verbindend-beeldbellen-1.jpg

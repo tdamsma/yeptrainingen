@@ -32,7 +32,7 @@
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
             <button class="btn btn-light-blue btn-md">
               Lees meer
-              <nuxt-link class="stretched-link font-bold" :to="{ name: 'coaching-slug', params: { slug: article.slug } }"></nuxt-link>
+              <nuxt-link class="stretched-link font-bold" :to="{ name: 'trainingen-slug', params: { slug: article.slug } }"></nuxt-link>
             </button>
           </div>
         </div>
@@ -45,18 +45,18 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const articles = await $content('coaching').only(['title', 'slug', 'img', 'alt', 'intro']).sortBy('date', 'desc').limit(100).fetch()
+    const articles = await $content('trainingen').only(['title', 'slug', 'img', 'alt']).limit(100).fetch()
 
     return {
       articles: articles.map((a) => {
-        a.responsiveImage = require(`~/content/coaching/${a.img}?resize&placeholder=true&sizes[]=100,sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048`)
+        a.responsiveImage = require(`~/content/trainingen/${a.img}?resize&placeholder=true&sizes[]=100,sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048`)
         return a
       })
     }
   },
   head() {
     return {
-      title: 'YEP trainingen coaching'
+      title: 'Yep trainingsaanbod'
     }
   }
 }

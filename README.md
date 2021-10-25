@@ -1,5 +1,10 @@
 # yeptrainingen
 
+This is the source of the website of yeptrainingen
+
+As the website is public, I thought I might as well make the source public. It is built using Nuxt.js.
+All structured content is in Markdown files that is converted to a static website at build time.
+
 ## Build Setup
 
 ```bash

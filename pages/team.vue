@@ -130,23 +130,14 @@
 </template>
 
 <script>
-const responsiveImages = Array.from(Array(13).keys()).map((n) =>
-  require(`~/assets/images/training/training-${n + 1}.jpg?resize&placeholder=true&sizes[]=100,sizes[]=300,sizes[]=600,sizes[]=1024,sizes[]=2048`)
-)
 export default {
-  data() {
+  async asyncData({ $content }) {
+    const members = await $content('team').only(['name', 'slug', 'body']).sortBy('order').limit(100).fetch()
     return {
-      responsiveImages,
-      slide: 0,
-      sliding: null
-    }
-  },
-  methods: {
-    onSlideStart(_slide) {
-      this.sliding = true
-    },
-    onSlideEnd(_slide) {
-      this.sliding = false
+      members: members.map((m) => {
+        m.responsiveImage = require(`~/content/team/${m.slug}.jpg?resize&placeholder=true&sizes[]=200, sizes[]=300`)
+        return m
+      })
     }
   }
 }

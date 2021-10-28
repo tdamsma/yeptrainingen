@@ -32,20 +32,20 @@
             src="~/assets/images/Logo-Yep-300x122.png"
             :srcset="require(`~/assets/images/Logo-Yep-300x122.png`).srcSet"
           ></b-img>
-          <p>&nbsp;</p>
+          <p></p>
           <a href="mailto:info@yeptrainingen.nl" target="_blank">
-            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/email.png" :srcset="require(`~/assets/images/Logo-Yep-300x122.png`).srcSet"></b-img
-          ></a>
+            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/email.png" :srcset="require(`~/assets/images/Logo-Yep-300x122.png`).srcSet"></b-img>
+          </a>
           <a href="https://www.facebook.com/Yeptrainingen" target="_blank">
-            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/facebook.png" :srcset="require(`~/assets/images/facebook.png`).srcSet"></b-img
-          ></a>
+            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/facebook.png" :srcset="require(`~/assets/images/facebook.png`).srcSet"></b-img>
+          </a>
           <a href="https://twitter.com/yeptrainingen" target="_blank">
-            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/twitter.png" :srcset="require(`~/assets/images/twitter.png`).srcSet"></b-img
-          ></a>
+            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/twitter.png" :srcset="require(`~/assets/images/twitter.png`).srcSet"></b-img>
+          </a>
           <a href="https://www.linkedin.com/company/marijn-blaisse-trainingen" target="_blank">
-            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/linkedin.png" :srcset="require(`~/assets/images/linkedin.png`).srcSet"></b-img
-          ></a>
-          <p>&nbsp;</p>
+            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/linkedin.png" :srcset="require(`~/assets/images/linkedin.png`).srcSet"></b-img>
+          </a>
+          <p></p>
           Telefoon: 085-7606266
         </div>
       </div>

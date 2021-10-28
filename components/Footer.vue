@@ -4,11 +4,11 @@
       <div class="row">
         <div class="col-md-3 text-light">
           <h2>Menu</h2>
-          > <a href="/welkom" class="link-geel">Yep</a><br />
+          > <a href="/" class="link-geel">Yep</a><br />
           > <a href="/team" class="link-geel">Ons team</a><br />
-          > <a href="/trainingsaanbod" class="link-geel">Trainingen</a><br />
+          > <a href="/trainingen" class="link-geel">Trainingen</a><br />
           > <a href="/coaching" class="link-geel">Coaching</a><br />
-          > <a href="/welkom" class="link-geel">Voor werkgevers</a><br />
+          > <a href="/werkgevers" class="link-geel">Voor werkgevers</a><br />
           > <a href="/blog" class="link-geel">Blog</a><br />
         </div>
         <div class="col-md-3 text-light">

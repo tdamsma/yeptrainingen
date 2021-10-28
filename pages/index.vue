@@ -30,17 +30,6 @@
     <div class="jumbotron jumbotron-fluid" style="background-color: #585656">
       <div class="container">
         <div class="row justify-content-around">
-          <div class="col-md-3 bg-light p-2 text-center">
-            <h2>Reviews</h2>
-            <div>
-              <div class="springest-review-widget">
-                <a href="//www.springest.nl/yep-trainingen-2#ervaringen"></a>
-              </div>
-              <p>
-                <script src="//www.springest.nl/reviewwidget.js" async="" />
-              </p>
-            </div>
-          </div>
           <div class="col-md-3 border bg-light p-2 text-center">
             <h2>Uitgelicht</h2>
             <b-img
@@ -50,6 +39,10 @@
               :srcset="require(`~/assets/images/uitgelicht1.png?sizes[]=200&amp;sizes[]=566`).srcSet"
             ></b-img>
             <a href="welke-rol-pak-jij-als-cursist" class="d-block mt-2">Talentontwikkel programma>></a>
+          </div>
+          <div class="col-md-5 border bg-light p-2 text-center">
+            <h2>Reviews</h2>
+            <SpringestCustom />
           </div>
           <div class="col-md-3 border bg-light p-2 text-center">
             <h2>Recente blog</h2>

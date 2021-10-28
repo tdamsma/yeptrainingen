@@ -1,38 +1,42 @@
 <template lang="pug">
 div
-  .container
-    b-button(v-b-modal.modal-1="") Meer ervaringen
-    transition-group(name="list")
-      div(v-for="review of selectedReviews" :key="review.TrainingReview.id")
-        b-card.list-item.overflow-hidden(no-body='' style='max-width: 540px;')
+  .container(style='height: 300px; overflow: hidden', v-b-modal.modal-1='')
+    transition-group(name='review')
+      .panel(v-for='review of selectedReviews', :key='review.TrainingReview.id')
+        b-card.list-item.overflow-hidden(no-body='')
           .d-flex.bd-highlight
             .p-2.flex-fill.bd-highlight.align-items
               h1
-                b-badge(variant="primary") {{review.TrainingReview.rating}}
+                b-badge(variant='primary') {{ review.TrainingReview.rating }}
           .p-2.flex-fill.bd-highlight
             blockquote.blockquote
-              p.mb-2 {{ review.TrainingReview.description }}
-
-  b-modal#modal-1.modal-fullscreen(size="xl")
-    template(#modal-header="{ close }")
+              p.mb-1(style='font-size: smaller') {{ review.TrainingReview.description | truncate(200, "...") }}
+  b-modal#modal-1.modal-fullscreen(size='xl')
+    template(#modal-header='{ close }')
       // Emulate built in modal header close button action
-      b-button(size="sm", @click="close()")
+      b-button(size='sm', @click='close()')
         | Terug
       h5 Springest Reviews
-    template(#default="{ hide }")
-      //- height: 100%; min-height: 70vh
-      iframe.container-fluid(
-        style="padding: 0px; height: 100%;",
-        src="https://www.springest.nl/yep-trainingen-2?widget=1"
-      )
-
-    template(#modal-footer="{ close }")
+    template(#default='{ hide }')
+      iframe.container-fluid(style='padding: 0px; height: 100%', src='https://www.springest.nl/yep-trainingen-2?widget=1')
+    template(#modal-footer='{ close }')
       // Button with custom close trigger value
-      b-button(size="sm", @click="close()")
+      b-button(size='sm', @click='close()')
         | Terug
 </template>
 <script>
 import { jsonp } from 'vue-jsonp'
+import Vue from 'vue'
+
+var filter = function (text, length, clamp) {
+  clamp = clamp || '...'
+  var node = document.createElement('div')
+  node.innerHTML = text
+  var content = node.textContent
+  return content.length > length ? content.slice(0, length) + clamp : content
+}
+
+Vue.filter('truncate', filter)
 
 export default {
   data() {
@@ -49,7 +53,7 @@ export default {
       return this.reviews.concat(this.reviews)
     },
     selectedReviews() {
-      return this.reviewsDoubled.slice(this.t, this.t + 3).reverse()
+      return this.reviewsDoubled.filter((r) => r.TrainingReview.rating >= 7).slice(this.t, this.t + 3)
     }
   },
   mounted() {
@@ -70,15 +74,33 @@ export default {
 </script>
 
 <style scoped>
-.list-move {
-  transition: transform 1s;
-}
-.list-enter-active,
-.list-leave-active {
-  transition: all 1s;
-}
-.list-enter, .list-leave-to /* .list-leave-active below version 2.1.8 */ {
+.review-enter,
+.review-leave-to {
   opacity: 0;
-  transform: translateY(-30px);
+}
+
+.review-leave-to {
+  transform: translateX(300%);
+}
+
+.review-leave-active {
+  position: absolute;
+}
+.panel {
+  margin: 6px auto;
+  overflow: hidden;
+  text-align: center;
+  transition: all 1s;
+  display: inline-block;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.review > LI {
+  background: green;
+}
+
+.review > LI:first-child {
+  background: none;
 }
 </style>

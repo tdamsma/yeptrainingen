@@ -25,7 +25,7 @@ XXX Hieronder vind je de reeds geplande startdata en het inschrijfformulier. Ins
 
 Eerst informatie aanvragen kan uiteraard ook. Stuur dan een mailtje naar Marijn@yeptrainingen.nl 
 
-![Droom naar Doel](./droom-naar-doel-1.jpg)
+![Groep werkt aan collage](./droom-naar-doel-4.jpg)
 
 > “De training heeft alles waar ik mee bezig ben op scherp gezet. Een verfrissende methodiek, helder en duidelijk. De oefeningen waren origineel en leuk, maar vooral nuttig.” - Yorgos, Ondernemer.
 

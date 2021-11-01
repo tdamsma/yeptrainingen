@@ -3,7 +3,7 @@ title: Bevlogen (online) bijeenkomsten begeleiden
 img: bevlogen-online-bijeenkomsten-begeleiden-1.jpg
 alt: bevlogen team
 date: 2020-11-16
-intro: Begeleid jij wel eens online of offline groepsbijeenkomsten? In dit blog geven we drie tips hoe je grip krijgt op het begeleiden van inspirerende bijeenkomsten en vertellen we je meer over de opleiding die je bij ons kunt volgen om met succes bijeenkomsten te begeleiden. 
+intro: Begeleid jij wel eens online of offline groepsbijeenkomsten? In dit blog geven we je drie tips die je gaan helpen om er inspirerende bijeenkomsten van te maken!
 credits: Images Marijn Damsma Author Anna Stuje
 tags: 
   - digitaalvergaderen

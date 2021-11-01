@@ -3,7 +3,7 @@ title: Een professionele afstand bewaren
 img: een-professionele-afstand-bewaren-1.jpg
 alt: astronaut alleen in de ruimte
 date: 2019-08-15
-intro: In mijn werk als trainer zie ik veel onderwijzers, zorgverleners, accountholders, coaches, trainers en andere daadkrachtige professionals die begaan zijn met de personen waar zij mee en voor werken. Ze willen problemen van anderen helpen oplossen, liefst zo snel en zo goed mogelijk en zien hiervoor talloze mogelijkheden. Veelal jonge mensen met veel energie, die graag hun cliënten met raad en daad willen bijstaan. Helpers, die veel aankunnen, die geweldig zijn, én die zichzelf gaan tegenkomen.. Want wie geen afstand bewaart, gaat hier last van krijgen. Aan de hand van een aantal voorbeelden hoop ik je meer inzicht te geven in de effecten van het wél en niet houden van een professionele afstand.
+intro: Aan de hand van praktijk voorbeelden krijg je een beter beeld van wat 'een professionele afstand' betekent, hoe je die afstand bewaakt en waarom je dit zou moeten doen.
 credits: Images Marijn Damsma Author Marijn Damsma
 tags: 
   - professionele afstand

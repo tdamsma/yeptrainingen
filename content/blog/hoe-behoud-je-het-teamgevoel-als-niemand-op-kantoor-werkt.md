@@ -10,7 +10,7 @@ tags:
 categories:
  - Begeleidingsvaardigheden
 intro: >
-    We zien tijdens onze trainingen dat veel mensen hun draai in het thuiswerken goed hebben gevonden. Het werk loopt, men is efficiënt, veert mee, leert, experimenteert. Maar één ding horen we zo vaak, één ding dat echt zonde is: de verbinding en de lol in het team is wel echt minder in deze tijd.
+    Acht ideeen om de verbinding in je team te versterken wanneer je elkaar weinig of niet in persoon kan zien.
 ---
 
 We zien tijdens onze trainingen dat veel mensen hun draai in het thuiswerken goed hebben gevonden. Het werk loopt, men is efficiënt, veert mee, leert, experimenteert. Maar één ding horen we zo vaak, één ding dat echt zonde is: de verbinding en de lol in het team is wel echt minder in deze tijd.

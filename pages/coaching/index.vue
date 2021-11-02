@@ -1,6 +1,6 @@
 <template lang="html">
-  <div class="container-fluid" style="margin-top: 30px">
-    <div class="container mb-5">
+  <div class="container-fluid p-0 m-0">
+    <div class="container mb-5 mt-4">
       <h1>Coaching</h1>
       <p>
         Yep verzorgt coaching voor gedreven professionals waarin het vergroten van je kracht en effect centraal staat. Coaching biedt in twee gevallen uitkomst:
@@ -13,9 +13,7 @@
         Alle trajecten zijn zowel online als face-to-face beschikbaar en geschikt voor zowel particulieren, ondernemers als medewerkers.<br />
         We werken doorgaans met een traject van 5 tot 8 sessies. Tijdens een kosteloze intake bepalen we de precieze aanpak.
       </p>
-
       <h2 class="text-center mb-3 mt-5">Coachingsmogelijkheden</h2>
-
       <div class="row row-cols-1 row-cols-md-3">
         <div v-for="article of articles" :key="article.title" class="col mb-4">
           <!-- Card-->
@@ -55,7 +53,56 @@
           <!-- Card-->
         </div>
       </div>
+            <span class="text-center">
+              <h2>Onze visie</h2>
+              <p>Een coachingstraject ziet er altijd anders uit. Veel mensen hebben aan een of twee sessies voldoende richting om weer zelfstandig verder te gaan. Anderen geven de voorkeur aan langdurig contact waarbij ze bijvoorbeeld kunnen sparren over steeds andere aspecten van hun functie of samenwerking. Hoewel de coaching zelf sterk kan verschillen in duur en inhoud is onze visie steeds hetzelfde. Wij geloven dat ieder zelf de informatie en vaardigheden in huis heeft om verder te komen met een plan of doel. Coaching helpt om de aandacht te richten, een stok achter de deur te hebben, te reflecteren, tot nieuw inzichten te komen, een overwogen keuze te maken. Dit zorgt ervoor dat een deelnemer zelf de controle houdt, keuzes maakt waar hij echt achter staat en niet afhankelijk wordt van de coach.</p>
+              <p>Kenmerkend voor onze manier van coachen is dat we de complexiteit niet schuwen. We weten hoe ingewikkeld vraagstukken in het huidige tijdsgewricht kunnen zijn. Nu rollen en functies niet meer zo vastliggen en snel veranderen, zijn we constant op zoek naar onze plek en de ‘juiste’ volgende stap. Wij bieden young professionals de ruimte en de houvast om hun eigen unieke antwoorden te vinden op de vragen die daarbij komen kijken. Dit doen we door samen structuur en overzicht te creëren, waardoor de situatie waarin je je bevindt weer behapbaar voelt.
+              </p>
+            </span>
     </div>
+    <div class="jumbotron jumbotron-fluid bg-white m-0">
+       <div class="row">
+        <div class="col-lg-4">
+          <b-img
+            fluid="fluid"
+            blank-color="#777"
+            src="~/assets/images/IMG_2417-copy-757x1024.jpg"
+            :srcset="require(`~/assets/images/IMG_2417-copy-757x1024.jpg`).srcSet"
+          ></b-img>
+        </div>
+        <div class="col-lg-8 p-4">
+          <p>Als je aan de slag wilt met coaching, neem dan contact op met <a rel="noreferrer noopener" href="https://yeptrainingen.nl/contact/" target="_blank">Anna Stutje</a>. Zij is aangesloten bij de beroepsorganisatie voor coaches (NOBCO) en werkt volgens de Internationale Ethische Code voor coaches. Zij neemt de coaching op zich of brengt je in contact met één van de andere coaches.</p>
+          <p>Coachees&nbsp;over Anna:</p>
+          <p style="border-left: solid 5px green;padding-left:20px;"><i>&#8220;Anna heeft me geholpen om structuur aan te brengen in de crisis die ik ervaarde in mijn werkende leven. Ze houdt je bij de les en leert je te reflecteren waardoor de coachingssessies doeltreffend zijn. De opdrachten die je mee naar huis krijgt leveren enorm veel op. Het heeft er voor gezorgd dat ik belangrijke keuzes in mijn werk heb kunnen maken en mijn zelfinzicht gegroeid is. Een super fijne gesprekspartner die je laat groeien!</i>&#8221; &#8211; Vera</p>
+          <p style="border-left: solid 5px green;padding-left:20px;"><i>&#8220;The coaching with Anna has helped me immensely to listen to&nbsp;my own feelings whilst making some important life decisions. She provided me with a tool that helps me to&nbsp;reflect on my&nbsp;choices and behaviour. Anna knows how to create a setting that helps to open up easily. I would definitely recommend her as a coach.&#8221;</i> &#8211; Vincent</p>
+          <p style="border-left: solid 5px green;padding-left:20px;"><i>Anna heeft me geholpen bij het formuleren van mijn &#8216;Why&#8217;. Ik zie nu hoe belangrijk het is om een duidelijk beeld van mijn purpose te hebben. Dit heeft geleid tot een veel scherper beeld van de loopbaanstap die ik wil nemen en ik voel nu veel meer zelfvertrouwen om me in mijn netwerk te profileren. Ik heb daarnaast ook nog inzicht gekregen in verschillende kanten van mezelf die soms (ongewenst) de overhand nemen.&#8221;</i>&#8211; Emma</p>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-3 text-center p-4">
+        <h4>Intake</h4>
+        We maken kennis, bepalen wat je wilt bereiken en stellen samen de aanpak vast.
+      </div>
+      <div class="col-lg-3 text-center p-4">
+        <h4>Zelfonderzoek</h4>
+        We gaan aan de slag met het vergroten van je zelfkennis om inzicht te krijgen in je verlangens, talenten, valkuilen en uitdagingen. Tussentijdse opdrachten helpen daarbij.
+      </div>
+      <div class="col-lg-3 text-center p-4">
+        <h4>Versterken persoonlijk leiderschap</h4>
+        Weten wat je anders wilt is één ding. Voelen dat je zelf invloed hebt is een belangrijke tweede, zodat je regie kan nemen over jouw situatie.
+      </div>
+      <div class="col-lg-3 text-center p-4">
+        <h4>Borging</h4>
+        Aan het eind van een traject kijken we vooruit en besteden we aandacht aan wat er nodig is om het geleerde ook in de toekomst in de praktijk te blijven brengen.
+      </div>
+    </div>
+    <b-img
+        fluid="fluid"
+        blank-color="#777"
+        src="~/assets/images/site-foto-1-of-1-3.jpg"
+        :srcset="require(`~/assets/images/site-foto-1-of-1-3.jpg`).srcSet"
+      ></b-img>
   </div>
 </template>
 

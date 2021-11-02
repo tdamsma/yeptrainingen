@@ -1,149 +1,76 @@
 <template lang="html">
-  <div>
-    <div class="container-fluid container-left">
-      <div class="row">
-        <div class="container">
-          <div class="div" style="float: left; max-width: 600px; width: 100%">
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/training-yep.jpg"
-              :srcset="require(`~/assets/images/training-yep.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
-            ></b-img>
-          </div>
-          <div class="text-overlay" style="background-color: #f2f2f2">
-            <h2>
-              <div>Inzicht, durf en vaardigheid</div>
-              <div style="color: #e8c902">voor maatschappelijke impact</div>
-            </h2>
-          </div>
-        </div>
+  <div class="container-fluid m-0 p-0 bg-white">
+    <div class="row">
+      <div class="col-md-6 p-0">
+        <b-img
+          fluid="fluid"
+          blank-color="#777"
+          src="~/assets/images/site-foto-1-of-1-3.jpg"
+          :srcset="require(`~/assets/images/site-foto-1-of-1-3.jpg`).srcSet"
+        ></b-img>
       </div>
-    </div>
-    <div class="jumbotron jumbotron-fluid yep-geel">
-      <div class="container">
-        Wij staan paraat voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn. En die de drang hebben om te leren. Samen met hun
-        organisaties ontwerpen en verzorgen we trainings- en coachingstrajecten. Zodat de professionals nog beter worden in wat ze goed kunnen: werken aan
-        vraagstukken die er toe doen.
-      </div>
-    </div>
-    <div class="jumbotron jumbotron-fluid" style="background-color: #585656">
-      <div class="container">
-        <div class="row justify-content-around">
-          <div class="col-md-3 bg-light p-2 text-center">
-            <h2>Reviews</h2>
-            <div>
-              <div class="springest-review-widget">
-                <a href="//www.springest.nl/yep-trainingen-2#ervaringen"></a>
-              </div>
-              <p>
-                <script src="//www.springest.nl/reviewwidget.js" async="" />
-              </p>
-            </div>
-          </div>
-          <div class="col-md-3 border bg-light p-2 text-center">
-            <h2>Uitgelicht</h2>
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/uitgelicht1.png"
-              :srcset="require(`~/assets/images/uitgelicht1.png?sizes[]=200&amp;sizes[]=566`).srcSet"
-            ></b-img>
-            <a href="welke-rol-pak-jij-als-cursist" class="d-block mt-2">Talentontwikkel programma>></a>
-          </div>
-          <div class="col-md-3 border bg-light p-2 text-center">
-            <h2>Recente blog</h2>
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/omgaanmetstress.jpg"
-              :srcset="require(`~/content/blog/welke-rol-pak-jij-als-cursist-boodschappen.jpg?sizes[]=200&amp;sizes[]=566`).srcSet"
-            ></b-img>
-            <a href="welke-rol-pak-jij-als-cursist" class="d-block mt-2">Welke rol pak jij als cursist? >></a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container-fluid container-right">
-      <div class="row">
-        <div class="col-md full-width">
-          <br /><br />
-          <h1 style="color: #e8c902">[Online] training coaching en advies</h1>
-          <h1>Neem je talent en maatschappelijke ambitie serieus.</h1>
-          <br />
-        </div>
-        <div class="col-md">
-          <div class="div" style="float: right; max-width: 500px; width: 100%">
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/Trainers_van_YEP-1.png"
-              :srcset="require(`~/assets/images/Trainers_van_YEP-1.png?sizes[]=233&amp;sizes[]=566`).srcSet"
-            ></b-img>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="jumbotron jumbotron-fluid" style="background-color: #585656">
-      <div class="container">
-        <h1 class="text-center text-light">Opdrachtgevers</h1>
-      </div>
-    </div>
-    <div class="container-fluid m-0">
-      <b-img
-        fluid="fluid"
-        blank-color="#777"
-        src="~/assets/images/site-foto-1-of-1-3.jpg"
-        :srcset="require(`~/assets/images/site-foto-1-of-1-3.jpg`).srcSet"
-      ></b-img>
-    </div>
-    <div class="jumbotron jumbotron-fluid" style="background-color: #585656">
-      <div class="container text-light border-top border-bottom">
-        <h1 class="text-center my-4">Yep is hét trainingsbureau voor gedreven professionals.</h1>
-        <div class="row justify-content-around my-5">
-          <div class="col-md-3 p-2 text-center">
-            <h2>Maatschappelijk</h2>
-            <p>Jouw impact is ons doel.</p>
-          </div>
-          <div class="col-md-3 p-2 text-center">
-            <h2>Actief</h2>
-            <p>Leren door te experimenteren.</p>
-          </div>
-          <div class="col-md-3 text-center">
-            <h2>Flexibel</h2>
-            <p>Jouw ontwikkelvraag staat centraal.</p>
-          </div>
-        </div>
-        <p class="text-center my-5">
-          Voorbeelden van onze trainingen en case studies vind je hier. Op zoek naar coaching voor jezelf of je medewerkers? Lees hier verder>>.
+      <div class="col-md-6 p-4">
+        <h2>Maatschappelijke impact willen maken</h2>
+        <p>
+          Wij merken dat mensen dit willen doen vanuit mooie persoonlijke en maatschappelijke doelen: effectiviteit, persoonlijke energie, circulaire economie,
+          vrije journalistiek, verduurzaming, kwetsbaren in de samenleving ondersteunen, de overheid transparant maken, kansen gelijkheid en de verbinding
+          binnen het eigen team.
+        </p>
+        <p>
+          Men start ambitieus en met veel inzet, maar komt hindernissen tegen die soms zo ontmoedigen dat de ambities naar de achtergrond verdwijnen. Er gaat
+          weer licht schijnen op het moment dat professionals erachter komen dat hindernissen inherent zijn aan het werken in organisaties en dat speels omgaan
+          met die obstakels een kunst is die zij zelf onder de knie kunnen krijgen.
         </p>
       </div>
     </div>
-    <div class="jumbotron jumbotron-fluid">
-      <div class="container text-center">
-        <h1>Bekijk ons aanbod</h1>
-        <div class="row justify-content-around mt-5">
-          <div class="col-md-4 border bg-light p-2 text-center">
-            <h2>Trainingen</h2>
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/JUMP.jpg"
-              :srcset="require(`~/assets/images/JUMP.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
-            ></b-img>
-            <a href="trainingsaanbod" class="d-block mt-2">Lees meer >></a>
-          </div>
-          <div class="col-md-4 border bg-light p-2 text-center">
-            <h2>Coaching</h2>
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/omgaanmetstress.jpg"
-              :srcset="require(`~/assets/images/omgaanmetstress.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
-            ></b-img>
-            <a href="coaching" class="d-block mt-2">Lees meer >></a>
-          </div>
+    <div class="container m-auto bg-white pt-4">
+      <h2>Op zoek naar inzicht, durf en vaardigheid.</h2>
+      <p>
+        Het is onze missie om samen met professionals te werken aan al die inzichten, de durf en de vaardigheden die nodig zijn om hun gewenste impact ook echt
+        te kunnen maken. We hebben een aanpak ontwikkeld die past bij gedreven professionals. Op deze pagina lees je meer over de kenmerken van onze doelgroep
+        en de werkwijze die we hanteren.
+      </p>
+      <p>&nbsp;</p>
+      <h2>Kenmerken van onze doelgroep.</h2>
+      <p>
+        In 2010 begeleidden we onze eerste deelnemer. Onze focus lag in het begin op jonge talenten. Inmiddels zijn we honderden groepen verder en we hebben
+        gaandeweg gemerkt dat onze werkwijze ook heel aansprekend is voor meer ervaren professionals. Logisch ook: want iedereen, jong en oud, heeft immers eens
+        in de zoveel tijd behoefte aan een nieuwe impuls. We werken daarom niet alleen meer voor young professionals, maar ook voor ervaren krachten die hun
+        stem (verder) willen ontdekken en laten horen. Vaak gaat het om professionals die maatschappelijke impact willen maken. Medewerkers die hun vleugels uit
+        willen slaan en staan te popelen om zich te ontwikkelen. Heerlijk om op die manier de maatschappelijke organisaties die wij belangrijk vinden te kunnen
+        ondersteunen in de drive om te vernieuwen, aan te blijven sluiten op wat er nodig is in de maatschappij en op de werkvloer.
+      </p>
+      <p>
+        Wat hebben mensen die maatschappelijk (meer) impact willen maken met elkaar gemeen? De gedreven professionals die we binnen meer dan 20 gemeenten en
+        vele stichtingen, verenigingen en commerciële bedrijven begeleidden, delen een aantal kenmerken. We noemen de belangrijkste kenmerken en laten aan de
+        hand van een aantal voorbeelden zien hoe we die vertalen in onze werkwijze.
+      </p>
+    </div>
+    <div class="jumbotron jumbotron-fluid mt-5" style="background-color: #585656"></div>
+    <div class="jumbotron jumbotron-fluid" style="background-color: #f2f2f2">
+      <div class="row">
+        <div class="col-md-8 p-4">
+          <h2 class="text-center">Tips</h2>
+          <p>
+            Herken je de kenmerken bij je eigen medewerkers? Hoe beter je je medewerkers kent en hoe beter je ze hun positieve eigenschappen kunt aanboren, hoe
+            meer ze de organisatie te bieden hebben. Alvast een paar tips:
+          </p>
+          <ul>
+            <li>
+              Stel je medewerkers regelmatig de vraag welke maatschappelijke impact zij zouden willen leveren. Wees oprecht nieuwsgierig naar de ideeën die je
+              mensen hebben.
+            </li>
+            <li>
+              Zorg voor een inspirerende stip op de horizon en onderzoek of je medewerkers zich daarmee verbonden voelen. Geef je medewerkers vervolgens zoveel
+              mogelijk autonomie om zelf invulling te geven aan het &#8216;hoe?&#8217;
+            </li>
+            <li>
+              Introduceer een cultuur van spelen en experimenteren, waarbij het toegestaan is om iets te proberen, zonder eraan vast te zitten. Dit geeft lucht
+              voor die medewerkers bij wie perfectionisme in de weg zit.
+            </li>
+          </ul>
         </div>
+        <div class="col-md-4"></div>
       </div>
     </div>
   </div>

@@ -1,6 +1,7 @@
 <template lang="html">
   <div>
-    <div class="container">
+    <div class="container mt-4">
+      <h1 class="mb-3">Blog</h1>
       <div v-for="article of articles" :key="article.title">
         <b-card class="mt-2 overflow-hidden shadow-none" no-body="">
           <b-row no-gutters="">

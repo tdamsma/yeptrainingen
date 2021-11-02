@@ -63,7 +63,7 @@ export default {
   },
   head() {
     return {
-      title: 'Yep trainingsaanbod'
+      title: 'Yep trainingen'
     }
   }
 }

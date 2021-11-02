@@ -49,7 +49,7 @@ Nog niemand is ooit in z’n eentje uit een escape room gebroken. Wil je missie 
 
 ## Hoe werkt het?
 
-* U neemt [contact](http://yeptrainingen.nl/contact/) op met Yep Trainingen en geeft aan waar u behoefte aan heeft.
+* U neemt [contact](/contact/) op met Yep Trainingen en geeft aan waar u behoefte aan heeft.
 * Wij komen langs voor een intakegesprek op uw locatie. In dit gesprek kunt u als organisator aangeven waar u met de teamactiviteit de nadruk op wilt leggen. Wij denken mee en stellen met u een aantal concrete doelen op voor de dag.
 * De trainer ontwerpt op basis van het gesprek een passend dagprogramma, maakt afspraken met Amaze Escape en de cateraar en stuurt u de offerte toe.
 * Tijdens de trainingsdag beginnen we met het programma van een basis-escape room. Na de lunch volgt het verdiepende programma. Als organisator mag u de gehele dag bij het programma aanwezig zijn. Tip: laat het van tevoren weten als u zelf ook aan de escape room wilt meedoen, dan zorgen wij ervoor dat het voor uzelf net zo spannend is als voor de groep.

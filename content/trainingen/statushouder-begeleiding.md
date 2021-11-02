@@ -14,7 +14,7 @@ Wij hebben tot dusver vijf organisaties bijgestaan om in totaal meer dan 20 nieu
 * Persoonlijke doelen stellen
 * Gesprekken voorbereiden
 
-Onze ondersteuning bestaat uit trainingsaanbod en individuele coaching voor de statushouders. Ook kunnen we hun interne mentoren bijstaan met bijvoorbeeld supervisiebijeenkomsten, zodat zij ervaringen kunnen uitwisselen en tips ontvangen.
+Onze ondersteuning bestaat uit trainingen en individuele coaching voor de statushouders. Ook kunnen we hun interne mentoren bijstaan met bijvoorbeeld supervisiebijeenkomsten, zodat zij ervaringen kunnen uitwisselen en tips ontvangen.
 
 
 Heel graag gaan wij door met deze begeleiding, we vinden het belangrijk dat nieuwkomers in Nederland een nieuwe start kunnen maken.

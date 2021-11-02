@@ -2,7 +2,11 @@
   <div>
     <div class="container mt-4">
       <h1>Ons team</h1>
-      <p>Yep is een klein, actief trainingsbureau gevestigd in Amsterdam en Voorburg. Wij verzorgen trainingen op het gebied van samenwerken en persoonlijke effectiviteit voor ambitieuze professionals. Het resultaat van onze trainingen staat altijd voorop. Wij streven naar de persoonlijke ontwikkeling van deze professionals, om zo de effectiviteit van organisaties te vergroten. Pas als dat lukt zijn wij tevreden!</p>
+      <p>
+        Yep is een klein, actief trainingsbureau gevestigd in Amsterdam en Voorburg. Wij verzorgen trainingen op het gebied van samenwerken en persoonlijke
+        effectiviteit voor ambitieuze professionals. Het resultaat van onze trainingen staat altijd voorop. Wij streven naar de persoonlijke ontwikkeling van
+        deze professionals, om zo de effectiviteit van organisaties te vergroten. Pas als dat lukt zijn wij tevreden!
+      </p>
 
       <div class="row justify-content-around mb-1">
         <div v-for="member of members" :key="member.name" class="col-md-3 mt-4 py-3 bg-white">

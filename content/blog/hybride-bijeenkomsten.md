@@ -1,11 +1,11 @@
 ---
 
-title: Hybride bijeenkomsten - Bereid je voor op de volgende uitdaging in het vergaderen
+title: Hybride bijeenkomsten begeleiden
 img: hybride-bijeenkomsten-1.jpg
 alt: Training met sommige deelnemers via zoom
 date: 2021-04-03
 intro: >
-    Het beeldbellen is net geïntegreerd in de meeste organisaties en de volgende uitdaging staat alweer voor de deur: hybride overleggen. Hoe gaan we na de zomer vergaderen, bijeenkomen en training geven? Goede kans dat dit met een gemixt gezelschap gaat plaatsvinden: een deel van de mensen is fysiek aanwezig, een ander deel logt online in. Als we één ding hebben geleerd het afgelopen jaar, is dat we ons in korte tijd kunnen bekwamen in nieuwe vaardigheden.
+    Hoe begeleid je bijeenkomsten waarbij deelnemers zowel op locatie als op afstand deelnemen? Wij delen onze bevindingen en tips.
 tags: 
   - hybridebijeenkomsten
   - hybridewerken
@@ -15,9 +15,9 @@ categories:
 english-version: Activating online team games and workflows
 ---
 
-Het beeldbellen is net geïntegreerd in de meeste organisaties en de volgende uitdaging staat alweer voor de deur: hybride overleggen. Hoe gaan we na de zomer vergaderen, bijeenkomen en training geven? Goede kans dat dit met een gemixt gezelschap gaat plaatsvinden: een deel van de mensen is fysiek aanwezig, een ander deel logt online in. Als we één ding hebben geleerd het afgelopen jaar, is dat we ons in korte tijd kunnen bekwamen in nieuwe vaardigheden. Begin 2020 had de meerderheid nog nooit van Zoom (Whereby, MS Teams, etc)  gehoord, nu draaien zij hun hand er niet meer voor om. Maar hoe werkt het als er een deel offline en een deel op locatie mee wil over leggen? Deze tips en tricks helpen je om dit jezelf ook weer snel eigen te maken!
+Goede kans dat ook in jouw omgeving nu hybride bijeenkomsten plaatsvinden: een deel van de mensen is fysiek aanwezig, een ander deel logt online in. Hoe werkt het als er een deel offline en een deel op locatie mee wil over leggen? Deze tips en tricks helpen je om dit jezelf ook weer snel eigen te maken!
 
-Wij hebben afgelopen najaar enige ervaring opgedaan met het verzorgen van fysieke bijeenkomsten waarbij een deel van de groep digitaal aansloot.
+Wij hebben afgelopen jaar ervaring opgedaan met het verzorgen van fysieke bijeenkomsten waarbij een deel van de groep digitaal aansloot. En delen graag met jullie wat wij tegenkomen. En natuurlijk onze tips!
 
 ![Mensen in meeting](./hybride-bijeenkomsten-2.png)
 
@@ -60,6 +60,6 @@ Wij hebben afgelopen najaar enige ervaring opgedaan met het verzorgen van fysiek
 
 ![Vergadering met deelnemers via scherm](./hybride-bijeenkomsten-3.png)
 
- Hoewel we natuurlijk nog niet precies weten hoe we elkaar tegen die tijd mogen gaan ontmoeten, is er een grote kans dat we daarbij gebruik gaan maken van nieuwe hybride vormen. Die verandering is natuurlijk zeer welkom na een jaar van (voor velen) uitsluitend digitaal werken. Met de juiste voorbereiding kan het veel opleveren! Wij zijn er klaar voor, jij ook?
+ Met de juiste voorbereiding kan het veel opleveren! Wij zijn er klaar voor en hebben al verschillende organisaties geholpen met het opzetten van hun hybride overleggen.
 
 Meer tips rondom [digitaal vergaderen](https://yeptrainingen.nl/dos-en-donts-digitale-vergaderingen/), [verbinding met je team](https://yeptrainingen.nl/hoe-behoud-je-het-teamgevoel-als-niemand-op-kantoor-werkt/) en [(digitale) bijeenkomsten begeleiden](https://yeptrainingen.nl/succesvol-voor-de-groep/)? Lees verder op ons blog!

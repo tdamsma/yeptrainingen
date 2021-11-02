@@ -3,7 +3,7 @@ title: De verbeterpunten van leidinggevenden in de ogen van jonge medewerkers
 img: de-verbeterpunten-van-1.jpg
 alt: jonge medewerker zit op een kalender
 date: 2019-12-13
-intro: Uit onderzoek van onderzoeksbureau Motivaction in opdracht voor YoungCapital is gebleken dat jonge medewerkers hun leidinggevende gemiddeld een rapportcijfer van 7,2 geven. Een mooie score maar er is dus zeker ruimte voor verbetering. Daarom bespreken wij in deze blog wat de belangrijkste verbeterpunten voor leidingevenden zijn, in de ogen van jonge medewerkers.
+intro: Leidinggevenden hebben grote invloed op het werkgeluk dat jonge medewerkers ervaren. Waar hechten zij waarde aan?
 credits: Images Marijn Damsma, Woman Vector created by slidesgo -www.freepik.com (https://www.freepik.com/free-photos-vectors/woman) Author Daphne Maczolleck en Marijn Damsma
 tags: 
   - jonge medewerkers

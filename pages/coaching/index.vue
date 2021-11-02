@@ -74,12 +74,7 @@
     <div class="jumbotron jumbotron-fluid bg-white m-0">
       <div class="row">
         <div class="col-lg-4">
-          <b-img
-            fluid="fluid"
-            blank-color="#777"
-            src="~/assets/images/IMG_2417-copy-757x1024.jpg"
-            :srcset="require(`~/assets/images/IMG_2417-copy-757x1024.jpg`).srcSet"
-          ></b-img>
+          <b-img fluid="fluid" blank-color="#777" src="~/assets/images/anna-stutje.jpg" :srcset="require(`~/assets/images/anna-stutje.jpg`).srcSet"></b-img>
         </div>
         <div class="col-lg-8 p-4">
           <p>

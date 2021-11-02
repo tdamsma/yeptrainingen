@@ -22,7 +22,7 @@ Wanneer is iets goed genoeg? Wanneer mag je tevreden zijn en loslaten? Wanneer m
 
 Ik wens iedereen zo’n inspirerende verwondering toe! _Wat zou dit voor jou zijn? Ben je het onderwerp dat jou maar blijft verwonderen al tegen gekomen?_ Hoe kun je de verwondering in jezelf een zetje te geven? Hier zijn een paar suggesties, en let op: het gaat niet om goed en fout. Zodra je merkt dat je bezig bent met het uitleggen en verklaren van wat je ziet, houdt de verwondering weer op.
 
-*   Associeer vrijuit, laat je gedachten de vrije loop. Dit kan ook in een groep. (bijvoorbeeld heel goed in onze [workshop Improviseren](https://yeptrainingen.nl/trainingsaanbod/improviseren/))
+*   Associeer vrijuit, laat je gedachten de vrije loop. Dit kan ook in een groep. (bijvoorbeeld heel goed in onze [workshop Improviseren](/trainingen/improviseren/))
 *   Bekijk een voorwerp of plaatje uitgebreid en probeer je er wat over af te vragen
 *   Filosofeer over een vraag
 *   Houdt stress buiten de deur. Verwondering is niet direct nuttig of toepasbaar, dat heeft tijd en rust nodig.

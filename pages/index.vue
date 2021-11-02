@@ -124,7 +124,7 @@
               src="~/assets/images/JUMP.jpg"
               :srcset="require(`~/assets/images/JUMP.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
             ></b-img>
-            <a href="trainingsaanbod" class="d-block mt-2">Lees meer >></a>
+            <a href="trainingen" class="d-block mt-2">Lees meer >></a>
           </div>
           <div class="col-md-4 border bg-light p-2 text-center">
             <h2>Coaching</h2>

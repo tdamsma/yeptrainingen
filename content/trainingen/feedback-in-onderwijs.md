@@ -6,7 +6,7 @@ Volgnummer: 4
 ---
 # Feedback geven in het onderwijs
 
-![Feedback geven in het onderwijs](https://yeptrainingen.nl/wp-content/uploads/2020/05/energie-2-1024x683.jpg) Veel scholen willen op een duurzame manier de Covid-achterstanden inlopen en blijvend een sterkere leercultuur neerzetten. Volgens de [Menukaart van het Ministerie van OCW](https://www.nponderwijs.nl/interventies/feedback) is feedback hiervoor een belangrijke en effectieve interventie voor het basis- en middelbaaronderwijs: tot 8 maanden leerwinst! Feedback geven is iets dat je in het onderwijs veel doet: stickers, krullen, strepen, doelgespreken, oudergesprekken, opdrachtbesprekingen en bijvoorbeeld collegiale consultatie zijn hier voorbeelden van. Maar hoe kom je als school met feedback tot **een duurzame verbetering van het onderwijs**? Daar komt best veel bij kijken en dit is ook afhankelijk van de situatie op school. Wij brengen voor maatwerk programma’s graag onze ervaring in op het gebied van
+![Feedback geven in het onderwijs](/wp-content/uploads/2020/05/energie-2-1024x683.jpg) Veel scholen willen op een duurzame manier de Covid-achterstanden inlopen en blijvend een sterkere leercultuur neerzetten. Volgens de [Menukaart van het Ministerie van OCW](https://www.nponderwijs.nl/interventies/feedback) is feedback hiervoor een belangrijke en effectieve interventie voor het basis- en middelbaaronderwijs: tot 8 maanden leerwinst! Feedback geven is iets dat je in het onderwijs veel doet: stickers, krullen, strepen, doelgespreken, oudergesprekken, opdrachtbesprekingen en bijvoorbeeld collegiale consultatie zijn hier voorbeelden van. Maar hoe kom je als school met feedback tot **een duurzame verbetering van het onderwijs**? Daar komt best veel bij kijken en dit is ook afhankelijk van de situatie op school. Wij brengen voor maatwerk programma’s graag onze ervaring in op het gebied van
 
 * vaardigheidstrainingen rondom feedback geven en ontvangen
 * train-de-trainer (begeleidingsvaardigheden)
@@ -20,7 +20,7 @@ Wij bieden **maatwerk** en werken **vrij van BTW**, alle uren en kosten worden d
 
 ### Situatie 1: Aanspreekcultuur in het team verbeteren
 
-![Feedback in het middelbaaronderwijs](https://yeptrainingen.nl/wp-content/uploads/2020/05/coaching-voor-medewerkers-1024x683.jpg)  
+![Feedback in het middelbaaronderwijs](/wp-content/uploads/2020/05/coaching-voor-medewerkers-1024x683.jpg)  
 
 > Vraag vanuit de school: _De leerkrachten op onze school staan al erg onder druk qua werktijden. Wij kiezen daarom voor een programma dat een beperkte extra investering van hun tijd vraagt. We richten ons vooral graag op feedback aan collega's onderling, een betere aanspreek cultuur in het team. We willen werken aan goede observatie vaardigheden en vaardigheden rond feedback geven op ons systeem en ieders individuele aanpak in het onderwijs, een sfeer creëren waarbij feedback als prettig wordt ervaren. Daarnaast willen we dat iedere leerkracht ook feedback van de trainer ontvangt en in een 1 op 1 situatie kan voor bespreken of oefenen alvorens over te gaan tot het geven van feedback aan collega's of leerlingen. Het zou mooi zijn als de trainer daarnaast ook aandacht kan geven aan het feedback geven tussen leerlingen onderling. De tijd die we beschikbaar hebben: 2 studiedagen en per leerkracht 2 uur voor klassenobservatie en 2 coaching gesprekken van 1,5 uur. _
 
@@ -28,7 +28,7 @@ Aanpak vanuit Yep: We starten met een enquête binnen het team: waar ligt de win
 
 ### Situatie 2: dagdeel feedback binnen het team
 
-![Feedback in het basisonderwijs](https://yeptrainingen.nl/wp-content/uploads/2016/03/Trainingsaanbod-1024x683.jpg)
+![Feedback in het basisonderwijs](/wp-content/uploads/2016/03/Trainingsaanbod-1024x683.jpg)
 
 > Vraag vanuit de school: _Wij hebben voor andere interventies gekozen, maar willen toch ook een dagdeel uittrekken voor het geven van feedback onderling binnen ons team. Dit doen we graag met acteur, dicht bij onze praktijk. We willen dat iedereen professioneel feedback kan geven na afloop._
 
@@ -37,7 +37,7 @@ Aanpak vanuit Yep: Een dagdeel is voldoende om de basis van het feedback geven e
 ### Situatie 3: Vooral werken aan de vertrouwensband onderling
 
  
-> ![Feedback in het onderwijs](https://yeptrainingen.nl/wp-content/uploads/2016/03/Yep-8-of-191-1024x683.jpg)
+> ![Feedback in het onderwijs](/wp-content/uploads/2016/03/Yep-8-of-191-1024x683.jpg)
 
 Vanuit de school: _Op onze school zijn er veel wisselingen geweest. We merken dat leerkrachten huiverig zijn om feedback te geven omdat ze elkaar onvoldoende kennen en ook omdat rollen en verantwoordelijkheden niet voor iedereen duidelijk zijn. Daarom willen we eerst aan een vertrouwensband werken, zorgen dat men elkaars verantwoordelijkheden kent en vervolgens de stap naar feedback geven maken. We vinden dit een belangrijke stap om met elkaar te zetten en willen er zo veel tijd voor uittrekken als nodig is. Wel fijn als er rekening wordt gehouden met de werkdruk van onze leerkrachten en de pieken in het onderwijs. We stellen een efficiënte manier van begeleiden op prijs._
 
@@ -45,7 +45,7 @@ Vanuit Yep: Wij stellen voor om een halve dag te besteden aan die vertrouwensban
 
 ### Situatie 4: Feedback aan kinderen en ouders
 
-![Feedback geven in het onderwijs](https://yeptrainingen.nl/wp-content/uploads/2021/05/coaching-1-5-Copy-1024x1024.jpg)
+![Feedback geven in het onderwijs](/wp-content/uploads/2021/05/coaching-1-5-Copy-1024x1024.jpg)
 
 > Vraag van een school: _Wij willen ons specifiek verdiepen in het geven van feedback aan leerlingen en ouders. Wat slaat goed aan? Wat kunnen zij aan? We merken dat sommige docenten ongemotiveerd zijn om feedback aan ouders te geven, door de reacties die ze erop kunnen krijgen of doordat ze er weinig effect van terug zien. Wat kunnen we hiermee?_
 
@@ -83,4 +83,4 @@ Naast de eerder genoemde ervaring met de thema's begeleiden, feedback, veranderm
 
 ## Handige links:
 
-Nationaal Programma Onderwijs: [https://www.nponderwijs.nl/](https://www.nponderwijs.nl/) Feedback als interventie: [https://www.nponderwijs.nl/interventies/feedback](https://www.nponderwijs.nl/interventies/feedback) Tutoring / Leren van en met mede-leerlingen: [nponderwijs.nl/interventies/leren-van-en-met-medeleerlingen](https://nponderwijs.nl/interventies/leren-van-en-met-medeleerlingen) Blog: Veranderingen volhouden: [https://yeptrainingen.nl/veranderingen-volhouden/](https://yeptrainingen.nl/veranderingen-volhouden/)
+Nationaal Programma Onderwijs: [https://www.nponderwijs.nl/](https://www.nponderwijs.nl/) Feedback als interventie: [https://www.nponderwijs.nl/interventies/feedback](https://www.nponderwijs.nl/interventies/feedback) Tutoring / Leren van en met mede-leerlingen: [nponderwijs.nl/interventies/leren-van-en-met-medeleerlingen](https://nponderwijs.nl/interventies/leren-van-en-met-medeleerlingen) Blog: Veranderingen volhouden: [/veranderingen-volhouden/](/veranderingen-volhouden/)

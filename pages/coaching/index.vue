@@ -84,7 +84,7 @@
         <div class="col-lg-8 p-4">
           <p>
             Als je aan de slag wilt met coaching, neem dan contact op met
-            <a rel="noreferrer noopener" href="https://yeptrainingen.nl/contact/" target="_blank">Anna Stutje</a>. Zij is aangesloten bij de beroepsorganisatie
+            <a rel="noreferrer noopener" href="/contact/" target="_blank">Anna Stutje</a>. Zij is aangesloten bij de beroepsorganisatie
             voor coaches (NOBCO) en werkt volgens de Internationale Ethische Code voor coaches. Zij neemt de coaching op zich of brengt je in contact met één
             van de andere coaches.
           </p>

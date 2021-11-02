@@ -18,4 +18,4 @@ In onze Talenten Ontwikkel Programma's leren deelnemers hun eigen talenten te he
 
 De keuze voor aanvullende coaching verstevigt het talentenprogramma en biedt extra ruimte voor vertaling naar de praktijk en persoonlijke thema's. In de levens van twintigers en dertigers speelt soms zoveel dat coaching kan helpen om twijfels, belemmeringen en levensvragen tijdig een plek te geven.
 
-[afbeelding bomen](./coaching-en-talentprogrammas-2.jpg)
+![afbeelding bomen](./coaching-en-talentprogrammas-2.jpg)

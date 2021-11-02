@@ -11,7 +11,7 @@ In deze coachsessies staat jouw communicatie en interactie met anderen centraal.
 
 Communicatie gaat over meer dan de woorden die we met elkaar wisselen. Het gaat uiteindelijk over de omgang met mensen. Bij sommige mensen gaat dit vloeiend terwijl het anderen minder makkelijk afgaat. Moeite met communicatie kan verschillende oorzaken hebben: gespannenheid, gevoelens van minderwaardigheid of ongemak in contact met anderen. Als je je daarin herkent, dan focussen we ons tijdens de coaching op het vergroten van zelfvertrouwen en experimenteren we samen met nieuw gedrag. Het kan ook zijn dat stroeve communicatie het gevolg is van een verschil in communicatiestijl tussen jou en de ander. Dat leggen we hierna uit. 
 
-### Hoe zorg je dat de ander jou begrijpt en jij met waardering naar de ander kunt blijven kijken?
+## Hoe zorg je dat de ander jou begrijpt en jij met waardering naar de ander kunt blijven kijken?
 
 
 
@@ -19,4 +19,4 @@ Een simpel voorbeeld van een verschil in communicatiestijl: Wat doe jij als jij 
 
 Bewustwording van jouw patronen en begrip van communicatiestijlen is voor iedereen relevant die effectiever wil zijn in samenwerking met anderen. Dit coachingstraject is bij uitstek iets voor jou als je merkt dat je communicatie vaak moeizaam verloopt of als het bij jouw functie hoort om anderen te begeleiden (bijvoorbeeld in een leidinggevende functie).
 
-[afbeelding schoenen](./communicatie-en-interactie-2.jpg)
+![afbeelding schoenen](./communicatie-en-interactie-2.jpg)

@@ -6,7 +6,7 @@
       wij zoal kunnen bieden, kun je hieronder een kijkje nemen. Deze pagina kun je zien als ons portfolio: een aantal kenmerkende trainingen die wij eerder
       verzorgd hebben. Wil je weten wat we met jouw ontwikkeldoel kunnen? Dan is het handig om even contact op te nemen!
     </p>
-    <p class="text-center">Hier staan onze tarieven.</p>
+    <p class="text-center">Hier staan onze <a href="/tarieven" class="link-groen">tarieven</a></p>
     <h2 class="text-center mb-3 mt-5">Trainingsoverzicht</h2>
     <div class="row row-cols-1 row-cols-md-3">
       <div v-for="article of articles" :key="article.title" class="col mb-4">

@@ -7,9 +7,9 @@ date: 2021-04-03
 intro: >
     Het beeldbellen is net geïntegreerd in de meeste organisaties en de volgende uitdaging staat alweer voor de deur: hybride overleggen. Hoe gaan we na de zomer vergaderen, bijeenkomen en training geven? Goede kans dat dit met een gemixt gezelschap gaat plaatsvinden: een deel van de mensen is fysiek aanwezig, een ander deel logt online in. Als we één ding hebben geleerd het afgelopen jaar, is dat we ons in korte tijd kunnen bekwamen in nieuwe vaardigheden.
 tags: 
-  - hybridevents
-  - hybridwork
-  - digitalattendees
+  - hybridebijeenkomsten
+  - hybridewerken
+  - digitaledeelnemers
 categories:
  - Begeleidingsvaardigheden
 english-version: Activating online team games and workflows

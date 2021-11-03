@@ -118,23 +118,27 @@
         <div class="row justify-content-around mt-5">
           <div class="col-md-4 border bg-light p-2 text-center">
             <h2>Trainingen</h2>
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/JUMP.jpg"
-              :srcset="require(`~/assets/images/JUMP.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
-            ></b-img>
-            <a href="trainingsaanbod" class="d-block mt-2">Lees meer >></a>
+            <a href="trainingen" class="d-block mt-2">
+              <b-img
+                fluid="fluid"
+                blank-color="#777"
+                src="~/assets/images/JUMP.jpg"
+                :srcset="require(`~/assets/images/JUMP.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
+              ></b-img>
+              <p>Lees meer >></p>
+            </a>
           </div>
           <div class="col-md-4 border bg-light p-2 text-center">
             <h2>Coaching</h2>
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/omgaanmetstress.jpg"
-              :srcset="require(`~/assets/images/omgaanmetstress.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
-            ></b-img>
-            <a href="coaching" class="d-block mt-2">Lees meer >></a>
+            <a href="coaching" class="d-block mt-2">
+              <b-img
+                fluid="fluid"
+                blank-color="#777"
+                src="~/assets/images/omgaanmetstress.jpg"
+                :srcset="require(`~/assets/images/omgaanmetstress.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
+              ></b-img>
+              <p>Lees meer >></p>
+            </a>
           </div>
         </div>
       </div>

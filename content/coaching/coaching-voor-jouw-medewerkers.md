@@ -18,6 +18,6 @@ Het kan zijn dat in jouw organisatie op dit moment veel speelt op een bepaald th
 
 Hoe ziet de inloopcoaching eruit? Op vaste dagen komt één van onze coaches naar kantoor en kunnen medewerkers zich intekenen voor een kort coachgesprek van 45 minuten. Samen met jou als opdrachtgever gaan we na wat inloopcoaching verder vraagt in termen van organisatie en communicatie aan medewerkers.
 
-Voor sommige thema's kan het effectief zijn om in groepsverband aan de slag te gaan. Kijk ook eens naar ons [trainingsaanbod](https://yeptrainingen.nl/trainingsaanbod/) om een beter beeld te krijgen van wat we kunnen aanbieden.
+Voor sommige thema's kan het effectief zijn om in groepsverband aan de slag te gaan. Kijk ook eens naar ons [trainingen](/trainingen/) om een beter beeld te krijgen van wat we kunnen aanbieden.
 
 ![afbeelding stedelijk](./coaching-voor-jouw-medewerkers-2.jpg)

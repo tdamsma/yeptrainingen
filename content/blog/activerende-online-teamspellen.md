@@ -47,4 +47,4 @@ Digitale vergaderingen en trainingen kunnen zo veel energie kosten! En dat hoeft
   
 We wensen je veel plezier met de werkvormen!
 
-Is een korte activering niet genoeg en wil je eens flink wakker geschud worden met je hele team? Kijk dan eens naar onze digitale [workshop Improviseren](https://yeptrainingen.nl/trainingsaanbod/improviseren/). Hierbij doen we wel 20 teamspellen waarbij jullie steeds uitgedaagd worden. Energie, lol en verbinding gegarandeerd! En bonus: de spellen kun je daarna prima af en toe eens terug laten komen in een andere teamsetting.
+Is een korte activering niet genoeg en wil je eens flink wakker geschud worden met je hele team? Kijk dan eens naar onze digitale [workshop Improviseren](/trainingen/improviseren/). Hierbij doen we wel 20 teamspellen waarbij jullie steeds uitgedaagd worden. Energie, lol en verbinding gegarandeerd! En bonus: de spellen kun je daarna prima af en toe eens terug laten komen in een andere teamsetting.

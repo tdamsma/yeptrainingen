@@ -6,12 +6,12 @@
       wij zoal kunnen bieden, kun je hieronder een kijkje nemen. Deze pagina kun je zien als ons portfolio: een aantal kenmerkende trainingen die wij eerder
       verzorgd hebben. Wil je weten wat we met jouw ontwikkeldoel kunnen? Dan is het handig om even contact op te nemen!
     </p>
-    <p class="text-center">Hier staan onze tarieven.</p>
+    <p class="text-center">Hier staan onze <a href="/tarieven" class="link-groen">tarieven</a></p>
     <h2 class="text-center mb-3 mt-5">Trainingsoverzicht</h2>
     <div class="row row-cols-1 row-cols-md-3">
       <div v-for="article of articles" :key="article.title" class="col mb-4">
         <!-- Card-->
-        <div class="card card-cascade narrower" style="min-height: 400px">
+        <div class="card card-cascade narrower" style="min-height: 200px">
           <!-- Card image-->
           <div class="view view-cascade overlay">
             <div class="container2" style="height: 60%">
@@ -35,13 +35,12 @@
           <div class="card-body card-body-cascade">
             <!-- Title-->
             <h4 class="card-title">{{ article.title }}</h4>
-            <!-- Text-->
-            <p class="card-text">{{ article.title }}</p>
+
             <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-            <button class="btn btn-light-blue btn-md">
+            <!-- <button class="btn btn-light-blue btn-md">
               Lees meer
-              <nuxt-link class="stretched-link font-bold" :to="{ name: 'trainingen-slug', params: { slug: article.slug } }"></nuxt-link>
-            </button>
+            </button> -->
+            <nuxt-link class="stretched-link font-bold" :to="{ name: 'trainingen-slug', params: { slug: article.slug } }"></nuxt-link>
           </div>
         </div>
         <!-- Card-->
@@ -64,7 +63,7 @@ export default {
   },
   head() {
     return {
-      title: 'Yep trainingsaanbod'
+      title: 'Yep trainingen'
     }
   }
 }

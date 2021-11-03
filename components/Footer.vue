@@ -10,6 +10,7 @@
           > <a href="/coaching" class="link-geel">Coaching</a><br />
           > <a href="/werkgevers" class="link-geel">Voor werkgevers</a><br />
           > <a href="/blog" class="link-geel">Blog</a><br />
+          > <a href="/tarieven" class="link-geel">Tarieven</a><br />
         </div>
         <div class="col-md-3 text-light">
           <h2 class="mb-4">Gegevens</h2>

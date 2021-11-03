@@ -41,7 +41,8 @@ Tips:
 * Ook hier geldt dat grote taken vaak onaantrekkelijk zijn. Breek ze op in een aantal onderdelen zodat je in elk geval een aantal streepjes kan zetten terwijl je bezig bent. Klinkt misschien kinderachtig maar dit voorkomt dat je het gevoel krijgt dat je 'niet vooruit komt', 'niks hebt gedaan'.
 * Je kunt, als je werk en privé planning op 1 vel wil zien, een kolom toevoegen of met een andere kleur je privé dingen erbij zetten. Zo blijf je het onderscheid zien. Dit doe ik, omdat ik veel thuis werk en tussendoor ook dingen regel voor vrijwilligerswerk of de kinderen. 
 
-**![blokken planning](./weekplanning-5.jpg)Lijst 3: Blokken planning**
+![blokken planning](./weekplanning-5.jpg)
+**Lijst 3: Blokken planning**
 
 Deze lijst geeft heel veel structuur en is handig voor mensen die het moeilijk vinden om overzicht te bewaren en zichzelf aan het werk te zetten. Je ziet niet alleen wat er wanneer moet gebeuren, maar ziet daarnaast in welke 'blokken' er gewerkt moet worden. Ik heb hier gekozen voor blokken van 1.5 uur. Dat moet vol te houden zijn. Er zitten vrij veel pauzes in en als je in de werk-blokken flink te keer gaat dan kun je die ook wel gebruiken. Werken tijdens de pauze mag, dat is bonustijd! Of uitlooptijd / vrijetijd / lunchtijd. Ook is er op deze planning ruimte om aan te geven wat je bij een bepaalde taak nodig hebt of wat je moet voorbereiden. Denk aan wat je moet lezen, meenemen, wat het adres is, of het nummer van je contactpersoon. Dit helpt je het overzicht te bewaren. Je kunt zelf bepalen hoe groot de blokken zijn. Bijv aan de start van de dag 1,5 u en na de lunch ook, maar verder kortere blokken. Sluit bij je eigen voorkeursritme aan!
 
@@ -51,8 +52,7 @@ Tips:
 * Maak de planning realistisch (niet te druk) en houd je eraan. Anders helpt hij je niet overzicht en discipline op te bouwen.
 * Op deze lijst is het wat lastiger om taken op te delen of om er een boel kleine taken op kwijt te kunnen. Het is aan te bevelen om deze lijst als overzicht-lijst te hebben en daarnaast per dag een specifiekere lijst te maken.
 
-![Clusterplanning](weekplanning-3.jpg)
-
+![Clusterplanning](./weekplanning-3.jpg)
 **Lijst 4: Cluster-planning**
 
 Op deze lijst zie je wat er deze week voor welk project moet gebeuren. Dus geordend op project en niet op werkdag. Dit is handig wanneer je meer in projecten denkt, veel verschillende klanten of klusen naast elkaar hebt, of als je wil kunnen zien waar de dingen die je doet bij horen.

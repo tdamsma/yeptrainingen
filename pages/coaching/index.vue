@@ -17,7 +17,7 @@
       <div class="row row-cols-1 row-cols-md-3">
         <div v-for="article of articles" :key="article.title" class="col mb-4">
           <!-- Card-->
-          <div class="card card-cascade narrower" style="min-height: 400px">
+          <div class="card card-cascade narrower" style="min-height: 320px">
             <!-- Card image-->
             <div class="view view-cascade overlay">
               <div class="container2" style="height: 60%">
@@ -42,12 +42,9 @@
               <!-- Title-->
               <h4 class="card-title">{{ article.title }}</h4>
               <!-- Text-->
-              <p class="card-text">{{ article.title }}</p>
+              <!-- <p class="card-text">{{ article.title }}</p> -->
               <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <button class="btn btn-light-blue btn-md">
-                Lees meer >
-                <nuxt-link class="stretched-link font-bold" :to="{ name: 'coaching-slug', params: { slug: article.slug } }"></nuxt-link>
-              </button>
+              <nuxt-link class="stretched-link font-bold" :to="{ name: 'coaching-slug', params: { slug: article.slug } }"></nuxt-link>
             </div>
           </div>
           <!-- Card-->
@@ -74,44 +71,38 @@
     <div class="jumbotron jumbotron-fluid bg-white m-0">
       <div class="row">
         <div class="col-lg-4">
-          <b-img
-            fluid="fluid"
-            blank-color="#777"
-            src="~/assets/images/IMG_2417-copy-757x1024.jpg"
-            :srcset="require(`~/assets/images/IMG_2417-copy-757x1024.jpg`).srcSet"
-          ></b-img>
+          <b-img fluid="fluid" blank-color="#777" src="~/assets/images/anna-stutje.jpg" :srcset="require(`~/assets/images/anna-stutje.jpg`).srcSet"></b-img>
         </div>
         <div class="col-lg-8 p-4">
           <p>
             Als je aan de slag wilt met coaching, neem dan contact op met
-            <a rel="noreferrer noopener" href="https://yeptrainingen.nl/contact/" target="_blank">Anna Stutje</a>. Zij is aangesloten bij de beroepsorganisatie
-            voor coaches (NOBCO) en werkt volgens de Internationale Ethische Code voor coaches. Zij neemt de coaching op zich of brengt je in contact met één
-            van de andere coaches.
+            <a rel="noreferrer noopener" href="/contact/" target="_blank">Anna Stutje</a>. Zij is aangesloten bij de beroepsorganisatie voor coaches (NOBCO) en
+            werkt volgens de Internationale Ethische Code voor coaches. Zij neemt de coaching op zich of brengt je in contact met één van de andere coaches.
           </p>
-          <p>Coachees&nbsp;over Anna:</p>
+          <p>Coachees over Anna:</p>
           <p style="border-left: solid 5px green; padding-left: 20px">
             <i
-              >&#8220;Anna heeft me geholpen om structuur aan te brengen in de crisis die ik ervaarde in mijn werkende leven. Ze houdt je bij de les en leert je
-              te reflecteren waardoor de coachingssessies doeltreffend zijn. De opdrachten die je mee naar huis krijgt leveren enorm veel op. Het heeft er voor
+              >“Anna heeft me geholpen om structuur aan te brengen in de crisis die ik ervaarde in mijn werkende leven. Ze houdt je bij de les en leert je te
+              reflecteren waardoor de coachingssessies doeltreffend zijn. De opdrachten die je mee naar huis krijgt leveren enorm veel op. Het heeft er voor
               gezorgd dat ik belangrijke keuzes in mijn werk heb kunnen maken en mijn zelfinzicht gegroeid is. Een super fijne gesprekspartner die je laat
-              groeien!</i
-            >&#8221; &#8211; Vera
-          </p>
-          <p style="border-left: solid 5px green; padding-left: 20px">
-            <i
-              >&#8220;The coaching with Anna has helped me immensely to listen to&nbsp;my own feelings whilst making some important life decisions. She provided
-              me with a tool that helps me to&nbsp;reflect on my&nbsp;choices and behaviour. Anna knows how to create a setting that helps to open up easily. I
-              would definitely recommend her as a coach.&#8221;</i
+              groeien!”</i
             >
-            &#8211; Vincent
+            – Vera
           </p>
           <p style="border-left: solid 5px green; padding-left: 20px">
             <i
-              >Anna heeft me geholpen bij het formuleren van mijn &#8216;Why&#8217;. Ik zie nu hoe belangrijk het is om een duidelijk beeld van mijn purpose te
-              hebben. Dit heeft geleid tot een veel scherper beeld van de loopbaanstap die ik wil nemen en ik voel nu veel meer zelfvertrouwen om me in mijn
-              netwerk te profileren. Ik heb daarnaast ook nog inzicht gekregen in verschillende kanten van mezelf die soms (ongewenst) de overhand
-              nemen.&#8221;</i
-            >&#8211; Emma
+              >“The coaching with Anna has helped me immensely to listen to my own feelings whilst making some important life decisions. She provided me with a
+              tool that helps me to reflect on my choices and behaviour. Anna knows how to create a setting that helps to open up easily. I would definitely
+              recommend her as a coach.”</i
+            >
+            – Vincent
+          </p>
+          <p style="border-left: solid 5px green; padding-left: 20px">
+            <i
+              >Anna heeft me geholpen bij het formuleren van mijn ‘Why’. Ik zie nu hoe belangrijk het is om een duidelijk beeld van mijn purpose te hebben. Dit
+              heeft geleid tot een veel scherper beeld van de loopbaanstap die ik wil nemen en ik voel nu veel meer zelfvertrouwen om me in mijn netwerk te
+              profileren. Ik heb daarnaast ook nog inzicht gekregen in verschillende kanten van mezelf die soms (ongewenst) de overhand nemen.”</i
+            >– Emma
           </p>
         </div>
       </div>

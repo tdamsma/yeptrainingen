@@ -34,13 +34,15 @@
         <div class="row justify-content-around">
           <div class="col-md-3 border bg-light p-2 text-center">
             <h2>Uitgelicht</h2>
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/uitgelicht1.png"
-              :srcset="require(`~/assets/images/uitgelicht1.png?sizes[]=200&amp;sizes[]=566`).srcSet"
-            ></b-img>
-            <a href="welke-rol-pak-jij-als-cursist" class="d-block mt-2">Talentontwikkel programma>></a>
+            <a href="/trainingen/talent-ontwikkelprogramma" class="d-block mt-2">
+              <b-img
+                fluid="fluid"
+                blank-color="#777"
+                src="~/assets/images/uitgelicht1.png"
+                :srcset="require(`~/assets/images/uitgelicht1.png?sizes[]=200&amp;sizes[]=566`).srcSet"
+              ></b-img>
+              Talentontwikkel programma>></a
+            >
           </div>
           <div class="col-md-5 border bg-light p-2 text-center">
             <h2>Reviews</h2>
@@ -48,13 +50,15 @@
           </div>
           <div class="col-md-3 border bg-light p-2 text-center">
             <h2>Recente blog</h2>
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/omgaanmetstress.jpg"
-              :srcset="require(`~/content/blog/welke-rol-pak-jij-als-cursist-boodschappen.jpg?sizes[]=200&amp;sizes[]=566`).srcSet"
-            ></b-img>
-            <a href="welke-rol-pak-jij-als-cursist" class="d-block mt-2">Welke rol pak jij als cursist? >></a>
+            <a href="/blog/welke-rol-pak-jij-als-cursist" class="d-block mt-2">
+              <b-img
+                fluid="fluid"
+                blank-color="#777"
+                src="~/assets/images/omgaanmetstress.jpg"
+                :srcset="require(`~/content/blog/welke-rol-pak-jij-als-cursist-boodschappen.jpg?sizes[]=200&amp;sizes[]=566`).srcSet"
+              ></b-img>
+              Welke rol pak jij als cursist? >></a
+            >
           </div>
         </div>
       </div>

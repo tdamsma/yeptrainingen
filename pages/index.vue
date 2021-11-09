@@ -22,9 +22,11 @@
     </div>
     <div class="jumbotron jumbotron-fluid yep-geel">
       <div class="container">
-        Wij staan paraat voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn. En die de drang hebben om te leren. Samen met hun
-        organisaties ontwerpen en verzorgen we trainings- en coachingstrajecten. Zodat de professionals nog beter worden in wat ze goed kunnen: werken aan
-        vraagstukken die er toe doen.
+        <p style="font-size: 120%">
+          Wij staan paraat voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn. En die de drang hebben om te leren. Samen met hun
+          organisaties ontwerpen en verzorgen we trainings- en coachingstrajecten. Zodat de professionals nog beter worden in wat ze goed kunnen: werken aan
+          vraagstukken die er toe doen.
+        </p>
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid" style="background-color: #585656">

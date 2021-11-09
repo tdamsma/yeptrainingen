@@ -48,16 +48,11 @@
             <h2>Reviews</h2>
             <SpringestCustom />
           </div>
-          <div class="col-md-3 border bg-light p-2 text-center">
+          <div v-for="blog of blogs" :key="blog.title" class="col-md-3 border bg-light p-2 text-center">
             <h2>Recente blog</h2>
             <a href="/blog/welke-rol-pak-jij-als-cursist" class="d-block mt-2">
-              <b-img
-                fluid="fluid"
-                blank-color="#777"
-                src="~/assets/images/omgaanmetstress.jpg"
-                :srcset="require(`~/content/blog/welke-rol-pak-jij-als-cursist-boodschappen.jpg?sizes[]=200&amp;sizes[]=566`).srcSet"
-              ></b-img>
-              Welke rol pak jij als cursist? >></a
+              <b-img fluid="fluid" blank-color="#777" :src="require(`~/content/blog/${blog.img}?size=500`)" :alt="blog.alt"></b-img>
+              {{ blog.title }} >></a
             >
           </div>
         </div>
@@ -72,7 +67,7 @@
           <br />
         </div>
         <div class="col-md">
-          <div class="div" style="float: right; max-width: 500px; width: 100%">
+          <div style="float: right; max-width: 500px; width: 100%">
             <b-img
               fluid="fluid"
               blank-color="#777"
@@ -155,5 +150,12 @@
 <script>
 import Vue from 'vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  async asyncData({ $content }) {
+    const blogs = await $content('blog').only(['title', 'slug', 'img', 'alt', 'intro']).sortBy('date', 'desc').limit(1).fetch()
+    return {
+      blogs
+    }
+  }
+})
 </script>

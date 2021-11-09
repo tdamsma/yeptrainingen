@@ -257,22 +257,4 @@ export default {
   -webkit-transition: 1s;
   transition: 1s;
 }
-
-.rect-img-container {
-  position: relative;
-}
-
-.rect-img-container::after {
-  content: '';
-  display: block;
-  padding-bottom: 100%;
-  margin-bottom: -30%;
-}
-
-.rect-img {
-  position: absolute;
-  width: 100%;
-  height: 70%;
-  object-fit: cover;
-}
 </style>

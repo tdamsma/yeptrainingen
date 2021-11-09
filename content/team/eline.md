@@ -1,6 +1,6 @@
 ---
 name: Eline Hoebe
-order: 4
+volgnummer: 4
 ---
 Ik geloof sterk in de kracht van ervarend leren. Fietsen leer je immers ook niet door er een boek over te lezen. Als trainingsacteur en trainer laat
 ik je op een speelse manier ervaren wat je eigen invloed kan zijn om het gewenste effect te bereiken in het contact met de ander. Wat mij drijft is om

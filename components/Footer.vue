@@ -2,16 +2,25 @@
   <div class="jumbotron jumbotron-fluid" style="background-color: #807d7d">
     <div class="container">
       <div class="row">
-        <div class="col-md-3 text-light">
-          <h2>Menu</h2>
-          > <a href="/" class="link-geel">Yep</a><br />
-          > <a href="/team" class="link-geel">Ons team</a><br />
-          > <a href="/trainingen" class="link-geel">Trainingen</a><br />
-          > <a href="/coaching" class="link-geel">Coaching</a><br />
-          > <a href="/werkgevers" class="link-geel">Voor werkgevers</a><br />
-          > <a href="/blog" class="link-geel">Blog</a><br />
-          > <a href="/tarieven" class="link-geel">Tarieven</a><br />
+        <div class="col-md-4 text-light">
+          <h2>Site-map</h2>
+          <div class="row">
+            <div class="col-sm-6">
+              > <a href="/" class="link-geel">Yep</a><br />
+              > <a href="/team" class="link-geel">Ons team</a><br />
+              > <a href="/trainingen" class="link-geel">Trainingen</a><br />
+              > <a href="/coaching" class="link-geel">Coaching</a><br />
+              > <a href="/werkgevers" class="link-geel">Voor werkgevers</a><br />
+            </div>
+            <div class="col-sm-6">
+              > <a href="/blog" class="link-geel">Blog</a><br />
+              > <a href="/tarieven" class="link-geel">Tarieven</a><br />
+              > <a href="/klachten" class="link-geel">Klachten</a><br />
+              > <a href="/contact" class="link-geel">Contact</a><br />
+            </div>
+          </div>
         </div>
+        <div class="col-md-1"></div>
         <div class="col-md-3 text-light">
           <h2 class="mb-4">Gegevens</h2>
           <p>
@@ -23,9 +32,7 @@
             IBAN: NL49TRIO0254729886<br />
           </p>
         </div>
-        <div class="col-md-3 text-light">
-          <h2>Blog</h2>
-        </div>
+        <div class="col-md-1"></div>
         <div class="col-md-3 text-light">
           <b-img
             fluid="fluid"

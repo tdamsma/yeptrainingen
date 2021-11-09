@@ -9,9 +9,9 @@
     <p class="text-center">Hier staan onze <a href="/tarieven">tarieven</a></p>
     <h2 class="text-center mb-3 mt-5">Trainingsoverzicht</h2>
     <div class="row row-cols-1 row-cols-md-3">
-      <div v-for="article of articles" :key="article.title" class="col mb-4">
+      <div v-for="article of articles" :key="article.title" class="col px-4 my-4">
         <!-- Card-->
-        <div class="card card-cascade narrower" style="min-height: 200px">
+        <div class="card card-cascade wider">
           <!-- Card image-->
           <div class="view view-cascade overlay">
             <div class="container2" style="height: 60%">
@@ -28,11 +28,12 @@
                   :alt="article.alt"
                   ><a href="#!"> <div class="mask rgba-white-slight"></div></a
                 ></b-card-img>
+                <nuxt-link class="stretched-link font-bold" :to="{ name: 'trainingen-slug', params: { slug: article.slug } }"></nuxt-link>
               </div>
             </div>
           </div>
           <!-- Card content-->
-          <div class="card-body card-body-cascade">
+          <div class="card-body card-body-cascade" style="min-height: 105px">
             <!-- Title-->
             <h4 class="card-title">{{ article.title }}</h4>
 
@@ -40,7 +41,6 @@
             <!-- <button class="btn btn-light-blue btn-md">
               Lees meer
             </button> -->
-            <nuxt-link class="stretched-link font-bold" :to="{ name: 'trainingen-slug', params: { slug: article.slug } }"></nuxt-link>
           </div>
         </div>
         <!-- Card-->

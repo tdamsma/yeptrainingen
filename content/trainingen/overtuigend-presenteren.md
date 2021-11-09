@@ -2,7 +2,7 @@
 title: Training - Overtuigend presenteren
 img: overtuigend-presenteren-1.jpg
 alt: presentator staat op
-Volgnummer: 10
+volgnummer: 10
 ---
 
 Deze presentatietraining is bij uitstek geschikt voor iedereen die zich regelmatig zakelijk moet presenteren. Je krijgt praktische handvatten voor zowel het geven van presentaties, als het voeren van andere professionele gesprekken. 

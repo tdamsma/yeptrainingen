@@ -2,7 +2,7 @@
 title: Training - Hybride bijeenkomsten begeleiden
 img: hybride-bijeenkomsten-begeleiden-1.jpg
 alt: 2 personen aan vergadertafel overleggen met 3 personen op een groot scherm
-Volgnummer: 8
+volgnummer: 8
 ---
 Trainingen, vergaderingen en bijeenkomsten vinden sinds de coronatijd regelmatig met een gemixt gezelschap plaats: een deel van de mensen is fysiek aanwezig, een ander deel logt online in. 
 

@@ -1,7 +1,7 @@
 ---
 title: Online - Verbindend Beeldbellen
 img: verbindend-beeldbellen-1.jpg
-Volgnummer: 7
+volgnummer: 7
 ---
 
 # Online - Verbindend beeldbellen

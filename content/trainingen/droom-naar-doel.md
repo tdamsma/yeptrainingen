@@ -3,7 +3,7 @@ title: Training - Van Droom naar Doel
 img: droom-naar-doel-1.jpg
 alt: groep maakt collage
 Springest: https://www.springest.nl/yep-trainingen-2/van-droom-naar-doel#overzicht
-Volgnummer: 14
+volgnummer: 14
 ---
 Deze training helpt je om in 3 uur tijd een abstract idee of een droom naar een haalbaar doel te vertalen. Een snelkookpan die veel energie voor je droom bij je gaat losmaken omdat het allemaal heel concreet wordt!
 

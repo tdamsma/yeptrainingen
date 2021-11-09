@@ -2,7 +2,7 @@
 title: Training - Timemanagement
 img: timemanagement-1.jpg
 alt: 2 personen aan vergadertafel overleggen met 3 personen op een groot scherm
-Volgnummer: 12
+volgnummer: 12
 ---
 
 Grote ambities, het jonge gezinsleven, de waan van de dag, onzekerheden en onervarenheid: dit zijn redenen waarom vrijwel elke starter behoefte heeft aan ondersteuning op het gebied van timemanagement. En dit thema speelt niet alleen bij jonge professionals: ook met veel ervaring blijft timemanagement altijd een uitdaging. Simpel weg, omdat er toch steeds weer iets nieuws op je bordje komt. Een reorganisatie, verandering van werkzaamheden of processen, mantelzorg.. 

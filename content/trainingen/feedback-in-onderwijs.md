@@ -2,7 +2,7 @@
 title: Training - Feedback geven in het onderwijs
 img: feedback-in-onderwijs-1.jpg
 alt: feedback gesprek tussen 2 leerkrachten
-Volgnummer: 4
+volgnummer: 4
 ---
 # Feedback geven in het onderwijs
 

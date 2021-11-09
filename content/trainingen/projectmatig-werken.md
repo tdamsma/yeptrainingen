@@ -2,7 +2,7 @@
 title: Training - Projectmatig werken
 img: projectmatig-werken-1.jpg
 alt: 2 personen aan vergadertafel overleggen met 3 personen op een groot scherm
-Volgnummer: 13
+volgnummer: 13
 ---
 
 In de training Projectmatig werken, raken deelnemers thuis in een 6-fase projectmanagement methode. Dit is een heel basale methode die veel gebruikt wordt en onderliggend is aan talloze andere projectmanagement stromingen. De training bevat in elk geval informatie rondom de definitie, de werkwijze en de verdeling van verantwoordelijkheden binnen een project. 

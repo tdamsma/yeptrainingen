@@ -2,7 +2,7 @@
 title: Training - Netwerken
 img: netwerken-1.jpg
 alt: deelnemers staan voor hun profielomschrijvingen
-Volgnummer: 19
+volgnummer: 19
 ---
 
 Netwerken is iets waar veel mensen tegenop zien. Toch is het een belangrijk middel om in je functie gevonden en goed benut te worden, een leuke baan of opdracht te vinden. Hoe netwerk je succesvol? Welke vormen van netwerken passen goed bij jou? Ontdek het in deze training! 

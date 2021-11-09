@@ -2,7 +2,7 @@
 title: Intervisie begeleiding
 img: intervisie-begeleiding-1.jpg
 alt: een groep bespreekt onder begeleiding een casus
-Volgnummer: 9
+volgnummer: 9
 ---
 
 Tijdens intervisie hebben professionals de tijd om met elkaar leren. Persoonlijke werkvragen staan centraal. Samen met je collega’s ervaar je dat er ruimte is om te delen wat je bezighoudt en kom je samen tot nieuwe inzichten. Als je net een intervisiegroep start of als je behoefte hebt aan structuur en feedback, dan kan intervisiebegeleiding helpen om als groep meer uit je de intervisiebijeenkomsten te halen.

@@ -1,7 +1,11 @@
 <template lang="html">
   <div>
+    <div class="jumbotron jumbotron-fluid yep-geel">
+      <div class="row justify-content-around">
+        <h1>Blog</h1>
+      </div>
+    </div>
     <div class="container mt-4">
-      <h1 class="mb-3">Blog</h1>
       <div v-for="article of articles" :key="article.title">
         <b-card class="mt-2 overflow-hidden shadow-none" no-body="">
           <b-row no-gutters="">
@@ -26,7 +30,7 @@
     </div>
   </div>
 </template>
-)
+
 <script>
 export default {
   async asyncData({ $content }) {

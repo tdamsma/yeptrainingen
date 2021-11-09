@@ -1,6 +1,6 @@
 ---
 name: Myrthe Heuser
-order: 3
+volgnummer: 3
 ---
 <i>"Tell me and I will forget, show me and I might remember, involve me and I will learn"</i> – Benjamin Franklin. 
 Hier ben ik het helemaal mee eens! Wanneer mensen ervaringsgericht leren, zie je als het ware lampjes aangaan. Als trainer streef ik ernaar dat mijn groepen dit in een veilige- en prettige leeromgeving kunnen ervaren. Ik vind het heerlijk als mensen nieuw gedrag durven uit te proberen en van elkaar leren in een training. Ik

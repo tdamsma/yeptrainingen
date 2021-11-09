@@ -1,6 +1,6 @@
 ---
 name: Anna Stutje
-order: 3
+volgnummer: 3
 ---
 Het inspireert me om met mensen te werken die de moed en het doorzettingsvermogen hebben om heel bewust hun eigen pad te zoeken. Ook als ze daarvoor
 spannende besluiten moeten nemen of nieuwe dingen moeten leren. Wat ik het allerliefste doe is zo’n zoektocht van dichtbij begeleiden. Hoe ik dat doe,

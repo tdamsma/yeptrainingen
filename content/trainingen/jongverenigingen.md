@@ -2,7 +2,7 @@
 title: Aanbod voor jongpersoneelsverenigingen
 img: jongverenigingen-1.jpg
 alt: jonge groep medewerkers volgt een training verkennen van belangen.
-Volgnummer: 15
+volgnummer: 15
 ---
 
 Yep Trainingen helpt jong verenigingen (jong-personeelsverenigingen of jonge medewerkers netwerken) van verschillende organisaties hun verenigingsdoelen te realiseren. Dit zijn doelen zoals:

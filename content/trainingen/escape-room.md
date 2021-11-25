@@ -1,5 +1,6 @@
 ---
-title: Training - Teambuilding escape room
+title: Teambuilding escape room
+subtitle: Een verbindende dag die inzicht geeft in onderlinge patronen
 img: escape-room-1.jpg
 alt: groep in escape room setting
 volgnummer: 16

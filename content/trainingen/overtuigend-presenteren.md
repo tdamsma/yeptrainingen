@@ -1,5 +1,6 @@
 ---
-title: Training - Overtuigend presenteren
+title: Overtuigend presenteren
+subtitle: Laat je boodschap resoneren bij de ontvanger.
 img: overtuigend-presenteren-1.jpg
 alt: presentator staat op
 volgnummer: 10

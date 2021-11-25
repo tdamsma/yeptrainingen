@@ -1,5 +1,6 @@
 ---
-title: Training - Van Droom naar Doel
+title: Van Droom naar Doel
+subtitle: In 5 creatieve oefeningen wordt jouw missie haalbaar en concreet.
 img: droom-naar-doel-1.jpg
 alt: groep maakt collage
 Springest: https://www.springest.nl/yep-trainingen-2/van-droom-naar-doel#overzicht

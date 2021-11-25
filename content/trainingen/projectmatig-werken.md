@@ -1,5 +1,6 @@
 ---
-title: Training - Projectmatig werken
+title: Projectmatig werken
+subtitle: Kom je snel tot de kern van projectmatig werk.
 img: projectmatig-werken-1.jpg
 alt: 2 personen aan vergadertafel overleggen met 3 personen op een groot scherm
 volgnummer: 13

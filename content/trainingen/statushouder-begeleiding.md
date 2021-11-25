@@ -1,5 +1,6 @@
 ---
-title: Training - Nederlandse werkcultuur voor Statushouders
+title: Nederlandse werkcultuur voor Statushouders
+Subtitle: Vergroot het begrip en de heldere communicatie over en weer.
 img: statushouder-begeleiding-1.jpg
 alt: Diverse groep medewerkers zit samen aan tafel by Annie Spratt on Unsplash
   

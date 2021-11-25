@@ -1,5 +1,6 @@
 ---
-title: Training - Improviseren
+title: Improviseren
+subtitle: Breng plezier, aansluiting en synnergie in je samenwerking.
 img: improviseren-1.jpg
 alt: groep lacht om een improvisatie oefening
 volgnummer: 17

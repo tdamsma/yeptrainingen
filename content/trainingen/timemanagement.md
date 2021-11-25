@@ -1,5 +1,6 @@
 ---
-title: Training - Timemanagement
+title: Timemanagement
+subtitle: Neem de touwtjes weer in handen.
 img: timemanagement-1.jpg
 alt: 2 personen aan vergadertafel overleggen met 3 personen op een groot scherm
 volgnummer: 12

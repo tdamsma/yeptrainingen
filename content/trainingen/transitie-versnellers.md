@@ -1,5 +1,6 @@
 ---
-title: Training - Transitieversnellers en Eco-positiviteit
+title: Transitieversnellers en Eco-positiviteit
+subtitle: Zet dé waardevolle stappen in het verduurzamen van jezelf of je organisatie.
 img: transitie-versnellers-1.jpg
 alt: groep die buiten overlegt in groene omgeving
 volgnummer: 18

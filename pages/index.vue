@@ -49,7 +49,7 @@
             <SpringestCustom />
           </div>
           <div v-for="blog of blogs" :key="blog.title" class="col-md-3 border bg-light p-2 text-center">
-            <h2>Recente blog</h2>
+            <h2>Laatste blog</h2>
             <a href="/blog/welke-rol-pak-jij-als-cursist" class="d-block mt-2">
               <b-img fluid="fluid" blank-color="#777" :src="require(`~/content/blog/${blog.img}?size=500`)" :alt="blog.alt"></b-img>
               {{ blog.title }} >></a

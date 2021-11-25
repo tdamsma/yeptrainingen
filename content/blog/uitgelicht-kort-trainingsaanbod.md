@@ -2,7 +2,7 @@
 title: "Uitgelicht kort trainingsaanbod voor young professionals (30-180 minuten)"
 img: uitgelicht-kort-trainingsaanbod-1.png
 alt: lamp met schijnwerper
-date: 2018-3-26
+date: 2018-03-26
 intro: Wij krijgen vaak de vraag wat leuke opties zijn voor korte trainingen, bijvoorbeeld op een netwerkevent of jongpersoneelsbijeenkomst. Bij deze onze suggesties!
 credits: Images Marijn Damsma Author Marijn Damsma
 tags: 

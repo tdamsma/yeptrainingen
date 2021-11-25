@@ -2,7 +2,7 @@
 title: "Aan de slag: onze verwachtingen zijn de moeite waard"
 img: aan-de-slag-1.jpg
 alt: bijschrift
-date: 2020-06-3
+date: 2020-06-03
 intro: Zit je jezelf in de weg rond een bepaald thema, dan is het de moeite waard om je verwachtingen zelf of samen met een coach te onderzoeken. Aan de hand van de oefeningen in dit blog kun je daarmee direct een start maken.
 credits: Images Marijn Damsma Author Anna Stutje
 tags: 

@@ -13,7 +13,7 @@ div
           b-nav-item(href='/team') Ons team
           b-nav-item(href='/trainingen') Trainingen
           b-nav-item(href='/coaching') Coaching
-          b-nav-item(href='/werkgevers') Voor werkgevers
+          b-nav-item(href='/onzeaanpak') Onze aanpak
           b-nav-item(to='/blog') Blog
 </template>
 

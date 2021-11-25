@@ -1,8 +1,8 @@
 <template lang="html">
   <div>
     <div class="container-fluid container-left">
-      <div class="row">
-          <div class="col-md-6">
+      <div class="row p-0">
+          <div class="col-md-6 p-0">
             <b-img
               fluid="fluid"
               blank-color="#777"
@@ -29,7 +29,7 @@
         </p>
       </div>
     </div>
-    <div class="jumbotron jumbotron-fluid" style="background-color: #585656">
+    <div class="jumbotron jumbotron-fluid yep-grijs-donker">
       <div class="container">
         <div class="row justify-content-around">
           <div class="col-md-3 border bg-light p-2 text-center">
@@ -58,7 +58,7 @@
         </div>
       </div>
     </div>
-    <div class="container-fluid container-right">
+    <div class="container-fluid container-right m-0">
       <div class="row">
         <div class="col-md full-width">
           <br /><br />
@@ -66,8 +66,8 @@
           <h1>Neem je talent en maatschappelijke ambitie serieus.</h1>
           <br />
         </div>
-        <div class="col-md">
-          <div style="float: right; max-width: 500px; width: 100%">
+        <div class="col-md p-0">
+          <div class="div float-right" style="max-width:500px;width:100%">
             <b-img
               fluid="fluid"
               blank-color="#777"
@@ -78,12 +78,12 @@
         </div>
       </div>
     </div>
-    <div class="jumbotron jumbotron-fluid" style="background-color: #585656">
+    <div class="jumbotron jumbotron-fluid yep-grijs-donker">
       <div class="container">
         <h1 class="text-center text-light">Opdrachtgevers</h1>
       </div>
     </div>
-    <div class="container-fluid m-0">
+    <div class="container-fluid p-0">
       <b-img
         fluid="fluid"
         blank-color="#777"
@@ -91,7 +91,7 @@
         :srcset="require(`~/assets/images/site-foto-1-of-1-3.jpg`).srcSet"
       ></b-img>
     </div>
-    <div class="jumbotron jumbotron-fluid" style="background-color: #585656">
+    <div class="jumbotron jumbotron-fluid yep-grijs-donker">
       <div class="container text-light border-top border-bottom">
         <h1 class="text-center my-4">Yep is hét trainingsbureau voor gedreven professionals.</h1>
         <div class="row justify-content-around my-5">
@@ -135,7 +135,7 @@
       <div class="container text-center">
         <h1>Bekijk ons aanbod</h1>
         <div class="row justify-content-around mt-5">
-          <div class="col-md-4 bg-light p-4 text-center">
+          <div class="col-md-4 bg-light py-2 mb-2 text-center">
             <h2 class="mb-3">Trainingen</h2>
             <a href="trainingen" class="d-block mt-2">
               <b-img
@@ -144,10 +144,10 @@
                 src="~/assets/images/JUMP.jpg"
                 :srcset="require(`~/assets/images/JUMP.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
               ></b-img>
-              <p>Lees meer >></p>
+              <p class="mt-2">Lees meer >></p>
             </a>
           </div>
-          <div class="col-md-4 bg-light p-4 text-center">
+          <div class="col-md-4 bg-light py-2 mb-2 text-center">
             <h2 class="mb-3">Coaching</h2>
             <a href="coaching" class="d-block mt-2">
               <b-img
@@ -156,7 +156,7 @@
                 src="~/assets/images/omgaanmetstress.jpg"
                 :srcset="require(`~/assets/images/omgaanmetstress.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
               ></b-img>
-              <p>Lees meer >></p>
+              <p class="mt-2">Lees meer >></p>
             </a>
           </div>
         </div>

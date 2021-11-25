@@ -1,41 +1,33 @@
 <template lang="html">
-  <div>
-    <div class="jumbotron jumbotron-fluid yep-geel">
-      <div class="row justify-content-around">
-        <h1>Trainingen</h1>
-      </div>
-    </div>
-
-    <div class="container mb-5 mt-4">
-      <p>
-        Yep verzorgt maatwerk trainingen voor gedreven professionals, waarin het vergroten van je kracht en effect centraal staat. Om een idee te krijgen van
-        wat wij zoal kunnen bieden, kun je hieronder een kijkje nemen. Deze pagina kun je zien als ons portfolio: een aantal kenmerkende trainingen die wij
-        eerder verzorgd hebben. Wil je weten wat we met jouw ontwikkeldoel kunnen? Dan is het handig om even contact op te nemen!
-      </p>
-      <p class="text-center">Hier staan onze <a href="/tarieven">tarieven</a></p>
-      <h2 class="text-center mb-3 mt-5">Trainingsoverzicht</h2>
-      <div class="row row-cols-1 row-cols-md-3">
-        <div v-for="article of articles" :key="article.title" class="col px-4 my-4">
-          <!-- Card-->
-          <div class="card card-cascade wider">
-            <!-- Card image-->
-            <div class="view view-cascade overlay">
-              <div class="container2" style="height: 60%">
-                <div class="rect-img-container">
-                  <b-card-img
-                    class="rect-img card-img-top"
-                    fluid-grow=""
-                    :src="article.responsiveImage.src"
-                    :srcset="article.responsiveImage.srcSet"
-                    sizes="50vw"
-                    :blank-src="article.responsiveImage.placeholder"
-                    :blank-width="article.responsiveImage.width"
-                    :blank-height="article.responsiveImage.height"
-                    :alt="article.alt"
-                    ><a href="#!"> <div class="mask rgba-white-slight"></div></a
-                  ></b-card-img>
-                  <nuxt-link class="stretched-link font-bold" :to="{ name: 'trainingen-slug', params: { slug: article.slug } }"></nuxt-link>
-                </div>
+  <div class="container mb-5 mt-4">
+    <h1>Trainingen</h1>
+    <p>
+      Yep verzorgt maatwerk trainingen voor gedreven professionals, waarin het vergroten van je kracht en effect centraal staat. Om een idee te krijgen van wat
+      wij zoal kunnen bieden, kun je hieronder een kijkje nemen. Deze pagina kun je zien als ons portfolio: een aantal kenmerkende trainingen die wij eerder
+      verzorgd hebben. Wil je weten wat we met jouw ontwikkeldoel kunnen? Dan is het handig om even contact op te nemen!
+    </p>
+    <p class="text-center">Hier staan onze <a href="/tarieven" class="link-groen">tarieven</a></p>
+    <h2 class="text-center mb-3 mt-5">Trainingsoverzicht</h2>
+    <div class="row row-cols-1 row-cols-md-3">
+      <div v-for="article of articles" :key="article.title" class="col mb-4">
+        <!-- Card-->
+        <div class="card card-cascade narrower min-height-330">
+          <!-- Card image-->
+          <div class="view view-cascade overlay">
+            <div class="container2" style="height: 60%">
+              <div class="rect-img-container">
+                <b-card-img
+                  class="rect-img card-img-top"
+                  fluid-grow=""
+                  :src="article.responsiveImage.src"
+                  :srcset="article.responsiveImage.srcSet"
+                  sizes="50vw"
+                  :blank-src="article.responsiveImage.placeholder"
+                  :blank-width="article.responsiveImage.width"
+                  :blank-height="article.responsiveImage.height"
+                  :alt="article.alt"
+                  ><a href="#!"> <div class="mask rgba-white-slight"></div></a
+                ></b-card-img>
               </div>
             </div>
             <!-- Card content-->

@@ -119,6 +119,16 @@ a:hover {
   }
 }
 
+.yep-grijs-donker {
+  background-color:#585656;
+}
+
+.rand-links-groen {
+  border-left: solid 5px green; 
+  padding-left: 20px
+}
+
+
 .yep-link {
   color: $dark;
   a hover{
@@ -140,6 +150,18 @@ h1,h2 {
 .full-width {
   padding-right: 0;
   padding-right: 0;
+}
+
+.min-height-330 {
+ min-height:330px;
+}
+
+.min-height-350 {
+  min-height:350px;
+ }
+
+.max-height-550 {
+  max-height:550px;
 }
 
 @include media-breakpoint-between(lg, xl) {

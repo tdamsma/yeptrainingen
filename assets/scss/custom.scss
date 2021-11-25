@@ -209,3 +209,20 @@ blockquote {
   height: 70%;
   object-fit: cover;
 }
+
+.square-img-container {
+  position: relative;
+}
+
+.square-img-container::after {
+  content: '';
+  display: block;
+  padding-bottom: 100%;
+}
+
+.square-img {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

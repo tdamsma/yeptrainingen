@@ -84,4 +84,6 @@ Naast de eerder genoemde ervaring met de thema's begeleiden, feedback, veranderm
 
 ## Handige links:
 
-Nationaal Programma Onderwijs: [https://www.nponderwijs.nl/](https://www.nponderwijs.nl/) Feedback als interventie: [https://www.nponderwijs.nl/interventies/feedback](https://www.nponderwijs.nl/interventies/feedback) Tutoring / Leren van en met mede-leerlingen: [nponderwijs.nl/interventies/leren-van-en-met-medeleerlingen](https://nponderwijs.nl/interventies/leren-van-en-met-medeleerlingen) Blog: Veranderingen volhouden: [/veranderingen-volhouden/](/veranderingen-volhouden/)
+ - Nationaal Programma Onderwijs: [https://www.nponderwijs.nl/](https://www.nponderwijs.nl/) 
+ - Feedback als interventie: [https://www.nponderwijs.nl/interventies/feedback](https://www.nponderwijs.nl/interventies/feedback) 
+ - Tutoring / Leren van en met mede-leerlingen: [nponderwijs.nl/interventies/leren-van-en-met-medeleerlingen](https://nponderwijs.nl/interventies/leren-van-en-met-medeleerlingen)

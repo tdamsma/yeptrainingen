@@ -84,7 +84,8 @@
           </p>
           <p>Coachees over Anna:</p>
           <p class="rand-links-groen">
-            <i>“Anna heeft me geholpen om structuur aan te brengen in de crisis die ik ervaarde in mijn werkende leven. Ze houdt je bij de les en leert je te
+            <i
+              >“Anna heeft me geholpen om structuur aan te brengen in de crisis die ik ervaarde in mijn werkende leven. Ze houdt je bij de les en leert je te
               reflecteren waardoor de coachingssessies doeltreffend zijn. De opdrachten die je mee naar huis krijgt leveren enorm veel op. Het heeft er voor
               gezorgd dat ik belangrijke keuzes in mijn werk heb kunnen maken en mijn zelfinzicht gegroeid is. Een super fijne gesprekspartner die je laat
               groeien!”</i
@@ -92,13 +93,16 @@
             – Vera
           </p>
           <p class="rand-links-groen">
-            <i>“The coaching with Anna has helped me immensely to listen to my own feelings whilst making some important life decisions. She provided me with a
+            <i
+              >“The coaching with Anna has helped me immensely to listen to my own feelings whilst making some important life decisions. She provided me with a
               tool that helps me to reflect on my choices and behaviour. Anna knows how to create a setting that helps to open up easily. I would definitely
-              recommend her as a coach.”</i>
+              recommend her as a coach.”</i
+            >
             – Vincent
           </p>
           <p class="rand-links-groen">
-            <i>Anna heeft me geholpen bij het formuleren van mijn ‘Why’. Ik zie nu hoe belangrijk het is om een duidelijk beeld van mijn purpose te hebben. Dit
+            <i
+              >Anna heeft me geholpen bij het formuleren van mijn ‘Why’. Ik zie nu hoe belangrijk het is om een duidelijk beeld van mijn purpose te hebben. Dit
               heeft geleid tot een veel scherper beeld van de loopbaanstap die ik wil nemen en ik voel nu veel meer zelfvertrouwen om me in mijn netwerk te
               profileren. Ik heb daarnaast ook nog inzicht gekregen in verschillende kanten van mezelf die soms (ongewenst) de overhand nemen.”</i
             >– Emma

@@ -1,32 +1,31 @@
 <template lang="html">
   <div class="container-fluid m-0 p-0 bg-white">
-     <div class="row overflow-hidden max-height-550">
+    <div class="row overflow-hidden max-height-550">
       <div class="col-lg-6 overflow-hidden">
-        <b-img
-          fluid="fluid"
-          blank-color="#777"
-          src="~/assets/images/onze-aanpak-1.jpg"
-          :srcset="require(`~/assets/images/onze-aanpak-1.jpg`).srcSet"
-        ></b-img>
+        <b-img fluid="fluid" blank-color="#777" src="~/assets/images/onze-aanpak-1.jpg" :srcset="require(`~/assets/images/onze-aanpak-1.jpg`).srcSet"></b-img>
       </div>
       <div class="col-lg-6 p-3 m-0">
         <h2>Maatschappelijke impact willen maken</h2>
         <p>
-          We staan voor grote uitdagingen: de overstap naar een duurzamer economisch model gericht op welzijn, klimaatverandering, toenemende ongelijkheid, omgaan met corona, migratie en desinformatie zijn er daar een paar van.
+          We staan voor grote uitdagingen: de overstap naar een duurzamer economisch model gericht op welzijn, klimaatverandering, toenemende ongelijkheid,
+          omgaan met corona, migratie en desinformatie zijn er daar een paar van.
         </p>
         <p>
-          Om die het hoofd te bieden, hebben we mensen nodig die kunnen luisteren, samenwerken, kritisch redeneren, innoveren en bouwen. Die niet blijven hangen in (voor)oordelen, Top-down handelen en korte termijn winst, maar die duurzame verbeterslagen weten te initiëren en door te zetten. Die zichzelf pushen en niet in het comfortabele blijven hangen.
+          Om die het hoofd te bieden, hebben we mensen nodig die kunnen luisteren, samenwerken, kritisch redeneren, innoveren en bouwen. Die niet blijven hangen
+          in (voor)oordelen, Top-down handelen en korte termijn winst, maar die duurzame verbeterslagen weten te initiëren en door te zetten. Die zichzelf
+          pushen en niet in het comfortabele blijven hangen.
         </p>
-        <p>
-        Dat vergt:
+        <p>Dat vergt:</p>
+
         <ul>
-            <li>een goede dosis zelfkennis</li>
-            <li>moed</li>
-            <li>vaardigheden</li>
+          <li>een goede dosis zelfkennis</li>
+          <li>moed</li>
+          <li>vaardigheden</li>
         </ul>
         <p>Die komen niet vanzelf - daarvoor moeten we onszelf ontwikkelen</p>
         <p>
-            Wij geloven dat iedereen zich kan verbeteren en daardoor een meer waardevolle rol in kan nemen in de organisatie, maar ook in de buurt en in de maatschappij in het groot. Dit is waar het team van Yep elke dag zo veel mogelijk mee aan de slag wil zijn!
+          Wij geloven dat iedereen zich kan verbeteren en daardoor een meer waardevolle rol in kan nemen in de organisatie, maar ook in de buurt en in de
+          maatschappij in het groot. Dit is waar het team van Yep elke dag zo veel mogelijk mee aan de slag wil zijn!
         </p>
       </div>
     </div>
@@ -78,13 +77,7 @@
           </ul>
         </div>
         <div class="col-lg-6 max-height-550 overflow-hidden">
-            <b-img
-          fluid="fluid"
-          blank-color="#777"
-          src="~/assets/images/IMG_2597.jpg"
-          :srcset="require(`~/assets/images/IMG_2597.jpg`).srcSet"
-        ></b-img>
-            
+          <b-img fluid="fluid" blank-color="#777" src="~/assets/images/IMG_2597.jpg" :srcset="require(`~/assets/images/IMG_2597.jpg`).srcSet"></b-img>
         </div>
       </div>
     </div>

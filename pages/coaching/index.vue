@@ -65,7 +65,7 @@
           Alle trajecten zijn zowel online als face-to-face beschikbaar en geschikt voor zowel particulieren, ondernemers als medewerkers.<br />
           We werken doorgaans met een traject van 5 tot 8 sessies. Tijdens een kosteloze intake bepalen we de precieze aanpak.
         </p>
-      </span>
+      </div>
     </div>
     <div class="jumbotron jumbotron-fluid bg-white m-0">
       <div class="row">

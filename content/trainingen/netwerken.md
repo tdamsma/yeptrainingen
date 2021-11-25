@@ -1,5 +1,6 @@
 ---
-title: Training - Netwerken
+title: Netwerken
+subtitle: Weet elkaar te vinden!
 img: netwerken-1.jpg
 alt: deelnemers staan voor hun profielomschrijvingen
 volgnummer: 19

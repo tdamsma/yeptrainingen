@@ -1,5 +1,6 @@
 ---
-title: Training - Co-creatie
+title: Co-creatie
+subtitle: Innoveer en verbind rond een gedeeld vraagstuk
 img: co-creatie-1.jpg
 alt: materialen co-creatie workshop
 volgnummer: 11

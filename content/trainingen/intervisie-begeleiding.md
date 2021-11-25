@@ -1,5 +1,6 @@
 ---
 title: Intervisie begeleiding
+subtitle: Leren met collega's in laagdrempelige setting.
 img: intervisie-begeleiding-1.jpg
 alt: een groep bespreekt onder begeleiding een casus
 volgnummer: 9

@@ -22,9 +22,11 @@
     </div>
     <div class="jumbotron jumbotron-fluid yep-geel">
       <div class="container">
-        Wij staan paraat voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn. En die de drang hebben om te leren. Samen met hun
-        organisaties ontwerpen en verzorgen we trainings- en coachingstrajecten. Zodat de professionals nog beter worden in wat ze goed kunnen: werken aan
-        vraagstukken die er toe doen.
+        <p style="font-size: 120%">
+          Wij staan paraat voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn. En die de drang hebben om te leren. Samen met hun
+          organisaties ontwerpen en verzorgen we trainings- en coachingstrajecten. Zodat de professionals nog beter worden in wat ze goed kunnen: werken aan
+          vraagstukken die er toe doen.
+        </p>
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid" style="background-color: #585656">
@@ -32,27 +34,26 @@
         <div class="row justify-content-around">
           <div class="col-md-3 border bg-light p-2 text-center">
             <h2>Uitgelicht</h2>
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/uitgelicht1.png"
-              :srcset="require(`~/assets/images/uitgelicht1.png?sizes[]=200&amp;sizes[]=566`).srcSet"
-            ></b-img>
-            <a href="welke-rol-pak-jij-als-cursist" class="d-block mt-2">Talentontwikkel programma>></a>
+            <a href="/trainingen/talent-ontwikkelprogramma" class="d-block mt-2">
+              <b-img
+                fluid="fluid"
+                blank-color="#777"
+                src="~/assets/images/uitgelicht1.png"
+                :srcset="require(`~/assets/images/uitgelicht1.png?sizes[]=200&amp;sizes[]=566`).srcSet"
+              ></b-img>
+              Talentontwikkel programma>></a
+            >
           </div>
           <div class="col-md-5 border bg-light p-2 text-center">
             <h2>Reviews</h2>
             <SpringestCustom />
           </div>
-          <div class="col-md-3 border bg-light p-2 text-center">
+          <div v-for="blog of blogs" :key="blog.title" class="col-md-3 border bg-light p-2 text-center">
             <h2>Recente blog</h2>
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/omgaanmetstress.jpg"
-              :srcset="require(`~/content/blog/welke-rol-pak-jij-als-cursist-boodschappen.jpg?sizes[]=200&amp;sizes[]=566`).srcSet"
-            ></b-img>
-            <a href="welke-rol-pak-jij-als-cursist" class="d-block mt-2">Welke rol pak jij als cursist? >></a>
+            <a href="/blog/welke-rol-pak-jij-als-cursist" class="d-block mt-2">
+              <b-img fluid="fluid" blank-color="#777" :src="require(`~/content/blog/${blog.img}?size=500`)" :alt="blog.alt"></b-img>
+              {{ blog.title }} >></a
+            >
           </div>
         </div>
       </div>
@@ -66,7 +67,7 @@
           <br />
         </div>
         <div class="col-md">
-          <div class="div" style="float: right; max-width: 500px; width: 100%">
+          <div style="float: right; max-width: 500px; width: 100%">
             <b-img
               fluid="fluid"
               blank-color="#777"
@@ -149,5 +150,12 @@
 <script>
 import Vue from 'vue'
 
-export default Vue.extend({})
+export default Vue.extend({
+  async asyncData({ $content }) {
+    const blogs = await $content('blog').only(['title', 'slug', 'img', 'alt', 'intro']).sortBy('date', 'desc').limit(1).fetch()
+    return {
+      blogs
+    }
+  }
+})
 </script>

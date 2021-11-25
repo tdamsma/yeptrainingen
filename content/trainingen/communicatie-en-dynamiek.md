@@ -1,8 +1,9 @@
 ---
-title: Training - Communicatie en Dynamiek
+title: Communicatie en Dynamiek
+subtitle: Diverse maatwerk mogelijkheden gericht op effectieve communicatie.
 img: communicatie-1.jpg
 alt: groep lacht om een improvisatie oefening
-Volgnummer: 21
+volgnummer: 3
 ---
 
 We verzorgen heel veel maatwerk communicatietrainingen. Te veel om ze allemaal apart op deze overzichtspagina te benoemen, vandaar dat we het in dit kopje samenvatten. We maken communicatietrainingen altijd op maat en hebben veel thema's en ervaring om uit te putten. Neem dus vooral [contact](Marijn@yeptrainingen.nl) op om de wensen van de groep en hun situatie toe te lichten, dan denken wij mee! 

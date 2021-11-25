@@ -1,5 +1,6 @@
 ---
-title: Training - Talent Ontwikkelprogramma (TOP)
+title: Talent Ontwikkelprogramma (TOP)
+subtitle: Compleet ontwikkelprogramma van 9 maanden voor gedreven young professionals.
 img: talent-ontwikkelprogramma-1.jpg
 alt: groep trainees lossen een puzzel op aan een tafel
 Springest: https://www.springest.nl/yep-trainingen-2/talent-ontwikkel-programma-top

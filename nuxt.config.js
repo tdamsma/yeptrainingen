@@ -45,7 +45,7 @@ export default {
     responsiveImagesName: ({ isDev }) => (isDev ? '[path][name]--[width][hash:optimized].[ext]' : 'img/[contenthash:7]-[width].[ext]'),
     handleImages: ['jpg', 'jpeg', 'png', 'svg', 'webp', 'gif'],
     optimizeImages: true,
-    optimizeImagesInDev: true,
+    optimizeImagesInDev: false,
     defaultImageLoader: 'img-loader',
     mozjpeg: {
       quality: 80

@@ -1,8 +1,9 @@
 ---
-title: Training - Teambuilding escape room
+title: Teambuilding escape room
+subtitle: Een verbindende dag die inzicht geeft in onderlinge patronen
 img: escape-room-1.jpg
 alt: groep in escape room setting
-Volgnummer: 16
+volgnummer: 16
 ---
 
 > "Een escape room is het perfecte middel om teamgedrag aan het licht te brengen en bespreekbaar te maken. De tijdsdruk en de spannende sfeer zorgen ervoor dat deelnemers helemaal opgaan in het spel en zich precies zo laten zien als zij zijn."  

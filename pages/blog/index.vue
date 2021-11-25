@@ -10,8 +10,8 @@
         <b-card class="mt-2 overflow-hidden shadow-none" no-body="">
           <b-row no-gutters="">
             <b-col md="3">
-              <div class="rect-img-container" style="margin: 20px">
-                <b-card-img class="rect-img rounded-circle" :src="require(`~/content/blog/${article.img}?size=500`)" :alt="article.alt"></b-card-img>
+              <div class="square-img-container" style="margin: 20px">
+                <b-card-img class="square-img rounded-circle" :src="require(`~/content/blog/${article.img}?size=500`)" :alt="article.alt"></b-card-img>
               </div>
             </b-col>
             <b-col md="9">

@@ -2,31 +2,32 @@
   <div>
     <div class="container-fluid container-left">
       <div class="row p-0">
-          <div class="col-md-6 p-0">
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/training-yep.jpg"
-              :srcset="require(`~/assets/images/training-yep.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
-            ></b-img>
-          </div>
-          <div class="col-md-6 pt-4">
-            <h2>
-              Inzicht, durf en vaardigheid<br>
-              <span class="yep-geel-donker">voor maatschappelijke impact</span>
-            </h2>
-          </div>
+        <div class="col-md-6 p-0">
+          <b-img
+            fluid="fluid"
+            blank-color="#777"
+            src="~/assets/images/training-yep.jpg"
+            :srcset="require(`~/assets/images/training-yep.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
+          ></b-img>
+        </div>
+        <div class="col-md-6 pt-4">
+          <h2>
+            Inzicht, durf en vaardigheid<br />
+            <span class="yep-geel-donker">voor maatschappelijke impact</span>
+          </h2>
+        </div>
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid yep-geel">
       <div class="container">
-        <h2>De drang om te leren. Wij zien het bij zoveel professionals. En we weten hoe graag organisaties daar ruimte voor willen maken. Samen met hen ontwerpen we trainings- en coachingstrajecten.</h2>
-        Wij zijn er voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn en die staan te popelen om hun stem verder te ontdekken. Die een idee hebben over hoe het anders kan en willen weten hoe ze dat binnen hun organisatie waar kunnen maken. Die soms nog aan zichzelf twijfelen en merken dat organisaties complex zijn. Maar die zich razendsnel nieuwe vaardigheden eigen willen maken. Enerzijds om zelf te groeien, anderzijds omdat ze weten dat ze een tastbare bijdrage kunnen leveren aan de organisatie en de samenleving als ze echt ergens voor durven staan. 
-        <p style="font-size: 120%">
-          Wij staan paraat voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn. En die de drang hebben om te leren. Samen met hun
-          organisaties ontwerpen en verzorgen we trainings- en coachingstrajecten. Zodat de professionals nog beter worden in wat ze goed kunnen: werken aan
-          vraagstukken die er toe doen.
-        </p>
+        <h2>
+          De drang om te leren. Wij zien het bij zoveel professionals. En we weten hoe graag organisaties daar ruimte voor willen maken. Samen met hen ontwerpen
+          we trainings- en coachingstrajecten.
+        </h2>
+        Wij zijn er voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn en die staan te popelen om hun stem verder te ontdekken.
+        Die een idee hebben over hoe het anders kan en willen weten hoe ze dat binnen hun organisatie waar kunnen maken. Die soms nog aan zichzelf twijfelen en
+        merken dat organisaties complex zijn. Maar die zich razendsnel nieuwe vaardigheden eigen willen maken. Enerzijds om zelf te groeien, anderzijds omdat ze
+        weten dat ze een tastbare bijdrage kunnen leveren aan de organisatie en de samenleving als ze echt ergens voor durven staan.
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid yep-grijs-donker">
@@ -67,7 +68,7 @@
           <br />
         </div>
         <div class="col-md p-0">
-          <div class="div float-right" style="max-width:500px;width:100%">
+          <div class="div float-right" style="max-width: 500px; width: 100%">
             <b-img
               fluid="fluid"
               blank-color="#777"
@@ -96,32 +97,17 @@
         <h1 class="text-center my-4">Yep is hét trainingsbureau voor gedreven professionals.</h1>
         <div class="row justify-content-around my-5">
           <div class="col-md-3 text-center">
-            <b-img
-            fluid="fluid"
-            blank-color="#777"
-            src="~/assets/images/wereldbol.png"
-            :srcset="require(`~/assets/images/wereldbol.png`).srcSet"
-            ></b-img><br>
+            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/wereldbol.png" :srcset="require(`~/assets/images/wereldbol.png`).srcSet"></b-img><br />
             <h2 class="mt-2">Maatschappelijk</h2>
             <p>Jouw impact is ons doel.</p>
           </div>
           <div class="col-md-3 text-center">
-            <b-img
-            fluid="fluid"
-            blank-color="#777"
-            src="~/assets/images/megafoon.png"
-            :srcset="require(`~/assets/images/megafoon.png`).srcSet"
-            ></b-img><br>
+            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/megafoon.png" :srcset="require(`~/assets/images/megafoon.png`).srcSet"></b-img><br />
             <h2 class="mt-2">Actief</h2>
             <p>Leren door te experimenteren.</p>
           </div>
           <div class="col-md-3 text-center">
-            <b-img
-            fluid="fluid"
-            blank-color="#777"
-            src="~/assets/images/puzzle.png"
-            :srcset="require(`~/assets/images/puzzle.png`).srcSet"
-            ></b-img><br>
+            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/puzzle.png" :srcset="require(`~/assets/images/puzzle.png`).srcSet"></b-img><br />
             <h2 class="mt-2">Flexibel</h2>
             <p>Jouw ontwikkelvraag staat centraal.</p>
           </div>

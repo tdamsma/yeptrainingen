@@ -1,5 +1,6 @@
 ---
 title: Train-de-trainer
+subtitle: Beknopte basis cursus of verdieping voor trainers.
 img: train-de-trainer-1.jpg
 alt: woordenwolk rond thema training
 springest: https://www.springest.nl/Yep-Trainingen/train-de-trainer

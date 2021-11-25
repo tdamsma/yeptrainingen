@@ -1,8 +1,9 @@
 ---
-title: Training - Improviseren
+title: Improviseren
+subtitle: Breng plezier, aansluiting en synnergie in je samenwerking.
 img: improviseren-1.jpg
 alt: groep lacht om een improvisatie oefening
-Volgnummer: 17
+volgnummer: 17
 ---
 
 Improvisatie is al eeuwen een belangrijk basis voor het acteren. De Canadese Keith Johnstone heeft gemerkt dat improviseren het kind in ons naar boven haalt. Het kind dat "Ja" durft te zeggen op een idee van een ander. Dat durft te falen met een glimlach, dat bezig is zijn eigen grenzen te verkennen en durft te verleggen. Maar het is niet alleen een basis voor acteren, improviseren is een bewezen methode om tot meer durf te komen! Heb jij één van de volgende doelen?

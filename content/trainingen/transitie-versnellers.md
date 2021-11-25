@@ -1,8 +1,9 @@
 ---
-title: Training - Transitieversnellers en Eco-positiviteit
+title: Transitieversnellers en Eco-positiviteit
+subtitle: Zet dé waardevolle stappen in het verduurzamen van jezelf of je organisatie.
 img: transitie-versnellers-1.jpg
 alt: groep die buiten overlegt in groene omgeving
-Volgnummer: 18
+volgnummer: 18
 ---
 
 Heel graag helpen wij organisaties met het (creeren van draagvlak voor het) duurzamer maken van hun processen en het stimuleren van duurzaam gedrag van medewerkers. Marijn is Ambassadeur van de methode Verborgen Impact, van Babette Porcelijn en kan groepen begeleiden met het in kaart brengen van hun persoonlijke voetafdruk en het inzicht vergroten in waar de grote winst ligt op het gebied van duurzaamheid. 

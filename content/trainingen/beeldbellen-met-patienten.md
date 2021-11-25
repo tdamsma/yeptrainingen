@@ -1,5 +1,5 @@
 ---
-title: Online - Beeldbellen met patienten
+title: "Online - Beeldbellen met patienten"
 img: beeldbellen-met-patienten-1.jpg
 alt: arts-patient gesprek achter laptop
 volgnummer: 2

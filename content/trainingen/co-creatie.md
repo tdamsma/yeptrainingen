@@ -1,8 +1,9 @@
 ---
-title: Training - Co-creatie
+title: Co-creatie
+subtitle: Innoveer en verbind rond een gedeeld vraagstuk
 img: co-creatie-1.jpg
 alt: materialen co-creatie workshop
-Volgnummer: 11
+volgnummer: 11
 ---
 
 Een co-creatie workshop snijdt aan twee kanten: één of meerdere vraagstukken vanuit de organisatie worden grondig onder de loep genomen, én je team leert over diverse technieken om met elkaar op nieuwe en goede ideeen te komen. De technieken die worden gebruikt, zijn afhankelijk van de kaders die het vraagstuk schetst. Altijd bieden we handvatten om <em>Groupthink</em> te voorkomen en creativiteit te stimuleren. Echt leuk om met een groep te doen en er komt gegarandeerd inspiratie en energie vrij!

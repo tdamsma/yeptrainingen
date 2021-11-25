@@ -152,7 +152,7 @@ import Vue from 'vue'
 
 export default Vue.extend({
   async asyncData({ $content }) {
-    const blogs = await $content('blog').only(['title', 'slug', 'img', 'alt', 'intro']).sortBy('date', 'desc').limit(1).fetch()
+    const blogs = await $content('blog').only(['title', 'slug', 'img', 'alt', 'intro', 'date']).sortBy('date', 'desc').limit(1).fetch()
     return {
       blogs
     }

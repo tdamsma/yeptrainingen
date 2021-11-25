@@ -3,7 +3,7 @@ title: Burn-out voorkomen
 img: burn-out-voorkomen-1.png
 alt: Jonge man met de handen in het haar
 date: 2017-07-01
---intro: Burn-out komt helaas veel voor. Zeker onder sterk betrokken medewerkers tussen de 25 en 35 jaar. 
+intro: Burn-out komt helaas veel voor. Zeker onder sterk betrokken medewerkers tussen de 25 en 35 jaar. 
 credits: Images Marijn Damsma Author Marijn Damsma
 tags: 
   - burn-out

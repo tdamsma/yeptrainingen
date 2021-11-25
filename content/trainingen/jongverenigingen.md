@@ -20,7 +20,7 @@ Wij verzorgen regelmatig activiteiten voor jong verenigingen en krijgen daarbij
 Om hen beter te kunnen adviseren hadden wij zelf ook meer informatie nodig. Wij hebben toen een onderzoek gedaan onder diverse jongverenigingen en jong-netwerken. We hebben hen gevraagd om zowel knelpunten als tips te delen, zodat er een kennisuitwisseling kan ontstaan tussen de besturen van jongverenigingen. 
 
 Er hebben 25 verenigingen uit zowel publieke als commerciële organisaties uitgebreid gereageerd. Alle tips en inzichten die we bij de jong verenigingen hebben opgedaan, hebben we gecombineerd met onze eigen ervaringen vanuit Yep Trainingen. We hebben de tips gebundeld rond de thema's die het vaakst genoemd zijn als knelpunt, waardoor er hopelijk een handige TODO: THIJS:
-(../../static/Brochure-TOP Yep.pdf[brochure] [![Brochure Jong personeelsverenigingen](./jongverenigingen-2.jpg) is ontstaan voor (startende) jongbesturen.
+(../../static/Brochure-TOP Yep.pdf[brochure] [![Brochure Jong personeelsverenigingen](./jongverenigingen-2.png) is ontstaan voor (startende) jongbesturen.
 
 > "Het is zeker een handig boekje voor beginnende besturen; vanuit verschillende invalshoeken als activiteiten, maar ook aanhaken van de directie. Het is ook makkelijk even erbij te pakken met de concrete tips."
 

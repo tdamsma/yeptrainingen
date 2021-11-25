@@ -62,4 +62,4 @@ Wij hebben afgelopen jaar ervaring opgedaan met het verzorgen van fysieke bijeen
 
  Met de juiste voorbereiding kan het veel opleveren! Wij zijn er klaar voor en hebben al verschillende organisaties geholpen met het opzetten van hun hybride overleggen.
 
-Meer tips rondom [digitaal vergaderen](/dos-en-donts-digitale-vergaderingen/), [verbinding met je team](/hoe-behoud-je-het-teamgevoel-als-niemand-op-kantoor-werkt/) en [(digitale) bijeenkomsten begeleiden](/succesvol-voor-de-groep/)? Lees verder op ons blog!
+Meer tips rondom [digitaal vergaderen](./dos-en-donts/), [verbinding met je team](./hoe-behoud-je-het-teamgevoel-als-niemand-op-kantoor-werkt/) en [(digitale) bijeenkomsten begeleiden](./succesvol-voor-de-groep/)? Lees verder op ons blog!

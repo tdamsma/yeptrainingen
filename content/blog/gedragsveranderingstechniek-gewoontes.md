@@ -14,7 +14,7 @@ categories:
 english-version:
 ---
 
-Als jij je persoonlijk wilt ontwikkelen, betekent dat vaak dat je bepaald gedrag wilt veranderen. Misschien wil je na een gesprek met je leidinggevende je werk anders aanpakken. Of misschien heb je jezelf voorgenomen om vaker 'nee' te zeggen, je werk beter na te lezen of meer aandacht te besteden aan relaties met collega's. Een mogelijke manier om je gedrag te veranderen, is door het gebruik van zelfcontrole. In ons [vorige blog](/gedragsveranderingstechniek-zelfcontrole-toepassen/) lees je daar meer over. We hebben al veel zelfcontrole nodig voor alle afleidingen die op ons af komen, keuzes die we moeten maken en taken die we moeten uitvoeren. Daarom is het handig om nog een methode te hebben die je kan gebruiken: je automatische gedrag veranderen.
+Als jij je persoonlijk wilt ontwikkelen, betekent dat vaak dat je bepaald gedrag wilt veranderen. Misschien wil je na een gesprek met je leidinggevende je werk anders aanpakken. Of misschien heb je jezelf voorgenomen om vaker 'nee' te zeggen, je werk beter na te lezen of meer aandacht te besteden aan relaties met collega's. Een mogelijke manier om je gedrag te veranderen, is door het gebruik van zelfcontrole. In ons [vorige blog](./gedragsveranderingstechniek-zelfcontrole-toepassen/) lees je daar meer over. We hebben al veel zelfcontrole nodig voor alle afleidingen die op ons af komen, keuzes die we moeten maken en taken die we moeten uitvoeren. Daarom is het handig om nog een methode te hebben die je kan gebruiken: je automatische gedrag veranderen.
 
 ## Gedragsverandering door gewoontes aan te passen
 

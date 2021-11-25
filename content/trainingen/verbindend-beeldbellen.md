@@ -10,7 +10,7 @@ volgnummer: 7
 
 Beeldbellen – het werkt en de techniek is zo onder de knie. Maar hoe bereik je nou diezelfde mate van contact en verbinding met de anderen? 
 
-![afbeelding verbindend beeldbellen](./verbindend-beeldbellen-2.jpg)
+![afbeelding verbindend beeldbellen](./verbindend-beeldbellen-2.png)
 
 In maatwerk trainingen rondom dit thema gaan we met de groep de uitdaging aan om aan de hand van enkele praktijksimulaties te ervaren hoe digitaal contact prettiger en effectiever wordt. 
 

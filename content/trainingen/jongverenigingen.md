@@ -1,5 +1,5 @@
 ---
-title: Aanbod voor jongpersoneelsverenigingen
+title: Aanbod voor jong-personeelsverenigingen
 subtitle: Korte workshops en tips van jongbesturen.
 img: jongverenigingen-1.jpg
 alt: jonge groep medewerkers volgt een training verkennen van belangen.

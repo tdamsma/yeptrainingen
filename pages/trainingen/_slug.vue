@@ -5,7 +5,7 @@
         <div class="col-lg-9">
           <div class="container">
             <div class="text-center mb-4">
-              <img class="img-fluid" style="max-height: 800px" :src="require(`~/content/trainingen/${document.img}?size=800`)" :alt="document.alt" />
+              <img class="img-fluid" style="max-height: 800px" :src="require(`~/content/trainingen/${document.img}?size=800`).src" :alt="document.alt" />
             </div>
             <h1>{{ document.title }}</h1>
             <div class="blog-details-body">
@@ -16,10 +16,10 @@
         <!-- bar rechts met links-->
         <div class="col-lg-3">
           <div v-for="surroundingDocument of surroundingDocuments" :key="surroundingDocument.title">
-            <b-card v-if="surroundingDocument" class="mt-5 overflow-hidden" no-body="" bg-variant="dark" text-variant="white">
+            <b-card class="mt-5 overflow-hidden" no-body="" bg-variant="dark" text-variant="white">
               <b-card-img
                 class="rounded-0"
-                :src="require(`~/content/trainingen/${surroundingDocument.img}?size=255`)"
+                :src="require(`~/content/trainingen/${surroundingDocument.img}?size=255`).src"
                 :alt="surroundingDocument.alt"
               ></b-card-img>
               <b-card-body class="p-3">
@@ -39,7 +39,12 @@ export default {
   async asyncData({ $content, params }) {
     const document = await $content('trainingen', params.slug).fetch()
 
-    const surroundingDocuments = await $content('trainingen').only(['title', 'slug', 'img', 'alt']).sortBy('createdAt', 'asc').surround(params.slug).fetch()
+    const surroundingDocuments2 = await $content('trainingen')
+      .surround(params.slug, { before: 5, after: 5 })
+      .only(['title', 'slug', 'img', 'alt'])
+      .sortBy('createdAt', 'asc')
+      .fetch()
+    const surroundingDocuments = surroundingDocuments2.filter((x) => x).slice(0, 5)
     return {
       document,
       surroundingDocuments
@@ -48,13 +53,6 @@ export default {
   head() {
     return {
       title: 'Yep trainingen'
-    }
-  },
-
-  methods: {
-    formatDate(date) {
-      const options = { year: 'numeric', month: 'short', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
     }
   }
 }

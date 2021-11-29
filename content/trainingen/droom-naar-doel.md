@@ -3,7 +3,7 @@ title: Van Droom naar Doel
 subtitle: In 5 creatieve oefeningen wordt jouw missie haalbaar en concreet.
 img: droom-naar-doel-1.jpg
 alt: groep maakt collage
-Springest: https://www.springest.nl/yep-trainingen-2/van-droom-naar-doel#overzicht
+springest: https://www.springest.nl/yep-trainingen-2/van-droom-naar-doel
 volgnummer: 14
 ---
 Deze training helpt je om in 3 uur tijd een abstract idee of een droom naar een haalbaar doel te vertalen. Een snelkookpan die veel energie voor je droom bij je gaat losmaken omdat het allemaal heel concreet wordt!
@@ -21,8 +21,6 @@ Tijdens de training doorloop je 5 gerichte en creatieve oefeningen, in totaal in
 Aan het einde van de drie uur heb je diverse praktische oefeningen gedaan en je plan vertaald naar een actieplan waar je energie van krijgt. Je weet dan precies wat je te doen staat om van je idee een haalbare werkelijkheid te maken! 
 
 We plannen nieuwe trainingen in op aanvraag. De open training kost €300 btw vrij per persoon voor groepen van maximaal 6 deelnemers. Voor een training in besloten groep hanteren wij onze vaste tarieven en kunnen we zoals gezegd varieren in groepsgrootte en werkwijze. 
-
-XXX Hieronder vind je de reeds geplande startdata en het inschrijfformulier. Inschrijfmogelijkheden (springest)
 
 Eerst informatie aanvragen kan uiteraard ook. Stuur dan een mailtje naar Marijn@yeptrainingen.nl 
 

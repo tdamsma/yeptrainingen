@@ -5,10 +5,9 @@
         <div class="col-lg-9">
           <div class="container">
             <div class="text-center mb-4">
-              <img class="img-fluid" style="max-height: 800px" :src="require(`~/content/coaching/${document.img}?size=800`)" :alt="document.alt" />
+              <img class="img-fluid" style="max-height: 800px" :src="require(`~/content/coaching/${document.img}?size=800`).src" :alt="document.alt" />
             </div>
             <h2>{{ document.title }}</h2>
-            <p>{{ formatDate(document.date) }}</p>
             <div class="blog-details-body">
               <nuxt-content :document="document"></nuxt-content>
             </div>
@@ -17,10 +16,10 @@
         <!-- bar rechts met links-->
         <div class="col-lg-3">
           <div v-for="surroundingDocument of surroundingDocuments" :key="surroundingDocument.title">
-            <b-card v-if="surroundingDocument" class="mt-5 overflow-hidden" no-body="" bg-variant="dark" text-variant="white">
+            <b-card class="mt-5 overflow-hidden" no-body="" bg-variant="dark" text-variant="white">
               <b-card-img
                 class="rounded-0"
-                :src="require(`~/content/coaching/${surroundingDocument.img}?size=255`)"
+                :src="require(`~/content/coaching/${surroundingDocument.img}?size=255`).src"
                 :alt="surroundingDocument.alt"
               ></b-card-img>
               <b-card-body class="p-3">
@@ -40,7 +39,12 @@ export default {
   async asyncData({ $content, params }) {
     const document = await $content('coaching', params.slug).fetch()
 
-    const surroundingDocuments = await $content('coaching').only(['title', 'slug', 'img', 'alt']).sortBy('createdAt', 'asc').surround(params.slug).fetch()
+    const surroundingDocuments2 = await $content('coaching').only(['title', 'slug', 'img', 'alt']).sortBy('date', 'desc').fetch()
+    console.log(surroundingDocuments2)
+    const surroundingDocuments = surroundingDocuments2
+      .filter((x) => x)
+      .slice(0, 5)
+      .filter((x) => x.title !== document.title)
     return {
       document,
       surroundingDocuments
@@ -49,13 +53,6 @@ export default {
   head() {
     return {
       title: 'YEP trainingen coaching'
-    }
-  },
-
-  methods: {
-    formatDate(date) {
-      const options = { year: 'numeric', month: 'short', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
     }
   }
 }

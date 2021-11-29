@@ -16,13 +16,17 @@
         </div>
         <!-- bar rechts met links-->
         <div class="col-lg-3">
-          <div v-for="doc of surroundingDocuments" :key="doc.title">
-            <b-card v-if="doc" class="mt-5 overflow-hidden" no-body="" bg-variant="dark" text-variant="white">
-              <b-card-img class="rounded-0" :src="require(`~/content/coaching/${doc.img}?size=255`)" :alt="doc.alt"></b-card-img>
+          <div v-for="surroundingDocument of surroundingDocuments" :key="surroundingDocument.title">
+            <b-card v-if="surroundingDocument" class="mt-5 overflow-hidden" no-body="" bg-variant="dark" text-variant="white">
+              <b-card-img
+                class="rounded-0"
+                :src="require(`~/content/coaching/${surroundingDocument.img}?size=255`)"
+                :alt="surroundingDocument.alt"
+              ></b-card-img>
               <b-card-body class="p-3">
-                <b-card-title class="smalltext">{{ doc.title }}</b-card-title>
+                <b-card-title class="smalltext">{{ surroundingDocument.title }}</b-card-title>
               </b-card-body>
-              <nuxt-link class="stretched-link font-bold" :to="{ name: `coaching-slug`, params: { slug: doc.slug } }"></nuxt-link>
+              <nuxt-link class="stretched-link font-bold" :to="{ name: `coaching-slug`, params: { slug: surroundingDocument.slug } }"></nuxt-link>
             </b-card>
           </div>
         </div>

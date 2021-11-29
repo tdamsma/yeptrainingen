@@ -11,6 +11,19 @@
             <div class="blog-details-body">
               <nuxt-content :document="document"></nuxt-content>
             </div>
+            <div v-if="document.springest" class="mb-4 text-center">
+              <button
+                v-b-tooltip.hover.bottomleft
+                title="Via Springest"
+                class="btn btn-primary"
+                :onclick="`window.open('${document.springest}/inschrijven?widget=1');`"
+              >
+                Inschrijfmogelijkheden
+              </button>
+              <button v-b-tooltip.hover.bottomright title="Via Springest" class="btn btn-primary" :onclick="`window.open('${document.springest}#ervaringen');`">
+                Meer Ervaringen
+              </button>
+            </div>
           </div>
         </div>
         <!-- bar rechts met links-->
@@ -64,7 +77,7 @@ export default {
   font-size: 16px;
 }
 
-.nuxt-content > p > img {
+.nuxt-content img {
   max-height: 500px;
   max-width: 100%;
   display: block;

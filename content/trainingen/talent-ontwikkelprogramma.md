@@ -1,5 +1,5 @@
 ---
-title: Talent Ontwikkelprogramma (TOP)
+title: Talent Ontwikkel-programma (TOP)
 subtitle: Compleet ontwikkelprogramma van 9 maanden voor gedreven young professionals.
 img: talent-ontwikkelprogramma-1.jpg
 alt: groep trainees lossen een puzzel op aan een tafel

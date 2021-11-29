@@ -52,7 +52,32 @@
         hand van een aantal voorbeelden zien hoe we die vertalen in onze werkwijze.
       </p>
     </div>
-    <div class="jumbotron jumbotron-fluid mt-5 yep-grijs-donker"></div>
+    <div class="jumbotron jumbotron-fluid mt-5 yep-grijs-donker">
+      <div class="row">
+        <div v-for="{ kenmerk, aanpak } in kenmerken" :key="kenmerk.title" class="col-xl-6">
+          <div class="container">
+            <div class="card" style="float: left; width: 50%; z-index: 2">
+              <div class="card-header">
+                <h2>Kenmerk</h2>
+              </div>
+              <div class="card-body">
+                <h5>{{ kenmerk.title }}</h5>
+                <p v-for="p in kenmerk.body" :key="p" style="text-align: justify">{{ p }}</p>
+              </div>
+            </div>
+            <div class="card" style="float: right; width: 70%; position: relative; top: -50px; z-index: auto">
+              <div style="text-align: center" class="card-header">
+                <h2>Aanpak</h2>
+              </div>
+              <div class="card-body">
+                <h5>{{ aanpak.title }}</h5>
+                <p v-for="p in aanpak.body" :key="p" style="text-align: justify">{{ p }}</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="jumbotron jumbotron-fluid bg-light">
       <div class="row">
         <div class="col-lg-6 p-4">
@@ -86,6 +111,12 @@
 
 <script>
 import Vue from 'vue'
-
-export default Vue.extend({})
+import kenmerken from './onze-aanpak.json'
+export default Vue.extend({
+  data: function () {
+    return {
+      kenmerken
+    }
+  }
+})
 </script>

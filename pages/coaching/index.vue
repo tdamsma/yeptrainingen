@@ -43,7 +43,6 @@
               <h4 class="card-title">{{ article.title }}</h4>
               <!-- Text-->
               <!-- <p class="card-text">{{ article.title }}</p> -->
-              <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
               <nuxt-link class="stretched-link font-bold" :to="{ name: 'coaching-slug', params: { slug: article.slug } }"></nuxt-link>
             </div>
           </div>

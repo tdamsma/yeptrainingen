@@ -34,11 +34,9 @@
             <div class="card-body card-body-cascade" style="min-height: 105px">
               <!-- Title-->
               <h4 class="card-title">{{ article.title }}</h4>
-
-              <!-- Provides extra visual weight and identifies the primary action in a set of buttons -->
-              <!-- <button class="btn btn-light-blue btn-md">
-              Lees meer
-            </button> -->
+              <!-- Text-->
+              <!-- <p class="card-text">{{ article.title }}</p> -->
+              <nuxt-link class="stretched-link font-bold" :to="{ name: 'trainingen-slug', params: { slug: article.slug } }"></nuxt-link>
             </div>
           </div>
           <!-- Card-->

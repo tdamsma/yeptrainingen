@@ -1,5 +1,5 @@
 ---
-title: ""Iets met Mensen""
+title: '"Iets met Mensen"'
 img: iets-met-mensen-1.jpg
 alt: een lift
 date: 2016-03-10

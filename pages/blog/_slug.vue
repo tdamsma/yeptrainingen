@@ -21,7 +21,7 @@
               fluid="fluid"
               blank-color="#777"
               src="~/assets/images/omgaanmetstress.jpg"
-              :srcset="require(`~/content/blog/blog_overzicht.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
+              :srcset="require(`~/assets/images/blog-overzicht.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
             ></b-img>
             <a href="/blog/" class="d-block mt-2">&lt;&lt; Terug naar overzicht</a>
           </div>

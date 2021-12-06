@@ -22,12 +22,12 @@ Welke elementen maken een pitch goed?
 Een goede pitch is passend.
 ---------------------------
 
-Een pitch in het wilde weg levert waarschijnlijk niet veel op. Sluit aan bij een gelegenheid en in elk geval bij je gesprekspartner. Handig dus om de�ander zichzelf eerst voor te laten stellen! Of stel eerst een vraag. Zodra je weet wat de ander doet/kan/wil, kan er een betekenisvolle uitwisseling�ontstaan. Ben jij iemand die dit in de vingers heeft? Of voel je je vertrouwder als je de pitch van buiten kan leren en 'dreun' je hem dan op? Oefening baart kunst!
+Een pitch in het wilde weg levert waarschijnlijk niet veel op. Sluit aan bij een gelegenheid en in elk geval bij je gesprekspartner. Handig dus om de ander zichzelf eerst voor te laten stellen! Of stel eerst een vraag. Zodra je weet wat de ander doet/kan/wil, kan er een betekenisvolle uitwisseling ontstaan. Ben jij iemand die dit in de vingers heeft? Of voel je je vertrouwder als je de pitch van buiten kan leren en 'dreun' je hem dan op? Oefening baart kunst!
 
 Een goede pitch is oprecht.
 ---------------------------
 
-Vertel over wat je �cht bezig houdt, dit levert je de beste contacten en leads op! Je komt automatisch enthousiaster over en mensen krijgen sneller de neiging om je te helpen omdat ze voelen dat ze je er een groot plezier mee doen.
+Vertel over wat je écht bezig houdt, dit levert je de beste contacten en leads op! Je komt automatisch enthousiaster over en mensen krijgen sneller de neiging om je te helpen omdat ze voelen dat ze je er een groot plezier mee doen.
 
 Een goede pitch is duidelijk.
 -----------------------------

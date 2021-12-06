@@ -45,7 +45,7 @@ Dit vraagt om een voorbeeld. We nemen het doel: vaker genieten van de kleine gel
 * Praat er met iemand anders over of leg er op een andere manier een bepaalde druk op voor jezelf: een straf of beloning, een afspraak met iemand die er periodiek naar vraagt
 * Zorg dat het doel onder je aandacht blijft (door te koppelen aan dingen die je dagelijks doet, post-it op je scherm, tekst op je spiegel)
 * Zorg voor kleine feestjes wanneer je vorderingen maakt. Strepen van een to-do lijst, het bijhouden van je voortgang en resultaten, een beloning als je halverwege je doel bent, etc.
-* Houd je verander KPI�s op een aantrekkelijke en inzichtelijke manier bij. Een idee is om hiervoor een bullet-journal techniek te gebruiken.
+* Houd je verander KPI's op een aantrekkelijke en inzichtelijke manier bij. Een idee is om hiervoor een bullet-journal techniek te gebruiken.
 * Blijf je voor de volle 100% verantwoordelijk voelen voor je doel.
 
 Doelen stellen klinkt als snel als een taak waar je tegenop kan zien. Door het simpel te houden kom je een heel eind. Ik beloofde dat ik zou afsluiten met de twee belangrijkste tips.

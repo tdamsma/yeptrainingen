@@ -80,9 +80,7 @@
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid yep-grijs-donker">
-      <div class="container">
-        <h1 class="text-center text-light">Opdrachtgevers</h1>
-      </div>
+      <Opdrachtgevers />
     </div>
     <div class="container-fluid p-0">
       <b-img

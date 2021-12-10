@@ -1,5 +1,5 @@
 ---
-title: "Netwerken."
+title: "Netwerken"
 img: netwerken-1.jpg
 alt: Groep praat met elkaar over profielen
 date: 2015-03-20

@@ -1,9 +1,9 @@
 ---
-title: "Prioriteiten stellen"
+title: "Prioriteiten stellen - extreme edition"
 img: prioriteiten-stellen-extreem-1.png
-alt: een lift
+alt: balancerende keien op elkaar
 date: 2016-12-12
-intro: Wat als de normale timemanagement tips niet volstaan omdat het zich te zeer opstapelt?
+intro: Wat als de normale timemanagement tips niet volstaan omdat het zich enorm opstapelt?
 credits: Images Marijn Damsma Author Marijn Damsma
 tags: 
   - stress
@@ -13,13 +13,13 @@ categories:
 english-version: 
 ---
 
-*Voorzichtig loop ik na een dag training geven richting Den Haag Centraal. Het waait hard en de stoep is voortdurend opgebroken. Zeven maanden zwanger en met een instabiel bekken moet ik goed opletten bij elke onregelmatigheid. Gelukkig heb ik heel comfortabele schoenen aangetrokken - en een rolkoffertje meegenomen, zodat ik niks hoef te tillen. De training was leuk geweest, ook uitdagend. Ik begin mijn tocht (van 300 meter en daarna nog een half uur treinen) vol positieve energie. Om me heen zie ik allemaal mensen die zich naar huis haasten en nauwelijks voor elkaar uitkijken en pas op het station besef ik me dat het spits is. Spits in de trein, daar had ik helemaal niet aan gedacht. Ik was zo bezig geweest met het verzorgen van de training en het stuk(je) dat ik moest lopen, dat ik me helemaal had ingesteld op lekker neerploffen in de trein. Maar goed, met zo'n buik lukt het vast om een plekje te bemachtigen!*
+*Voorzichtig loop ik na een dag training geven richting Den Haag Centraal. Het waait hard en de stoep is voortdurend opgebroken. Zeven maanden zwanger en met een instabiel bekken moet ik goed opletten bij elke onregelmatigheid. Gelukkig heb ik heel comfortabele schoenen aangetrokken - en een rolkoffertje meegenomen, zodat ik niks hoef te tillen. De training was leuk geweest, ook uitdagend. Ik begin mijn tocht (van 300 meter en daarna nog een half uur treinen) vol positieve energie. Om me heen zie ik allemaal mensen die zich naar huis haasten en nauwelijks voor elkaar uitkijken en pas op het station besef ik me dat het spits is. Spits in de trein, daar had ik helemaal niet aan gedacht. Ik was zo bezig geweest met het verzorgen van de training en het stuk(je) dat ik moest lopen, dat ik me helemaal had ingesteld op lekker neerploffen in de trein, staan gaat niet meer. Maar goed, met zo'n buik lukt het vast om een plekje te bemachtigen!*
 
 *Bij het instappen gaat het al mis. Een stuk of drie studenten dringen zich vrij ruw langs mij heen en als ik de coupe binnenkom zie ik dat alle stoelen bezet zijn. Ik sta op het punt om in het algemeen te vragen of er iemand is die er geen bezwaar tegen zou hebben om te staan, maar ineens ontglipt me al mijn assertiviteit. De houdingen van de passagiers komen gesloten en afwijzend op me over en mijn teleurstelling hierover is zo groot dat ik geen woord meer kan uitbrengen (zonder in huilen uit te barsten, wat ik wil voorkomen). Ik probeer eerst stevig te gaan staan, maar de trein schudt en het gaat niet goed. Dan ga ik onhandig op mijn koffertje zitten en gelukkig ziet iemand mij met mezelf worstelen. Het is een jonge vrouw, ze moet er zo toch uit - of ik niet op haar plek wil zitten. Ik kan wel janken en als ik eerlijk ben, springen de tranen me ook echt in de ogen. Dank dank dank. En tegelijkertijd vind ik de rest van de passagiers aso's en mezelf slap dat ik niks heb gevraagd.*
 
 
 
-Een korte en waargebeurde anekdote waarmee ik wil duidelijk maken dat er soms maar een paar kleine tegenvallers nodig zijn om uit balans te raken. Ik geef veel Timemanagement trainingen en ben er ook echt goed in en vaak bewust mee bezig, en toch! Toch zijn er allerlei leuke en minder leuke 'levensgebeurtenissen' die vragen om een flinke aanpassing op het gebied van keuzes en planning: TODO: [de normale methode om inzicht te krijgen in je prioriteiten](http://yeptrainingen.nl/prioriteiten-stellen/) volstaat niet, er is dan een grote herziening van de prioriteiten nodig!
+Een korte en waargebeurde anekdote waarmee ik wil duidelijk maken dat er soms maar een paar kleine tegenvallers nodig zijn om uit balans te raken. Ik geef veel Timemanagement trainingen en ben er ook echt goed in en vaak bewust mee bezig, en toch! Toch zijn er allerlei leuke en minder leuke 'levensgebeurtenissen' die vragen om een flinke aanpassing op het gebied van keuzes en planning: [de normale methode om inzicht te krijgen in je prioriteiten](http://yeptrainingen.nl/prioriteiten-stellen/) volstaat niet, er is dan een grote herziening van de prioriteiten nodig!
 
 
 
@@ -82,5 +82,4 @@ En dit is een [handige site](http://www.stressvrijleven.com/stress-test/) waarbi
 
 Wanneer je het prettig vind om in een kleine groep te ontdekken wat jij kunt doen om je binnen een half jaar weer in balans te voelen, raden we je aan eens te kijken naar ons programma: Persoonlijke Energie op Peil. Hierin ga je in een kleine groep stapsgewijs aan de slag. En niet alleen jij leert stressklachten te herkennen en goed bij te sturen, we begeleiden ook je leidinggevende zodat je steun ervaart op de plek waar die het meest nodig is!
 
-
-[![Brochure Persoonlijke energie op peil - weg met werkstress!](<./../Brochure-PEP Yep.pdf>) [![Brochure Persoonlijke energie op peil Yep Trainingen] TODO: (./persoonlijke-energie-op-peil-1.jpg)](<./../Brochure-TOP Yep.pdf>)
+[Brochure Persoonlijke energie op peil - weg met werkstress!](<./../Brochure-PEP Yep.pdf>) [![Brochure Persoonlijke energie op peil Yep Trainingen](./persoonlijke-energie-op-peil-1.jpg)](<./../Brochure-PEP Yep.pdf>)

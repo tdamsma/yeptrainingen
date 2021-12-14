@@ -15,9 +15,9 @@ export default {
     }
   },
   async fetch() {
-    console.log('fetching', this.opdrachtgevers)
+    // console.log('fetching', this.opdrachtgevers)
     this.opdrachtgevers = await this.$content('opdrachtgevers').only(['slug', 'opdrachtgever', 'url']).fetch()
-    console.log(this.opdrachtgevers)
+    // console.log(this.opdrachtgevers)
   },
   computed: {
     opdrachtgeversDoubled() {

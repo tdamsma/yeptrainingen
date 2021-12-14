@@ -1,7 +1,11 @@
 <template lang="html">
   <div class="container-fluid p-0 m-0">
+    <div class="jumbotron jumbotron-fluid yep-geel">
+      <div class="row justify-content-around">
+        <h1>Coaching</h1>
+      </div>
+    </div>
     <div class="container mb-5 mt-4">
-      <h1>Coaching</h1>
       <p>
         Yep verzorgt coaching voor gedreven professionals waarin het vergroten van je kracht en effect centraal staat. Coaching biedt in twee gevallen uitkomst:
         wanneer jij (of je medewerker) een erg specifiek leerdoel hebt, waarbij een groepstraining niet nauw aansluit, of wanneer je behoefte hebt aan
@@ -67,10 +71,7 @@
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid bg-white m-0">
-      <div class="row">
-        <div class="col-lg-4 max-height-550 overflow-hidden">
-          <b-img fluid="fluid" blank-color="#777" src="~/assets/images/anna-stutje.jpg" :srcset="require(`~/assets/images/anna-stutje.jpg`).srcSet"></b-img>
-        </div>
+      <div class="container-fluid">
         <span class="text-center">
           <h2>Onze visie</h2>
           <p>
@@ -80,31 +81,6 @@
             vaardigheden in huis heeft om verder te komen met een plan of doel. Coaching helpt om de aandacht te richten, een stok achter de deur te hebben, te
             reflecteren, tot nieuw inzichten te komen, een overwogen keuze te maken. Dit zorgt ervoor dat een deelnemer zelf de controle houdt, keuzes maakt
             waar hij echt achter staat en niet afhankelijk wordt van de coach.
-          </p>
-          <p>Coachees over Anna:</p>
-          <p class="rand-links-groen">
-            <i
-              >“Anna heeft me geholpen om structuur aan te brengen in de crisis die ik ervaarde in mijn werkende leven. Ze houdt je bij de les en leert je te
-              reflecteren waardoor de coachingssessies doeltreffend zijn. De opdrachten die je mee naar huis krijgt leveren enorm veel op. Het heeft er voor
-              gezorgd dat ik belangrijke keuzes in mijn werk heb kunnen maken en mijn zelfinzicht gegroeid is. Een super fijne gesprekspartner die je laat
-              groeien!”</i
-            >
-            – Vera
-          </p>
-          <p class="rand-links-groen">
-            <i
-              >“The coaching with Anna has helped me immensely to listen to my own feelings whilst making some important life decisions. She provided me with a
-              tool that helps me to reflect on my choices and behaviour. Anna knows how to create a setting that helps to open up easily. I would definitely
-              recommend her as a coach.”</i
-            >
-            – Vincent
-          </p>
-          <p class="rand-links-groen">
-            <i
-              >Anna heeft me geholpen bij het formuleren van mijn ‘Why’. Ik zie nu hoe belangrijk het is om een duidelijk beeld van mijn purpose te hebben. Dit
-              heeft geleid tot een veel scherper beeld van de loopbaanstap die ik wil nemen en ik voel nu veel meer zelfvertrouwen om me in mijn netwerk te
-              profileren. Ik heb daarnaast ook nog inzicht gekregen in verschillende kanten van mezelf die soms (ongewenst) de overhand nemen.”</i
-            >– Emma
           </p>
         </span>
       </div>
@@ -121,7 +97,7 @@
               coaches.
             </p>
             <p>Coachees over Anna:</p>
-            <p style="border-left: solid 5px green; padding-left: 20px">
+            <p class="rand-links-groen">
               <i
                 >“Anna heeft me geholpen om structuur aan te brengen in de crisis die ik ervaarde in mijn werkende leven. Ze houdt je bij de les en leert je te
                 reflecteren waardoor de coachingssessies doeltreffend zijn. De opdrachten die je mee naar huis krijgt leveren enorm veel op. Het heeft er voor
@@ -130,7 +106,7 @@
               >
               – Vera
             </p>
-            <p style="border-left: solid 5px green; padding-left: 20px">
+            <p class="rand-links-groen">
               <i
                 >“The coaching with Anna has helped me immensely to listen to my own feelings whilst making some important life decisions. She provided me with
                 a tool that helps me to reflect on my choices and behaviour. Anna knows how to create a setting that helps to open up easily. I would definitely
@@ -138,7 +114,7 @@
               >
               – Vincent
             </p>
-            <p style="border-left: solid 5px green; padding-left: 20px">
+            <p class="rand-links-groen">
               <i
                 >Anna heeft me geholpen bij het formuleren van mijn ‘Why’. Ik zie nu hoe belangrijk het is om een duidelijk beeld van mijn purpose te hebben.
                 Dit heeft geleid tot een veel scherper beeld van de loopbaanstap die ik wil nemen en ik voel nu veel meer zelfvertrouwen om me in mijn netwerk
@@ -148,7 +124,7 @@
           </div>
         </div>
       </div>
-      <div class="row">
+      <div class="row bg-light">
         <div class="col-lg-3 text-center p-4">
           <h4>Intake</h4>
           We maken kennis, bepalen wat je wilt bereiken en stellen samen de aanpak vast.

@@ -1,4 +1,10 @@
 <template lang="html">
+<div>
+  <div class="jumbotron jumbotron-fluid yep-geel">
+      <div class="row justify-content-around">
+        <h1>Trainingen</h1>
+      </div>
+  </div>
   <div class="container mb-5 mt-4">
     <h1>Trainingen</h1>
     <p>
@@ -44,6 +50,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>

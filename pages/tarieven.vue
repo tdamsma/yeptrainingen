@@ -2,10 +2,10 @@
 <div>
   <div class="jumbotron jumbotron-fluid yep-geel">
       <div class="row justify-content-around">
-        <h1>tarieven</h1>
+        <h1>Tarieven</h1>
       </div>
   </div>
-  <div class="container bg-white m-6">
+  <div class="container bg-white mt-4">
     <div class="row">
       <div class="col-md-6 p-4">
         <h2>Yep rekent:</h2>
@@ -21,7 +21,7 @@
         </p>
       </div>
       <div class="col-md-6 p-4" style="background-color: lightgrey">
-        <table class="table">
+        <table class="table mt-5">
           <tbody>
             <tr>
               <td>Trainingen</td>
@@ -39,6 +39,14 @@
         </table>
       </div>
     </div>
+  </div>
+  <div class="container-fluid bg-white mt-4 text-center">
+    <b-img
+        fluid="fluid"
+        blank-color="#777"
+        src="~/static/CRKBO_erkenning.jpg"
+        :srcset="require(`~/static/CRKBO_erkenning.jpg`).srcSet"
+      ></b-img>
   </div>
 </div>
 </template>

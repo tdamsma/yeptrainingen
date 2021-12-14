@@ -1,8 +1,10 @@
 <template lang="html">
   <div class="container-fluid p-0 m-0">
     <div class="jumbotron jumbotron-fluid yep-geel">
-      <div class="row justify-content-around">
-        <h1>Coaching</h1>
+      <div calss="container">
+        <div class="row justify-content-around">
+          <h1>Coaching</h1>
+        </div>
       </div>
     </div>
     <div class="container mb-5 mt-4">

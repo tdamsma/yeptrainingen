@@ -2,12 +2,14 @@
   <div>
     <div class="container-fluid container-left">
       <div class="row p-0">
-        <div class="col-md-6 p-0">
+        <div class="col-md-6 p-0" style="height: 300px; overflow: hidden">
           <b-img
+            class="img-fluid"
+            style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto"
             fluid="fluid"
             blank-color="#777"
             src="~/assets/images/training-yep.jpg"
-            :srcset="require(`~/assets/images/training-yep.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
+            :srcset="require(`~/assets/images/training-yep.jpg?sizes[]=233&amp;sizes[]=566&amp;sizes[]=1024`).srcSet"
           ></b-img>
         </div>
         <div class="col-md-6 pt-4">

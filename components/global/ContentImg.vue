@@ -50,7 +50,6 @@ export default {
       // folder with the '.md' file.
       if (this.src.startsWith('./')) {
         // document.dir is available if inside nuxt-contet: <nuxt-content :document="document"></nuxt-content>
-        // console.log(this.$parent.document)
         if (this.$parent.document && this.$parent.document.dir) {
           let dir = this.$parent.document.dir
           if (dir.startsWith(path.sep)) {

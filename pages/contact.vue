@@ -1,8 +1,10 @@
 <template lang="html">
   <div>
     <div class="jumbotron jumbotron-fluid yep-geel">
-      <div class="row justify-content-around">
-        <h1>Contact</h1>
+      <div class="container">
+        <div class="row justify-content-around">
+          <h1>Contact</h1>
+        </div>
       </div>
     </div>
     <div class="container p-4 text-center">

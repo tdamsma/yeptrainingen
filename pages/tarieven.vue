@@ -1,4 +1,10 @@
 <template lang="html">
+<div>
+  <div class="jumbotron jumbotron-fluid yep-geel">
+      <div class="row justify-content-around">
+        <h1>tarieven</h1>
+      </div>
+  </div>
   <div class="container bg-white m-6">
     <div class="row">
       <div class="col-md-6 p-4">
@@ -34,6 +40,7 @@
       </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>

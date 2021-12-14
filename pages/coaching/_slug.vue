@@ -40,7 +40,6 @@ export default {
     const document = await $content('coaching', params.slug).fetch()
 
     const surroundingDocuments2 = await $content('coaching').only(['title', 'slug', 'img', 'alt']).sortBy('date', 'desc').fetch()
-    // console.log(surroundingDocuments2)
     const surroundingDocuments = surroundingDocuments2
       .filter((x) => x)
       .slice(0, 5)

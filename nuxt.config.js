@@ -37,7 +37,8 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/typescript
     '@nuxt/typescript-build',
-    '@aceforth/nuxt-optimized-images'
+    '@aceforth/nuxt-optimized-images',
+    ['@nuxtjs/netlify-files', { existingFilesDirectory: 'netlify' }]
   ],
   optimizedImages: {
     inlineImageLimit: 1000,

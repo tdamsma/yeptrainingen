@@ -1,5 +1,10 @@
 <template lang="html">
   <div class="container-fluid m-0 p-0 bg-white">
+    <div class="jumbotron jumbotron-fluid yep-geel">
+      <div class="row justify-content-around">
+        <h1>Onze aanpak</h1>
+      </div>
+    </div>
     <div class="row overflow-hidden max-height-550">
       <div class="col-lg-6 overflow-hidden">
         <b-img fluid="fluid" blank-color="#777" src="~/assets/images/onze-aanpak-1.jpg" :srcset="require(`~/assets/images/onze-aanpak-1.jpg`).srcSet"></b-img>
@@ -52,7 +57,7 @@
         hand van een aantal voorbeelden zien hoe we die vertalen in onze werkwijze.
       </p>
     </div>
-    <div class="jumbotron jumbotron-fluid mt-5 yep-grijs-donker">
+    <div class="jumbotron jumbotron-fluid mt-5 yep-grijs-donker bg-onze-aanpak">
       <div class="row">
         <div v-for="{ kenmerk, aanpak } in kenmerken" :key="kenmerk.title" class="col-xl-6">
           <div class="container">

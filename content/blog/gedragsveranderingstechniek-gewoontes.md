@@ -1,9 +1,9 @@
 ---
-title: "Aan de slag: Gedragsveranderingstechniek: Verander je gewoontes"
+title: "Gedragsveranderingstechniek: Verander je gewoontes"
 img: gedragsveranderingstechniek-gewoontes-1.jpg
 alt: schema van een dagelijkse routine
 date: 2018-11-30
-intro: Zit je jezelf in de weg rond een bepaald thema, dan is het de moeite waard om je verwachtingen zelf of samen met een coach te onderzoeken. Aan de hand van de oefeningen in dit blog kun je daarmee direct een start maken.
+intro: Je gedrag veranderen is mogelijk en kun je op verschillende manieren aanpakken. Bijvoorbeeld door van je gewenste gedrag een gewoonte of routine te maken!
 credits: Images Marijn Damsma Author Gusta Marcus en Marijn Damsma
 tags: 
   - veranderen
@@ -14,7 +14,9 @@ categories:
 english-version:
 ---
 
-Als jij je persoonlijk wilt ontwikkelen, betekent dat vaak dat je bepaald gedrag wilt veranderen. Misschien wil je na een gesprek met je leidinggevende je werk anders aanpakken. Of misschien heb je jezelf voorgenomen om vaker 'nee' te zeggen, je werk beter na te lezen of meer aandacht te besteden aan relaties met collega's. Een mogelijke manier om je gedrag te veranderen, is door het gebruik van zelfcontrole. In ons [vorige blog](./gedragsveranderingstechniek-zelfcontrole-toepassen/) lees je daar meer over. We hebben al veel zelfcontrole nodig voor alle afleidingen die op ons af komen, keuzes die we moeten maken en taken die we moeten uitvoeren. Daarom is het handig om nog een methode te hebben die je kan gebruiken: je automatische gedrag veranderen.
+Als jij je persoonlijk wilt ontwikkelen, betekent dat vaak dat je bepaald gedrag wilt veranderen. Misschien wil je na een gesprek met je leidinggevende je werk anders aanpakken. Of misschien heb je jezelf voorgenomen om vaker 'nee' te zeggen, je werk beter na te lezen of meer aandacht te besteden aan relaties met collega's. 
+
+Een mogelijke manier om je gedrag te veranderen, is door het gebruik van zelfcontrole. In ons [vorige blog](./gedragsveranderingstechniek-zelfcontrole/) lees je daar meer over. We hebben al veel zelfcontrole nodig voor alle afleidingen die op ons af komen, keuzes die we moeten maken en taken die we moeten uitvoeren. Daarom is het handig om nog een methode te hebben die je kan gebruiken: je automatische gedrag veranderen.
 
 ## Gedragsverandering door gewoontes aan te passen
 
@@ -37,11 +39,19 @@ Door je nieuwe gedrag te verwoorden als een implementatie intentie, leg je het v
 *   Koppel je nieuwe gedag aan een bestaande gewoonte. Veel mensen hebben bijvoorbeeld een routine voor het naar bed gaan. Dan is het makkelijker om daar iets aan toe te voegen.
 *   Bedenk een beloning die je alleen krijgt als je het gedrag hebt uitgevoerd.
 
-Wil je deze informatie toepassen in je eigen leven? Pak dan meteen pen en papier en schrijf de volgende dingen op: **Schrijf op     **                                     
-**  Voorbeeld** 1. Positief goed voornemen              Ik wil fitter worden 2. Concreet, realistisch doel: Ik wil 1 keer in de week naar de sportschool gaan 3. Specifiek Als-Dan plan: Als ik donderdag klaar ben met avondeten, dan pak ik mijn sporttas, stap ik op de fiets naar de sportschool en ga ik een uur fitnessen. 4. Extra maatregelen: Ik zet ‘s morgens mijn sporttas al klaar. Ik vertel aan mijn partner dat ik donderdagavond ga sporten. Als: het regent, dan neem ik de auto naar de sportschool. 5. Beloning: Na het sporten mag ik mijn favoriete serie kijken (en anders mag ik dat donderdagavond niet).   
+## Zelf aan de slag
+Wil je deze informatie toepassen in je eigen leven? Pak dan meteen pen en papier en beantwoord voor jouw voornemen het volgende lijstje. We zetten er een voorbeeld bij om het makkelijker te maken.                             
+
+
+**Schrijf op**
+1. Positief goed voornemen: Ik wil fitter worden 
+2. Concreet, realistisch doel: Ik wil 1 keer in de week naar de sportschool gaan.
+3. Specifiek Als-Dan plan: Als ik donderdag klaar ben met avondeten, dan pak ik mijn sporttas, stap ik op de fiets naar de sportschool en ga ik een uur fitnessen. 
+4. Extra maatregelen: Ik zet ‘s morgens mijn sporttas al klaar. Ik vertel aan mijn partner dat ik donderdagavond ga sporten. Als: het regent, dan neem ik de auto naar de sportschool. 
+5. Beloning: Na het sporten mag ik mijn favoriete serie kijken (en anders mag ik dat donderdagavond niet).   
 
 Wil je meer sturing bij het veranderen van je eigen gedrag? Vraag dan vrijblijvend een coachingsgesprek aan. 
 
-Wil je eerst jouw doel helder hebben waar je aan wilt werken? Kijk dan eens naar de training ‘van Droom naar Doel’ van Yep Trainingen.   
+Wil je eerst het doel helder hebben waar je aan wilt werken? Kijk dan eens naar de training [‘van Droom naar Doel’](./../trainingen/droom-naar-doel) van Yep Trainingen.   
 
 Dit was een gastblog van Gusta Marcus. Eindredactie: Marijn Damsma Bronnen: Adriaanse, M.A., Vinkers, C.D.W., De Ridder, D.T.D., Hox, J.J., & De Wit, J.B.F. (2011). Do implementation intentions help toe at a healthy diet? A systematic review and meta-analysis of the empirical evidence. _Appetite_, 56, 183 – 193. Webb, T.L., & Sheeran, P. (2001). Can implementation intentions help to overcome ego-depletion? _Journal of Experimental Social Psychology_, 39, 297-286.

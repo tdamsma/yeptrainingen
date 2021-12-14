@@ -56,3 +56,5 @@ Bedenk wat raak en kloppend is voor jouw situatie. Dit komt binnen bij de lezer.
 ## Finishing touches
 
 Neem, nog steeds met de recruiter-bril op, de hele brief door. Hoe komt de schrijver over? Origineel? Netjes? Enthousiast? Ambitieus? Op de hoogte? Getalenteerd? Laat dit ook een ander doen, liefst een HRmedewerker of loopbaancoach. Zoek gericht naar zaken die je wilt verbeteren, zoals de lay-out en een enthousiastere afsluiting. Kijk eens aan, komen die 101 tips toch nog van pas!
+
+Misschien ook leuk om ons blog  ['Toets je pitch'](./toets-je-pitch) te lezen. Dat kan je helpen om de kern van wat jij wil overbrengen scherp onder woorden te brengen!

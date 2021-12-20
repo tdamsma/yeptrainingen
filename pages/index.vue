@@ -2,12 +2,15 @@
   <div>
     <div class="container-fluid container-left">
       <div class="row p-0">
-        <div class="col-md-6 p-0">
+        <div class="col-md-6 p-0" style="height: 300px; overflow: hidden">
           <b-img
+            class="img-fluid"
+            style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto"
             fluid="fluid"
             blank-color="#777"
-            src="~/assets/images/training-yep.jpg"
-            :srcset="require(`~/assets/images/training-yep.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
+            src="~/assets/images/training-yep.jpg?resize&size=800&format=webp"
+            :srcset="require(`~/assets/images/training-yep.jpg?resize&sizes[]=500&sizes[]=800&sizes[]=1200&format=webp`).srcSet"
+            sizes="500,800,1200"
           ></b-img>
         </div>
         <div class="col-md-6 pt-4">
@@ -36,12 +39,17 @@
           <div class="col-md-3 border bg-light p-2 text-center">
             <h2>Uitgelicht</h2>
             <a href="/trainingen/talent-ontwikkelprogramma" class="d-block mt-2">
-              <b-img
-                fluid="fluid"
-                blank-color="#777"
-                src="~/assets/images/uitgelicht1.png"
-                :srcset="require(`~/assets/images/uitgelicht1.png?sizes[]=200&amp;sizes[]=566`).srcSet"
-              ></b-img>
+              <div class="square-img-container text-left">
+                <b-img
+                  class="square-img"
+                  thumbnail
+                  blank-color="#777"
+                  src="~/assets/images/uitgelicht1.png?resize&size=267&format=webp"
+                  :srcset="require(`~/assets/images/uitgelicht1.png?resize&sizes[]=200&sizes[]=500&format=webp`).srcSet"
+                  alt="Uitgelicht met burealamp"
+                ></b-img>
+              </div>
+
               Talentontwikkel programma>></a
             >
           </div>
@@ -51,10 +59,20 @@
           </div>
           <div v-for="blog of blogs" :key="blog.title" class="col-md-3 border bg-light p-2 text-center">
             <h2>Laatste blog</h2>
-            <a href="/blog/welke-rol-pak-jij-als-cursist" class="d-block mt-2">
-              <b-img fluid="fluid" blank-color="#777" :src="require(`~/content/blog/${blog.img}?size=500`)" :alt="blog.alt"></b-img>
-              {{ blog.title }} >></a
-            >
+            <a href="/blog/welke-rol-pak-jij-als-cursist">
+              <div class="square-img-container text-left">
+                <b-img
+                  class="square-img"
+                  thumbnail
+                  blank-color="#777"
+                  :src="require(`~/content/blog/${blog.img}?size=500`).src"
+                  :srcset="require(`~/content/blog/${blog.img}?sizes[]=500&sizes[]=800`).srcSet"
+                  sizes="500,800"
+                  :alt="blog.alt"
+                ></b-img>
+              </div>
+              {{ blog.title }} >>
+            </a>
           </div>
         </div>
       </div>
@@ -72,8 +90,8 @@
             <b-img
               fluid="fluid"
               blank-color="#777"
-              src="~/assets/images/Trainers_van_YEP-1.png"
-              :srcset="require(`~/assets/images/Trainers_van_YEP-1.png?sizes[]=233&amp;sizes[]=566`).srcSet"
+              src="~/assets/images/Trainers_van_YEP-1.png?resize&size=500&format=webp"
+              :srcset="require(`~/assets/images/Trainers_van_YEP-1.png?resize&sizes[]=300&sizes[]=500&format=webp`).srcSet"
             ></b-img>
           </div>
         </div>
@@ -86,8 +104,9 @@
       <b-img
         fluid="fluid"
         blank-color="#777"
-        src="~/assets/images/site-foto-1-of-1-3.jpg"
-        :srcset="require(`~/assets/images/site-foto-1-of-1-3.jpg`).srcSet"
+        src="~/assets/images/site-foto-1-of-1-3.jpg?resize&size=800&format=webp"
+        :srcset="require(`~/assets/images/site-foto-1-of-1-3.jpg?resize&sizes[]=500&sizes[]=800&sizes[]=1200&format=webp`).srcSet"
+        sizes="500,800,1200"
       ></b-img>
     </div>
     <div class="jumbotron jumbotron-fluid yep-grijs-donker">
@@ -125,8 +144,9 @@
               <b-img
                 fluid="fluid"
                 blank-color="#777"
-                src="~/assets/images/JUMP.jpg"
-                :srcset="require(`~/assets/images/JUMP.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
+                :data-src="'~/assets/images/JUMP.jpg'"
+                :data-srcset="require('~/assets/images/JUMP.jpg').srcSet"
+                class="lazyload"
               ></b-img>
               <p class="mt-2">Lees meer >></p>
             </a>

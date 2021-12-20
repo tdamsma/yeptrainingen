@@ -8,8 +8,9 @@
             style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto"
             fluid="fluid"
             blank-color="#777"
-            src="~/assets/images/training-yep.jpg"
-            :srcset="require(`~/assets/images/training-yep.jpg?sizes[]=233&amp;sizes[]=566&amp;sizes[]=1024`).srcSet"
+            src="~/assets/images/training-yep.jpg?resize&size=800&format=webp"
+            :srcset="require(`~/assets/images/training-yep.jpg?resize&sizes[]=500&sizes[]=800&sizes[]=1200&format=webp`).srcSet"
+            sizes="500,800,1200"
           ></b-img>
         </div>
         <div class="col-md-6 pt-4">
@@ -103,8 +104,9 @@
       <b-img
         fluid="fluid"
         blank-color="#777"
-        src="~/assets/images/site-foto-1-of-1-3.jpg"
-        :srcset="require(`~/assets/images/site-foto-1-of-1-3.jpg`).srcSet"
+        src="~/assets/images/site-foto-1-of-1-3.jpg?resize&size=800&format=webp"
+        :srcset="require(`~/assets/images/site-foto-1-of-1-3.jpg?resize&sizes[]=500&sizes[]=800&sizes[]=1200&format=webp`).srcSet"
+        sizes="500,800,1200"
       ></b-img>
     </div>
     <div class="jumbotron jumbotron-fluid yep-grijs-donker">

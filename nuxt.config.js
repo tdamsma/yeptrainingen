@@ -15,7 +15,9 @@ export default {
       { rel: 'preconnect', href: 'https://fonts.gstatic.com' },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Dosis:wght@500&display=swap',
+        media: 'print',
+        onload: "this.media='all'"
       },
       {
         rel: 'stylesheet',

@@ -21,7 +21,9 @@ export default {
       },
       {
         rel: 'stylesheet',
-        href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap'
+        href: 'https://fonts.googleapis.com/css2?family=Roboto&display=swap',
+        media: 'print',
+        onload: "this.media='all'"
       }
     ]
   },

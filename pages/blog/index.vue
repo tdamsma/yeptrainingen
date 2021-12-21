@@ -5,16 +5,16 @@
         <h1>Blog</h1>
       </div>
     </div>
-    <div class="container mt-4">
+    <div class="container mt-4 larger">
       <div v-for="article of articles" :key="article.title">
-        <b-card class="mt-2 overflow-hidden shadow-none" no-body="">
+        <b-card class="mt-2 overflow-hidden shadow-none p-4" no-body="">
           <b-row no-gutters="">
-            <b-col md="3">
-              <div class="square-img-container" style="margin: 20px">
+            <b-col lg="3" md="4">
+              <div class="square-img-container">
                 <b-card-img class="square-img rounded-circle" :src="require(`~/content/blog/${article.img}?size=500`)" :alt="article.alt"></b-card-img>
               </div>
             </b-col>
-            <b-col md="9">
+            <b-col lg="9" md="8">
               <b-card-body :title="article.title">
                 <b-card-text>
                   <p>{{ article.tags }}</p>

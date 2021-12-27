@@ -19,10 +19,9 @@ Wij verzorgen regelmatig activiteiten voor jong verenigingen en krijgen daarbij 
 
 Om hen beter te kunnen adviseren hadden wij zelf ook meer informatie nodig. Wij hebben toen een onderzoek gedaan onder diverse jongverenigingen en jong-netwerken. We hebben hen gevraagd om zowel knelpunten als tips te delen, zodat er een kennisuitwisseling kan ontstaan tussen de besturen van jongverenigingen.
 
-Er hebben 25 verenigingen uit zowel publieke als commerciële organisaties uitgebreid gereageerd. Alle tips en inzichten die we bij de jong verenigingen hebben opgedaan, hebben we gecombineerd met onze eigen ervaringen vanuit Yep Trainingen. We hebben de tips gebundeld rond de thema's die het vaakst genoemd zijn als knelpunt, waardoor er hopelijk een handige [brochure](../../static/Brochure%20Krachtige%20Jongvereniging.pdf) is ontstaan voor (startende) jongbesturen.
+Er hebben 25 verenigingen uit zowel publieke als commerciële organisaties uitgebreid gereageerd. Alle tips en inzichten die we bij de jong verenigingen hebben opgedaan, hebben we gecombineerd met onze eigen ervaringen vanuit Yep Trainingen. We hebben de tips gebundeld rond de thema's die het vaakst genoemd zijn als knelpunt, waardoor er hopelijk een handige [brochure](../../Brochure%20Krachtige%20Jongvereniging.pdf) is ontstaan voor (startende) jongbesturen.
 
-[![Brochure Jong personeelsverenigingen](./jongverenigingen-2.png)](../../static/Brochure%20Krachtige%20Jongvereniging.pdf)
-
+[![Brochure Jong personeelsverenigingen](./jongverenigingen-2.png)](../../Brochure%20Krachtige%20Jongvereniging.pdf)
 
 > "Het is zeker een handig boekje voor beginnende besturen; vanuit verschillende invalshoeken als activiteiten, maar ook aanhaken van de directie. Het is ook makkelijk even erbij te pakken met de concrete tips."
 
@@ -30,6 +29,6 @@ Bij deze delen wij de tips graag met andere geïnteresseerden, in de hoop dat oo
 
 ![jong personeelsvereniging volgt een training](./jongverenigingen-3.jpg)
 
-Benieuwd voor welke thema's je bij Yep terecht kan? Bekijk [deze flyer](../../static/NL_Ontmoet%20Yep.pdf) eens!
+Benieuwd voor welke thema's je bij Yep terecht kan? Bekijk [deze flyer](../../NL_Ontmoet%20Yep.pdf) eens!
 
 > Jongbestuur: "Wij organiseren jaarlijks 1 - 3 activiteiten waarbij Yep betrokken is. Vaak korte workshops rond actuele thema's die spelen op het gebied van persoonlijke ontwikkeling. Zoals Timemanagement, Zelfmanagement bij het thuiswerken, Netwerken, het verkennen van belangen. Eén keer hadden we een hele festivaldag met 5 verschillende workshops in carrousselvorm georganiseerd. Improviseren, Overtuigend presenteren, Aandachtig luisteren, Netwerken en Co-creatie. Dat was een heel verbindende dag vol energie!"

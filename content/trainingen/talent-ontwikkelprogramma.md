@@ -18,9 +18,9 @@ Het programma is er in een open en in een maatwerk variant en er is een aangepas
 > "Activerend programma met betrokken trainers. Scherpe feedback, veel variatie en ook één-op één sparringsmomenten"
 
 Meer informatie vind je in onze
-[brochure](../../static/Brochure-TOP%20Yep.pdf)
+[brochure](../../Brochure-TOP%20Yep.pdf)
 
-[![Brochure Talent OntwikkelProgramma Yep Trainingen](./talent-ontwikkelprogramma-2.jpg)](../../static/Brochure-TOP%20Yep.pdf)
+[![Brochure Talent OntwikkelProgramma Yep Trainingen](./talent-ontwikkelprogramma-2.jpg)](../../Brochure-TOP%20Yep.pdf)
 
 * * *
 

@@ -15,8 +15,6 @@ intro: >
 
 We zien tijdens onze trainingen dat veel mensen hun draai in het thuiswerken goed hebben gevonden. Het werk loopt, men is efficiënt, veert mee, leert, experimenteert. Maar één ding horen we zo vaak, één ding dat echt zonde is: de verbinding en de lol in het team is wel echt minder in deze tijd.
 
-[Alleen thuis werken](./hoe-behoud-je-het-teamgevoel-als-niemand-op-kantoor-werkt.jpg)
-
 Voor ons aanleiding om in dit blogbericht aandacht te richten op hoe je in digitale tijden zorgt voor meer lol en verbinding in het team!
 
 

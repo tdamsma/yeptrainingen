@@ -53,6 +53,7 @@ Tips:
 * Op deze lijst is het wat lastiger om taken op te delen of om er een boel kleine taken op kwijt te kunnen. Het is aan te bevelen om deze lijst als overzicht-lijst te hebben en daarnaast per dag een specifiekere lijst te maken.
 
 ![Clusterplanning](./weekplanning-3.jpg)
+
 **Lijst 4: Cluster-planning**
 
 Op deze lijst zie je wat er deze week voor welk project moet gebeuren. Dus geordend op project en niet op werkdag. Dit is handig wanneer je meer in projecten denkt, veel verschillende klanten of klusen naast elkaar hebt, of als je wil kunnen zien waar de dingen die je doet bij horen.
@@ -74,7 +75,10 @@ Maar deze vorm heeft ook nadelen. Wanneer je effectief wil werken, raad ik aan o
 
 Tips:
 
-* Zorg voor blokken van 1-1.5 uur en zet er [in de opmerkingen](./weekplanning-8.png "voorbeeld") bij wat je specifiek wil/moet gaan doen. Hier komen dus de kleine/opgedeelde taken.
+* Zorg voor blokken van 1-1.5 uur en zet er in de opmerkingen bij wat je specifiek wil/moet gaan doen. Hier komen dus de kleine/opgedeelde taken. 
+
+  ![in de opmerkingen](./weekplanning-8.png)
+
 * Deze vorm nodigt uit tot het maken van een strakke planning. Houd wel rekening met tijd voor pauzes, onverwachte verstoringen en uitloop van belangrijke zaken.
 * Jammer aan deze vorm is dat alles automatisch aan een tijd gebonden is en het niet duidelijk is wat de vaste punten zijn en welke punten evt ook op een ander moment kunnen. Dit kun je oplossen door van verschillende kleuren gebruik te maken. Ik zou gaan voor Moet, Goed, Leuk als kleurencodering. Deadlines, relevant werk en hobby projectjes of vrijetijdsplannen.
 * Vind je het prettiger werken met papier en/of wil je graag kunnen strepen, danzou ik zeggen: digitaal de grote lijnen, deadlines, dagen die je wil blokken en vaststaande afspraken. Dit helpt je het overzicht te bewaren en in je specifiekere weekplanning kun je hier dan op aansluiten.

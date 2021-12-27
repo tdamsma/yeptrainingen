@@ -5,7 +5,6 @@ img: feedback-in-onderwijs-1.jpg
 alt: feedback gesprek tussen 2 leerkrachten
 volgnummer: 4
 ---
-# Feedback geven in het onderwijs
 
 ![Feedback geven in het onderwijs](/wp-content/uploads/2020/05/energie-2-1024x683.jpg) Veel scholen willen op een duurzame manier de Covid-achterstanden inlopen en blijvend een sterkere leercultuur neerzetten. Volgens de [Menukaart van het Ministerie van OCW](https://www.nponderwijs.nl/interventies/feedback) is feedback hiervoor een belangrijke en effectieve interventie voor het basis- en middelbaaronderwijs: tot 8 maanden leerwinst! Feedback geven is iets dat je in het onderwijs veel doet: stickers, krullen, strepen, doelgespreken, oudergesprekken, opdrachtbesprekingen en bijvoorbeeld collegiale consultatie zijn hier voorbeelden van. Maar hoe kom je als school met feedback tot **een duurzame verbetering van het onderwijs**? Daar komt best veel bij kijken en dit is ook afhankelijk van de situatie op school. Wij brengen voor maatwerk programma’s graag onze ervaring in op het gebied van
 

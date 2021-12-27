@@ -12,7 +12,7 @@ Heel graag helpen wij organisaties met het (creeren van draagvlak voor het) duur
 
 Voor organisatiebrede verbeteringen, werken wij samen met duurzaam innovatiebureau Noorderwind. Wij verzorgen samen drie-daagse trainingen om aanjagers van transities binnen Nederlandse organisaties te helpen om deze transities in een stroomversnelling te brengen. Yep brengt de softskills die hiervoor nodig zijn: change management, vaardigheden om anderen mee te krijgen en sterke gespreksvaardigheden zorgen voor een solide basis in je organisatie. Noorderwind brengt de 'design thinking tools' die helpen om op een kort-cyclische manier te ontdekken wat er mogelijk is en om in een overzichtelijk tijdsbestek gevalideerde keuzes te maken. En daarnaast: heel veel expertise en ervaring op het gebied van verduurzaming. Dus kom maar op met alle uitdagingen van het land!
 
-[![Brochure Transitieversnellers Nederland in Transitie](./transitie-versnellers-2.jpg)](../../static/Brochure%20Transitieversnellers%20NederlandinTransitie.pdf)
+[![Brochure Transitieversnellers Nederland in Transitie](./transitie-versnellers-2.jpg)](../../Brochure%20Transitieversnellers%20NederlandinTransitie.pdf)
 
 ## Wie kunnen er meedoen?
 

@@ -66,9 +66,9 @@ In plaats van alleen symptomen te gaan bestrijden door meer aan yoga of meditati
 
 ## Yep helpt met PEP
 
-Heb je een aantal stressklachten en ben je benieuwd naar een aanpak waarbij jij, samen met een betrokken leidinggevende wordt begeleid om binnen een half jaar weer langdurig de balans terug te hebben? Kijk dan eens naar ons [PEP programma]TODO:(../../static ): Persoonlijke Energie op Peil. Hierin krijg je zicht op belangrijke factoren die je op dit moment energie kosten en ga je systematisch aan de slag om passende oplossingen te vinden. Een activerend traject dat stapsgewijs kracht geeft en heldere resultaten oplevert! Uiteraard gaan we voor de combinatie van persoonsgerichte oplossingen en werkgerichte oplossingen zoals hierboven beschreven. De trainingsdagen vinden in een kleine groep (max 5 personen) plaats onder begeleiding van een trainer die ook psycholoog is. Toch leent het programma zich niet voor personen die denken al een burn-out te hebben. Zij kunnen beter voor één op één therapie terecht bij een gespecialiseerd psycholoog.
+Heb je een aantal stressklachten en ben je benieuwd naar een aanpak waarbij jij, samen met een betrokken leidinggevende wordt begeleid om binnen een half jaar weer langdurig de balans terug te hebben? Kijk dan eens naar ons [PEP programma](../../Brochure-PEP%20Yep.pdf): Persoonlijke Energie op Peil. Hierin krijg je zicht op belangrijke factoren die je op dit moment energie kosten en ga je systematisch aan de slag om passende oplossingen te vinden. Een activerend traject dat stapsgewijs kracht geeft en heldere resultaten oplevert! Uiteraard gaan we voor de combinatie van persoonsgerichte oplossingen en werkgerichte oplossingen zoals hierboven beschreven. De trainingsdagen vinden in een kleine groep (max 5 personen) plaats onder begeleiding van een trainer die ook psycholoog is. Toch leent het programma zich niet voor personen die denken al een burn-out te hebben. Zij kunnen beter voor één op één therapie terecht bij een gespecialiseerd psycholoog.
 
-![trainingsprogramma Persoonlijke Energie op Peil](./burn-out-voorkomen-4.png) TODO: link invoegen naar trainingen
+[![trainingsprogramma Persoonlijke Energie op Peil](./burn-out-voorkomen-4.png)](../../Brochure-PEP%20Yep.pdf)
 
 ## Wat kun je zelf al doen
 

@@ -10,7 +10,7 @@ alt: Tekst op collage Just start
 Loopbaancoaching biedt een kans voor grondig zelfonderzoek. Onderzoek naar wie je bent, wat betekenisvol werk voor jou betekent en welke unieke talenten jij bezit. Je komt er achter wat er voor nodig is om een stap te zetten die je eerder nog niet durfde te nemen.
 
 
-Ben je niet zeker of je op de juiste plek zit binnen de organisatie, ben je op zoek naar meer uitdaging of zoek je een nieuwe baan maar weet je niet waar te beginnen? Loopbaancoaching is voor iedereen die behoefte heeft om bewust(e) loopbaanstappen te maken. Dus ook voor mensen die het naar hun zin hebben in hun huidige werk.  
+Ben je niet zeker of je op de juiste plek zit binnen de organisatie, ben je op zoek naar meer uitdaging of zoek je een nieuwe baan maar weet je niet waar te beginnen? Loopbaancoaching is voor iedereen die behoefte heeft om bewust(e) loopbaanstappen te maken. Dus ook voor mensen die het naar hun zin hebben in hun huidige werk. 
 
 
 ## Waar gaat je hart echt sneller van kloppen?

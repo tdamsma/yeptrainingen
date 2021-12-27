@@ -52,11 +52,11 @@ Doe af en toe een online teamspel zoals Spyfall, stuur voor een bepaalde week �
 
 ## Doe groepscoaching of intervisie onder begeleiding
 
-Stel met behulp van een coach allemaal één persoonlijk doel op voor de komende 2 maanden en ga in een aantal groepscoachings of begeleide intervisiebijeenkomsten hier samen mee aan de slag. Je leert elkaar beter kennen en beter ondersteunen, verbinding gegarandeerd. Voor een concreet voorstel kun je bij Anna terecht: Anna@YepTrainingen.nl
+Stel met behulp van een coach allemaal één persoonlijk doel op voor de komende 2 maanden en ga in een aantal groepscoachings of begeleide intervisiebijeenkomsten hier samen mee aan de slag. Je leert elkaar beter kennen en beter ondersteunen, verbinding gegarandeerd. Voor een concreet voorstel kun je bij Anna terecht: [Anna@YepTrainingen.nl](mailto:Anna@YepTrainingen.nl)
 
 ## Volg een besloten training met het team
 
-Doe met elkaar mee aan een training, om weer fris in het werk te staan. Populaire digitale trainingen die zich hier goed voor lenen: Digitaal samenwerken als een pro, Digitaal faciliteren, Co-creatie (rond een eigen team vraagstuk/uitdaging) en Overtuigend online presenteren. Wil je hier meer over weten, neem dan contact op met Marijn: Marijn@YepTrainingen.nl
+Doe met elkaar mee aan een training, om weer fris in het werk te staan. Populaire digitale trainingen die zich hier goed voor lenen: Digitaal samenwerken als een pro, Digitaal faciliteren, Co-creatie (rond een eigen team vraagstuk/uitdaging) en Overtuigend online presenteren. Wil je hier meer over weten, neem dan contact op met Marijn: [Marijn@yeptrainingen.nl](mailto:Marijn@yeptrainingen.nl)
 
 ## Faciliteer een goede werkplek
 
@@ -70,7 +70,7 @@ Ga eens het gesprek aan over wat zorgen zijn rondom het thuiswerken, ontdek hoe 
 
 Overdag thuis, 's avonds en 's nachts thuis, de verveling slaat wat sneller toe omdat we minder afwisseling om ons heen hebben. Hoe leuk als je voorafgaand aan de meeting of training een pakketje thuisgeleverd krijgt met benodigdheden en een goede zak koffiebonen! Of denk aan een gezamenlijke lunch, die bij iedereen aan huis geleverd wordt. Gaaf én nuttig cadeautje als blijk van waardering? Een goede webcam. Een plant voor op het bureau. Een CO2 meter, waarmee men zicht heeft op de luchtkwaliteit waarin men zit te werken. Een goede gehoorbeschermer voor wie thuiswerkt in een drukkere omgeving.
 
-De verrassing hoeft geen cadeautje te zijn. Tijdens een workshop of meeting een doordachte en gave werkvorm inzetten, zorgt ook voor het verrassingseffect.  
+De verrassing hoeft geen cadeautje te zijn. Tijdens een workshop of meeting een doordachte en gave werkvorm inzetten, zorgt ook voor het verrassingseffect. 
 
 Dit waren onze tips. Heb je een reactie of aanvulling, dan zien we die graag terug als reactie!
 

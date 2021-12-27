@@ -5,7 +5,7 @@ alt: jonge medewerker zit op een kalender
 date: 2019-12-13
 intro: Leidinggevenden hebben grote invloed op het werkgeluk dat jonge medewerkers ervaren. Waar hechten zij waarde aan?
 credits: Images Marijn Damsma, Woman Vector created by slidesgo -www.freepik.com (https://www.freepik.com/free-photos-vectors/woman) Author Daphne Maczolleck en Marijn Damsma
-tags: 
+tags:
   - jonge medewerkers
   - leidinggeven
 categories:

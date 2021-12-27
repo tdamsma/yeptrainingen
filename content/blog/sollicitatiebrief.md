@@ -3,9 +3,9 @@ title: "Sollicitatiebrief"
 img: sollicitatiebrief-1.jpg
 alt: papieren op een bureau
 date: 2016-03-09
-intro: Wat wil je overbrengen met je brief? 
+intro: Wat wil je overbrengen met je brief?
 credits: Images Marijn Damsma Author Marijn Damsma
-tags: 
+tags:
   - solliciteren
 categories:
 
@@ -19,7 +19,7 @@ Op internet zijn 101 tips te vinden voor het schrijven van een sollicitatiebrief
 Heel goed deze tips, maar hoe zorg je voor een goedlopende sollicitatiebrief met al die losse tips? Het is makkelijker om een mooi geheel te krijgen als je begint met een basisbrief en daarna een paar accenten toevoegt of kiest voor een geschikte lay-out. Wat wil je eigenlijk met je sollicitatiebrief overbrengen? Waarschijnlijk dat je de indruk hebt dat de functie jou goed past, en jij interesse hebt om hier over door te praten.
 
 ## Structuur
-Structuur vind ik zelf heel belangrijk als ik een brief lees. 
+Structuur vind ik zelf heel belangrijk als ik een brief lees.
 
 Zet alles eens onder elkaar en bedenk of er iets is dat niet per se in de brief hoeft te staan, maar juist in je cv goed naar voren moet komen. Staat alles er? Is alles relevant? Dan kun je deze lijst rangschikken tot een logische volgorde. Stop punten die dicht bij elkaar liggen in dezelfde alinea. Een vrij standaard (en handige!) alinea structuur vind ik deze:
 
@@ -30,7 +30,7 @@ Zet alles eens onder elkaar en bedenk of er iets is dat niet per se in de brief 
 * Wat spreekt je verder aan in de organisatie?
 * Afsluiting waarbij je je wens uitspreekt om verder in gesprek te gaan.
 
-Wat je nu hebt staan is de structuur van je sollicitatiebrief. Vervolgens ga je de punten uitwerken. Kort en bondig uitleggen en bewijzen dat het zo is. Let hierbij op dat je concreet bent en laat zien dat je specifiek past bij deze functie en dit bedrijf. Wissel af, geef een pakkend voorbeeld. 
+Wat je nu hebt staan is de structuur van je sollicitatiebrief. Vervolgens ga je de punten uitwerken. Kort en bondig uitleggen en bewijzen dat het zo is. Let hierbij op dat je concreet bent en laat zien dat je specifiek past bij deze functie en dit bedrijf. Wissel af, geef een pakkend voorbeeld.
 
 ## Inhoudelijke check
 Nu is het tijd om kritisch te worden. Er zijn een paar vuistregels om rekening mee te houden:
@@ -40,12 +40,12 @@ Nu is het tijd om kritisch te worden. Er zijn een paar vuistregels om rekening m
 * Begin niet elke zin met 'Ik'.
 * Richt je brief aan een specifiek persoon, zorg dat hij op de juiste stapel terecht komt!
 
-Schrap, wees origineel en ga op onderzoek uit! Lees de sollicitatiebrief na om te zien of al je doelen nog wel worden behaald. Lees je eerste alinea en stel je voor dat je een recruiter bent die zijn 120ste brief leest voor een dezelfde functie. Is de zin helder? Concreet? Saai? Als jij al merkt dat je afknapt, dan is dat een slecht teken. Vermijd algemeenheden en maak het persoonlijk. 
+Schrap, wees origineel en ga op onderzoek uit! Lees de sollicitatiebrief na om te zien of al je doelen nog wel worden behaald. Lees je eerste alinea en stel je voor dat je een recruiter bent die zijn 120ste brief leest voor een dezelfde functie. Is de zin helder? Concreet? Saai? Als jij al merkt dat je afknapt, dan is dat een slecht teken. Vermijd algemeenheden en maak het persoonlijk.
 
 Neem bijvoorbeeld deze openingszin, die ik zó vaak zie:
 > 'Ik kwam de vacature online tegen en was meteen enthousiast!'
 
-Dit is voor mij zo'n algemeenheid, zo niks zeggend. Vergelijk het eens me deze twee alternatieven: 
+Dit is voor mij zo'n algemeenheid, zo niks zeggend. Vergelijk het eens me deze twee alternatieven:
 
 > 'Een vriend wees me op jullie bedrijf toen we het onlangs hadden over mijn streven om als industrieel ontwerper meer te gaan bijdragen aan de energietransitie. Ik ben meteen op jullie site gaan kijken en vond een passende vacature. In deze brief licht ik graag toe waar ik naar op zoek ben en wat ik denk bij te kunnen dragen aan Organisatie XYZ!'
 

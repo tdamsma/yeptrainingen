@@ -10,10 +10,10 @@ Een co-creatie workshop snijdt aan twee kanten: één of meerdere vraagstukken v
 
  ![Materialen Yep co-creatie workshop](./co-creatie-4.jpg)
 
-De workshop leent zich ook goed voor grotere groepen, bijvoorbeeld op een congres. Ook kunnen we de workshop aangepast digitaal verzorgen. Een uitgebreide workshop duurt 3 uur, maar een opzet van 60 minuten is ook mogelijk. 
+De workshop leent zich ook goed voor grotere groepen, bijvoorbeeld op een congres. Ook kunnen we de workshop aangepast digitaal verzorgen. Een uitgebreide workshop duurt 3 uur, maar een opzet van 60 minuten is ook mogelijk.
 
  ![2 dames staan bij bord vol post-its en maken een indeling](./co-creatie-3.jpg)
 
-> "Grappige, inspirerende werkvormen. En confronterend ook: ons team maakte zo ongeveer alle klassieke fouten bij het bedenken van oplossingen voor vraagstukken." - Thomen
+> "Grappige, inspirerende werkvormen. En confronterend ook: ons team maakte zo ongeveer alle klassieke fouten bij het bedenken van oplossingen voor vraagstukken." - Thomen
 
  ![4 vrouwen voeren een energiek gesprek voor een bord met 2 vraagstukken erop](./co-creatie-2.jpg)

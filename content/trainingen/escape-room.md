@@ -6,11 +6,11 @@ alt: groep in escape room setting
 volgnummer: 16
 ---
 
-> "Een escape room is het perfecte middel om teamgedrag aan het licht te brengen en bespreekbaar te maken. De tijdsdruk en de spannende sfeer zorgen ervoor dat deelnemers helemaal opgaan in het spel en zich precies zo laten zien als zij zijn."  
+> "Een escape room is het perfecte middel om teamgedrag aan het licht te brengen en bespreekbaar te maken. De tijdsdruk en de spannende sfeer zorgen ervoor dat deelnemers helemaal opgaan in het spel en zich precies zo laten zien als zij zijn." 
 
 > "Indrukwekkend wat je in één dag spelenderwijs kunt bereiken als team!"
 
-Een escape room is een gave activiteit om als team te doen én biedt veel kansen om de samenwerking binnen het team te bespreken en verbeteren. Daarom bieden wij samen met Amaze Escape Den Haag aan. Uw team doet eerst de escape room en daarbij kijkt één van onze psycholoog-trainers mee. Na de ontsnapping (of mislukking!) staat er een heerlijke lunch klaar en vervolgens gaan we een middag lang aan de slag met wat er is gebeurd in het team tijdens het oplossen van de puzzels. Afhankelijk van jullie doelen kunnen we hierbij een focus aanbrengen. Wanneer er feedback gegeven wordt, hebben we de mogelijkheid om videobeelden van de ontsnappingspoging te bekijken.  Videobeelden onderstrepen en versterken de feedback. Voor deelnemers werkt dit positief-confronterend, waardoor zij de feedback beter plaatsen. Dit alles kan ook op afstand in een virtual reality omgeving. En zelfs digitaal!
+Een escape room is een gave activiteit om als team te doen én biedt veel kansen om de samenwerking binnen het team te bespreken en verbeteren. Daarom bieden wij samen met Amaze Escape Den Haag aan. Uw team doet eerst de escape room en daarbij kijkt één van onze psycholoog-trainers mee. Na de ontsnapping (of mislukking!) staat er een heerlijke lunch klaar en vervolgens gaan we een middag lang aan de slag met wat er is gebeurd in het team tijdens het oplossen van de puzzels. Afhankelijk van jullie doelen kunnen we hierbij een focus aanbrengen. Wanneer er feedback gegeven wordt, hebben we de mogelijkheid om videobeelden van de ontsnappingspoging te bekijken.  Videobeelden onderstrepen en versterken de feedback. Voor deelnemers werkt dit positief-confronterend, waardoor zij de feedback beter plaatsen. Dit alles kan ook op afstand in een virtual reality omgeving. En zelfs digitaal!
 
 ## Invulling naar wens
 
@@ -46,7 +46,7 @@ Nog niemand is ooit in z’n eentje uit een escape room gebroken. Wil je missie 
 * Wat zou er gebeuren als we de rollen eens omdraaien?
 * Hoe kunnen wij zo effectief mogelijk samenwerken?
 
- 
+
 
 ## Hoe werkt het?
 
@@ -56,12 +56,12 @@ Nog niemand is ooit in z’n eentje uit een escape room gebroken. Wil je missie 
 * Tijdens de trainingsdag beginnen we met het programma van een basis-escape room. Na de lunch volgt het verdiepende programma. Als organisator mag u de gehele dag bij het programma aanwezig zijn. Tip: laat het van tevoren weten als u zelf ook aan de escape room wilt meedoen, dan zorgen wij ervoor dat het voor uzelf net zo spannend is als voor de groep.
 * We komen na afloop van de teamdag langs voor een evaluatiegesprek.
 
- 
 
-> **Deelnemer:** "Ons ontwikkeltraject, verzorgd door Yep Trainingen, hebben we afgerond met deze dag. Een leuke en spannende slotdag, waarop ook duidelijk werd hoe we individueel en als team vooruit zijn gegaan en welke valkuilen er nog zijn."   
 
-> **Trainer:** "Door de tijdsdruk en de uitdagende puzzels komen interactiepatronen op het team aan het licht en kunnen we ook veel zien ten aanzien van vaardigheden op het gebied van samenwerken, invloed uitoefenen, timemanagement en onderlinge communicatie. Dus terwijl het team druk met of tegen elkaar in de weer is, zit ik te observeren. Na afloop van de escape room gaan we actief verder met de gekozen thema’s en krijgen deelnemers persoonlijke feedback van elkaar en van mij. Indrukwekkend wat je dan spelenderwijs in één dag kunt bereiken als team!"  
+> **Deelnemer:** "Ons ontwikkeltraject, verzorgd door Yep Trainingen, hebben we afgerond met deze dag. Een leuke en spannende slotdag, waarop ook duidelijk werd hoe we individueel en als team vooruit zijn gegaan en welke valkuilen er nog zijn."  
 
-> **Deelnemer:** "Erg leuke en lastige escape rooms! Gaaf om te spelen. De spiegel die je vervolgens door de feedback en de ondersteunende videobeelden krijgt voorgehouden zorgde bij ons voor eyeopeners waar we zeker meer mee gaan doen."
+> **Trainer:** "Door de tijdsdruk en de uitdagende puzzels komen interactiepatronen op het team aan het licht en kunnen we ook veel zien ten aanzien van vaardigheden op het gebied van samenwerken, invloed uitoefenen, timemanagement en onderlinge communicatie. Dus terwijl het team druk met of tegen elkaar in de weer is, zit ik te observeren. Na afloop van de escape room gaan we actief verder met de gekozen thema’s en krijgen deelnemers persoonlijke feedback van elkaar en van mij. Indrukwekkend wat je dan spelenderwijs in één dag kunt bereiken als team!" 
+
+> **Deelnemer:** "Erg leuke en lastige escape rooms! Gaaf om te spelen. De spiegel die je vervolgens door de feedback en de ondersteunende videobeelden krijgt voorgehouden zorgde bij ons voor eyeopeners waar we zeker meer mee gaan doen."
 
 ![Groep deelnemers is net klaar met de escape](./escape-room-2.jpg)

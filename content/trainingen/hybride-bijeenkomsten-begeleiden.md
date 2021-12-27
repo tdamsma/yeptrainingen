@@ -5,13 +5,13 @@ img: hybride-bijeenkomsten-begeleiden-1.jpg
 alt: 2 personen aan vergadertafel overleggen met 3 personen op een groot scherm
 volgnummer: 8
 ---
-Trainingen, vergaderingen en bijeenkomsten vinden sinds de coronatijd regelmatig met een gemixt gezelschap plaats: een deel van de mensen is fysiek aanwezig, een ander deel logt online in. 
+Trainingen, vergaderingen en bijeenkomsten vinden sinds de coronatijd regelmatig met een gemixt gezelschap plaats: een deel van de mensen is fysiek aanwezig, een ander deel logt online in.
 
 
 ![groep rond een meeting owl vergadert met thuiswerkende collega's](./hybride-bijeenkomsten-begeleiden-2.png)
 Dat het technisch mogelijk is om een hybride bijeenkomst te begeleiden, betekent nog niet dat het in alle omstandigheden wenselijk is.
 
-In een online workshop van 1,5 leer je onder welke voorwaarden je een hybride overleg op een effectieve manier kunt begeleiden met voldoende aandacht voor de mensen thuis en in de zaal. Daarnaast krijg je in de workshop tips mee over hoe je een hybride bijeenkomsten praktisch kunt inrichten, en oefenen we met de techniek die in jullie werkomgeving beschikbaar is. 
+In een online workshop van 1,5 leer je onder welke voorwaarden je een hybride overleg op een effectieve manier kunt begeleiden met voldoende aandacht voor de mensen thuis en in de zaal. Daarnaast krijg je in de workshop tips mee over hoe je een hybride bijeenkomsten praktisch kunt inrichten, en oefenen we met de techniek die in jullie werkomgeving beschikbaar is.
 ![testen van instellingen achter laptops](./hybride-bijeenkomsten-begeleiden-3.jpg)
 
 Het resultaat is dat je met zelfvertrouwen een hybride overleg kunt gaan begeleiden. Verschillende aspecten van het begeleiden van hybride bijeenkomsten komen aan bod:

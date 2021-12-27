@@ -5,7 +5,7 @@ alt: bijschrift
 date: 2020-06-03
 intro: Zit je jezelf in de weg rond een bepaald thema, dan is het de moeite waard om je verwachtingen zelf of samen met een coach te onderzoeken. Aan de hand van de oefeningen in dit blog kun je daarmee direct een start maken.
 credits: Images Marijn Damsma Author Anna Stutje
-tags: 
+tags:
   - geluk
   - veerkracht
   - verwachtingen
@@ -46,11 +46,11 @@ Aan het eind van deze blog schetsen we een beeld van Suzan die aan de hand van d
 
 Soms weet je zelf al van welke belemmerende verwachting je last hebt. In andere gevallen vraagt dit nog wat verder onderzoek. Het is handig om aanwijzingen te kennen die duiden op een belemmerende verwachting; op een idee over hoe je zou _moeten_ leven. Eén van de aanwijzingen is het woord ‘moeten’. Belemmerende verwachtingen hebben vaak een dwingend karakter dat ligt besloten in het woordje ‘moeten’. Om zicht te krijgen op jouw belemmerende verwachtingen over je leven, kun je de onderstaande oefening doen.
 
-*   a) Pak pen en papier erbij en vul onderstaande zin minimaal drie keer aan.  
-    Ik moet altijd…  
+*   a) Pak pen en papier erbij en vul onderstaande zin minimaal drie keer aan.
+    Ik moet altijd… 
     Bijvoorbeeld: ik moet altijd… op tijd komen
-*   b) De aanvullingen die jij hebt opgeschreven, mag je nog een keer herhalen, maar ditmaal begin je de zin drie keer met:  
-    Ik heb de gedachte dat…  
+*   b) De aanvullingen die jij hebt opgeschreven, mag je nog een keer herhalen, maar ditmaal begin je de zin drie keer met: 
+    Ik heb de gedachte dat… 
     Bijvoorbeeld: ik heb de gedachte dat ik altijd op tijd moet komen. Merk je dat je met de tweede variant al met iets meer afstand kunt kijken naar verwachtingen die jij hebt?
 *   c) Ter voorbereiding op stap 2: Lees de zinnen nog eens na en omcirkel één van de zinnen waarop jij het meest spanning voelt.
 
@@ -61,9 +61,9 @@ Veel van onze verwachtingen hebben we afgeleid van wat onze ouders en verzorgers
 ![dame met virtual reality bril op](./aan-de-slag-1.jpg)
 
 > Je hebt aan het eind van de vorige oefening één van de zinnen omcirkeld, bijvoorbeeld: ik moet altijd zo snel mogelijk reageren op berichten (mails, appjes) van anderen waarin mij iets gevraagd wordt.
-> 
+>
 > Stel je voor dat je in de kroeg zit met een vriend of vriendin die worstelt met dezelfde verwachting als jij. Hij of zij wil graag horen hoe jij aankijkt tegen wat hem of haar dwars zit. Hij of zij vraagt bijvoorbeeld: Vind jij ook dat mensen altijd zo snel mogelijk moeten reageren op berichten van anderen?
-> 
+>
 > Formuleer jouw antwoord op die vraag. Het formuleren van jouw opvatting kan ingewikkeld zijn. Het kan helpen om jezelf te dwingen bij elke uitspraak die jij doet, de zin te vervolgen met ‘want….’
 
 **Stap 3: Wat is je innerlijke besluit?**
@@ -103,9 +103,9 @@ _Al pratende met haar collega komt ze tot de conclusie dat ze haar plichtsbesef 
 
 Het is een levenskunst om steeds scherp te blijven op je verwachtingen en hoe zij de regie en het geluk dat jij ervaart in je leven beïnvloeden.Hopelijk ben je met de bovenstaande 3 stappen een eind gekomen en heb je nu zicht op waar voor jou de winst ligt en hoe je, met een door jou gekozen opvatting, steviger en gelukkiger in je leven staat.
 
-Het kan prettig zijn om in meer detail de stappen te doorlopen en begeleid te worden bij het volhouden van het bewust gekozen gedrag. 
+Het kan prettig zijn om in meer detail de stappen te doorlopen en begeleid te worden bij het volhouden van het bewust gekozen gedrag.
 
-Als je behoefte hebt om nog wat steviger aan de tand gevoeld te worden, dan kan een coach daar goed bij helpen. Neem hier een kijkje om meer te weten te komen over de coachingsmogelijkheden bij Yep. 
+Als je behoefte hebt om nog wat steviger aan de tand gevoeld te worden, dan kan een coach daar goed bij helpen. Neem hier een kijkje om meer te weten te komen over de coachingsmogelijkheden bij Yep.
 
 ![Coach Anna Stutje](./aan-de-slag-3.jpg)
 

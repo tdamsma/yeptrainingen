@@ -4,7 +4,7 @@ img: coaching-omgaan-met-stress-1.jpg
 alt: 2 vrouwen in een coaching gesprek
 ---
 
-> "Ik ben constant to do’s aan het afwerken, voel me vaak gestresst en ervaar steeds minder van het plezier dat ik had toen ik ooit met dit werk begon” 
+> "Ik ben constant to do’s aan het afwerken, voel me vaak gestresst en ervaar steeds minder van het plezier dat ik had toen ik ooit met dit werk begon”
 
 Het tijdig serieus nemen van stress is van groot belang om structurele roofbouw te voorkomen. Maar dit coachingstraject gaat veel verder dan het verminderen van stress, het is een kans om jezelf beter te leren kennen en daarvan de rest van je leven te profiteren.
 

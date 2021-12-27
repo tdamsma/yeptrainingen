@@ -38,8 +38,8 @@ Bij begeleide intervisie komen we regelmatig bijeen. We bouwen stap voor stap aa
 
 ## Zelfstandig verder?
 
-De meeste groepen kunnen na een aantal sessies zelfstandig verder met de intervisie. De ervaring leert echter dat groepen het prettig vinden om de begeleiding voort te zetten. Doordat ze zichzelf begeleiding gunnen, blijft de intervisie een belangrijke plek innemen in het werk. 
+De meeste groepen kunnen na een aantal sessies zelfstandig verder met de intervisie. De ervaring leert echter dat groepen het prettig vinden om de begeleiding voort te zetten. Doordat ze zichzelf begeleiding gunnen, blijft de intervisie een belangrijke plek innemen in het werk.
 
 ## Intervisiebegeleiding zelf organiseren
 
-Wil je niet afhankelijk zijn van externe inzet, dan is het is ook mogelijk om een paar medewerkers op te leiden tot intervisiebegeleider zodat zij de intervisiesessies kunnen begeleiden. 
+Wil je niet afhankelijk zijn van externe inzet, dan is het is ook mogelijk om een paar medewerkers op te leiden tot intervisiebegeleider zodat zij de intervisiesessies kunnen begeleiden.

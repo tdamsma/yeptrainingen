@@ -10,7 +10,7 @@ alt: Creatief groepsproces
 Coaching is een mooi aanvulling op een talentenprogramma, of het nu gaat om een (maatwerk) TOP-programma van Yep of een ander programma. Het biedt de ruimte om inzichten uit de trainingsdagen te vertalen naar de praktijk van de deelnemers en voor thema's die deelnemers minder makkelijk plenair inbrengen.
 
 
-Je wilt dat jonge talenten zich voor langere tijd aan jouw organisatie binden door hen de ruimte te geven om zich optimaal te ontwikkelen. Persoonlijke en professionele ontwikkeling, uitdaging, balans in werk-privé en gelijkwaardige communicatie vinden velen immers belangrijker dan baanzekerheid. Het is voor jongere werknemers bovendien van belang om bevestigd te worden in het gevoel dat ze op de juiste plek zitten.
+Je wilt dat jonge talenten zich voor langere tijd aan jouw organisatie binden door hen de ruimte te geven om zich optimaal te ontwikkelen. Persoonlijke en professionele ontwikkeling, uitdaging, balans in werk-privé en gelijkwaardige communicatie vinden velen immers belangrijker dan baanzekerheid. Het is voor jongere werknemers bovendien van belang om bevestigd te worden in het gevoel dat ze op de juiste plek zitten.
 
 
 In onze Talenten Ontwikkel Programma's leren deelnemers hun eigen talenten te herkennen, vertrouwen te krijgen in die talenten, ze om te zetten in daden en een gefundeerde en eigenzinnige koers te varen.

@@ -6,7 +6,7 @@ alt: Training met sommige deelnemers via zoom
 date: 2021-04-03
 intro: >
     Hoe begeleid je bijeenkomsten waarbij deelnemers zowel op locatie als op afstand deelnemen? Wij delen onze bevindingen en tips.
-tags: 
+tags:
   - hybridebijeenkomsten
   - hybridewerken
   - digitaledeelnemers
@@ -62,4 +62,4 @@ Wij hebben afgelopen jaar ervaring opgedaan met het verzorgen van fysieke bijeen
 
  Met de juiste voorbereiding kan het veel opleveren! Wij zijn er klaar voor en hebben al verschillende organisaties geholpen met het opzetten van hun hybride overleggen.
 
-Meer tips rondom [digitaal vergaderen](./dos-en-donts/), [verbinding met je team](./hoe-behoud-je-het-teamgevoel-als-niemand-op-kantoor-werkt/) en [(digitale) bijeenkomsten begeleiden](./succesvol-voor-de-groep/)? Lees verder op ons blog!
+Meer tips rondom [digitaal vergaderen](./dos-en-donts), [verbinding met je team](./hoe-behoud-je-het-teamgevoel-als-niemand-op-kantoor-werkt) en [(digitale) bijeenkomsten begeleiden](./succesvol-voor-de-groep)? Lees verder op ons blog!

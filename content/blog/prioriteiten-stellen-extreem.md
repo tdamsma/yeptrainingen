@@ -5,12 +5,12 @@ alt: balancerende keien op elkaar
 date: 2016-12-12
 intro: Wat als de normale timemanagement tips niet volstaan omdat het zich enorm opstapelt?
 credits: Images Marijn Damsma Author Marijn Damsma
-tags: 
+tags:
   - stress
   - timemanagement
 categories:
  - Effectiviteit
-english-version: 
+english-version:
 ---
 
 *Voorzichtig loop ik na een dag training geven richting Den Haag Centraal. Het waait hard en de stoep is voortdurend opgebroken. Zeven maanden zwanger en met een instabiel bekken moet ik goed opletten bij elke onregelmatigheid. Gelukkig heb ik heel comfortabele schoenen aangetrokken - en een rolkoffertje meegenomen, zodat ik niks hoef te tillen. De training was leuk geweest, ook uitdagend. Ik begin mijn tocht (van 300 meter en daarna nog een half uur treinen) vol positieve energie. Om me heen zie ik allemaal mensen die zich naar huis haasten en nauwelijks voor elkaar uitkijken en pas op het station besef ik me dat het spits is. Spits in de trein, daar had ik helemaal niet aan gedacht. Ik was zo bezig geweest met het verzorgen van de training en het stuk(je) dat ik moest lopen, dat ik me helemaal had ingesteld op lekker neerploffen in de trein, staan gaat niet meer. Maar goed, met zo'n buik lukt het vast om een plekje te bemachtigen!*

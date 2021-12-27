@@ -5,7 +5,7 @@ alt: een lift
 date: 2016-03-08
 intro: Hoe stel jij je voor aan een nieuwe collega? Wat zeg je als je kennismaakt met een potentiele opdrachtgever?
 credits: Images Marijn Damsma Author Marijn Damsma
-tags: 
+tags:
   - presenteren
   - netwerken
 categories:

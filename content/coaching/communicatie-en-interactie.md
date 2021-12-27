@@ -5,11 +5,11 @@ alt: Anna Stutje coacht
 ---
 
 
-> “De relatie met collega's verloopt soms stroef. Ik wil bepaalde patronen leren herkennen en doorbreken. Zeker nu ik vanuit mijn functie veel met andere mensen moet samenwerken.” 
+> “De relatie met collega's verloopt soms stroef. Ik wil bepaalde patronen leren herkennen en doorbreken. Zeker nu ik vanuit mijn functie veel met andere mensen moet samenwerken.”
 
-In deze coachsessies staat jouw communicatie en interactie met anderen centraal. Je vergroot je repertoire aan vaardigheden en leert hoe je er voor zorgt dat de ander jou begrijpt en jij met waardering naar de ander kunt kijken.  
+In deze coachsessies staat jouw communicatie en interactie met anderen centraal. Je vergroot je repertoire aan vaardigheden en leert hoe je er voor zorgt dat de ander jou begrijpt en jij met waardering naar de ander kunt kijken. 
 
-Communicatie gaat over meer dan de woorden die we met elkaar wisselen. Het gaat uiteindelijk over de omgang met mensen. Bij sommige mensen gaat dit vloeiend terwijl het anderen minder makkelijk afgaat. Moeite met communicatie kan verschillende oorzaken hebben: gespannenheid, gevoelens van minderwaardigheid of ongemak in contact met anderen. Als je je daarin herkent, dan focussen we ons tijdens de coaching op het vergroten van zelfvertrouwen en experimenteren we samen met nieuw gedrag. Het kan ook zijn dat stroeve communicatie het gevolg is van een verschil in communicatiestijl tussen jou en de ander. Dat leggen we hierna uit. 
+Communicatie gaat over meer dan de woorden die we met elkaar wisselen. Het gaat uiteindelijk over de omgang met mensen. Bij sommige mensen gaat dit vloeiend terwijl het anderen minder makkelijk afgaat. Moeite met communicatie kan verschillende oorzaken hebben: gespannenheid, gevoelens van minderwaardigheid of ongemak in contact met anderen. Als je je daarin herkent, dan focussen we ons tijdens de coaching op het vergroten van zelfvertrouwen en experimenteren we samen met nieuw gedrag. Het kan ook zijn dat stroeve communicatie het gevolg is van een verschil in communicatiestijl tussen jou en de ander. Dat leggen we hierna uit.
 
 ## Hoe zorg je dat de ander jou begrijpt en jij met waardering naar de ander kunt blijven kijken?
 

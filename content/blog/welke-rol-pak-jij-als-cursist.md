@@ -14,15 +14,15 @@ categories:
 
 Haal jij alles uit een training? Lees eens de volgende omschrijvingen en stel jezelf deze vraag. Pak jij de rol van klant, toeschouwer of regisseur wanneer je deelneemt? En wat maakt het uit?
 
-**Klant**: 
+**Klant**:
 
 > “Wat heb jij mij te bieden? Bied maar aan en dan zie ik wel wat ik ermee doe.”
 
-**Toeschouwer**: 
+**Toeschouwer**:
 
 > “ik sta er open in vandaag, ik zie wel wat er op me af komt.”
 
-**Regisseur**: 
+**Regisseur**:
 
 > “ik wil weten waarom ik weerstand tegenkom in een bepaald type gesprek en hoe ik dit kan voorkomen”
 

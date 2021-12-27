@@ -3,11 +3,11 @@ title: Nederlandse werkcultuur voor Statushouders
 Subtitle: Vergroot het begrip en de heldere communicatie over en weer.
 img: statushouder-begeleiding-1.jpg
 alt: Diverse groep medewerkers zit samen aan tafel by Annie Spratt on Unsplash
-  
+ 
 volgnummer: 20
 ---
 
-Wij hebben tot dusver vijf organisaties bijgestaan om in totaal meer dan 20 nieuwe medewerkers met een achtergrond als statushouders te begeleiden bij het opdoen van de eerste werkervaring in Nederland. Wij richten ons daarbij op het thuisraken in de Nederlandse werkcultuur: 
+Wij hebben tot dusver vijf organisaties bijgestaan om in totaal meer dan 20 nieuwe medewerkers met een achtergrond als statushouders te begeleiden bij het opdoen van de eerste werkervaring in Nederland. Wij richten ons daarbij op het thuisraken in de Nederlandse werkcultuur:
 
 * Pro-activiteit en assertiviteit tonen
 * Communicatieoefeningen (aannemen van een instructie of opdracht, aangeven van wensen en grenzen)

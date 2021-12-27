@@ -5,7 +5,7 @@ alt: schema van een dagelijkse routine
 date: 2018-11-30
 intro: Je gedrag veranderen is mogelijk en kun je op verschillende manieren aanpakken. Bijvoorbeeld door van je gewenste gedrag een gewoonte of routine te maken!
 credits: Images Marijn Damsma Author Gusta Marcus en Marijn Damsma
-tags: 
+tags:
   - veranderen
   - volhouden
   - goede voornemens
@@ -14,13 +14,13 @@ categories:
 english-version:
 ---
 
-Als jij je persoonlijk wilt ontwikkelen, betekent dat vaak dat je bepaald gedrag wilt veranderen. Misschien wil je na een gesprek met je leidinggevende je werk anders aanpakken. Of misschien heb je jezelf voorgenomen om vaker 'nee' te zeggen, je werk beter na te lezen of meer aandacht te besteden aan relaties met collega's. 
+Als jij je persoonlijk wilt ontwikkelen, betekent dat vaak dat je bepaald gedrag wilt veranderen. Misschien wil je na een gesprek met je leidinggevende je werk anders aanpakken. Of misschien heb je jezelf voorgenomen om vaker 'nee' te zeggen, je werk beter na te lezen of meer aandacht te besteden aan relaties met collega's.
 
-Een mogelijke manier om je gedrag te veranderen, is door het gebruik van zelfcontrole. In ons [vorige blog](./gedragsveranderingstechniek-zelfcontrole/) lees je daar meer over. We hebben al veel zelfcontrole nodig voor alle afleidingen die op ons af komen, keuzes die we moeten maken en taken die we moeten uitvoeren. Daarom is het handig om nog een methode te hebben die je kan gebruiken: je automatische gedrag veranderen.
+Een mogelijke manier om je gedrag te veranderen, is door het gebruik van zelfcontrole. In ons [vorige blog](./gedragsveranderingstechniek-zelfcontrole) lees je daar meer over. We hebben al veel zelfcontrole nodig voor alle afleidingen die op ons af komen, keuzes die we moeten maken en taken die we moeten uitvoeren. Daarom is het handig om nog een methode te hebben die je kan gebruiken: je automatische gedrag veranderen.
 
 ## Gedragsverandering door gewoontes aan te passen
 
-Het gedrag wat je automatisch doet, kost weinig mentale energie. Wanneer je nieuw gedrag wilt introduceren en hier een gewoonte van weet te maken, hoef je er dus niet (meer) over na te denken. In de begin fase, vergt dit wel moeite en zal het nog niet automatisch gaan, omdat je oude routines nog 'ingeprogrammeerd' staan. Daar moet je even doorheen. Het gemakkelijkste gaat dat door heel concreet aan jezelf voor te schrijven hoe je het hebben wil. Dit kan door het gebruik van actie-gerichte zinnetjes, ook wel 'implementatie intenties'. Een implementatie intentie (_implementation intention_). Dit is een ‘als-dan’ plan waarin aangegeven wordt waar, wanneer en hoe je het gedrag uit gaat voeren. Probeer daarbij specifiek, concreet en realistisch gedrag te beschrijven. Het klinkt nu wel heel abstract, maar het valt mee! 
+Het gedrag wat je automatisch doet, kost weinig mentale energie. Wanneer je nieuw gedrag wilt introduceren en hier een gewoonte van weet te maken, hoef je er dus niet (meer) over na te denken. In de begin fase, vergt dit wel moeite en zal het nog niet automatisch gaan, omdat je oude routines nog 'ingeprogrammeerd' staan. Daar moet je even doorheen. Het gemakkelijkste gaat dat door heel concreet aan jezelf voor te schrijven hoe je het hebben wil. Dit kan door het gebruik van actie-gerichte zinnetjes, ook wel 'implementatie intenties'. Een implementatie intentie (_implementation intention_). Dit is een ‘als-dan’ plan waarin aangegeven wordt waar, wanneer en hoe je het gedrag uit gaat voeren. Probeer daarbij specifiek, concreet en realistisch gedrag te beschrijven. Het klinkt nu wel heel abstract, maar het valt mee!
 
 Een paar voorbeelden:
 
@@ -40,18 +40,18 @@ Door je nieuwe gedrag te verwoorden als een implementatie intentie, leg je het v
 *   Bedenk een beloning die je alleen krijgt als je het gedrag hebt uitgevoerd.
 
 ## Zelf aan de slag
-Wil je deze informatie toepassen in je eigen leven? Pak dan meteen pen en papier en beantwoord voor jouw voornemen het volgende lijstje. We zetten er een voorbeeld bij om het makkelijker te maken.                             
+Wil je deze informatie toepassen in je eigen leven? Pak dan meteen pen en papier en beantwoord voor jouw voornemen het volgende lijstje. We zetten er een voorbeeld bij om het makkelijker te maken.                            
 
 
 **Schrijf op**
-1. Positief goed voornemen: Ik wil fitter worden 
+1. Positief goed voornemen: Ik wil fitter worden
 2. Concreet, realistisch doel: Ik wil 1 keer in de week naar de sportschool gaan.
-3. Specifiek Als-Dan plan: Als ik donderdag klaar ben met avondeten, dan pak ik mijn sporttas, stap ik op de fiets naar de sportschool en ga ik een uur fitnessen. 
-4. Extra maatregelen: Ik zet ‘s morgens mijn sporttas al klaar. Ik vertel aan mijn partner dat ik donderdagavond ga sporten. Als: het regent, dan neem ik de auto naar de sportschool. 
-5. Beloning: Na het sporten mag ik mijn favoriete serie kijken (en anders mag ik dat donderdagavond niet).   
+3. Specifiek Als-Dan plan: Als ik donderdag klaar ben met avondeten, dan pak ik mijn sporttas, stap ik op de fiets naar de sportschool en ga ik een uur fitnessen.
+4. Extra maatregelen: Ik zet ‘s morgens mijn sporttas al klaar. Ik vertel aan mijn partner dat ik donderdagavond ga sporten. Als: het regent, dan neem ik de auto naar de sportschool.
+5. Beloning: Na het sporten mag ik mijn favoriete serie kijken (en anders mag ik dat donderdagavond niet).  
 
-Wil je meer sturing bij het veranderen van je eigen gedrag? Vraag dan vrijblijvend een coachingsgesprek aan. 
+Wil je meer sturing bij het veranderen van je eigen gedrag? Vraag dan vrijblijvend een coachingsgesprek aan.
 
-Wil je eerst het doel helder hebben waar je aan wilt werken? Kijk dan eens naar de training [‘van Droom naar Doel’](./../trainingen/droom-naar-doel) van Yep Trainingen.   
+Wil je eerst het doel helder hebben waar je aan wilt werken? Kijk dan eens naar de training [‘van Droom naar Doel’](../trainingen/droom-naar-doel) van Yep Trainingen.  
 
 Dit was een gastblog van Gusta Marcus. Eindredactie: Marijn Damsma Bronnen: Adriaanse, M.A., Vinkers, C.D.W., De Ridder, D.T.D., Hox, J.J., & De Wit, J.B.F. (2011). Do implementation intentions help toe at a healthy diet? A systematic review and meta-analysis of the empirical evidence. _Appetite_, 56, 183 – 193. Webb, T.L., & Sheeran, P. (2001). Can implementation intentions help to overcome ego-depletion? _Journal of Experimental Social Psychology_, 39, 297-286.

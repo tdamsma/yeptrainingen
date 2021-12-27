@@ -5,7 +5,7 @@ alt: bijschrift
 date: 2022-08-27
 intro: De intro
 credits: Images Marijn Damsma Author  Marijn Damsma
-tags: 
+tags:
   - hybridevents
   - hybridwork
   - digitalattendees

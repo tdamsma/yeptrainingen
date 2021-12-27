@@ -5,14 +5,14 @@ alt: astronaut alleen in de ruimte
 date: 2019-08-15
 intro: Aan de hand van praktijk voorbeelden krijg je een beter beeld van wat 'een professionele afstand' betekent, hoe je die afstand bewaakt en waarom je dit zou moeten doen.
 credits: Images Marijn Damsma Author Marijn Damsma
-tags: 
+tags:
   - professionele afstand
 categories:
  - Begeleidingsvaardigheden
 english-version: Keeping a professional distance
 ---
 
-Misschien kom je op dit blog terecht omdat je de tip hebt gekregen om wat meer afstand te bewaren. In mijn werk als trainer zie ik veel onderwijzers, zorgverleners, accounthouders, coaches, trainers en andere daadkrachtige professionals die begaan zijn met de personen waar zij mee - en voor - werken. Ze willen problemen van anderen helpen oplossen, liefst zo snel en zo goed mogelijk en zien hiervoor talloze mogelijkheden. Veelal gedreven mensen met veel energie, die graag hun cliënten en leerlingen met raad en daad willen bijstaan. Helpers, die veel aankunnen, die geweldig zijn, én die zichzelf gaan tegenkomen.. 
+Misschien kom je op dit blog terecht omdat je de tip hebt gekregen om wat meer afstand te bewaren. In mijn werk als trainer zie ik veel onderwijzers, zorgverleners, accounthouders, coaches, trainers en andere daadkrachtige professionals die begaan zijn met de personen waar zij mee - en voor - werken. Ze willen problemen van anderen helpen oplossen, liefst zo snel en zo goed mogelijk en zien hiervoor talloze mogelijkheden. Veelal gedreven mensen met veel energie, die graag hun cliënten en leerlingen met raad en daad willen bijstaan. Helpers, die veel aankunnen, die geweldig zijn, én die zichzelf gaan tegenkomen..
 
 Want wie niet bewust afstand bewaart in zorgende taken, gaat hier last van krijgen.
 
@@ -69,14 +69,14 @@ Is er erg veel afstand, dan merk je dat men niet bij jou komt met problemen en v
 
 Afstand bewaren zit hem in veel kleine dingen, zoals we bij de voorbeelden al zagen. Zoals:
 
-* Hoe dichtbij sta je? Raak je de ander aan? 
-* Kijk je de ander diep in de ogen? 
-* Hoe diep en hoe lang ga je in op iemands verhaal? 
-* Ga jij het voor de ander oplossen? Huil en lach je mee? 
-* Hoeveel laat je van jezelf zien? En is dat professionele informatie, of persoonlijk? 
+* Hoe dichtbij sta je? Raak je de ander aan?
+* Kijk je de ander diep in de ogen?
+* Hoe diep en hoe lang ga je in op iemands verhaal?
+* Ga jij het voor de ander oplossen? Huil en lach je mee?
+* Hoeveel laat je van jezelf zien? En is dat professionele informatie, of persoonlijk?
 * Doe je dit open en bij iedereen, of hangt er een sfeertje omheen van geheimhouding/uitzondering?
 
-De meeste mensen voelen automatisch aan wat er gepast is in een sociale situatie, tijdens of achteraf. Je krijgt bijvoorbeeld na een gesprek met een leerling spijt. Was dat wel gepast en nodig? Of: je eigen afspraak vergeten, balen. Of: je merkt dat je blijft zitten met het verhaal van de ander. 
+De meeste mensen voelen automatisch aan wat er gepast is in een sociale situatie, tijdens of achteraf. Je krijgt bijvoorbeeld na een gesprek met een leerling spijt. Was dat wel gepast en nodig? Of: je eigen afspraak vergeten, balen. Of: je merkt dat je blijft zitten met het verhaal van de ander.
 
 Maar ook als je het over het algemeen goed aanvoelt zijn er momenten waarop het lastig is! Denk maar aan een situatie waarin je in een andere (bedrijfs-) cultuur bent, bijvoorbeeld. Mag je een vraag stellen aan de persoon 'boven' je? Of is dat al ongepast/brutaal? Mag je zomaar bij iemand binnenlopen? Of als je promotie hebt gemaakt: als directe collega kon je je een schuine grap nog wel permitteren en als MT-lid ineens niet meer. Nog een lastige situatie: als je ziet dat de persoon erg kwetsbaar is en niet door iemand anders wordt opgevangen.
 

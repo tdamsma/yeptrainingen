@@ -12,7 +12,7 @@ Elk individu is anders en iedereen heeft zijn eigen unieke vragen en uitdagingen
 
 Vind je het lastig om jezelf te profileren? Hoor je vaker terug dat je onvoldoende zichtbaar bent? In een aantal coachsessies staan we stil bij de vraag wat je van jezelf wilt laten zien en oefen je hoe je jezelf kunt presenteren op een manier die bij jou past.
 
-Het kan zijn dat het voor jouw situatie handig is om ook in groepsverband te werken aan je zichtbaarheid. Je kunt na de individuele coaching dan terecht in onze onze presentatietraining[presentatietraining](/trainingen/). 
+Het kan zijn dat het voor jouw situatie handig is om ook in groepsverband te werken aan je zichtbaarheid. Je kunt na de individuele coaching dan terecht in onze onze presentatietraining[presentatietraining](/trainingen/).
 
 
 ## Persoonlijk leiderschap
@@ -49,6 +49,6 @@ Lijkt het je wat om met dit onderwerp aan de slag te gaan in groepsverband? Volg
 
 Iedereen die met groepen werkt, weet dat er veel komt kijken bij het begeleiden ervan. Je bent als trainer of begeleider nooit uitgeleerd en eens in de zoveel tijd kom je weer op een punt waarop je behoefte hebt aan een boost in je ontwikkeling. Deze coaching is voor jou als je specifieke vaardigheden extra aandacht wil geven of patronen wil doorbreken die je nu belemmeren in verdere groei.
 
-In ons Train-de-trainer programma [train-de-trainer programma](/trainingen/) leer je de kneepjes van het trainersvak. Tijdens de coaching heb je de mogelijkheid om specifieke vragen rondom jouw begeleidingsrol in te brengen. Dat kan heel praktisch zijn als je behoefte hebt aan inspiratie voor nieuwe en effectieve (online) werkvormen, of als je een frisse blik nodig hebt om de puntjes op de i te zetten aan de vooravond van een spannende bijeenkomst. Het kan ook zijn dat je in je rol als coach en trainer een patroon gaat herkennen dat je graag wil doorbreken, zoals bijvoorbeeld gespannenheid als je voor de groep staat, of moeite met confronteren en stevig interveniëren in groepsprocessen. 
+In ons Train-de-trainer programma [train-de-trainer programma](/trainingen/) leer je de kneepjes van het trainersvak. Tijdens de coaching heb je de mogelijkheid om specifieke vragen rondom jouw begeleidingsrol in te brengen. Dat kan heel praktisch zijn als je behoefte hebt aan inspiratie voor nieuwe en effectieve (online) werkvormen, of als je een frisse blik nodig hebt om de puntjes op de i te zetten aan de vooravond van een spannende bijeenkomst. Het kan ook zijn dat je in je rol als coach en trainer een patroon gaat herkennen dat je graag wil doorbreken, zoals bijvoorbeeld gespannenheid als je voor de groep staat, of moeite met confronteren en stevig interveniëren in groepsprocessen.
 
 ![afbeelding sneeuwvlokjes](./andere-themas-2.jpg)

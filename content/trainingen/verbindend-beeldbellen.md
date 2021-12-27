@@ -25,4 +25,4 @@ Raiid:
 
 **Maatwerk training**
 
-Prijs en invulling op aanvraag. [Mail Marijn](Info@yeptrainingen.nl)
+Prijs en invulling op aanvraag. [Marijn@yeptrainingen.nl](mailto:Marijn@yeptrainingen.nl)

@@ -18,6 +18,6 @@ Het resultaat is dat je met zelfvertrouwen een hybride overleg kunt gaan begelei
 
 * Verwachtingen: Welke verwachtingen schep je vooraf zodat het voor deelnemers duidelijk is wat digitale deelname betekent?
 * Techniek: Hoe richt je de ruimte in? Hoe zorg je dat digitale deelnemers goed zichtbaar en hoorbaar zijn in de zaal en andersom: hoe krijg je het voor elkaar dat de deelnemers in de zaal goed zichtbaar zijn voor de mensen thuis? Welke technische hulpmiddelen kun je daarvoor gebruiken?
-* Aandacht verdelen: Hoe verdeel je de aandacht tussen de mensen thuis en in de zaal? Welke werkvormen helpen daarbij? Welke andere tips zijn er om ervoor te zorgen dat je het groepsproces op een stevige manier kunt begeleiden? Wie weet helpt [ons blogbericht over het begeleiden van hybride bijeenkomsten](./blog/hybride-bijeenkomsten) je vast op weg!
+* Aandacht verdelen: Hoe verdeel je de aandacht tussen de mensen thuis en in de zaal? Welke werkvormen helpen daarbij? Welke andere tips zijn er om ervoor te zorgen dat je het groepsproces op een stevige manier kunt begeleiden? Wie weet helpt [ons blogbericht over het begeleiden van hybride bijeenkomsten](../blog/hybride-bijeenkomsten) je vast op weg!
 
 ![Grote groep neemt deel aan een hybride bijeenkomst](./hybride-bijeenkomsten-begeleiden-4.png) De training vindt plaats op aanvraag en kan ook incompany georganiseerd worden: van korte lunchworkshop tot uitgebreid programma op maat. Interesse? Stuur een mailtje naar Anna@yeptrainingen.nl

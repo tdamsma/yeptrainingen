@@ -5,13 +5,13 @@ alt: Planningspapieren
 date: 2016-03-08
 intro: Wat zijn alternatieven voor losse to-do lijstjes?
 credits: Images Marijn Damsma Author Marijn Damsma
-tags: 
+tags:
   - hybridevents
   - hybridwork
   - digitalattendees
 categories:
  - Effectiviteit
-english-version: 
+english-version:
 ---
 
 De laatste tijd zijn er extra veel aanvragen op het gebied van Timemanagement en ik merk dat veel young professionals zoekende zijn in het maken van een goede planning. Wat ik zie: veel losse to-do lijstjes (verzameling van briefjes, digitale notities en aantekeningen in agenda) en weinig overzicht. Bij deze deel ik 5 manieren om overzichtelijke weekplanningen te maken. Per manier zet ik er een aantal tips bij om de planning goed te gebruiken. Ik hoop dat er één voor je bij zit!
@@ -39,7 +39,7 @@ Tips:
 * Zet wat je minimaal gedaan wil hebben in de weekplanning zodat er ruimte is voor eventuele uitloop, voor pauzes en onverwachte verstoringen.
 * Voeg onderaan een blok toe met extra taken waar je graag aan toe zou willen komen. Deze taken zijn niet aan een dag gekoppeld en ga je pas doen als de rest af is. Heel stimulerend, want je loopt als het ware op jezelf vooruit :)
 * Ook hier geldt dat grote taken vaak onaantrekkelijk zijn. Breek ze op in een aantal onderdelen zodat je in elk geval een aantal streepjes kan zetten terwijl je bezig bent. Klinkt misschien kinderachtig maar dit voorkomt dat je het gevoel krijgt dat je 'niet vooruit komt', 'niks hebt gedaan'.
-* Je kunt, als je werk en privé planning op 1 vel wil zien, een kolom toevoegen of met een andere kleur je privé dingen erbij zetten. Zo blijf je het onderscheid zien. Dit doe ik, omdat ik veel thuis werk en tussendoor ook dingen regel voor vrijwilligerswerk of de kinderen. 
+* Je kunt, als je werk en privé planning op 1 vel wil zien, een kolom toevoegen of met een andere kleur je privé dingen erbij zetten. Zo blijf je het onderscheid zien. Dit doe ik, omdat ik veel thuis werk en tussendoor ook dingen regel voor vrijwilligerswerk of de kinderen.
 
 ![blokken planning](./weekplanning-5.jpg)
 **Lijst 3: Blokken planning**
@@ -66,9 +66,9 @@ Tips:
 
 ![Gmailplanner](./weekplanning-7.png)
 
-**Lijst 5: Digitale agenda** 
+**Lijst 5: Digitale agenda**
 
-Een digitale agenda zie je wat er wanneer gepland staat. Mooi aan deze vorm is dat je het overzicht altijd bij je hebt en vanaf verschillende apparaten kan inzien en dat je collega's of familieleden ook toegang kan geven tot je plannen. Ook kun je de planning eindeloos bewerken zonder dat het een rommeltje wordt en blijven je oude planningen automatisch bewaard, wat niet gezegd kan worden van papieren lijstjes. Een ander voordeel is dat je er veel extra info in kwijt kunt:  locatie, telefoonnummer van je contactpersoon etc. 
+Een digitale agenda zie je wat er wanneer gepland staat. Mooi aan deze vorm is dat je het overzicht altijd bij je hebt en vanaf verschillende apparaten kan inzien en dat je collega's of familieleden ook toegang kan geven tot je plannen. Ook kun je de planning eindeloos bewerken zonder dat het een rommeltje wordt en blijven je oude planningen automatisch bewaard, wat niet gezegd kan worden van papieren lijstjes. Een ander voordeel is dat je er veel extra info in kwijt kunt:  locatie, telefoonnummer van je contactpersoon etc.
 
 Maar deze vorm heeft ook nadelen. Wanneer je effectief wil werken, raad ik aan om taken op te delen in hapklare brokken die maximaal een uur (maar liefst iets van 20 minuten) duren. In digitale agenda's worden korte taken niet goed weergegeven. Ze vallen over elkaar heen of er lijkt door de tekstgrootte meer tijd beschikbaar. Een ander nadeel (groter dan het lijkt!) is dat je in een digitale agenda niet kan strepen of afvinken. Alle taken worden als een vaststaand geheel gepresenteerd. Net alsof het logisch is dat je dat allemaal deze week gaat afkrijgen. Ik merk dat dit voor veel mensen minder voldoening geeft in het werk en zie dat zij er toch iets op papier bij willen hebben.
 
@@ -80,4 +80,4 @@ Tips:
 * Vind je het prettiger werken met papier en/of wil je graag kunnen strepen, danzou ik zeggen: digitaal de grote lijnen, deadlines, dagen die je wil blokken en vaststaande afspraken. Dit helpt je het overzicht te bewaren en in je specifiekere weekplanning kun je hier dan op aansluiten.
 * Ik print 1x per kwartaal mijn Gmailplanning uit voor de komende 3 maanden. Dat gaat heel eenvoudig en geeft me direct overzicht over wanneer het druk wordt en hoe ik die piek kan opvangen.
 
-Ik hoop dat je er wat aan hebt! Meer timemanagement tips nodig? Mail je vraag naar Marijn@yeptrainingen.nl
+Ik hoop dat je er wat aan hebt! Meer timemanagement tips nodig? Mail je vraag naar [Marijn@yeptrainingen.nl](mailto:Marijn@yeptrainingen.nl)

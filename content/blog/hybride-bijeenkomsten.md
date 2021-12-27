@@ -6,7 +6,7 @@ alt: Training met sommige deelnemers via zoom
 date: 2021-04-03
 intro: >
     Hoe begeleid je bijeenkomsten waarbij deelnemers zowel op locatie als op afstand deelnemen? Wij delen onze bevindingen en tips.
-tags: 
+tags:
   - hybridebijeenkomsten
   - hybridewerken
   - digitaledeelnemers

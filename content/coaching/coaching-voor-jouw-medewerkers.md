@@ -10,7 +10,7 @@ Als jij het belangrijk vindt dat in jouw organisatie mensen begeleiding kunnen k
 
 ## Adviesgesprek
 
-Wellicht merk je in jouw organisatie dat werknemers behoefte hebben aan coaching. Je ziet het als een goed teken dat medewerkers met hun ontwikkeling aan de slag willen en gelooft dat het bij goed werkgeverschap hoort om hierover in gesprek te gaan. Als je je afvraagt hoe je dit het beste kunt organiseren, dan kun je contact met ons opnemen. Samen bespreken we hoe je coaching breed en laagdrempelig in jouw organisatie kunt aanbieden. Wij kunnen je begeleiden bij het zoeken van de juiste coach voor een specifieke medewerker of helpen je bij het opzetten van een coachingspool zodat je makkelijk kunt doorverwijzen als je medewerkers behoefte hebben aan coaching.
+Wellicht merk je in jouw organisatie dat werknemers behoefte hebben aan coaching. Je ziet het als een goed teken dat medewerkers met hun ontwikkeling aan de slag willen en gelooft dat het bij goed werkgeverschap hoort om hierover in gesprek te gaan. Als je je afvraagt hoe je dit het beste kunt organiseren, dan kun je contact met ons opnemen. Samen bespreken we hoe je coaching breed en laagdrempelig in jouw organisatie kunt aanbieden. Wij kunnen je begeleiden bij het zoeken van de juiste coach voor een specifieke medewerker of helpen je bij het opzetten van een coachingspool zodat je makkelijk kunt doorverwijzen als je medewerkers behoefte hebben aan coaching.
 
 ## Inloopcoaching
 

@@ -5,13 +5,13 @@ alt: raket
 date: 2018-02-01
 intro: Hoe zorg je dat jij je veranderdoelen wel volhoudt?
 credits: Images Marijn Damsma Author Marijn Damsma
-tags: 
+tags:
   - doelen
   - effectiviteit
 categories:
  - Effectiviteit
 
-english-version: 
+english-version:
 ---
 Als ondernemer en trainer ben ik niet alleen in januari, maar het hele jaar door bezig met voornemens en veranderingen. Van mezelf, van ons team, maar zeker niet op de laatste plaats van onze klanten.
 

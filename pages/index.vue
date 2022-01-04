@@ -114,17 +114,17 @@
         <h1 class="text-center my-4">Yep is hét trainingsbureau voor gedreven professionals.</h1>
         <div class="row justify-content-around my-5">
           <div class="col-md-3 text-center">
-            <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/wereldbol.png?resize&format=webp`).src"></b-img><br />
+            <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/wereldbol.png?inline`)"></b-img><br />
             <h2 class="mt-2">Maatschappelijk</h2>
             <p>Jouw impact is ons doel.</p>
           </div>
           <div class="col-md-3 text-center">
-            <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/megafoon.png?resize&format=webp`).src"></b-img><br />
+            <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/megafoon.png?inline`)"></b-img><br />
             <h2 class="mt-2">Actief</h2>
             <p>Leren door te experimenteren.</p>
           </div>
           <div class="col-md-3 text-center">
-            <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/puzzle.png?resize&format=webp`).src"></b-img><br />
+            <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/puzzle.png?inline`)"></b-img><br />
             <h2 class="mt-2">Flexibel</h2>
             <p>Jouw ontwikkelvraag staat centraal.</p>
           </div>

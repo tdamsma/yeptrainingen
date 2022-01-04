@@ -141,25 +141,14 @@
           <div class="col-md-4 bg-light py-2 mb-2 text-center">
             <h2 class="mb-3">Trainingen</h2>
             <a href="trainingen" class="d-block mt-2">
-              <b-img
-                fluid="fluid"
-                blank-color="#777"
-                :data-src="'~/assets/images/JUMP.jpg'"
-                :data-srcset="require('~/assets/images/JUMP.jpg').srcSet"
-                class="lazyload"
-              ></b-img>
+              <b-img fluid="fluid" blank-color="#777" src="~/assets/images/trainings-overzicht.png?resize&size=350&format=webp" class="lazyload"></b-img>
               <p class="mt-2">Lees meer >></p>
             </a>
           </div>
           <div class="col-md-4 bg-light py-2 mb-2 text-center">
             <h2 class="mb-3">Coaching</h2>
             <a href="coaching" class="d-block mt-2">
-              <b-img
-                fluid="fluid"
-                blank-color="#777"
-                src="~/assets/images/omgaanmetstress.jpg"
-                :srcset="require(`~/assets/images/omgaanmetstress.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
-              ></b-img>
+              <b-img fluid="fluid" blank-color="#777" src="~/assets/images/omgaanmetstress.jpg?resize&size=350&format=webp" class="lazyload"></b-img>
               <p class="mt-2">Lees meer >></p>
             </a>
           </div>

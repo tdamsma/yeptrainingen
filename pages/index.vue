@@ -8,7 +8,7 @@
             style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto"
             fluid="fluid"
             blank-color="#777"
-            src="~/assets/images/training-yep.jpg?resize&size=800&format=webp"
+            :src="require('~/assets/images/training-yep.jpg?resize&size=800&format=webp').src"
             :srcset="require(`~/assets/images/training-yep.jpg?resize&sizes[]=500&sizes[]=800&sizes[]=1200&format=webp`).srcSet"
             sizes="500,800,1200"
           ></b-img>
@@ -44,7 +44,7 @@
                   class="square-img"
                   thumbnail
                   blank-color="#777"
-                  src="~/assets/images/uitgelicht1.png?resize&size=267&format=webp"
+                  :src="require(`~/assets/images/uitgelicht1.png?resize&size=267&format=webp`).src"
                   :srcset="require(`~/assets/images/uitgelicht1.png?resize&sizes[]=200&sizes[]=500&format=webp`).srcSet"
                   alt="Uitgelicht met burealamp"
                 ></b-img>
@@ -90,7 +90,7 @@
             <b-img
               fluid="fluid"
               blank-color="#777"
-              src="~/assets/images/Trainers_van_YEP-1.png?resize&size=500&format=webp"
+              :src="require(`~/assets/images/Trainers_van_YEP-1.png?resize&size=500&format=webp`).src"
               :srcset="require(`~/assets/images/Trainers_van_YEP-1.png?resize&sizes[]=300&sizes[]=500&format=webp`).srcSet"
             ></b-img>
           </div>
@@ -104,7 +104,7 @@
       <b-img
         fluid="fluid"
         blank-color="#777"
-        src="~/assets/images/site-foto-1-of-1-3.jpg?resize&size=800&format=webp"
+        :src="require(`~/assets/images/site-foto-1-of-1-3.jpg?resize&size=800&format=webp`).src"
         :srcset="require(`~/assets/images/site-foto-1-of-1-3.jpg?resize&sizes[]=500&sizes[]=800&sizes[]=1200&format=webp`).srcSet"
         sizes="500,800,1200"
       ></b-img>
@@ -114,17 +114,17 @@
         <h1 class="text-center my-4">Yep is hét trainingsbureau voor gedreven professionals.</h1>
         <div class="row justify-content-around my-5">
           <div class="col-md-3 text-center">
-            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/wereldbol.png" :srcset="require(`~/assets/images/wereldbol.png`).srcSet"></b-img><br />
+            <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/wereldbol.png?inline`)"></b-img><br />
             <h2 class="mt-2">Maatschappelijk</h2>
             <p>Jouw impact is ons doel.</p>
           </div>
           <div class="col-md-3 text-center">
-            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/megafoon.png" :srcset="require(`~/assets/images/megafoon.png`).srcSet"></b-img><br />
+            <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/megafoon.png?inline`)"></b-img><br />
             <h2 class="mt-2">Actief</h2>
             <p>Leren door te experimenteren.</p>
           </div>
           <div class="col-md-3 text-center">
-            <b-img fluid="fluid" blank-color="#777" src="~/assets/images/puzzle.png" :srcset="require(`~/assets/images/puzzle.png`).srcSet"></b-img><br />
+            <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/puzzle.png?inline`)"></b-img><br />
             <h2 class="mt-2">Flexibel</h2>
             <p>Jouw ontwikkelvraag staat centraal.</p>
           </div>
@@ -144,8 +144,7 @@
               <b-img
                 fluid="fluid"
                 blank-color="#777"
-                :data-src="'~/assets/images/JUMP.jpg'"
-                :data-srcset="require('~/assets/images/JUMP.jpg').srcSet"
+                :src="require(`~/assets/images/trainings-overzicht.png?resize&size=350&format=webp`).src"
                 class="lazyload"
               ></b-img>
               <p class="mt-2">Lees meer >></p>
@@ -157,8 +156,8 @@
               <b-img
                 fluid="fluid"
                 blank-color="#777"
-                src="~/assets/images/omgaanmetstress.jpg"
-                :srcset="require(`~/assets/images/omgaanmetstress.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
+                :src="require(`~/assets/images/omgaanmetstress.jpg?resize&size=350&format=webp`).src"
+                class="lazyload"
               ></b-img>
               <p class="mt-2">Lees meer >></p>
             </a>

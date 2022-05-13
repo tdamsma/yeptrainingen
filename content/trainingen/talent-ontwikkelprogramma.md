@@ -20,7 +20,7 @@ Het programma is er in een open en in een maatwerk variant en er is een aangepas
 Meer informatie vind je in onze
 [brochure](../../Brochure-TOP%20Yep.pdf)
 
-[![Brochure Talent OntwikkelProgramma Yep Trainingen](./talent-ontwikkelprogramma-2.jpg)](../../Brochure-TOP%20Yep.pdf)
+[![Brochure Talent OntwikkelProgramma Yep Trainingen](./talent-ontwikkelprogramma-2.jpg)](../../Brochure-TOP-Yep.pdf)
 
 * * *
 

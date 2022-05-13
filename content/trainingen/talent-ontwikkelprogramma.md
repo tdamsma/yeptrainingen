@@ -24,7 +24,7 @@ Meer informatie vind je in onze
 
 * * *
 
-Het Talent Ontwikkel Programma bestaat uit 9 volle trainingsdagen plus 8 intervisiebijeenkomsten, waarin steeds weer een nieuw thema met uitdagende werkvormen centraal staat. Hieronder zie je het overzicht staan, met het speerpunt per dag.
+Het Talent Ontwikkel Programma bestaat uit 8 volle trainingsdagen, waarin steeds weer een nieuw thema met uitdagende werkvormen centraal staat. Hieronder zie je het overzicht staan, met het speerpunt per dag. Naast de trainingsdagen bestaat het programma uit tussentijdse opdrachten, 7 intervisiebijeenkomsten en individele coaching.
 
 ![TOP inhoud](./talent-ontwikkelprogramma-3.jpg) De training kost €4100 inclusief arrangement en vrij van Btw. De groep bestaat uit 6 tot 12 deelnemers. Elk jaar in september gaan de nieuwe groepen van start. Op aanvraag zijn er ook andere startdata en maatwerk invullingen mogelijk. Hieronder vind je de reeds geplande startdata en het inschrijfformulier.
 

@@ -18,7 +18,7 @@ Het programma is er in een open en in een maatwerk variant en er is een aangepas
 > "Activerend programma met betrokken trainers. Scherpe feedback, veel variatie en ook één-op één sparringsmomenten"
 
 Meer informatie vind je in onze
-[brochure](../../Brochure-TOP%20Yep.pdf)
+[brochure](../../Brochure-TOP-YEP.pdf)
 
 [![Brochure Talent OntwikkelProgramma Yep Trainingen](./talent-ontwikkelprogramma-2.jpg)](../../Brochure-TOP-YEP.pdf)
 
@@ -27,6 +27,7 @@ Meer informatie vind je in onze
 Het Talent Ontwikkel Programma bestaat uit 8 volle trainingsdagen, waarin steeds weer een nieuw thema met uitdagende werkvormen centraal staat. Hieronder zie je het overzicht staan, met het speerpunt per dag. Naast de trainingsdagen bestaat het programma uit tussentijdse opdrachten, 7 intervisiebijeenkomsten en individele coaching.
 
 ![TOP inhoud](./talent-ontwikkelprogramma-3.jpg) De training kost €4100 inclusief arrangement en vrij van Btw. De groep bestaat uit 6 tot 12 deelnemers. Elk jaar in september gaan de nieuwe groepen van start. Op aanvraag zijn er ook andere startdata en maatwerk invullingen mogelijk. Hieronder vind je de reeds geplande startdata en het inschrijfformulier.
+
 
 Eerst informatie aanvragen kan uiteraard ook. Stuur dan een mailtje naar Marijn@yeptrainingen.nl
 

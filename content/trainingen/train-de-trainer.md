@@ -6,9 +6,9 @@ alt: woordenwolk rond thema training
 springest: https://www.springest.nl/yep-trainingen-2/train-de-trainer
 volgnummer: 5
 ---
-Onze Train-de-trainer is een laagdrempelige cursus van vier dagdelen waarin we de belangrijkste basis voor het geven van effectieve en leuke trainingen behandelen. De cursus is gebaseerd op de UvA Psychologiemaster ‘Training and Development’, die onze trainers gevolgd hebben. Hij wordt gegeven in kleine groepen van drie tot zes personen, zodat deelnemers hun eigen leerdoelen er goed in kwijt kunnen. Bekijk ook de [brochure](<./../Brochure-Train-de-trainer Yep.pdf>).
+Onze Train-de-trainer is een laagdrempelige cursus van vier dagdelen waarin we de belangrijkste basis voor het geven van effectieve en leuke trainingen behandelen. De cursus is gebaseerd op de UvA Psychologiemaster ‘Training and Development’, die onze trainers gevolgd hebben. Hij wordt gegeven in kleine groepen van drie tot zes personen, zodat deelnemers hun eigen leerdoelen er goed in kwijt kunnen. Bekijk ook de [brochure](<./../Brochure-Train-de-trainer-Yep.pdf>).
 
-[![Brochure](./train-de-trainer-2.jpg)](<./../Brochure-Train-de-trainer Yep.pdf>)
+[![Brochure](./train-de-trainer-2.jpg)](<./../Brochure-Train-de-trainer-Yep.pdf>)
 
 # De opbouw van de Train-de-trainer cursus is als volgt:
 

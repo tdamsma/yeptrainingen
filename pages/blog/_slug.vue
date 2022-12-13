@@ -51,7 +51,7 @@ export default {
   methods: {
     formatDate(date) {
       const options = { year: 'numeric', month: 'short', day: 'numeric' }
-      return new Date(date).toLocaleDateString('en', options)
+      return new Date(date).toLocaleDateString('nl-NL', options)
     }
   }
 }

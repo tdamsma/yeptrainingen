@@ -16,14 +16,18 @@
         </div>
         <!-- bar rechts met links-->
         <div class="col-lg-3">
-          <div class="border bg-light p-2 text-center">
-            <b-img
-              fluid="fluid"
-              blank-color="#777"
-              src="~/assets/images/omgaanmetstress.jpg"
-              :srcset="require(`~/assets/images/blog-overzicht.jpg?sizes[]=233&amp;sizes[]=566`).srcSet"
-            ></b-img>
-            <a href="/blog/" class="d-block mt-2">&lt;&lt; Terug naar overzicht</a>
+          <div v-for="surroundingDocument of surroundingDocuments" :key="surroundingDocument.title">
+            <b-card class="mt-5 overflow-hidden" no-body="" bg-variant="dark" text-variant="white">
+              <b-card-img
+                class="rounded-0"
+                :src="require(`~/content/blog/${surroundingDocument.img}?size=255`).src"
+                :alt="surroundingDocument.alt"
+              ></b-card-img>
+              <b-card-body class="p-3">
+                <b-card-title class="smalltext">{{ surroundingDocument.title }}</b-card-title>
+              </b-card-body>
+              <nuxt-link class="stretched-link font-bold" :to="{ name: `blog-slug`, params: { slug: surroundingDocument.slug } }"></nuxt-link>
+            </b-card>
           </div>
         </div>
       </div>
@@ -34,9 +38,37 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const document = await $content('blog', params.slug).fetch()
+    const document = await $content('coaching', params.slug).fetch()
 
-    const surroundingDocuments = await $content('blog').only(['title', 'slug', 'img', 'alt']).sortBy('createdAt', 'asc').surround(params.slug).fetch()
+    const surroundingDocuments2 = await $content('coaching').only(['title', 'slug', 'img', 'alt']).sortBy('date', 'desc').fetch()
+    const surroundingDocuments = surroundingDocuments2
+      .filter((x) => x)
+      .slice(0, 5)
+      .filter((x) => x.title !== document.title)
+    return {
+      document,
+      surroundingDocuments
+    }
+  },
+  head() {
+    return {
+      title: 'YEP trainingen coaching'
+    }
+  }
+}
+</script>
+
+<script>
+export default {
+  async asyncData({ $content, params }) {
+    const document = await $content('blog', params.slug).fetch()
+    const surroundingDocuments2 = await $content('blog')
+      .only(['title', 'slug', 'img', 'alt'])
+      .sortBy('createdAt', 'asc')
+      .surround(params.slug, { before: 1, after: 3 })
+      .fetch()
+    const surroundingDocuments = surroundingDocuments2
+
     return {
       document,
       surroundingDocuments
@@ -59,6 +91,7 @@ export default {
 
 <style lang="scss">
 @import 'assets/scss/custom.scss';
+
 .smalltext {
   font-size: 16px;
 }

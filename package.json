@@ -18,7 +18,7 @@
     "@nuxt/typescript-runtime": "^2.0.0",
     "bootstrap": "^4.6.0",
     "bootstrap-vue": "^2.23.1",
-    "core-js": "^3.26.1",
+    "core-js": "^3.27.1",
     "file-loader": "^6.2.0",
     "node-sass": "^8.0.0",
     "nuxt": "^2.15.7",

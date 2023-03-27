@@ -51,7 +51,7 @@ export default {
   },
   head() {
     return {
-      title: 'YEP trainingen coaching'
+      title: 'Yep Trainingen'
     }
   }
 }

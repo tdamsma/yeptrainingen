@@ -39,7 +39,7 @@ Wanneer een asielzoeker een (tijdelijke)verblijfsvergunning heeft, dan is het ee
 - Vermijd onnodige extra’s – de eerste periode kun je ervan uitgaan dat de nieuwkomer veel energie kwijt is aan alle nieuwe indrukken en alle onzekerheden die er naast het werk mogelijk spelen op het vlak van familie, huisvestiging. 
 
 
-![Een groep statushouders in gesprek](./een-statushouder-opnemen-2.jpg)
+![Een groep in gesprek](./een-statushouder-opnemen-2.jpg)
 
 ## Welke begeleiding biedt Yep Trainingen aan bedrijven die net statushouders in dienst hebben genomen?
 Wij begeleiden nieuwkomers in kleine groepen bij het thuisraken in de werkcultuur. Zij kunnen met elkaar en een trainer van Yep over dingen praten die hen verbazen en zonder terughoudendheid al hun vragen stellen. We oefenen met gesprekssituaties en dan met name in direct en assertief gedrag. Ook doen we oefeningen op het gebied van zelfreflectie, wat ook voor velen een nieuwe vaardigheid is. Door hier in korte trainingen en coaching sessies aandacht voor te hebben, lopen gesprekken op het werk beter. Deze begeleiding helpt de nieuwkomers om het integratieproces te versnellen, een waardevol netwerk(je) op te bouwen en zich beter te laten zien in de organisatie. Ook helpen we leidinggevenden met gerichte tips en begeleiding, bijvoorbeeld in individuele gesprekken of een gezamenlijke kick-off.

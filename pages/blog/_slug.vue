@@ -38,29 +38,6 @@
 <script>
 export default {
   async asyncData({ $content, params }) {
-    const document = await $content('coaching', params.slug).fetch()
-
-    const surroundingDocuments2 = await $content('coaching').only(['title', 'slug', 'img', 'alt']).sortBy('date', 'desc').fetch()
-    const surroundingDocuments = surroundingDocuments2
-      .filter((x) => x)
-      .slice(0, 5)
-      .filter((x) => x.title !== document.title)
-    return {
-      document,
-      surroundingDocuments
-    }
-  },
-  head() {
-    return {
-      title: 'YEP trainingen coaching'
-    }
-  }
-}
-</script>
-
-<script>
-export default {
-  async asyncData({ $content, params }) {
     const document = await $content('blog', params.slug).fetch()
     const surroundingDocuments2 = await $content('blog')
       .only(['title', 'slug', 'img', 'alt'])
@@ -76,7 +53,7 @@ export default {
   },
   head() {
     return {
-      title: 'YEP trainingen blog'
+      title: 'Yep Trainingen'
     }
   },
 

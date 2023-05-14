@@ -41,7 +41,7 @@ export default {
   },
   head() {
     return {
-      title: 'YEP trainingen blog'
+      title: 'Yep Trainingen'
     }
   },
   methods: {

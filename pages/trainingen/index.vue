@@ -67,7 +67,7 @@ export default {
   },
   head() {
     return {
-      title: 'Yep trainingen'
+      title: 'Yep Trainingen'
     }
   }
 }

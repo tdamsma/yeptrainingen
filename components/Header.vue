@@ -2,7 +2,7 @@
 div
   b-navbar(toggleable='lg', type='light', variant='light')
     .container.d-flex.justify-content-between
-      b-navbar-brand(href='#')
+      b-navbar-brand(to='/')
         img.ml-2(src='~/assets/images/Logo-Yep-300x122.png', alt='yeptrainingen')
 
       b-navbar-toggle.mr-2(target='nav-collapse')

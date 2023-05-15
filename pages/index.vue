@@ -59,7 +59,7 @@
           </div>
           <div v-for="blog of blogs" :key="blog.title" class="col-md-3 border bg-light p-2 text-center">
             <h2>Laatste blog</h2>
-            <a href="/blog/welke-rol-pak-jij-als-cursist">
+            <nuxt-link :to="{ name: `blog-slug`, params: { slug: blog.slug } }"> </nuxt-link>
               <div class="square-img-container text-left">
                 <b-img
                   class="square-img"

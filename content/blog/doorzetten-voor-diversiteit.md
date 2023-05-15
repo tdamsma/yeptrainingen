@@ -2,7 +2,7 @@
 title: Doorzetten voor diversiteit
 img: doorzetten-voor-diversiteit-1.jpg
 alt: inclusief team
-date: 2023-5-15
+date: 2023-05-15
 intro: Welke stappen helpen teams en organisaties verder op weg naar een inclusief personeelsbestand? 
 credits: Images Marijn Damsma Author Marijn Damsma
 tags:

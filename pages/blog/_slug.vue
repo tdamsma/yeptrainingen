@@ -2,7 +2,7 @@
   <div>
     <div class="container mt-3 mb-3 bg-white pt-4">
       <div class="row">
-        <div class="col-lg-9">
+        <div class="col-lg-9 col-md-8 col-sm-12">
           <div class="container">
             <div class="text-center mb-4">
               <img class="img-fluid" style="max-height: 300px" :src="require(`~/content/blog/${document.img}?size=800`)" :alt="document.alt" />
@@ -15,7 +15,7 @@
           </div>
         </div>
         <!-- bar rechts met links-->
-        <div class="col-lg-3">
+        <div class="col-lg-3 col-md-4 col-sm-5">
           <div v-for="surroundingDocument of surroundingDocuments" :key="surroundingDocument.title">
             <b-card class="mt-5 overflow-hidden" no-body="" bg-variant="dark" text-variant="white">
               <b-card-img
@@ -39,12 +39,9 @@
 export default {
   async asyncData({ $content, params }) {
     const document = await $content('blog', params.slug).fetch()
-    const surroundingDocuments2 = await $content('blog')
-      .only(['title', 'slug', 'img', 'alt'])
-      .sortBy('createdAt', 'asc')
-      .surround(params.slug, { before: 1, after: 3 })
-      .fetch()
-    const surroundingDocuments = surroundingDocuments2
+    const surroundingDocuments = (
+      await $content('blog').only(['title', 'slug', 'img', 'alt']).sortBy('createdAt', 'asc').surround(params.slug, { before: 1, after: 4 }).fetch()
+    ).filter((doc) => doc !== null)
 
     return {
       document,

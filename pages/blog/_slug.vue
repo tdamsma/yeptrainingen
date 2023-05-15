@@ -39,12 +39,9 @@
 export default {
   async asyncData({ $content, params }) {
     const document = await $content('blog', params.slug).fetch()
-    const surroundingDocuments2 = await $content('blog')
-      .only(['title', 'slug', 'img', 'alt'])
-      .sortBy('createdAt', 'asc')
-      .surround(params.slug, { before: 1, after: 3 })
-      .fetch()
-    const surroundingDocuments = surroundingDocuments2
+    const surroundingDocuments = (
+      await $content('blog').only(['title', 'slug', 'img', 'alt']).sortBy('createdAt', 'asc').surround(params.slug, { before: 1, after: 4 }).fetch()
+    ).filter((doc) => doc !== null)
 
     return {
       document,

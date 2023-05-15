@@ -70,7 +70,11 @@ Het is best moeilijk om 1 lijstje met tips te maken, omdat inclusie over zo veel
 6\. Houd er rekening mee dat er tijd gaat zitten in een inclusiever personeelsbestand. Onderschat dit niet, want daardoor komt er soms een te grote druk op bestaande medewerkers. Wijs hen middelen toe voor diversiteits- en inclusie-initiatieven en zorg voor toewijding en ondersteuning van het management. Maak er bijvoorbeeld een project van waar uren op geboekt kunnen worden.
 
  Ik hoop dat deze tips jou/je team/je manager zullen helpen om op een handige en soepele manier voor inclusie te gaan! Als de bal eenmaal rolt, wordt het makkelijker dus zet door! Wil je meer lezen, dan zijn dit ook nog inzichtgevende pagina's om te raadplegen: 
+
  [Movisie, over inclusief beleid][https://www.movisie.nl/inclusief-beleid]
+
  [Movisie, essay over het wat, waarom en hoe van diversiteit][https://www.movisie.nl/publicatie/essay-inclusie-diversiteit-wat-waarom-hoe]
+ 
+ [CNV Inclusiviteitpagina][https://cnvjongeren.nl/inclusiviteit/]
 
 Succes!

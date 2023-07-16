@@ -18,7 +18,7 @@ div
         | Terug
       h5 Springest Reviews
     template(#default='{ hide }')
-      iframe.container-fluid(style='padding: 0px; height: 100%', src='https://www.springest.nl/yep-trainingen-2?widget=1')
+      iframe.container-fluid(style='padding: 0px; height: 400px', src='https://www.springest.nl/yep-trainingen-2?widget=1')
     template(#modal-footer='{ close }')
       // Button with custom close trigger value
       b-button(size='sm', @click='close()')

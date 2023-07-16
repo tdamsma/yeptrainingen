@@ -26,12 +26,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const members = await $content('team')
-      .only(['name', 'slug', 'body'])
-      .filter((x) => x.volgnummer > 0)
-      .sortBy('volgnummer')
-      .limit(100)
-      .fetch()
+    const members = await $content('team').only(['name', 'slug', 'body']).sortBy('volgnummer').limit(100).fetch()
     return {
       members: members.map((m) => {
         m.responsiveImage = require(`~/content/team/${m.slug}.jpg?resize&placeholder=true&sizes[]=200, sizes[]=300`)

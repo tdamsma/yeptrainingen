@@ -5,7 +5,7 @@
         <div class="col-lg-9 col-md-8 col-sm-12">
           <div class="container">
             <div class="text-center mb-4">
-              <img class="img-fluid" style="max-height: 300px" :src="require(`~/content/blog/${document.img}?size=800`)" :alt="document.alt" />
+              <img class="img-fluid" style="max-height: 400px" :src="require(`~/content/blog/${document.img}?size=800`).src" :alt="document.alt" />
             </div>
             <h2>{{ document.title }}</h2>
             <p>{{ formatDate(document.date) }}</p>
@@ -40,8 +40,10 @@ export default {
   async asyncData({ $content, params }) {
     const document = await $content('blog', params.slug).fetch()
     const surroundingDocuments = (
-      await $content('blog').only(['title', 'slug', 'img', 'alt']).sortBy('createdAt', 'asc').surround(params.slug, { before: 1, after: 4 }).fetch()
-    ).filter((doc) => doc !== null)
+      await $content('blog').only(['title', 'slug', 'img', 'alt', 'date']).sortBy('date').surround(params.slug, { before: 3, after: 5 }).fetch()
+    )
+      .filter((doc) => doc !== null)
+      .sort((a, b) => new Date(b.date) - new Date(a.date)) // sort by newest first
 
     return {
       document,

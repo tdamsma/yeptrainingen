@@ -2,7 +2,7 @@
 title: "Sollicitatiebrief"
 img: sollicitatiebrief-1.jpg
 alt: papieren op een bureau
-date: 2016-03-09
+date: 2016-03-11
 intro: Wat wil je overbrengen met je brief?
 credits: Images Marijn Damsma Author Marijn Damsma
 tags:

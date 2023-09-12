@@ -5,7 +5,8 @@
         <div class="col-lg-9 col-md-8 col-sm-12">
           <div class="container">
             <div class="text-center mb-4">
-              <img class="img-fluid" style="max-height: 300px" :src="require(`~/content/blog/${document.img}?size=800`)" :alt="document.alt" />
+              <img class="img-fluid" style="max-height: 400px"
+                :src="require(`~/content/blog/${document.img}?size=800`).src" :alt="document.alt" />
             </div>
             <h2>{{ document.title }}</h2>
             <p>{{ formatDate(document.date) }}</p>
@@ -18,15 +19,13 @@
         <div class="col-lg-3 col-md-4 col-sm-5">
           <div v-for="surroundingDocument of surroundingDocuments" :key="surroundingDocument.title">
             <b-card class="mt-5 overflow-hidden" no-body="" bg-variant="dark" text-variant="white">
-              <b-card-img
-                class="rounded-0"
-                :src="require(`~/content/blog/${surroundingDocument.img}?size=255`).src"
-                :alt="surroundingDocument.alt"
-              ></b-card-img>
+              <b-card-img class="rounded-0" :src="require(`~/content/blog/${surroundingDocument.img}?size=255`).src"
+                :alt="surroundingDocument.alt"></b-card-img>
               <b-card-body class="p-3">
                 <b-card-title class="smalltext">{{ surroundingDocument.title }}</b-card-title>
               </b-card-body>
-              <nuxt-link class="stretched-link font-bold" :to="{ name: `blog-slug`, params: { slug: surroundingDocument.slug } }"></nuxt-link>
+              <nuxt-link class="stretched-link font-bold"
+                :to="{ name: `blog-slug`, params: { slug: surroundingDocument.slug } }"></nuxt-link>
             </b-card>
           </div>
         </div>
@@ -40,8 +39,14 @@ export default {
   async asyncData({ $content, params }) {
     const document = await $content('blog', params.slug).fetch()
     const surroundingDocuments = (
-      await $content('blog').only(['title', 'slug', 'img', 'alt']).sortBy('createdAt', 'asc').surround(params.slug, { before: 1, after: 4 }).fetch()
-    ).filter((doc) => doc !== null)
+      await $content('blog')
+        .only(['title', 'slug', 'img', 'alt', 'date'])
+        .sortBy('date')
+        .surround(params.slug, { before: 3, after: 5 })
+        .fetch()
+    )
+      .filter((doc) => doc !== null)
+      .sort((a, b) => new Date(b.date) - new Date(a.date)) // sort by newest first
 
     return {
       document,
@@ -70,7 +75,7 @@ export default {
   font-size: 16px;
 }
 
-.nuxt-content > p > img {
+.nuxt-content>p>img {
   max-height: 500px;
   max-width: 100%;
   display: block;

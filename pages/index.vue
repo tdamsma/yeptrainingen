@@ -3,11 +3,15 @@
     <div class="container-fluid container-left">
       <div class="row p-0">
         <div class="col-md-6 p-0" style="height: 300px; overflow: hidden">
-          <b-img class="img-fluid" style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto"
-            fluid="fluid" blank-color="#777"
+          <b-img
+            class="img-fluid"
+            style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto"
+            fluid="fluid"
+            blank-color="#777"
             :src="require('~/assets/images/training-yep.jpg?resize&size=800&format=webp').src"
             :srcset="require(`~/assets/images/training-yep.jpg?resize&sizes[]=500&sizes[]=800&sizes[]=1200&format=webp`).srcSet"
-            sizes="500,800,1200"></b-img>
+            sizes="500,800,1200"
+          ></b-img>
         </div>
         <div class="col-md-6 pt-4">
           <h2>
@@ -20,18 +24,13 @@
     <div class="jumbotron jumbotron-fluid yep-geel">
       <div class="container">
         <h2>
-          De drang om te leren. Wij zien het bij zoveel professionals. En we weten hoe graag organisaties daar ruimte voor
-          willen maken. Samen met hen ontwerpen
+          De drang om te leren. Wij zien het bij zoveel professionals. En we weten hoe graag organisaties daar ruimte voor willen maken. Samen met hen ontwerpen
           we trainings- en coachingstrajecten.
         </h2>
-        Wij zijn er voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn en die staan te
-        popelen om hun stem verder te ontdekken.
-        Die een idee hebben over hoe het anders kan en willen weten hoe ze dat binnen hun organisatie waar kunnen maken.
-        Die soms nog aan zichzelf twijfelen en
-        merken dat organisaties complex zijn. Maar die zich razendsnel nieuwe vaardigheden eigen willen maken. Enerzijds
-        om zelf te groeien, anderzijds omdat ze
-        weten dat ze een tastbare bijdrage kunnen leveren aan de organisatie en de samenleving als ze echt ergens voor
-        durven staan.
+        Wij zijn er voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn en die staan te popelen om hun stem verder te ontdekken.
+        Die een idee hebben over hoe het anders kan en willen weten hoe ze dat binnen hun organisatie waar kunnen maken. Die soms nog aan zichzelf twijfelen en
+        merken dat organisaties complex zijn. Maar die zich razendsnel nieuwe vaardigheden eigen willen maken. Enerzijds om zelf te groeien, anderzijds omdat ze
+        weten dat ze een tastbare bijdrage kunnen leveren aan de organisatie en de samenleving als ze echt ergens voor durven staan.
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid yep-grijs-donker">
@@ -41,10 +40,14 @@
             <h2>Uitgelicht</h2>
             <a href="/trainingen/talent-ontwikkelprogramma" class="d-block mt-2">
               <div class="square-img-container text-left">
-                <b-img class="square-img" thumbnail blank-color="#777"
+                <b-img
+                  class="square-img"
+                  thumbnail
+                  blank-color="#777"
                   :src="require(`~/assets/images/uitgelicht1.png?resize&size=267&format=webp`).src"
                   :srcset="require(`~/assets/images/uitgelicht1.png?resize&sizes[]=200&sizes[]=500&format=webp`).srcSet"
-                  alt="Uitgelicht met burealamp"></b-img>
+                  alt="Uitgelicht met burealamp"
+                ></b-img>
               </div>
               Talentontwikkel programma >>
             </a>
@@ -57,10 +60,15 @@
             <h2>Laatste blog</h2>
             <nuxt-link :to="{ name: `blog-slug`, params: { slug: blog.slug } }">
               <div class="square-img-container text-left">
-                <b-img class="square-img" thumbnail blank-color="#777"
+                <b-img
+                  class="square-img"
+                  thumbnail
+                  blank-color="#777"
                   :src="require(`~/content/blog/${blog.img}?size=500`).src"
-                  :srcset="require(`~/content/blog/${blog.img}?sizes[]=500&sizes[]=800`).srcSet" sizes="500,800"
-                  :alt="blog.alt"></b-img>
+                  :srcset="require(`~/content/blog/${blog.img}?sizes[]=500&sizes[]=800`).srcSet"
+                  sizes="500,800"
+                  :alt="blog.alt"
+                ></b-img>
               </div>
               {{ blog.title }} >>
             </nuxt-link>
@@ -78,9 +86,12 @@
         </div>
         <div class="col-md p-0">
           <div class="div float-right" style="max-width: 500px; width: 100%">
-            <b-img fluid="fluid" blank-color="#777"
+            <b-img
+              fluid="fluid"
+              blank-color="#777"
               :src="require(`~/assets/images/Trainers_van_YEP-1.png?resize&size=500&format=webp`).src"
-              :srcset="require(`~/assets/images/Trainers_van_YEP-1.png?resize&sizes[]=300&sizes[]=500&format=webp`).srcSet"></b-img>
+              :srcset="require(`~/assets/images/Trainers_van_YEP-1.png?resize&sizes[]=300&sizes[]=500&format=webp`).srcSet"
+            ></b-img>
           </div>
         </div>
       </div>
@@ -89,10 +100,13 @@
       <Opdrachtgevers />
     </div>
     <div class="container-fluid p-0">
-      <b-img fluid="fluid" blank-color="#777"
+      <b-img
+        fluid="fluid"
+        blank-color="#777"
         :src="require(`~/assets/images/site-foto-1-of-1-3.jpg?resize&size=800&format=webp`).src"
         :srcset="require(`~/assets/images/site-foto-1-of-1-3.jpg?resize&sizes[]=500&sizes[]=800&sizes[]=1200&format=webp`).srcSet"
-        sizes="500,800,1200"></b-img>
+        sizes="500,800,1200"
+      ></b-img>
     </div>
     <div class="jumbotron jumbotron-fluid yep-grijs-donker">
       <div class="container text-light border-top border-bottom">
@@ -115,8 +129,7 @@
           </div>
         </div>
         <p class="text-center my-5">
-          Voorbeelden van onze trainingen en case studies vind je hier. Op zoek naar coaching voor jezelf of je
-          medewerkers? Lees hier verder>>.
+          Voorbeelden van onze trainingen en case studies vind je hier. Op zoek naar coaching voor jezelf of je medewerkers? Lees hier verder>>.
         </p>
       </div>
     </div>
@@ -127,18 +140,24 @@
           <div class="col-md-4 bg-light py-2 mb-2 text-center">
             <h2 class="mb-3">Trainingen</h2>
             <a href="trainingen" class="d-block mt-2">
-              <b-img fluid="fluid" blank-color="#777"
+              <b-img
+                fluid="fluid"
+                blank-color="#777"
                 :src="require(`~/assets/images/trainings-overzicht.png?resize&size=350&format=webp`).src"
-                class="lazyload"></b-img>
+                class="lazyload"
+              ></b-img>
               <p class="mt-2">Lees meer >></p>
             </a>
           </div>
           <div class="col-md-4 bg-light py-2 mb-2 text-center">
             <h2 class="mb-3">Coaching</h2>
             <a href="coaching" class="d-block mt-2">
-              <b-img fluid="fluid" blank-color="#777"
+              <b-img
+                fluid="fluid"
+                blank-color="#777"
                 :src="require(`~/assets/images/omgaanmetstress.jpg?resize&size=350&format=webp`).src"
-                class="lazyload"></b-img>
+                class="lazyload"
+              ></b-img>
               <p class="mt-2">Lees meer >></p>
             </a>
           </div>

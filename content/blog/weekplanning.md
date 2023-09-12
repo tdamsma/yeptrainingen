@@ -2,7 +2,7 @@
 title: Vijf keer een goede weekplanning
 img: weekplanning-1.jpg
 alt: Planningspapieren
-date: 2016-03-08
+date: 2016-03-09
 intro: Wat zijn alternatieven voor losse to-do lijstjes?
 credits: Images Marijn Damsma Author Marijn Damsma
 tags:

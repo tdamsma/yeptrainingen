@@ -11,7 +11,7 @@
           <b-row no-gutters="">
             <b-col lg="3" md="4">
               <div class="square-img-container">
-                <b-card-img class="square-img rounded-circle" :src="require(`~/content/blog/${article.img}?size=500`)" :alt="article.alt"></b-card-img>
+                <b-card-img class="square-img rounded-circle" :src="require(`~/content/blog/${article.img}?size=500`).src" :alt="article.alt"></b-card-img>
               </div>
             </b-col>
             <b-col lg="9" md="8">
@@ -34,7 +34,7 @@
 <script>
 export default {
   async asyncData({ $content }) {
-    const articles = await $content('blog').only(['title', 'slug', 'img', 'alt', 'intro']).sortBy('date', 'desc').limit(100).fetch()
+    const articles = await $content('blog').only(['title', 'slug', 'img', 'alt', 'intro', 'date']).sortBy('date', 'desc').limit(100).fetch()
     return {
       articles
     }

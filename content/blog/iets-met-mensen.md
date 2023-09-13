@@ -2,7 +2,7 @@
 title: '"Iets met Mensen"'
 img: iets-met-mensen-1.jpg
 alt: een lift
-date: 2016-03-10
+date: 2016-03-12
 intro: Door eerst concreet te maken wat jij wil doen en welke talenten je wil inzetten, kun je veel gerichter zoeken naar vacatures.
 credits: Images Marijn Damsma Author Marijn Damsma
 tags:

@@ -49,9 +49,8 @@
                   alt="Uitgelicht met burealamp"
                 ></b-img>
               </div>
-
-              Talentontwikkel programma>></a
-            >
+              Talentontwikkel programma >>
+            </a>
           </div>
           <div class="col-md-5 border bg-light p-2 text-center">
             <h2>Reviews</h2>

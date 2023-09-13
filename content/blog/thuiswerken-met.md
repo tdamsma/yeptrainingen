@@ -2,7 +2,7 @@
 title: Thuiswerken, mét
 img: thuiswerken-met-1.jpg
 alt: baby naast laptop
-date: 2016-03-08
+date: 2016-03-10
 intro: Marijn ontdekt het thuiswerken met een baby. Ze deelt haar ervaringen, en die zijn positief.
 credits: Images Marijn Damsma Author Marijn Damsma
 tags:

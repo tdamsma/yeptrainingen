@@ -1,4 +1,4 @@
-export default {
+export default defineNuxtConfig({
   // Target (https://go.nuxtjs.dev/config-target)
   target: 'static',
 
@@ -40,44 +40,19 @@ export default {
   // Modules for dev and build (recommended) (https://go.nuxtjs.dev/config-modules)
   buildModules: [
     // https://go.nuxtjs.dev/typescript
-    '@nuxt/typescript-build',
+
     '@aceforth/nuxt-optimized-images',
     ['@nuxtjs/netlify-files', { existingFilesDirectory: 'netlify' }]
   ],
-  optimizedImages: {
-    inlineImageLimit: 1000,
-    imagesName: ({ isDev }) => (isDev ? '[path][name][hash:optimized]-[width].[ext]' : 'img/[contenthash:7]-[width].[ext]'),
-    responsiveImagesName: ({ isDev }) => (isDev ? '[path][name]--[width][hash:optimized].[ext]' : 'img/[contenthash:7]-[width].[ext]'),
-    handleImages: ['jpg', 'jpeg', 'png', 'svg', 'webp', 'gif'],
-    optimizeImages: true,
-    optimizeImagesInDev: true,
-    defaultImageLoader: 'img-loader',
-    mozjpeg: {
-      quality: 80
-    },
-    optipng: {
-      optimizationLevel: 3
-    },
-    pngquant: false,
-    gifsicle: {
-      interlaced: true,
-      optimizationLevel: 3
-    },
-    svgo: {
-      // enable/disable svgo plugins here
-    },
-    webp: {
-      preset: 'default',
-      quality: 75
-    }
-  },
+
   // Modules (https://go.nuxtjs.dev/config-modules)
   modules: [
-    '@nuxt/http',
+    '@nuxt/image',
+    // '@nuxt/http',
     // https://go.nuxtjs.dev/bootstrap
-    'bootstrap-vue/nuxt',
+    // 'bootstrap-vue/nuxt',
     // https://go.nuxtjs.dev/content
-    '@nuxt/content'
+    // '@nuxt/content'
   ],
   // https://bootstrap-vue.org/docs
   bootstrapVue: {
@@ -99,7 +74,7 @@ export default {
   // Content module configuration (https://go.nuxtjs.dev/config-content)
   content: {
     markdown: {
-      rehypePlugins: ['~/plugins/rehype-content-image.js']
+      // rehypePlugins: ['~/plugins/rehype-content-image.js']
     }
   },
 
@@ -115,4 +90,4 @@ export default {
       compact: true
     }
   }
-}
+})

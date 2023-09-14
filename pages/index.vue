@@ -3,15 +3,8 @@
     <div class="container-fluid container-left">
       <div class="row p-0">
         <div class="col-md-6 p-0" style="height: 300px; overflow: hidden">
-          <b-img
-            class="img-fluid"
-            style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto"
-            fluid="fluid"
-            blank-color="#777"
-            :src="require('~/assets/images/training-yep.jpg?resize&size=800&format=webp').src"
-            :srcset="require(`~/assets/images/training-yep.jpg?resize&sizes[]=500&sizes[]=800&sizes[]=1200&format=webp`).srcSet"
-            sizes="500,800,1200"
-          ></b-img>
+          <b-img class="img-fluid" style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto"
+            fluid="fluid" blank-color="#777" src="~/assets/images/training-yep.jpg" sizes="500,800,1200"></b-img>
         </div>
         <div class="col-md-6 pt-4">
           <h2>
@@ -21,7 +14,7 @@
         </div>
       </div>
     </div>
-    <div class="jumbotron jumbotron-fluid yep-geel">
+    <!-- <div class="jumbotron jumbotron-fluid yep-geel">
       <div class="container">
         <h2>
           De drang om te leren. Wij zien het bij zoveel professionals. En we weten hoe graag organisaties daar ruimte voor willen maken. Samen met hen ontwerpen
@@ -163,7 +156,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div>-->
   </div>
 </template>
 

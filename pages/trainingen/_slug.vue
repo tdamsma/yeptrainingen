@@ -14,11 +14,11 @@
             <div v-if="document.springest" class="mb-4 text-center">
               <button
                 v-b-tooltip.hover.bottomleft
-                title="Via Springest"
+                title="Stuur een email"
                 class="btn btn-primary"
-                :onclick="`window.open('${document.springest}/inschrijven?widget=1');`"
+                onclick="window.location.href='mailto:marijn@yeptrainingen.nl';"
               >
-                Inschrijfmogelijkheden
+                Informeer
               </button>
               <button v-b-tooltip.hover.bottomright title="Via Springest" class="btn btn-primary" :onclick="`window.open('${document.springest}#ervaringen');`">
                 Meer Ervaringen

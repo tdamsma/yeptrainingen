@@ -15,8 +15,8 @@
         </div>
         <div class="col-md-6 pt-4">
           <h2>
-            Inzicht, durf en vaardigheid<br />
-            <span class="yep-geel-donker">voor maatschappelijke impact</span>
+            {{ $t('insightCourageSkill') }}<br />
+            <span class="yep-geel-donker">{{ $t('forSocialImpact') }}</span>
           </h2>
         </div>
       </div>
@@ -24,20 +24,16 @@
     <div class="jumbotron jumbotron-fluid yep-geel">
       <div class="container">
         <h2>
-          De drang om te leren. Wij zien het bij zoveel professionals. En we weten hoe graag organisaties daar ruimte voor willen maken. Samen met hen ontwerpen
-          we trainings- en coachingstrajecten.
+          {{ $t('learningDesire') }}
         </h2>
-        Wij zijn er voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn en die staan te popelen om hun stem verder te ontdekken.
-        Die een idee hebben over hoe het anders kan en willen weten hoe ze dat binnen hun organisatie waar kunnen maken. Die soms nog aan zichzelf twijfelen en
-        merken dat organisaties complex zijn. Maar die zich razendsnel nieuwe vaardigheden eigen willen maken. Enerzijds om zelf te groeien, anderzijds omdat ze
-        weten dat ze een tastbare bijdrage kunnen leveren aan de organisatie en de samenleving als ze echt ergens voor durven staan.
+        {{ $t('weAreForProfessionals') }}
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid yep-grijs-donker">
       <div class="container">
         <div class="row justify-content-around">
           <div class="col-md-3 border bg-light p-2 text-center">
-            <h2>Uitgelicht</h2>
+            <h2>{{ $t('highlighted') }}</h2>
             <a href="/trainingen/talent-ontwikkelprogramma" class="d-block mt-2">
               <div class="square-img-container text-left">
                 <b-img
@@ -49,15 +45,15 @@
                   alt="Uitgelicht met burealamp"
                 ></b-img>
               </div>
-              Talentontwikkel programma >>
+              {{ $t('talentDevelopmentProgram') }} >>
             </a>
           </div>
           <div class="col-md-5 border bg-light p-2 text-center">
-            <h2>Reviews</h2>
+            <h2>{{ $t('reviews') }}</h2>
             <SpringestCustom />
           </div>
           <div v-for="blog of blogs" :key="blog.title" class="col-md-3 border bg-light p-2 text-center">
-            <h2>Laatste blog</h2>
+            <h2>{{ $t('latestBlog') }}</h2>
             <nuxt-link :to="{ name: `blog-slug`, params: { slug: blog.slug } }">
               <div class="square-img-container text-left">
                 <b-img
@@ -80,8 +76,8 @@
       <div class="row">
         <div class="col-md full-width">
           <br /><br />
-          <h1 class="yep-geel-donker">Training coaching en advies</h1>
-          <h1>Neem je talent en maatschappelijke ambitie serieus.</h1>
+          <h1 class="yep-geel-donker">{{ $t('trainingCoachingAdvice') }}</h1>
+          <h1>{{ $t('takeYourTalentSeriously') }}</h1>
           <br />
         </div>
         <div class="col-md p-0">
@@ -110,35 +106,35 @@
     </div>
     <div class="jumbotron jumbotron-fluid yep-grijs-donker">
       <div class="container text-light border-top border-bottom">
-        <h1 class="text-center my-4">Yep is hét trainingsbureau voor gedreven professionals.</h1>
+        <h1 class="text-center my-4">{{ $t('yepTrainingAgency') }}</h1>
         <div class="row justify-content-around my-5">
           <div class="col-md-3 text-center">
             <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/wereldbol.png?inline`)"></b-img><br />
-            <h2 class="mt-2">Maatschappelijk</h2>
-            <p>Jouw impact is ons doel.</p>
+            <h2 class="mt-2">{{ $t('social') }}</h2>
+            <p>{{ $t('yourImpactIsOurGoal') }}</p>
           </div>
           <div class="col-md-3 text-center">
             <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/megafoon.png?inline`)"></b-img><br />
-            <h2 class="mt-2">Actief</h2>
-            <p>Leren door te experimenteren.</p>
+            <h2 class="mt-2">{{ $t('active') }}</h2>
+            <p>{{ $t('learnByExperimenting') }}</p>
           </div>
           <div class="col-md-3 text-center">
             <b-img fluid="fluid" blank-color="#777" :src="require(`~/assets/images/puzzle.png?inline`)"></b-img><br />
-            <h2 class="mt-2">Flexibel</h2>
-            <p>Jouw ontwikkelvraag staat centraal.</p>
+            <h2 class="mt-2">{{ $t('flexible') }}</h2>
+            <p>{{ $t('yourDevelopmentQuestionIsCentral') }}</p>
           </div>
         </div>
         <p class="text-center my-5">
-          Voorbeelden van onze trainingen en case studies vind je hier. Op zoek naar coaching voor jezelf of je medewerkers? Lees hier verder>>.
+          {{ $t('findTrainingExamples') }} {{ $t('lookingForCoaching') }}
         </p>
       </div>
     </div>
     <div class="jumbotron jumbotron-fluid yep-geel">
       <div class="container text-center">
-        <h1>Bekijk ons aanbod</h1>
+        <h1>{{ $t('checkOurOffer') }}</h1>
         <div class="row justify-content-around mt-5">
           <div class="col-md-4 bg-light py-2 mb-2 text-center">
-            <h2 class="mb-3">Trainingen</h2>
+            <h2 class="mb-3">{{ $t('trainings') }}</h2>
             <a href="trainingen" class="d-block mt-2">
               <b-img
                 fluid="fluid"
@@ -146,11 +142,11 @@
                 :src="require(`~/assets/images/trainings-overzicht.png?resize&size=350&format=webp`).src"
                 class="lazyload"
               ></b-img>
-              <p class="mt-2">Lees meer >></p>
+              <p class="mt-2">{{ $t('readMore') }} >></p>
             </a>
           </div>
           <div class="col-md-4 bg-light py-2 mb-2 text-center">
-            <h2 class="mb-3">Coaching</h2>
+            <h2 class="mb-3">{{ $t('coaching') }}</h2>
             <a href="coaching" class="d-block mt-2">
               <b-img
                 fluid="fluid"
@@ -158,7 +154,7 @@
                 :src="require(`~/assets/images/omgaanmetstress.jpg?resize&size=350&format=webp`).src"
                 class="lazyload"
               ></b-img>
-              <p class="mt-2">Lees meer >></p>
+              <p class="mt-2">{{ $t('readMore') }} >></p>
             </a>
           </div>
         </div>

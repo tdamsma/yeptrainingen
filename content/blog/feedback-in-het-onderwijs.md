@@ -11,7 +11,6 @@ categories:
  - Begeleidingsvaardigheden
 english-version: Professional feedback for educators
 ---
-# Feedback in het Onderwijs
 
 We verzorgen regelmatig trainingen en trajecten in het onderwijs. Deze gaan over didactiek, gespreksvoering, sociale veiligheid, feedback (leren van en met elkaar in het team) en teamcultuur.
 
@@ -28,13 +27,13 @@ Anders dan in veel andere beroepen is:
 - Het beroep voor een leraar vaak een belangrijk deel van de eigen identiteit.
 - De werkdruk en toewijding hoog.
 - Een leraar al intensief bezig met reflecteren en verbeteren, tav de eigen aanpak.
-- En dan nog het voornaamste verschil dat ik zie: verandering werkt ontregelend. Je werkt met kinderen/jongeren en elke dag is weer anders. Er ontstaat gemakkelijk onrust en als leerkracht ben jij de stabiele factor. Er is niet één geschikte standaard manier om met alle kinderen om te gaan en om les te geven. Het is belangrijk dat leraren stabiel en voorspelbaar zijn, datgene doen wat voor hen werkt en dat ze vol kunnen houden. Ieder heeft zo zijn eigen manieren en routines en kan zich door de aard van het werk niet steeds veranderingen permitteren.
+- En dan nog het voornaamste verschil dat ik zie: verandering werkt ontregelend. Je werkt met kinderen en elke dag is weer anders. Er ontstaat gemakkelijk onrust en als onderwijzer ben jij de stabiele factor. Er is niet één geschikte standaard manier om met alle kinderen om te gaan en om les te geven. Het is belangrijk dat leraren stabiel en voorspelbaar zijn. Dat zijn zij wanneer ze op een authentieke manier kunnen werken. Ieder heeft zo zijn eigen manieren en routines en kan zich door de aard van het werk niet steeds veranderingen permitteren.
 
->_“Het is belangrijk dat leraren stabiel en voorspelbaar zijn, datgene doen wat voor hen werkt en dat ze vol kunnen houden.”_
+>_Het is belangrijk dat leraren stabiel en voorspelbaar zijn. Dat zijn zij wanneer ze datgene doen wat voor hen werkt en dat ze makkelijk vol kunnen houden._
 
 Toch is feedback onmisbaar, ook in het onderwijs. Het is voor onderwijsprofessionals waardevol en wenselijk om dingen te blijven ontdekken die het werk makkelijker maken, de werkdruk verlagen en het gevoel geven dat je er niet alleen voor staat. En natuurlijk van groot belang dat leerlingen uitstekende begeleiding krijgen in een veilige en stimulerende omgeving. Het is daarbij dus extra belangrijk dat de leraar datgene kan uitproberen waar die zelf vertrouwen in heeft.
 
-## Één sessie werkt averechts
+## Eén sessie werkt averechts
 
 Wat we merken is dat de schoolleiding soms de wens heeft om het team in 1 dag (of halve dag) te trainen in de vaardigheid van feedbackgeven, in de hoop dat het daarna veel meer zal gebeuren onderling. Dit kan slagen als het feedback aan ouders of leerlingen betreft. Maar gaat het om feedback tussen collega’s, dan is er zeker meer nodig. Juist door de extra gevoeligheden die er liggen, is het zaak ook goed aandacht te hebben voor de randvoorwaarden van de gewenste verandering. Tot nu toe gaat het in al onze opdrachten niet zozeer om de vaardigheid, maar veel meer om een omslag in de cultuur, in de manier van doen, in het team. Zodra men het eens is op het gebied van de gewenste cultuur, kun je daar naartoe gaan bouwen. En dan zien we ook dat het hard kan gaan – wij merken dat onderwijsprofessionals die geloven dat iets hun leerlingen gaat helpen niet te stoppen zijn!
 
@@ -54,7 +53,7 @@ We delen graag onze ervaring en aanpak. De onderstaande punten werkten goed in d
 
 ## Wat kun je verwachten van de aanpak?
 
-De aanpak en tijd die het kost om toe te werken naar een lerende cultuur (verbetercultuur, aanspreek-cultuur) verschilt per groep, juist omdat de groep hier zelf ook nauw bij betrokken is en voor een groot deel eigenaar van is. Gemiddeld zijn wij 3 studiedagen + een paar gesprekken betrokken, waarna de school zonder ons verder kan.
+De aanpak en tijd die het kost om toe te werken naar een lerende cultuur [verbetercultuur, aanspreek-cultuur] verschilt per groep. Dit komt door de betrokkenheid van het team. Zij zijn voor een groot deel eigenaar van het traject. Gemiddeld zijn wij 3 studiedagen + een paar gesprekken betrokken, waarna de school zonder ons verder kan.
 
 Onze aanpak, die hierboven in de bullets beschreven staat, helpt om het team te motiveren voor feedback onderling en ook de juiste randvoorwaarden te scheppen voor het geven én aannemen ervan. Door het gezamenlijke doel wordt feedback gemakkelijker constructief. Het vertrouwen en de openheid in het team groeit en dat komt de werksfeer ten goede. Het team gaat vervolgens ook gemakkelijker veranderingen of experimenten aan met elkaar. Het is wel zaak aandacht te blijven geven aan de teamcultuur. Bijv bij evaluatiegesprekken, ontwikkelgesprekken en bij het inwerken van nieuw personeel.
 

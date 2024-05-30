@@ -9,7 +9,7 @@ tags:
   - onderwijs
 categories:
  - Begeleidingsvaardigheden
-english-version: Professional feedback for educators
+english_title: Professional feedback for educators
 ---
 
 We verzorgen regelmatig trainingen en trajecten in het onderwijs. Deze gaan over didactiek, gespreksvoering, sociale veiligheid, feedback (leren van en met elkaar in het team) en teamcultuur.

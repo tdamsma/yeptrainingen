@@ -10,7 +10,7 @@ tags:
   - digitaal samenwerken
 categories:
  - Begeleidingsvaardigheden
-english-version: Activating online team games and workflows
+english_title: Activating online team games and workflows
 ---
 Digitale vergaderingen en trainingen kunnen zo veel energie kosten! En dat hoeft helemaal niet. Bij Yep zoeken we steeds naar nieuwe vormen en spellen om ook het digitale leren prettig en energiek te houden. Ik dit blog deel ik een aantal van mijn favoriete activerende teamspelletjes en digitale werkvormen met jullie!
 

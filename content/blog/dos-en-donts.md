@@ -11,7 +11,7 @@ tags:
   - Teams
 categories:
  - Effectiviteit
-english-version: Do's and Don'ts digital meetings
+english_title: Do's and Don'ts digital meetings
 ---
 
 Sinds het begin van de coronatijd werken we vaker vanuit huis en onderhouden digitaal contact met collega's middels beeldbellen.

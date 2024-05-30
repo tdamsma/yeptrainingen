@@ -13,7 +13,7 @@ tags:
 categories:
  - Talentontwikkeling
 
-english-version:
+english_title:
 ---
 Op zoek naar een workshop of training die niet te lang duurt, maar die wel tastbaar bijdraagt aan persoonlijke ontwikkeling? Wij hebben een heel divers aanbod en kunnen vaak nog specifieke doelen van de organisatie of vereniging kwijt in de opzet, dus zie deze lijst als globale thema's die uitgebreid, gecombineerd en gespecificeerd kunnen worden. Tip: overleg binnen je vereniging of organisatie welk kort trainingsaanbod voor young professionals jullie voorkeur heeft en ga dan met een trainer van Yep in gesprek om het plan samen verder in te vullen. ![Marijn voor flipover trainingsaanbod Yep](./uitgelicht-kort-trainingsaanbod-2.jpg)
 

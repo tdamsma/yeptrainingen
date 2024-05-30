@@ -12,7 +12,7 @@ tags:
 categories:
  - Effectiviteit
  - Positieve Psychologie
-english-version: "Get to work: Your expectations are worth your while"
+english_title: "Get to work: Your expectations are worth your while"
 ---
 
 **Over de link tussen onze verwachtingen en onze ervaring van geluk wordt al heel lang geschreven. Mo Gawdat kwam zelfs met een formule: _geluk = realiteit – verwachting_ (De logica van geluk, 2017). Deze sluit aan bij een reeks aan wetenschappelijk gefundeerde theorieën, onderzoeken en publicaties (denk aan de cognitieve gedragstherapie RET en het meer recente ACT). Zit je jezelf in de weg rond een bepaald thema, dan is het de moeite waard om je verwachtingen zelf of samen met een coach te onderzoeken. Aan de hand van de oefeningen in dit blog kun je daarmee direct een start maken.**

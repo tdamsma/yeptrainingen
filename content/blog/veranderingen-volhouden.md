@@ -11,7 +11,7 @@ tags:
 categories:
  - Effectiviteit
 
-english-version:
+english_title:
 ---
 Als ondernemer en trainer ben ik niet alleen in januari, maar het hele jaar door bezig met voornemens en veranderingen. Van mezelf, van ons team, maar zeker niet op de laatste plaats van onze klanten.
 

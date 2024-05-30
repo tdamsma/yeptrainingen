@@ -10,7 +10,7 @@ tags:
 categories:
  - Effectiviteit
 
-english-version:
+english_title:
 ---
 Maaike en Marijn verzorgden de afgelopen twee weken trainingen 'Lastig gedrag van studenten de baas' voor beginnende universitair docenten. De docenten krijgen te maken met mondige, stille, perfectionistische studenten en studenten met smoesjes.. Heel veel smoesjes! Toevallig stond er deze week in De Volkskrant ook een column van Ionica Smeets over lastige smoes nummer één: [een dode oma](http://www.volkskrant.nl/opinie/wat-kunnen-we-doen-om-de-levens-van-al-die-oma-s-te-redden~a4475661/), net voor de tentamenweek. Ionica beschrijft hoe uit een meerjarig onderzoek onder Amerikaanse studenten blijkt dat er in de week voor tentamens 20x zo veel familieleden overlijden als in andere weken. Het vermoeden dat het gaat om een smoes, is dan sterk. Maar dit is wel een heel lastig verhaal om professioneel op te reageren. Bij 1 op de 20 studenten die dit verhaal ophouden, is het ook echt waar. Hierdoor heb ik wat na zitten denken over professioneel omgaan met smoesjes op het werk.
 

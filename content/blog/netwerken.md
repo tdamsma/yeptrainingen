@@ -11,7 +11,7 @@ tags:
 categories:
  - Carriere
 
-english-version:
+english_title:
 ---
 
 Netwerken is een woord dat jou als student of starter misschien de kriebels geeft. Velen denken aan een geforceerd gesprek met iemand die je niet of nauwelijks kent en waaraan je jezelf wil verkopen: 'neem mij!'. Opdringerig. Vervelend. Dit merk ik bij de begeleiding van starters naar een baan en jonge ondernemers naar opdrachten. Op die manier werkt netwerken ook helemaal niet. Wie zit er nou op te wachten om te horen wat jij allemaal wil en wat zij daarvoor moeten doen?

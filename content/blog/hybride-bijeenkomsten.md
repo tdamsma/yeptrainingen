@@ -12,7 +12,7 @@ tags:
   - digitaledeelnemers
 categories:
  - Begeleidingsvaardigheden
-english-version: Activating online team games and workflows
+english_title: Activating online team games and workflows
 ---
 
 Goede kans dat ook in jouw omgeving nu hybride bijeenkomsten plaatsvinden: een deel van de mensen is fysiek aanwezig, een ander deel logt online in. Hoe werkt het als er een deel offline en een deel op locatie mee wil over leggen? Deze tips en tricks helpen je om dit jezelf ook weer snel eigen te maken!

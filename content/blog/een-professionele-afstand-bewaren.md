@@ -9,7 +9,7 @@ tags:
   - professionele afstand
 categories:
  - Begeleidingsvaardigheden
-english-version: Keeping a professional distance
+english_title: Keeping a professional distance
 ---
 
 Misschien kom je op dit blog terecht omdat je de tip hebt gekregen om wat meer afstand te bewaren. In mijn werk als trainer zie ik veel onderwijzers, zorgverleners, accounthouders, coaches, trainers en andere daadkrachtige professionals die begaan zijn met de personen waar zij mee - en voor - werken. Ze willen problemen van anderen helpen oplossen, liefst zo snel en zo goed mogelijk en zien hiervoor talloze mogelijkheden. Veelal gedreven mensen met veel energie, die graag hun cliënten en leerlingen met raad en daad willen bijstaan. Helpers, die veel aankunnen, die geweldig zijn, én die zichzelf gaan tegenkomen..

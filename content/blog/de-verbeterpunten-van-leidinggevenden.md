@@ -10,7 +10,7 @@ tags:
   - leidinggeven
 categories:
  - Begeleidingsvaardigheden
-english-version: The pitfalls of managers in the eyes of young employees
+english_title: The pitfalls of managers in the eyes of young employees
 ---
 
 Uit onderzoek van onderzoeksbureau Motivaction in opdracht voor YoungCapital is gebleken dat jonge medewerkers hun leidinggevende gemiddeld een rapportcijfer van 7,2 geven. Een mooie score maar er is dus zeker ruimte voor verbetering en daarom bespreken wij in deze blog wat de belangrijkste verbeterpunten zijn.

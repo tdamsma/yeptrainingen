@@ -9,7 +9,7 @@ tags:
   - solliciteren
 categories:
  - Carriere
-english-version:
+english_title:
 ---
 Ik spreek veel mensen die een baan zoeken zonder te weten wat ze eigenlijk precies willen en kunnen. Vaak passen ze hun competenties en vaardigheden aan op de vacature waarop ze reageren. De huidige arbeidsmarkt versterkt deze manier van zoeken: er zijn minder banen dan werkzoekenden. Dus lijkt het vinden van een vacature het belangrijkste gedeelte voor de werkzoekende, in plaats van het vinden van een vacature die past bij wat hij of zij echt wil.
 

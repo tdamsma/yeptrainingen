@@ -10,7 +10,7 @@ tags:
 categories:
  - 
 
-english-version:
+english_title:
 ---
 Ik zie enerzijds veel openstaande vacatures en anderzijds zalen vol statushouders die maar wat graag aan het werk willen in Nederland en met elkaar tips en ervaringen hiertoe uitwisselen. Doordat zij de taal vaak niet vloeiend spreken, een erg beperkt netwerk hebben en omdat soms de juiste diploma’s ontbreken, hebben zij een achterstand op de arbeidsmarkt. Hun ervaringen bij het solliciteren zijn vaak niet positief: zij krijgen bijvoorbeeld geen enkele reactie op de brieven die zij met veel zorg uitsturen. 
 

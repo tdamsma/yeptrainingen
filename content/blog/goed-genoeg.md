@@ -12,7 +12,7 @@ tags:
 categories:
  - Positieve Psychologie
  - Talentontwikkeling
-english-version: Good enough
+english_title: Good enough
 ---
 Ooit zag ik een oude monnik op tv. Zijn hele leven had hij in het klooster doorgebracht. Toen de interviewer hem vroeg, ‘Wat wenst u nog van het leven? Wat zou u nog willen worden?’, antwoordde hij ‘Ik zou zo graag monnik willen zijn’. ‘Maar u bent toch monnik? Niemand is meer monnik dan u!’ ‘Ja', zei hij, 'maar toch heb ik het gevoel, dat ik het nog méér...’ Met zijn handen maakte de oude man een gebaar, alsof hij ‘het’ probeerde te pakken.
 

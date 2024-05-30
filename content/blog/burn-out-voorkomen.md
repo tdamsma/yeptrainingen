@@ -11,7 +11,7 @@ tags:
   - werkgeluk
 categories:
  -
-english-version:
+english_title:
 ---
 
 Burn-out is een syndroom van emotionele uitputting, afstand hebben van het werk, en twijfelen aan de eigen competentie met als oorzaak stressvolle factoren uit het werkdomein (naar [Taris, Houtman en Schaufeli, 2013: Burn-out de stand van zaken](https://lirias.kuleuven.be/bitstream/123456789/526881/3/Burnout_de_stand_van_zaken.pdf)). Het komt op het moment helaas zeer veel voor, zeker onder sterk betrokken medewerkers tussen de 25 en 35 jaar.

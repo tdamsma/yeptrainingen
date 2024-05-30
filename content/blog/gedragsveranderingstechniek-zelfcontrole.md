@@ -13,7 +13,7 @@ tags:
 categories:
  - Effectiviteit
  - Talentontwikkeling
-english-version:
+english_title:
 ---
 Hoe jij je eigen gedrag kan veranderen deel 1: Optimaal gebruik van zelfcontrole
 --------------------------------------------------------------------------------

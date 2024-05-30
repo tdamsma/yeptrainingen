@@ -11,7 +11,7 @@ tags:
 categories:
  - Effectiviteit
  - Carriere
-english-version: Test your pitch
+english_title: Test your pitch
 ---
 Hoe stel jij je voor aan een nieuwe collega? Wat zeg je als je kennismaakt met een potentiele opdrachtgever?
 

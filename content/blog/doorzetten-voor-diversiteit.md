@@ -9,7 +9,7 @@ tags:
   - diversiteit
 categories:
  - Begeleidingsvaardigheden
-english-version: Dedicate to Diversify
+english_title: Dedicate to Diversify
 ---
 
 Organisaties die graag inclusiever en diverser willen zijn, merken dat alleen deze ambitie niet voldoende is om het verschil te maken. Zij lopen bijvoorbeeld tegen de volgende zaken aan:
@@ -57,7 +57,7 @@ Opdrachtgevers (en zeker publieke organisaties) waarderen het als een organisati
 Het is best moeilijk om 1 lijstje met tips te maken, omdat inclusie over zo veel kan gaan! Teamleden met een andere moedertaal, culturele achtergrond, met een fysieke of geestelijke beperking, met laaggeletterdheid of anderszins afstand tot de arbeidsmarkt, met een bepaalde seksuele geaardheid, genderidentiteit of levensbeschouwing. We doen toch een poging!
 
 
-1\. Zorg voor bewustwording en training om onbewuste vooroordelen te herkennen en te verminderen. Het kan bijvoorbeeld van toegevoegde waarde zijn om af en toe iemand uit te nodigen (intern of extern) die komt vertellen over de eigen ervaring en wat diegene heeft geholpen om diens weg te vinden. De jongeren die actief zijn bij [De Realisten van CNV Jongeren][https://cnvjongeren.nl/inclusiviteit/realisten-academie-2-0-de-inclusie-makers/], kun je uitnodigen voor een gesprek of lezing.
+1\. Zorg voor bewustwording en training om onbewuste vooroordelen te herkennen en te verminderen. Het kan bijvoorbeeld van toegevoegde waarde zijn om af en toe iemand uit te nodigen (intern of extern) die komt vertellen over de eigen ervaring en wat diegene heeft geholpen om diens weg te vinden. De jongeren die actief zijn bij [De Realisten van CNV Jongeren](https://cnvjongeren.nl/inclusiviteit/realisten-academie-2-0-de-inclusie-makers/), kun je uitnodigen voor een gesprek of lezing.
 
 2\. Stimuleer diversiteit op leiderschapsniveau door middel van mentorprogramma's, leiderschapsontwikkeling en het bevorderen van interne diversiteitsinitiatieven (zoals denktanks, en ERG's)
 
@@ -71,10 +71,10 @@ Het is best moeilijk om 1 lijstje met tips te maken, omdat inclusie over zo veel
 
  Ik hoop dat deze tips jou/je team/je manager zullen helpen om op een handige en soepele manier voor inclusie te gaan! Als de bal eenmaal rolt, wordt het makkelijker dus zet door! Wil je meer lezen, dan zijn dit ook nog inzichtgevende pagina's om te raadplegen: 
 
- [Movisie, over inclusief beleid][https://www.movisie.nl/inclusief-beleid]
+ [Movisie, over inclusief beleid](https://www.movisie.nl/inclusief-beleid)
 
- [Movisie, essay over het wat, waarom en hoe van diversiteit][https://www.movisie.nl/publicatie/essay-inclusie-diversiteit-wat-waarom-hoe]
+ [Movisie, essay over het wat, waarom en hoe van diversiteit](https://www.movisie.nl/publicatie/essay-inclusie-diversiteit-wat-waarom-hoe)
  
- [CNV Inclusiviteitpagina][https://cnvjongeren.nl/inclusiviteit/]
+ [CNV Inclusiviteitpagina](https://cnvjongeren.nl/inclusiviteit/)
 
 Succes!

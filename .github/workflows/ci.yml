@@ -17,14 +17,11 @@ jobs:
       - uses: actions/checkout@v4.0.0
       - uses: actions/setup-node@v3
         with:
-          node-version: '18'
-          cache: 'yarn'
-
-      - name: Install nuxt
-        run: yarn global add nuxt
+          node-version: '20'
+          cache: 'bun'
 
       - name: Install dependencies
-        run: yarn install --check-files
+        run: bun install --check-files
 
       - name: Run linting
-        run: yarn lint
+        run: bun lint

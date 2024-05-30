@@ -9,7 +9,7 @@ tags:
   - mindset
 categories:
  - Begeleidingsvaardigheden
-english-version: Growth Mindset
+english_title: Growth Mindset
 ---
 
 Je hoort misschien wel eens iemand zeggen: 'Het gaat erom dat je de

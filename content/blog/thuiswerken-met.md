@@ -10,7 +10,7 @@ tags:
   - kinderen
 categories:
  - Effectiviteit
-english-version:
+english_title:
 ---
 
 De afgelopen maanden is Marijn 'on the job' een nieuwe vaardigheid aan het leren. Ze noemt het: Thuiswerken, mét. In dit blogbericht deelt ze haar ervaringen!

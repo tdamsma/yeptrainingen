@@ -11,7 +11,7 @@ tags:
   - goede voornemens
 categories:
  - Effectiviteit
-english-version:
+english_title:
 ---
 
 Als jij je persoonlijk wilt ontwikkelen, betekent dat vaak dat je bepaald gedrag wilt veranderen. Misschien wil je na een gesprek met je leidinggevende je werk anders aanpakken. Of misschien heb je jezelf voorgenomen om vaker 'nee' te zeggen, je werk beter na te lezen of meer aandacht te besteden aan relaties met collega's.

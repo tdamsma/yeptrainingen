@@ -10,7 +10,7 @@ tags:
   - stress
 categories:
  - Effectiviteit
-english-version:
+english_title:
 ---
 
 Een handig model dat ik in trainingen veel gebruik om inzicht te geven in wat handige keuzes zijn wanneer er sprake is van stress (of gevoel van te hoge werkdruk, of gevoel van: ik kan dit eigenlijk niet lang meer aan), is het Kwadrant van Eisenhower. Dwight Eisenhower was opperbevelhebber van de geallieerde strijdkrachten tijdens WOII (later ook Amerikaans president) en merkte in deze functie dat urgente zaken zelden belangrijk zijn en belangrijke zaken zelden urgent. Soldaten waren geneigd te beginnen met taken die urgent aanvoelden, waardoor er veel belangrijke zaken bleven liggen. De kern van zijn kwadrant (ook wel Eisenhower-Matrix) is dat je alle activiteiten die je kunt uitvoeren, kunt duiden aan de hand van 2 vragen:

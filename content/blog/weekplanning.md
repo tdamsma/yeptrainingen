@@ -11,7 +11,7 @@ tags:
   - digitalattendees
 categories:
  - Effectiviteit
-english-version:
+english_title:
 ---
 
 De laatste tijd zijn er extra veel aanvragen op het gebied van Timemanagement en ik merk dat veel young professionals zoekende zijn in het maken van een goede planning. Wat ik zie: veel losse to-do lijstjes (verzameling van briefjes, digitale notities en aantekeningen in agenda) en weinig overzicht. Bij deze deel ik 5 manieren om overzichtelijke weekplanningen te maken. Per manier zet ik er een aantal tips bij om de planning goed te gebruiken. Ik hoop dat er één voor je bij zit!

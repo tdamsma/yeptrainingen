@@ -10,7 +10,7 @@ tags:
 categories:
 
  - Carriere
-english-version: job application letter
+english_title: job application letter
 
 ---
 Op internet zijn 101 tips te vinden voor het schrijven van een sollicitatiebrief of cv. Steeds wordt er een ander aspect uitgelicht: de lay-out, de eerste zin, de afsluiting. Op zich waardevolle tips!

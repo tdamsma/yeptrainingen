@@ -12,7 +12,7 @@ tags:
   - interactie
 categories:
  - Begeleidingsvaardigheden
-english-version: Hosting engaging (online) events
+english_title: Hosting engaging (online) events
 ---
 
 Wanneer ben jij voor het laatst bomvol energie uit een (online) sessies gekomen? Jij krijgt waarschijnlijk net als wij energie van bijeenkomsten in het werk die lekker lopen, waarin belangrijke doorbraken plaatsvinden en collega’s flow en betekenis ervaren. Het zijn de momenten waarop de ‘magic happens’. Magic of magie impliceert dat we er geen grip op hebben. Het tegendeel is waar. Je kunt leren om bijeenkomsten, overleggen, vergaderingen of trainingen te begeleiden op een manier die effectief is en energie geeft!

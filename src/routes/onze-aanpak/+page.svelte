@@ -12,7 +12,7 @@
 		</div>
 		<div class="row overflow-hidden max-height-550">
 			<div class="col-lg-6 overflow-hidden">
-				<enhanced:img fluid="fluid" blank-color="#777" src="/static/images/onze-aanpak-1.jpg" />
+				<enhanced:img class="fluid" src="/static/images/onze-aanpak-1.jpg" />
 			</div>
 			<div class="col-lg-6 p-3 m-0">
 				<h2>Maatschappelijke impact willen maken</h2>

@@ -21,3 +21,11 @@ export async function load({ params }) {
 		surroundingDocuments
 	};
 }
+
+/** @type {import('./$types').EntryGenerator} */
+export async function entries() {
+	const allPosts = await fetchContent("blog");
+	return allPosts.map(post => ({ blog_title: post.path }));
+}
+
+export const prerender = true;

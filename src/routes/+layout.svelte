@@ -65,16 +65,16 @@
               | IBAN: NL49TRIO0254729886 #[br]
           .col-md-1
           .col-md-3.text-light
-            enhanced:img(fluid="fluid", blank-color="#777", src="/static/images/Logo-Yep-300x122.png", alt="yeptrainingen")
+            enhanced:img(src="/static/images/Logo-Yep-300x122.png", alt="yeptrainingen")
             p
             a(href="mailto:info@yeptrainingen.nl", target="_blank")
-              enhanced:img(fluid="fluid", blank-color="#777", src="/static/images/email.png", alt="email")
+              enhanced:img(src="/static/images/email.png", alt="email")
             a(href="https://www.facebook.com/Yeptrainingen", target="_blank")
-              enhanced:img(fluid="fluid", blank-color="#777", src="/static/images/facebook.png", alt="facebook")
+              enhanced:img(src="/static/images/facebook.png", alt="facebook")
             a(href="https://twitter.com/yeptrainingen", target="_blank")
-              enhanced:img(fluid="fluid", blank-color="#777", src="/static/images/twitter.png", alt="twitter")
+              enhanced:img(src="/static/images/twitter.png", alt="twitter")
             a(href="https://www.linkedin.com/company/marijn-blaisse-trainingen", target="_blank")
-              enhanced:img(fluid="fluid", blank-color="#777", src="/static/images/linkedin.png", alt="linkedin")
+              enhanced:img(src="/static/images/linkedin.png", alt="linkedin")
             p
             | Telefoon: 085-7606266
 </template>

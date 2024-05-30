@@ -1,14 +1,40 @@
-<script>
-	// Mock data for blogs
-	let blogs = [
+<script lang="ts">
+	import type { BlogModule, ImageModule, Blog } from '$lib/types';
+
+	const imageModules = import.meta.glob(
+		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{
-			title: 'Sample Blog Post',
-			slug: 'sample-blog-post',
-			img: 'linkedin.png',
-			alt: 'Sample Blog Image'
+			eager: true,
+			query: {
+				enhanced: true
+			}
 		}
-	];
+	) as Record<string, ImageModule>;
+
+	const blogModules = import.meta.glob('$content/blog/*.md', {
+		eager: true,
+		query: {
+			enhanced: true
+		}
+	}) as Record<string, BlogModule>;
+
+	function formatDate(date: string) {
+		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
+		return new Date(date).toLocaleDateString('en', options);
+	}
+
+	const blogs: Blog[] = Object.entries(blogModules)
+		.map(([path, module]) => ({
+			path: path.replace(/\.md$/, ''),
+			name: path.replace(/\.md$/, '').split('/').pop(),
+			meta: module.metadata,
+			content: module.default
+		}))
+		.sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
+
+	const blog = blogs[0];
 </script>
+
 <template lang="pug">
 .container-fluid.container-left
   .row.p-0
@@ -53,13 +79,13 @@
       .col-md-5.border.bg-light.p-2.text-center
         h2 Reviews
         // <SpringestCustom />
-      +each('blogs as blog')
-        .col-md-3.border.bg-light.p-2.text-center
-          h2 Laatste blog
-          a(href=`/blog/{blog.slug}`)
-            .square-img-container.text-left
-              // <enhanced:img src={`/static/images/${blog.img}`} class="square-img thumbnail" alt={blog.alt} />
-            | {blog.title} >>
+
+      .col-md-3.border.bg-light.p-2.text-center
+        h2 Laatste blog
+        a(href=`/blog/{blog.name}`)
+          .square-img-container.text-left
+            enhanced:img.square-img.thumbnail(src="{imageModules[`/content/blog/${blog.meta.img}`].default}"  alt="{blog.alt}")
+          | {blog.meta.title} >>
 
 .container-fluid.container-right.m-0
   .row

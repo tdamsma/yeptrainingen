@@ -105,3 +105,17 @@ export interface CoachingModule {
     };
     metadata: CoachingMeta;
 }
+export interface OpdrachtgeverModule {
+    default: {
+        opdrachtgever: string;
+        url: string;
+    };
+    opdrachtgever: string;
+    url: string;
+}
+
+export interface Opdrachtgever {
+    name: string;
+    opdrachtgever: string;
+    url: string;
+}

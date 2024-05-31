@@ -67,6 +67,7 @@ export interface TrainingMeta {
     img: string;
     alt: string;
     volgnummer: number;
+    springest?: string;
 }
 export interface Training {
     path: string;

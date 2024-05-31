@@ -47,7 +47,6 @@
                 | &gt;&nbsp; #[a.link-geel(href="/team") Ons team] #[br]
                 | &gt;&nbsp; #[a.link-geel(href="/trainingen") Trainingen] #[br]
                 | &gt;&nbsp; #[a.link-geel(href="/coaching") Coaching] #[br]
-                | &gt;&nbsp; #[a.link-geel(href="/werkgevers") Voor werkgevers] #[br]
               .col-sm-6
                 | &gt;&nbsp; #[a.link-geel(href="/blog") Blog] #[br]
                 | &gt;&nbsp; #[a.link-geel(href="/tarieven") Tarieven] #[br]

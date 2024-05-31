@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { BlogModule, ImageModule, Blog } from '$lib/types';
-
+  import Opdrachtgevers from '$lib/components/Opdrachtgevers.svelte';
 	const imageModules = import.meta.glob(
 		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{
@@ -100,7 +100,7 @@
         enhanced:img.img-fluid(src="/static/images/Trainers_van_YEP-1.png" alt="Trainers van YEP")
 
 .jumbotron.jumbotron-fluid.yep-grijs-donker
-  // <Opdrachtgevers />
+  Opdrachtgevers
 
 .container-fluid.p-0
   enhanced:img.img-fluid(src="/static/images/site-foto-1-of-1-3.jpg" alt="Site Photo")

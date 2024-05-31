@@ -2,7 +2,7 @@ import { fetchContent } from '$lib/utils';
 
 export async function load({ params }) {
 	const post = await import(`$content/trainingen/${params.training_title}.md`);
-	const { title, date, img } = post.metadata;
+	const { title, date, img, springest } = post.metadata;
 	const content = post.default;
 
 	const allPosts = await fetchContent("trainingen");
@@ -17,6 +17,7 @@ export async function load({ params }) {
 		title,
 		date,
 		img,
+		springest,
 		surroundingDocuments
 	};
 }

@@ -26,9 +26,12 @@ div
             +if('data.img')
               enhanced:img.img-fluid(class="post-title-img" src="{imageModules[`/content/trainingen/${data.img}`].default}" alt="{data.alt}")
           h2 {data.title}
-         
           .training-details-body
             svelte:component(this="{data.content}")
+          div.text-center.pt-2
+            button.m-1.btn.btn-primary(title="Stuur een email" onclick="window.location.href='mailto:marijn@yeptrainingen.nl?subject=Informatieverzoek training: {data.title}';") Informeer
+            +if('data.springest')
+              button.m-1.btn.btn-primary(title="Via Springest" onclick="window.open(`{data.springest}#ervaringen`);") Meer Ervaringen
       .col-lg-3.col-md-4.col-sm-5.sidebar
         +each('data.surroundingDocuments as surroundingdata')
           .card.mt-5.overflow-hidden.bg-dark.text-white
@@ -43,17 +46,6 @@ div
 		font-size: 16px;
 	}
 
-	.nuxt-content > p > img {
-		max-height: 500px;
-		max-width: 100%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		-webkit-filter: drop-shadow(5px 5px 5px #999);
-		filter: drop-shadow(5px 5px 5px #999);
-		margin-bottom: 20px;
-		margin-top: 20px;
-	}
 	.card-img-top {
 		height: auto;
 	}

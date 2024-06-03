@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { BlogModule, ImageModule, Blog } from '$lib/types';
-  import Opdrachtgevers from '$lib/components/Opdrachtgevers.svelte';
+	import Opdrachtgevers from '$lib/components/Opdrachtgevers.svelte';
+	import SpringestReviews from '$lib/components/SpringestReviews.svelte';
 	const imageModules = import.meta.glob(
 		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{
@@ -78,7 +79,7 @@
           | Talentontwikkel programma >>
       .col-md-5.border.bg-light.p-2.text-center
         h2 Reviews
-        // <SpringestCustom />
+        SpringestReviews
 
       .col-md-3.border.bg-light.p-2.text-center
         h2 Laatste blog

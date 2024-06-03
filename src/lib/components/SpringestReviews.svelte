@@ -114,6 +114,12 @@
 		<div class="modal-header">
 			<button class="btn btn-sm" aria-label="Close" on:click={closeModal}>Terug</button>
 			<h5 id="modalTitle">Springest Reviews</h5>
+			<div class="text-muted">
+				<i
+					>Wegens extreme prijsverhoging niet meer beschikbaar via Springest, maar wel direct te
+					boeken</i
+				>
+			</div>
 		</div>
 		<div class="modal-body">
 			<iframe
@@ -136,10 +142,17 @@
 	.container {
 		height: 300px;
 		overflow: hidden;
+		margin: 5px;
+		padding-left: 0px;
+		padding-right: 10px;
 	}
 	.panel {
+		background-color: #fff;
 		text-align: justify;
 		text-justify: inter-word;
+		margin-bottom: 10px;
+		padding-left: 10px;
+		padding-right: 10px;
 	}
 	.modal {
 		display: block;

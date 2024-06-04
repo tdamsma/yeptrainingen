@@ -47,45 +47,32 @@
         alt="Training Image"
       )
     .col-md-6.pt-4
-      p {m.greetings({ name: 'param' })}
-      p {m.hello_world()}
-      h2
-        | Inzicht, durf en vaardigheid
+      h2 {m.insightCourageSkill()}
         br
-        span.yep-geel-donker voor maatschappelijke impact
+        span.yep-geel-donker {m.forSocialImpact()}
 
 .jumbotron.jumbotron-fluid.yep-geel
   .container
-    h2
-      | De drang om te leren. Wij zien het bij zoveel professionals. En we weten hoe graag
-      | organisaties daar ruimte voor willen maken. Samen met hen ontwerpen we trainings- en
-      | coachingstrajecten.
-    p
-      | Wij zijn er voor professionals die geloven dat de maatschappij duurzamer en eerlijker kan zijn en
-      | die staan te popelen om hun stem verder te ontdekken. Die een idee hebben over hoe het anders kan
-      | en willen weten hoe ze dat binnen hun organisatie waar kunnen maken. Die soms nog aan zichzelf twijfelen
-      | en merken dat organisaties complex zijn. Maar die zich razendsnel nieuwe vaardigheden eigen willen
-      | maken. Enerzijds om zelf te groeien, anderzijds omdat ze weten dat ze een tastbare bijdrage kunnen
-      | leveren aan de organisatie en de samenleving als ze echt ergens voor durven staan.
-
+    h2 {m.learningDesire()}
+    p {m.weAreForProfessionals()}
 .jumbotron.jumbotron-fluid.yep-grijs-donker
   .container
     .row.justify-content-around
       .col-md-3.border.bg-light.p-2.text-center
-        h2 Uitgelicht
+        h2 {m.highlighted()}
         a(href="/trainingen/talent-ontwikkelprogramma" class="d-block mt-2")
           .square-img-container.text-left
             enhanced:img.square-img.thumbnail(
               src="/static/images/uitgelicht1.png"
               alt="Uitgelicht met burealamp"
             )
-          | Talentontwikkel programma >>
+          | {m.talentDevelopmentProgram()} >>
       .col-md-5.border.bg-light.p-2.text-center
-        h2 Reviews
+        h2 {m.reviews()}
         SpringestReviews
 
       .col-md-3.border.bg-light.p-2.text-center
-        h2 Laatste blog
+        h2 {m.latestBlog()}
         a(href=`/blog/{blog.name}`)
           .square-img-container.text-left
             enhanced:img.square-img.thumbnail(src="{imageModules[`/content/blog/${blog.meta.img}`].default}"  alt="{blog.alt}")
@@ -96,8 +83,8 @@
     .col-md.full-width
       br
       br
-      h1.yep-geel-donker Training coaching en advies
-      h1 Neem je talent en maatschappelijke ambitie serieus.
+      h1.yep-geel-donker {m.trainingCoachingAdvice()}
+      h1 {m.takeYourTalentSeriously()}
       br
     .col-md.p-0
       .float-right(style="max-width: 500px; width: 100%")
@@ -111,40 +98,38 @@
 
 .jumbotron.jumbotron-fluid.yep-grijs-donker
   .container.text-light.border-top.border-bottom
-    h1.text-center.my-4 Yep is hét trainingsbureau voor gedreven professionals.
+    h1.text-center.my-4 {m.yepTrainingAgency()}
     .row.justify-content-around.my-5
       .col-md-3.text-center
         enhanced:img.img-fluid(src="/static/images/wereldbol.png" alt="Maatschappelijk")
         br
-        h2.mt-2 Maatschappelijk
-        p Jouw impact is ons doel.
+        h2.mt-2 {m.social()}
+        p {m.yourImpactIsOurGoal()}
       .col-md-3.text-center
         enhanced:img.img-fluid(src="/static/images/megafoon.png" alt="Actief")
         br
-        h2.mt-2 Actief
-        p Leren door te experimenteren.
+        h2.mt-2 {m.active()}
+        p {m.learnByExperimenting()}
       .col-md-3.text-center
         enhanced:img.img-fluid(src="/static/images/puzzle.png" alt="Flexibel")
         br
-        h2.mt-2 Flexibel
-        p Jouw ontwikkelvraag staat centraal.
-    p.text-center.my-5
-      | Voorbeelden van onze trainingen en case studies vind je hier. Op zoek naar coaching voor
-      | jezelf of je medewerkers? Lees hier verder>>.
+        h2.mt-2 {m.flexible()}
+        p {m.yourDevelopmentQuestionIsCentral()}
+    p.text-center.my-5 {m.lookingForCoaching()}
 
 .jumbotron.jumbotron-fluid.yep-geel
   .container.text-center
-    h1 Bekijk ons aanbod
+    h1 {m.checkOurOffer()}
     .row.justify-content-around.mt-5
       .col-md-4.bg-light.py-2.mb-2.text-center
-        h2.mb-3 Trainingen
+        h2.mb-3 {m.trainings()}
         a(href="trainingen" class="d-block mt-2")
           enhanced:img.img-fluid.lazyload(src="/static/images/trainings-overzicht.png" alt="Trainingen")
-          p.mt-2 Lees meer >>
+          p.mt-2 {m.readMore()} >>
       .col-md-4.bg-light.py-2.mb-2.text-center
-        h2.mb-3 Coaching
+        h2.mb-3 {m.coaching()}
         a(href="coaching" class="d-block mt-2")
           enhanced:img.img-fluid.lazyload(src="/static/images/omgaanmetstress.jpg" alt="Coaching")
-          p.mt-2 Lees meer >>
+          p.mt-2 {m.readMore()} >>
 
 </template>

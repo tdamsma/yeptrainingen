@@ -2,6 +2,7 @@
 	import type { BlogModule, ImageModule, Blog } from '$lib/types';
 	import Opdrachtgevers from '$lib/components/Opdrachtgevers.svelte';
 	import SpringestReviews from '$lib/components/SpringestReviews.svelte';
+	import * as m from '$lib/paraglide/messages.js';
 	const imageModules = import.meta.glob(
 		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{
@@ -46,6 +47,8 @@
         alt="Training Image"
       )
     .col-md-6.pt-4
+      p {m.greetings({ name: 'param' })}
+      p {m.hello_world()}
       h2
         | Inzicht, durf en vaardigheid
         br

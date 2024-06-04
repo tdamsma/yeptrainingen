@@ -116,8 +116,9 @@
 			<h5 id="modalTitle">Springest Reviews</h5>
 			<div class="text-muted">
 				<i
-					>Wegens extreme prijsverhoging niet meer beschikbaar via Springest, maar wel direct te
-					boeken</i
+					>Wegens extreme prijsverhoging niet meer beschikbaar via Springest, maar gewoon bij <a
+						href="mailto:marijn@yeptrainingen.nl">ons</a
+					></i
 				>
 			</div>
 		</div>

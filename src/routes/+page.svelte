@@ -27,7 +27,7 @@
 	const blogs: Blog[] = Object.entries(blogModules)
 		.map(([path, module]) => ({
 			path: path.replace(/\.md$/, ''),
-			name: path.replace(/\.md$/, '').split('/').pop(),
+			name: path.replace(/\.md$/, '').split('/').pop() || '',
 			meta: module.metadata,
 			content: module.default
 		}))

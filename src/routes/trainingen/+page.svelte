@@ -12,7 +12,7 @@
 		}
 	) as Record<string, ImageModule>;
 
-	const trainingModules = import.meta.glob('$content/trainingen/*.md', {
+	const trainingModules = import.meta.glob('$content/trainingen/*.nl.md', {
 		eager: true,
 		query: {
 			enhanced: true
@@ -29,8 +29,12 @@
 	onMount(() => {
 		trainings = Object.entries(trainingModules)
 			.map(([path, module]) => ({
-				path: path.replace(/\.md$/, ''),
-				name: path.replace(/\.md$/, '').split('/').pop() || path,
+				path: path.replace(/\.nl\.md$/, ''),
+				name:
+					path
+						.replace(/\.nl\.md$/, '')
+						.split('/')
+						.pop() || path,
 				meta: module.metadata,
 				content: module.default
 			}))

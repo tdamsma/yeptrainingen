@@ -1,5 +1,6 @@
 <script lang="ts">
 	import type { BlogModule, ImageModule, Blog } from '$lib/types';
+	import { languageTag } from '$lib/paraglide/runtime.js';
 
 	const imageModules = import.meta.glob(
 		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
@@ -11,12 +12,24 @@
 		}
 	) as Record<string, ImageModule>;
 
-	const blogModules = import.meta.glob('$content/blog/*.md', {
+	const blogModulesNl = import.meta.glob(`$content/blog/*.nl.md`, {
 		eager: true,
 		query: {
 			enhanced: true
 		}
 	}) as Record<string, BlogModule>;
+	const blogModulesEn = import.meta.glob(`$content/blog/*.en.md`, {
+		eager: true,
+		query: {
+			enhanced: true
+		}
+	}) as Record<string, BlogModule>;
+
+	const blogModulesMap = {
+		en: blogModulesEn,
+		nl: blogModulesNl
+	};
+	const blogModules = blogModulesMap[languageTag()];
 
 	function formatDate(date: string) {
 		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
@@ -25,8 +38,12 @@
 
 	const blogs: Blog[] = Object.entries(blogModules)
 		.map(([path, module]) => ({
-			path: path.replace(/\.md$/, ''),
-			name: path.replace(/\.md$/, '').split('/').pop(),
+			path: path.replace(/\.(nl|en)\.md$/, ''),
+			name:
+				path
+					.replace(/\.(nl|en)\.md$/, '')
+					.split('/')
+					.pop() || '',
 			meta: module.metadata,
 			content: module.default
 		}))

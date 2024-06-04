@@ -1,13 +1,26 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { ImageModule, TeamMemberModule, TeamMember } from '$lib/types';
-
-	const TeamMemberModules = import.meta.glob('$content/team/*.md', {
+	import { languageTag } from '$lib/paraglide/runtime.js';
+	const TeamMemberModulesNl = import.meta.glob('$content/team/*.nl.md', {
 		eager: true,
 		query: {
 			enhanced: true
 		}
 	}) as Record<string, TeamMemberModule>;
+	const TeamMemberModulesEn = import.meta.glob('$content/team/*.en.md', {
+		eager: true,
+		query: {
+			enhanced: true
+		}
+	}) as Record<string, TeamMemberModule>;
+
+	const TeamMemberModulesMap = {
+		nl: TeamMemberModulesNl,
+		en: TeamMemberModulesEn
+	};
+	const TeamMemberModules = TeamMemberModulesMap[languageTag()];
+
 	const imageModules = import.meta.glob('$content/team/*.jpg', {
 		eager: true,
 		query: {
@@ -16,7 +29,7 @@
 	}) as Record<string, ImageModule>;
 	const members: TeamMember[] = Object.entries(TeamMemberModules)
 		.map(([path, module]) => ({
-			path: path.replace(/\.md$/, ''),
+			path: path.replace(/\.(nl|en)\.md$/, ''),
 			meta: module.metadata,
 			content: module.default
 		}))

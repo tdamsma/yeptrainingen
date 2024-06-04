@@ -29,9 +29,9 @@ const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
 	preprocess: [
+		mdsvex(mdsvexOptions),
 		vitePreprocess(),
 		sveltePreprocess({ scss: true, pug: true }),
-		mdsvex(mdsvexOptions)
 	],
 
 	onwarn: (warning, handler) => {

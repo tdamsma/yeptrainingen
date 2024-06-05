@@ -1,5 +1,5 @@
 ---
-title: "Toets je pitch"
+title: 'Toets je pitch'
 img: toets-je-pitch-1.jpg
 alt: een lift
 date: 2016-03-08
@@ -9,38 +9,34 @@ tags:
   - presenteren
   - netwerken
 categories:
- - Effectiviteit
- - Carriere
+  - Effectiviteit
+  - Carriere
 english_title: Test your pitch
 ---
+
 Hoe stel jij je voor aan een nieuwe collega? Wat zeg je als je kennismaakt met een potentiele opdrachtgever?
 
 Iedereen vertelt regelmatig op een bondige manier aan een ander wat hij doet. Dit is in feite al een pitch! Doe je dit op een bewuste manier, dan kun je er veel uit halen. Zeker als je (intern of extern) een product of dienst wil leveren. Je kan er jezelf, je product of dienst, of zelfs een nieuw idee mee onder de aandacht brengen. Met de onderstaande tips kun je je eigen pitch aanscherpen.
 
 Welke elementen maken een pitch goed?
 
-Een goede pitch is passend.
----------------------------
+## Een goede pitch is passend.
 
 Een pitch in het wilde weg levert waarschijnlijk niet veel op. Sluit aan bij een gelegenheid en in elk geval bij je gesprekspartner. Handig dus om de ander zichzelf eerst voor te laten stellen! Of stel eerst een vraag. Zodra je weet wat de ander doet/kan/wil, kan er een betekenisvolle uitwisseling ontstaan. Ben jij iemand die dit in de vingers heeft? Of voel je je vertrouwder als je de pitch van buiten kan leren en 'dreun' je hem dan op? Oefening baart kunst!
 
-Een goede pitch is oprecht.
----------------------------
+## Een goede pitch is oprecht.
 
 Vertel over wat je écht bezig houdt, dit levert je de beste contacten en leads op! Je komt automatisch enthousiaster over en mensen krijgen sneller de neiging om je te helpen omdat ze voelen dat ze je er een groot plezier mee doen.
 
-Een goede pitch is duidelijk.
------------------------------
+## Een goede pitch is duidelijk.
 
 Zorg dat je van te voren weet wat je wil zeggen. Wat moet iemand van jou weten? Wat hoop je dat de ander gaat doen met deze informatie?
 
-Een goede pitch is bondig.
---------------------------
+## Een goede pitch is bondig.
 
 Houd het kort, zo blijft je boodschap beter hangen.
 
-Een goede pitch activeert!
---------------------------
+## Een goede pitch activeert!
 
 Sluit af met een leuke uitnodiging of vraag, waardoor de ander voor jou in actie wil komen.
 

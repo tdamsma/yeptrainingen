@@ -1,5 +1,5 @@
 ---
-title: "Aan de slag: onze verwachtingen zijn de moeite waard"
+title: 'Aan de slag: onze verwachtingen zijn de moeite waard'
 img: aan-de-slag-1.jpg
 alt: bijschrift
 date: 2020-06-03
@@ -10,9 +10,9 @@ tags:
   - veerkracht
   - verwachtingen
 categories:
- - Effectiviteit
- - Positieve Psychologie
-english_title: "Get to work: Your expectations are worth your while"
+  - Effectiviteit
+  - Positieve Psychologie
+english_title: 'Get to work: Your expectations are worth your while'
 ---
 
 **Over de link tussen onze verwachtingen en onze ervaring van geluk wordt al heel lang geschreven. Mo Gawdat kwam zelfs met een formule: _geluk = realiteit – verwachting_ (De logica van geluk, 2017). Deze sluit aan bij een reeks aan wetenschappelijk gefundeerde theorieën, onderzoeken en publicaties (denk aan de cognitieve gedragstherapie RET en het meer recente ACT). Zit je jezelf in de weg rond een bepaald thema, dan is het de moeite waard om je verwachtingen zelf of samen met een coach te onderzoeken. Aan de hand van de oefeningen in dit blog kun je daarmee direct een start maken.**
@@ -25,9 +25,9 @@ We beschrijven drie stappen die je kunt nemen om je verwachtingen op een gestruc
 
 ![twee personen met virtual reality bril op](./aan-de-slag-2.jpg)
 
-*   Stap 1. Bewust worden van belemmerende verwachtingen.
-*   Stap 2. Vervangen van verwachtingen door bewust gekozen opvattingen.
-*   Stap 3. Commitment vergroten door innerlijk besluit.
+- Stap 1. Bewust worden van belemmerende verwachtingen.
+- Stap 2. Vervangen van verwachtingen door bewust gekozen opvattingen.
+- Stap 3. Commitment vergroten door innerlijk besluit.
 
 Het doel van deze stappen is bewust te kiezen volgens welke leidraden je gaat leven. Onze samenleving is doordrenkt met verwachtingen. Denk aan de verwachting om hard te werken en productief te zijn. Maar hoe kijk jij zelf aan tegen productiviteit? Door heel bewust je eigen zienswijze te formuleren en te besluiten deze als leidraad voor jouw gedrag te hanteren kun je met meer zelfvertrouwen je eigen pad kiezen.
 
@@ -35,24 +35,22 @@ Aan het eind van deze blog schetsen we een beeld van Suzan die aan de hand van d
 
 **Belemmerende verwachtingen die we vaak tegenkomen**
 
-*   Ik moet leuk gevonden worden door mensen om mij heen.
-*   Ik moet mijn leven op orde hebben.
-*   Ik moet zo productief en nuttig mogelijk zijn.
-*   Ik moet gelukkig en dankbaar zijn, want ik heb het goed
+- Ik moet leuk gevonden worden door mensen om mij heen.
+- Ik moet mijn leven op orde hebben.
+- Ik moet zo productief en nuttig mogelijk zijn.
+- Ik moet gelukkig en dankbaar zijn, want ik heb het goed
 
 **Stap 1. Bewust worden van verwachtingen**
 
-
-
 Soms weet je zelf al van welke belemmerende verwachting je last hebt. In andere gevallen vraagt dit nog wat verder onderzoek. Het is handig om aanwijzingen te kennen die duiden op een belemmerende verwachting; op een idee over hoe je zou _moeten_ leven. Eén van de aanwijzingen is het woord ‘moeten’. Belemmerende verwachtingen hebben vaak een dwingend karakter dat ligt besloten in het woordje ‘moeten’. Om zicht te krijgen op jouw belemmerende verwachtingen over je leven, kun je de onderstaande oefening doen.
 
-*   a) Pak pen en papier erbij en vul onderstaande zin minimaal drie keer aan.
-    Ik moet altijd… 
-    Bijvoorbeeld: ik moet altijd… op tijd komen
-*   b) De aanvullingen die jij hebt opgeschreven, mag je nog een keer herhalen, maar ditmaal begin je de zin drie keer met: 
-    Ik heb de gedachte dat… 
-    Bijvoorbeeld: ik heb de gedachte dat ik altijd op tijd moet komen. Merk je dat je met de tweede variant al met iets meer afstand kunt kijken naar verwachtingen die jij hebt?
-*   c) Ter voorbereiding op stap 2: Lees de zinnen nog eens na en omcirkel één van de zinnen waarop jij het meest spanning voelt.
+- a) Pak pen en papier erbij en vul onderstaande zin minimaal drie keer aan.
+  Ik moet altijd…
+  Bijvoorbeeld: ik moet altijd… op tijd komen
+- b) De aanvullingen die jij hebt opgeschreven, mag je nog een keer herhalen, maar ditmaal begin je de zin drie keer met:
+  Ik heb de gedachte dat…
+  Bijvoorbeeld: ik heb de gedachte dat ik altijd op tijd moet komen. Merk je dat je met de tweede variant al met iets meer afstand kunt kijken naar verwachtingen die jij hebt?
+- c) Ter voorbereiding op stap 2: Lees de zinnen nog eens na en omcirkel één van de zinnen waarop jij het meest spanning voelt.
 
 **Stap 2: Wat is jouw opvatting? Wat vind jij belangrijk?**
 
@@ -75,7 +73,6 @@ Wanneer je met die routine wil breken, is het dus van belang om een stevig inner
 Betrek indien mogelijk een vriend(in), collega of coach bij de inzichten die stap 1 en 2 je hebben gegeven. Bespreek met hem of haar dat jouw besluit is om te handelen in lijn met je opvatting en dat je dit graag met hem of haar deelt.
 
 > Vraag deze persoon ook met je mee te denken over de volgende vraag: ‘Wat zal er in de praktijk veranderen als ik ga leven in lijn met mijn opvatting?’
-
 
 **Een voorbeeld**
 

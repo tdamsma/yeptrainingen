@@ -6,6 +6,7 @@ alt: groep trainees lossen een puzzel op aan een tafel
 springest: https://www.springest.nl/yep-trainingen-2/talent-ontwikkel-programma-top
 volgnummer: 1
 ---
+
 Ons Talent Ontwikkelprogramma is voor ons hét programma is waarin we individuen en organisaties helpen bij het realiseren van maatschappelijke impact. Starters met tot 6 jaar werkervaring volgen dit intensieve en brede programma in een groep van maximaal 12 deelnemers. Alles wat er op het vlak van persoonlijke effectiviteit en samenwerking komt kijken bij het werk krijgt een plek. Daarmee stelt het deelnemers in staat om krachtig in hun organisaties te staan en die impact te gaan maken, waar het hen om draait.
 
 ![groep TOP](./talent-ontwikkelprogramma-4.jpg)
@@ -22,12 +23,11 @@ Meer informatie vind je in onze
 
 [![Brochure Talent OntwikkelProgramma Yep Trainingen](./talent-ontwikkelprogramma-2.jpg)](../../Brochure-TOP-YEP.pdf)
 
-* * *
+---
 
 Het Talent Ontwikkel Programma bestaat uit 8 volle trainingsdagen, waarin steeds weer een nieuw thema met uitdagende werkvormen centraal staat. Hieronder zie je het overzicht staan, met het speerpunt per dag. Naast de trainingsdagen bestaat het programma uit tussentijdse opdrachten, 7 intervisiebijeenkomsten en individele coaching.
 
 ![TOP inhoud](./talent-ontwikkelprogramma-3.jpg) De training kost €4100 inclusief arrangement en vrij van Btw. De groep bestaat uit 6 tot 12 deelnemers. Elk jaar in september gaan de nieuwe groepen van start. Op aanvraag zijn er ook andere startdata en maatwerk invullingen mogelijk. Hieronder vind je de reeds geplande startdata en het inschrijfformulier.
-
 
 Eerst informatie aanvragen kan uiteraard ook. Stuur dan een mailtje naar Marijn@yeptrainingen.nl
 

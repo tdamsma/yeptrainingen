@@ -30,9 +30,9 @@ Intervisie vindt vaak plaats in een groep van 3 tot 6 mensen die vooraf met elka
 
 De intervisiebegeleiding richt zich op het volgende:
 
-* Het creëren van een veilige omgeving voor gezamenlijk leren
-* Inbrengen en uitleggen van verschillende intervisiemethodieken
-* Het geven van feedback op communicatieve vaardigheden binnen de intervisiegroep (bijvoorbeeld als er scherper doorgevraagd kan worden op elkaars inbreng, zodat het leren versterkt wordt)
+- Het creëren van een veilige omgeving voor gezamenlijk leren
+- Inbrengen en uitleggen van verschillende intervisiemethodieken
+- Het geven van feedback op communicatieve vaardigheden binnen de intervisiegroep (bijvoorbeeld als er scherper doorgevraagd kan worden op elkaars inbreng, zodat het leren versterkt wordt)
 
 Bij begeleide intervisie komen we regelmatig bijeen. We bouwen stap voor stap aan een prettige leeromgeving waar ieder ook echt een casus wil inbrengen. Deelnemers worden beter in het stellen van open vragen die collega’s raken en verder brengen en worden ook meer bedreven in het geven en ontvangen van feedback. Daarmee wordt de opbrengst van de intervisie groter.
 

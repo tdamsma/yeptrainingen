@@ -4,19 +4,18 @@ img: hoe-behoud-je-het-teamgevoel-als-niemand-op-kantoor-werkt.jpg
 alt: Thuiswerken op de bank
 date: 2020-08-27
 tags:
- - teamgevoel
- - thuiswerken
- - verbinding
+  - teamgevoel
+  - thuiswerken
+  - verbinding
 categories:
- - Begeleidingsvaardigheden
+  - Begeleidingsvaardigheden
 intro: >
-    Acht ideeen om de verbinding in je team te versterken wanneer je elkaar weinig of niet in persoon kan zien.
+  Acht ideeen om de verbinding in je team te versterken wanneer je elkaar weinig of niet in persoon kan zien.
 ---
 
 We zien tijdens onze trainingen dat veel mensen hun draai in het thuiswerken goed hebben gevonden. Het werk loopt, men is efficiënt, veert mee, leert, experimenteert. Maar één ding horen we zo vaak, één ding dat echt zonde is: de verbinding en de lol in het team is wel echt minder in deze tijd.
 
 Voor ons aanleiding om in dit blogbericht aandacht te richten op hoe je in digitale tijden zorgt voor meer lol en verbinding in het team!
-
 
 In dit blog vind je 8 manieren waarmee jij als teamlid of teamleider het gevoel van verbinding weer kan versterken in het jaar (het jaar of de jaren??!) van corona en thuiswerken.
 
@@ -68,7 +67,7 @@ Ga eens het gesprek aan over wat zorgen zijn rondom het thuiswerken, ontdek hoe 
 
 Overdag thuis, 's avonds en 's nachts thuis, de verveling slaat wat sneller toe omdat we minder afwisseling om ons heen hebben. Hoe leuk als je voorafgaand aan de meeting of training een pakketje thuisgeleverd krijgt met benodigdheden en een goede zak koffiebonen! Of denk aan een gezamenlijke lunch, die bij iedereen aan huis geleverd wordt. Gaaf én nuttig cadeautje als blijk van waardering? Een goede webcam. Een plant voor op het bureau. Een CO2 meter, waarmee men zicht heeft op de luchtkwaliteit waarin men zit te werken. Een goede gehoorbeschermer voor wie thuiswerkt in een drukkere omgeving.
 
-De verrassing hoeft geen cadeautje te zijn. Tijdens een workshop of meeting een doordachte en gave werkvorm inzetten, zorgt ook voor het verrassingseffect. 
+De verrassing hoeft geen cadeautje te zijn. Tijdens een workshop of meeting een doordachte en gave werkvorm inzetten, zorgt ook voor het verrassingseffect.
 
 Dit waren onze tips. Heb je een reactie of aanvulling, dan zien we die graag terug als reactie!
 

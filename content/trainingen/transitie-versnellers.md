@@ -18,11 +18,11 @@ Voor organisatiebrede verbeteringen, werken wij samen met duurzaam innovatiebure
 
 Het trainingsprogramma is exclusief voor professionals die voor hun organisatie (verder) aan de slag willen gaan met een verduurzamingsproces en die dit proces graag willen versnellen. Een groep bevat 4 tot 12 deelnemers die elkaar ook na de training kunnen blijven ondersteunen. We raden organisaties aan om twee tot vier professionals per transitie deel te laten nemen, zodat er meerdere kartrekkers in de organisatie zijn die elkaar kunnen versterken. Transitieversnellers - editie Nederland in transitie is passend wanneer het om een vraagstuk op wijk- of regionaal niveau gaat. Een paar ideeën:
 
-* Hoe benutten we de reststromen van de industrie in onze regio?
-* Hoe zorgen we voor voor duurzame stroomvoorzieningen in een nieuw woningbouwproject?
-* Hoe kunnen we initiatieven van burgers en bedrijfsleven bij elkaar brengen?
-* Hoe zoeken we voor regionale vraagstukken een lokale samenwerking op?
-* Hoe voegen we zo veel mogelijk waarde toe met vernieuwende groenvoorzieningen?
+- Hoe benutten we de reststromen van de industrie in onze regio?
+- Hoe zorgen we voor voor duurzame stroomvoorzieningen in een nieuw woningbouwproject?
+- Hoe kunnen we initiatieven van burgers en bedrijfsleven bij elkaar brengen?
+- Hoe zoeken we voor regionale vraagstukken een lokale samenwerking op?
+- Hoe voegen we zo veel mogelijk waarde toe met vernieuwende groenvoorzieningen?
 
 ## Wat kun je verwachten?
 

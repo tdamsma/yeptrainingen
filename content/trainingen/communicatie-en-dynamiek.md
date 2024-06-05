@@ -10,33 +10,30 @@ We verzorgen heel veel maatwerk communicatietrainingen. Te veel om ze allemaal a
 
 Wat kan er in een training rond communicatie en dynamiek bij Yep zoal?
 
-* Feedback geven en ontvangen
-* Aanspreekcultuur versterken
-* Slecht nieuws delen
-* Het verkennen van belangen
-* Omgaan met conflicten en tegengestelde belangen
-* Omgaan met emotie
-* Klantgerichtheid
-* Inzicht in interactie, dynamiek en het sturen hierin
-* Gesprekken leiden
-* Adviesvaardigheden
-* Omgaan met weerstand
-* Coachend begeleiden
-* Grenzen bewaken
-* Omgaan met verschillende communicatiestijlen
-* Functioneringsgesprekken
-* Luistervaardigheden
-* Digitale gespreksvaardigheden
-* Pitchen of presenteren
+- Feedback geven en ontvangen
+- Aanspreekcultuur versterken
+- Slecht nieuws delen
+- Het verkennen van belangen
+- Omgaan met conflicten en tegengestelde belangen
+- Omgaan met emotie
+- Klantgerichtheid
+- Inzicht in interactie, dynamiek en het sturen hierin
+- Gesprekken leiden
+- Adviesvaardigheden
+- Omgaan met weerstand
+- Coachend begeleiden
+- Grenzen bewaken
+- Omgaan met verschillende communicatiestijlen
+- Functioneringsgesprekken
+- Luistervaardigheden
+- Digitale gespreksvaardigheden
+- Pitchen of presenteren
 
 ![Trainer Anna geeft instructie bij oefening coachende gespreksvaardigheden](./communicatie-4.jpg) Boven: Groep jonge medewerkers krijgt instructie van trainer Anna over het op coachende wijze uitvragen van informatie.
 
-
 ![Trainer Marijn sluit aan bij een LSD gesprek](./communicatie-2.jpg) Boven: Groep docenten in het middelbaar onderwijs oefent onder begeleiding van trainer Marijn met het uitstellen van advies in gesprekken. In plaats daarvan brengen ze structuur aan, zodat leerlingen actiever zelf oplossingen zoeken.
 
-
 ![Groep ploegleiders volgt training coachend begeleiden](./communicatie-3.jpg) Boven: Groep ploegleiders volgt een training Coachend Leiderschap waarin functioneringsgesprekken, aanspreekcultuur, luisteren en observeren en feedback geven en ontvangen aan bod komen.
-
 
 > Sharon, Projectleider - “Marijn heeft veel kennis in huis en helpt je tijdens de training om te reflecteren op de casussen en opdrachten. Dankzij haar heb ik inzicht gekregen in mijn eigen communicatieskills en handvatten meegekregen hoe ik feedback professioneler kan ontvangen en geven. Ik zou de training en dit bureau zeker aanraden!"
 

@@ -10,7 +10,7 @@ tags:
   - hybridwork
   - digitalattendees
 categories:
- - Begeleidingsvaardigheden
+  - Begeleidingsvaardigheden
 english_title: Activating online team games and workflows
 ---
 

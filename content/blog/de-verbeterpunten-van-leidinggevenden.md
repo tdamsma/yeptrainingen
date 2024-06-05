@@ -9,7 +9,7 @@ tags:
   - jonge medewerkers
   - leidinggeven
 categories:
- - Begeleidingsvaardigheden
+  - Begeleidingsvaardigheden
 english_title: The pitfalls of managers in the eyes of young employees
 ---
 
@@ -33,23 +33,23 @@ Hoogleraar organisatiepsychologie prof. dr. Astrid Homan vermoedt dat de behoeft
 
 Na het globale onderzoek zijn de onderzoekers meer de diepte in gegaan. Er is niet alleen gekeken hoe de managers gemiddeld scoren op deze eigenschappen. Er is ook onderzoek gedaan naar onderwerpen die de jonge medewerkers niet hebben benoemd maar ook belangrijk zijn voor het werkgeluk. Hieruit zijn vijf belangrijke verbeterpunten gekomen.
 
-*   Luisteren
+- Luisteren
 
 De jonge medewerkers willen gehoord worden, letterlijk en figuurlijk, zo staat vermeld in de [YoungCapital Recruitment Guide](https://www.youngcapital.nl/werkgevers/recruitment-guide-aanvragen). Vertellen dat ze altijd bij je langs kunnen komen is niet genoeg. Laat zien dat je iets doet met hun ideeën zodat ze weten dat je luistert.
 
-*   Stress voorkomen
+- Stress voorkomen
 
 Als er alleen maar gehamerd wordt op hetgeen wat fout gaat ervaren de jonge medewerkers stress. Dit zorgt er niet voor dat ze harder gaan werken, dus je helpt er niemand mee. Jonge medewerkers gaan harder werken van opbouwende kritiek en een positieve sfeer.
 
-*   Op een prettige manier feedback geven
+- Op een prettige manier feedback geven
 
 Feedback is heel belangrijk, en niet alleen voor een medewerker. Vraag bijvoorbeeld ook eens op welk gebied je als manager kan verbeteren. En probeer feedback af te sluiten met een compliment. Dit zorgt voor een positieve sfeer en zelfvertrouwen.
 
-*   Jonge medewerkers denken graag mee
+- Jonge medewerkers denken graag mee
 
 Betrek de jonge medewerkers ook bij besluiten, zeker als deze beslissingen effect hebben op hun werk. Als dit niet kan horen de jonge medewerkers graag de beweegredenen voor een besluit, op deze wijze kunnen ze beslissingen beter begrijpen en accepteren.
 
-*   Talenten stimuleren
+- Talenten stimuleren
 
 Mochten er groeimogelijkheden zijn binnen het bedrijf, laat dit dan vooral weten. Dit werkt enorm motiverend en neemt ook een stukje onzekerheid weg.
 

@@ -8,12 +8,12 @@ volgnummer: 15
 
 Yep Trainingen helpt jong verenigingen (jong-personeelsverenigingen of jonge medewerkers netwerken) van verschillende organisaties hun verenigingsdoelen te realiseren. Dit zijn doelen zoals:
 
-* de persoonlijke ontwikkeling van jonge personeelsleden stimuleren
-* het interne netwerk versterken
-* het externe netwerk van de organisatie versterken
-* het uitwisselen van kennis tussen afdelingen of organisatie-niveaus bevorderen
-* het verbeteren van innovatie en kwaliteit in de organisatie
-* jonge medewerkers binden aan de organisatie en uitstroom voorkomen
+- de persoonlijke ontwikkeling van jonge personeelsleden stimuleren
+- het interne netwerk versterken
+- het externe netwerk van de organisatie versterken
+- het uitwisselen van kennis tussen afdelingen of organisatie-niveaus bevorderen
+- het verbeteren van innovatie en kwaliteit in de organisatie
+- jonge medewerkers binden aan de organisatie en uitstroom voorkomen
 
 Wij verzorgen regelmatig activiteiten voor jong verenigingen en krijgen daarbij ook vragen van bestuursleden die willen weten hoe zij effectiever te werk kunnen gaan. Zij hebben bijvoorbeeld te maken met een lage opkomst bij activiteiten, beperkte (financiële) ondersteuning vanuit de organisatie of moeite om de bestuurstaken te combineren met de werkzaamheden die bij hun functie horen.
 

@@ -8,7 +8,7 @@ credits: Images Marijn Damsma Author Marijn Damsma
 tags:
   - professionele afstand
 categories:
- - Begeleidingsvaardigheden
+  - Begeleidingsvaardigheden
 english_title: Keeping a professional distance
 ---
 
@@ -17,7 +17,8 @@ Misschien kom je op dit blog terecht omdat je de tip hebt gekregen om wat meer a
 Want wie niet bewust afstand bewaart in zorgende taken, gaat hier last van krijgen.
 
 ## Een paar voorbeeldsituaties, steeds met 2 mogelijke reacties erbij
-------------------------------------------------------------------
+
+---
 
 > _Door een familiesituatie kan een WO student de verplichte les die jij geeft niet bijwonen. Zij komt erg verdrietig bij jou om haar verhaal te vertellen en vraagt om jouw hulp._
 
@@ -42,21 +43,23 @@ Uit deze voorbeelden, waarbij bij Reactie A minder afstand wordt bewaard dan bij
 ![Mensen bij elkaar in verschillende ondersteunende opstellingen](./een-professionele-afstand-bewaren-2.png)
 
 ## Wat gebeurt er als je geen afstand bewaart?
--------------------------------------------
+
+---
 
 Als het niet lukt om (voldoende) afstand te bewaren, kan dat tot verschillende dingen leiden. Per persoon en situatie verschillend, maar de gevolgen liegen er niet om!
 
-*   jouw werkdruk voelt groter, door de emotionele lading die je steeds mee draagt.
-*   je vergroot de kans dat je zelf een burn-out krijgt.
-*   je bent minder in staat de ander te helpen met het maken van rationele beslissingen.
-*   je bent minder in staat het overzicht te bewaren en daardoor kun je een bijzaak te belangrijk maken of dingen vergeten.
-*   Je kunt het gevoel van machteloosheid en verdriet bij de ander vergroten.
-*   Je kunt zelf de problemen van anderen 'mee naar huis' nemen, ze beïnvloeden je eigen stemming.
-*   Je neemt verantwoordelijkheden/taken op je die eigenlijk bij de ander horen. Meestal kun je dit op de lange termijn niet waarmaken en verzwakt dit de mate van inzet en regie bij de ander.
-*   Je deelt privé informatie, waardoor de ander veel over jou weet, en het gesprek mogelijk onnodig over jou gaat ipv de ander. Ook kun je hierdoor makkelijker onder druk worden gezet.
+- jouw werkdruk voelt groter, door de emotionele lading die je steeds mee draagt.
+- je vergroot de kans dat je zelf een burn-out krijgt.
+- je bent minder in staat de ander te helpen met het maken van rationele beslissingen.
+- je bent minder in staat het overzicht te bewaren en daardoor kun je een bijzaak te belangrijk maken of dingen vergeten.
+- Je kunt het gevoel van machteloosheid en verdriet bij de ander vergroten.
+- Je kunt zelf de problemen van anderen 'mee naar huis' nemen, ze beïnvloeden je eigen stemming.
+- Je neemt verantwoordelijkheden/taken op je die eigenlijk bij de ander horen. Meestal kun je dit op de lange termijn niet waarmaken en verzwakt dit de mate van inzet en regie bij de ander.
+- Je deelt privé informatie, waardoor de ander veel over jou weet, en het gesprek mogelijk onnodig over jou gaat ipv de ander. Ook kun je hierdoor makkelijker onder druk worden gezet.
 
 ## Kan het ook te veel afstand zijn?
----------------------------------
+
+---
 
 Ja. Dat kan. Bijna ieder mens vindt het prettig als een ander zijn zorgen kan herkennen, een beetje aansluit bij waar hij staat of reageert op non-verbaal gedrag. En ook als de ander iets van zichzelf laat zien. Je wil weten met wie je te maken hebt. Bij te veel afstand wordt het contact kil en onpersoonlijk.
 
@@ -65,16 +68,17 @@ Afhankelijk van de situatie is meer of minder afstand gepast. Ook kan het zijn d
 Is er erg veel afstand, dan merk je dat men niet bij jou komt met problemen en vragen. Dat lijkt efficient, maar daardoor mis je wat er speelt en kun je niet tijdig bijsturen.
 
 ## Hoe bewaar je afstand?
-----------------------
+
+---
 
 Afstand bewaren zit hem in veel kleine dingen, zoals we bij de voorbeelden al zagen. Zoals:
 
-* Hoe dichtbij sta je? Raak je de ander aan?
-* Kijk je de ander diep in de ogen?
-* Hoe diep en hoe lang ga je in op iemands verhaal?
-* Ga jij het voor de ander oplossen? Huil en lach je mee?
-* Hoeveel laat je van jezelf zien? En is dat professionele informatie, of persoonlijk?
-* Doe je dit open en bij iedereen, of hangt er een sfeertje omheen van geheimhouding/uitzondering?
+- Hoe dichtbij sta je? Raak je de ander aan?
+- Kijk je de ander diep in de ogen?
+- Hoe diep en hoe lang ga je in op iemands verhaal?
+- Ga jij het voor de ander oplossen? Huil en lach je mee?
+- Hoeveel laat je van jezelf zien? En is dat professionele informatie, of persoonlijk?
+- Doe je dit open en bij iedereen, of hangt er een sfeertje omheen van geheimhouding/uitzondering?
 
 De meeste mensen voelen automatisch aan wat er gepast is in een sociale situatie, tijdens of achteraf. Je krijgt bijvoorbeeld na een gesprek met een leerling spijt. Was dat wel gepast en nodig? Of: je eigen afspraak vergeten, balen. Of: je merkt dat je blijft zitten met het verhaal van de ander.
 
@@ -82,19 +86,17 @@ Maar ook als je het over het algemeen goed aanvoelt zijn er momenten waarop het 
 
 Wat kun je doen om (meer) afstand te gaan bewaren? In een notendop: ondersteun, maar neem het niet over.
 
-* Zelf een helder beeld hebben over wat je kan en wil betekenen voor je cliënten, patienten, leerlingen of collega's en wat niet.
-* Vragen om een afspraak in te plannen voor een gesprek, wanneer iemand je met een vraag overvalt.
-* Denk in termen van 'hoe ga jíj dit oplossen?', 'wat heb je al geprobeerd?', 'wat lijkt jou nu een haalbaar streven?'. Met die tekst geef je wel aandacht en help je iemand om zelf op ideeën te komen. Je neemt het niet op jouw schouders.
-* Doorverwijzen naar iemand die ze nog beter kan helpen. Dit is ook bij de kwetsbare personen die niet iemand anders lijken te hebben aan te raden: overleg met hen waar ze terecht kunnen en help bijv met de aanmelding. Het helpt hierbij als je weet welke personen en organisaties er beschikbaar zijn. Vertrouwenspersonen, decanen, maatschappelijke organisaties, etc.
+- Zelf een helder beeld hebben over wat je kan en wil betekenen voor je cliënten, patienten, leerlingen of collega's en wat niet.
+- Vragen om een afspraak in te plannen voor een gesprek, wanneer iemand je met een vraag overvalt.
+- Denk in termen van 'hoe ga jíj dit oplossen?', 'wat heb je al geprobeerd?', 'wat lijkt jou nu een haalbaar streven?'. Met die tekst geef je wel aandacht en help je iemand om zelf op ideeën te komen. Je neemt het niet op jouw schouders.
+- Doorverwijzen naar iemand die ze nog beter kan helpen. Dit is ook bij de kwetsbare personen die niet iemand anders lijken te hebben aan te raden: overleg met hen waar ze terecht kunnen en help bijv met de aanmelding. Het helpt hierbij als je weet welke personen en organisaties er beschikbaar zijn. Vertrouwenspersonen, decanen, maatschappelijke organisaties, etc.
 
 ## Méér betekenen
+
 Misschien steunt het je om te weten dat je op deze manier vaak méér kan betekenen voor de ander, omdat je de ander helpt om op zichzelf te vertrouwen. Of omdat je doorverwijst naar iemand die de juiste kennis en bevoegdheid heeft voor de begeleiding die eigenlijk niet in jouw rol past.
 
 Ook uit mijn eigen ervaring, als trainer, docent, pleegouder en vrijwilliger in het basisonderwijs blijkt steeds dat dit handige voorwaarden zijn voor het bewaren van een professionele afstand: vooruitdenken (zodat situaties je minder verrassen), het maken van heldere afspraken, betrouwbaar zijn, het sturen richting eigen verantwoordelijkheid van de ander, weten waar ik naar door kan verwijzen en eerlijk blijven (ook naar mezelf toe).
 
-
 Misschien kun je je momenten herinneren dat een ander jou heeft verder geholpen? Bij mij waren dat niet de momenten waarop een ander het ook niet meer onder controle had of zelfs meer van slag raakte dan ik zelf.
-
-
 
 Afbeeldingen: astronaut: [Travel vector created by freepik - www.freepik.com](https://www.freepik.com/free-photos-vectors/travel), verschillende ondersteunende opstellingen: [Poster vector created by macrovector - www.freepik.com](https://www.freepik.com/free-photos-vectors/poster)

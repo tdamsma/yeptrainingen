@@ -8,7 +8,7 @@ credits: Images Marijn Damsma Author Marijn Damsma
 tags:
   - onderwijs
 categories:
- - Begeleidingsvaardigheden
+  - Begeleidingsvaardigheden
 english_title: Professional feedback for educators
 ---
 
@@ -29,7 +29,7 @@ Anders dan in veel andere beroepen is:
 - Een leraar al intensief bezig met reflecteren en verbeteren, tav de eigen aanpak.
 - En dan nog het voornaamste verschil dat ik zie: verandering werkt ontregelend. Je werkt met kinderen en elke dag is weer anders. Er ontstaat gemakkelijk onrust en als onderwijzer ben jij de stabiele factor. Er is niet één geschikte standaard manier om met alle kinderen om te gaan en om les te geven. Het is belangrijk dat leraren stabiel en voorspelbaar zijn. Dat zijn zij wanneer ze op een authentieke manier kunnen werken. Ieder heeft zo zijn eigen manieren en routines en kan zich door de aard van het werk niet steeds veranderingen permitteren.
 
->_Het is belangrijk dat leraren stabiel en voorspelbaar zijn. Dat zijn zij wanneer ze datgene doen wat voor hen werkt en dat ze makkelijk vol kunnen houden._
+> _Het is belangrijk dat leraren stabiel en voorspelbaar zijn. Dat zijn zij wanneer ze datgene doen wat voor hen werkt en dat ze makkelijk vol kunnen houden._
 
 Toch is feedback onmisbaar, ook in het onderwijs. Het is voor onderwijsprofessionals waardevol en wenselijk om dingen te blijven ontdekken die het werk makkelijker maken, de werkdruk verlagen en het gevoel geven dat je er niet alleen voor staat. En natuurlijk van groot belang dat leerlingen uitstekende begeleiding krijgen in een veilige en stimulerende omgeving. Het is daarbij dus extra belangrijk dat de leraar datgene kan uitproberen waar die zelf vertrouwen in heeft.
 

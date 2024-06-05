@@ -8,7 +8,7 @@ credits: Images Marijn Damsma Author Annette Sciarione en Marijn Damsma
 tags:
   - mindset
 categories:
- - Begeleidingsvaardigheden
+  - Begeleidingsvaardigheden
 english_title: Growth Mindset
 ---
 
@@ -20,7 +20,7 @@ over je intelligentie en je kwaliteiten.** Dit beïnvloedt hoe je je voelt,
 hoe je je gedraagt en dan met name hoe je met uitdagingen omgaat. Een
 mindset is geen waarheid, maar een verzameling van overtuigingen. Als je
 gelooft dat je intelligent bent, dan zal je keuzes maken die aansluiten
-op dit beeld. Zo ontstaat er een *self-fulling prophecy*. Het kan een
+op dit beeld. Zo ontstaat er een _self-fulling prophecy_. Het kan een
 positieve of negatieve spiraal in gang zetten. Je mindset speelt dus ook
 een rol in je veerkracht en je probleemoplossend vermogen. Dit merk je
 terug in alle aspecten van je leven.
@@ -51,15 +51,11 @@ maar na 700 meter rennen staat je longen in brand.**
 >
 > Reactie B: Zo, dat is al 700 meter meer dan gisteren!
 
-
-
 **Je krijgt feedback op je werk.**
 
 > Reactie A: Ik kan het ook niet goed doen.
 >
 > Reactie B: Top, hier kan ik wat mee!
-
-
 
 **Je krijgt een opdracht, maar de uitvoering daarvan valt je erg tegen.**
 
@@ -78,21 +74,21 @@ bij een fixed mindset en reactie B een growth mindset.
 Met een growth mindset, ligt je focus op kansen benutten, leren en
 bijdragen. Dit leidt tot:
 
--   Veerkracht
+- Veerkracht
 
--   Het aangaan van uitdagingen
+- Het aangaan van uitdagingen
 
--   Doorzetten
+- Doorzetten
 
--   Leren
+- Leren
 
--   Zelfvertrouwen
+- Zelfvertrouwen
 
--   Acceptatie van fouten
+- Acceptatie van fouten
 
--   Leren van kritiek
+- Leren van kritiek
 
--   Leren van tegenslag
+- Leren van tegenslag
 
 Een fixed mindset leidt juist tot een gevoel van machteloosheid. Je
 richt je dan met name op datgene wat je al kan en gaat het andere uit de weg.
@@ -120,9 +116,7 @@ kolom draagt bij aan het ontwikkelen van een growth mindset en de
 rechter kolom draagt bij aan het ontwikkelen van een fixed mindset.
 ![Voorbeeld uitspraken](./growth-mindset-2.jpg)
 
-
 Bronvermelding
 
 (1). Dweck, C. (2015) Growth Mindset, Revisited.
 https://portal.cornerstonesd.ca/group/yyd5jtk/documents/carol%20dweck%20growth%20mindsets.pdf
-

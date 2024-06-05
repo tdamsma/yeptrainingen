@@ -24,13 +24,12 @@ $ yarn generate
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
 
-
 https://codesandbox.io
-
 
 ## reduce image sizes
 
 The following command will resize all images in the current directory to a maximum width of 2200 pixels using ImageMagick.
+
 ```sh
 find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec sh -c '
 for img do

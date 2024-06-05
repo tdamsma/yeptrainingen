@@ -10,7 +10,7 @@ tags:
   - werkstress
   - werkgeluk
 categories:
- -
+  -
 english_title:
 ---
 
@@ -26,18 +26,18 @@ Merk je dat je werkdruk langdurig hoog is? Je staat niet alleen. Van alle starte
 
 Mensen die een burn-out krijgen, worden erdoor overvallen (lees [dit artikel](http://nl.newsner.com/gezinsleven/vergeet-nooit-als-iemand-waarvan-houdt-burn-out/) van een psychiater die het zelf overkwam, of [hier zijn eigen site](http://niklasnygren.se/), maar dan moet je er wel een vertaling op loslaten vanuit het Zweeds). Terugkijkend kunnen zij zien dat hun manier van werken en leven te veel eisend was: steeds een gevoel van urgentie en gejaagdheid met daarbij nauwelijks tijd om bij te komen en jezelf (lees: je hersenen) tot rust te laten komen. Steeds lukt het om er toch weer tegenaan te gaan door nieuwe trucs toe te passen om het maximale uit je lijf te halen: de wekker eerder zetten, van alles met elkaar proberen te combineren, jezelf voorhouden dat het vandaag gaat lukken omdat het gisteren lukte. Tot op een dag je lichaam weigert en je cognitief niet meer doorkan op dezelfde manier. Je hersenen hebben te lang blootgestaan aan stress-hormonen en functioneren daardoor niet meer op de manier die je gewend was. Dus je zult scherp moeten zijn op (vroegtijdige) stressklachten om een échte burn-out voor te zijn. Veelgenoemde stressklachten zijn:
 
-* Slaapproblemen
-* Oververmoeidheid
-* Overmatig piekeren
-* Constant gejaagd gevoel, het gevoel niet of nauwelijks te kunnen voldoen aan alle verwachtingen
-* Hartkloppingen
-* Spanningshoofdpijn
-* Oorsuizen
-* Hoge spierspanning in nek en schouders
-* Hyperventilatie
-* Concentratieproblemen
-* Snel geïrriteerd of geëmotioneerd raken
-* Groeiend gevoel van afstand, apathie of cynisme als je aan je werk denkt
+- Slaapproblemen
+- Oververmoeidheid
+- Overmatig piekeren
+- Constant gejaagd gevoel, het gevoel niet of nauwelijks te kunnen voldoen aan alle verwachtingen
+- Hartkloppingen
+- Spanningshoofdpijn
+- Oorsuizen
+- Hoge spierspanning in nek en schouders
+- Hyperventilatie
+- Concentratieproblemen
+- Snel geïrriteerd of geëmotioneerd raken
+- Groeiend gevoel van afstand, apathie of cynisme als je aan je werk denkt
 
 Herken je een aantal van deze klachten? Het lijstje kan je helpen om gezonde en ongezonde stress van elkaar te onderscheiden. Want 'gewone' of 'gezonde' stress hoort bij het leven en iedereen is/lijkt voortdurend druk. Zeker rond de dertig speelt dit: naast een verantwoordelijke functie spelen er ook talloze privé kwesties: de komst van kinderen, ziekte of overlijden van ouders, een scheiding. Dit is van alle tijden.
 
@@ -45,13 +45,13 @@ Herken je een aantal van deze klachten? Het lijstje kan je helpen om gezonde en 
 
 Hoe kan het dat het nu zoveel vaker voorkomt? En waarom juist bij de jonge doelgroep? Factoren die er de laatste 10 jaar bij zijn gekomen kunnen naar mijn idee (dus niet wetenschappelijk gefundeerd) de volgende zijn:
 
-* Grote reorganisaties waardoor men met minder mensen hetzelfde werk moet doen, steeds als tijdelijk gepresenteerd maar uiteindelijk langdurig gebleken.
-* De economische crisis waarmee zij te maken kregen toen zij de arbeidsmarkt betraden. De daarmee samenhangende voortdurende baan-onzekerheid: veel minder vaste contracten en meer zelfstandig ondernemers.
-* De financiële noodzaak en/of wens om twee inkomens per gezin te hebben.
-* De transitie in de zorg naar zelfsturende teams waarbij verantwoordelijkheden onduidelijk zijn en er minder steun/signallering naar elkaar is.
-* Het feit dat meerdere collega's ook een burn-out hebben waardoor je met nog minder mensen het zelfde werk moet doen.
-* De hoge mate van protocollering in het werk, niet met zorg en naar eigen inzicht kunnen werken maar lijstje moeten afwerken, om zo efficient mogelijk met tijd om te gaan,volgens een ander.
-* De grote rol die sociale media en technologie spelen in het leven tegenwoordig en de daarmee samenhangende overvloed aan informatie, verstoringen, voortdurende bereikbaarheid en hoge verwachtingen van het leven.
+- Grote reorganisaties waardoor men met minder mensen hetzelfde werk moet doen, steeds als tijdelijk gepresenteerd maar uiteindelijk langdurig gebleken.
+- De economische crisis waarmee zij te maken kregen toen zij de arbeidsmarkt betraden. De daarmee samenhangende voortdurende baan-onzekerheid: veel minder vaste contracten en meer zelfstandig ondernemers.
+- De financiële noodzaak en/of wens om twee inkomens per gezin te hebben.
+- De transitie in de zorg naar zelfsturende teams waarbij verantwoordelijkheden onduidelijk zijn en er minder steun/signallering naar elkaar is.
+- Het feit dat meerdere collega's ook een burn-out hebben waardoor je met nog minder mensen het zelfde werk moet doen.
+- De hoge mate van protocollering in het werk, niet met zorg en naar eigen inzicht kunnen werken maar lijstje moeten afwerken, om zo efficient mogelijk met tijd om te gaan,volgens een ander.
+- De grote rol die sociale media en technologie spelen in het leven tegenwoordig en de daarmee samenhangende overvloed aan informatie, verstoringen, voortdurende bereikbaarheid en hoge verwachtingen van het leven.
 
 ## Steun vanuit werkgever belangrijk maar zeldzaam
 
@@ -74,9 +74,9 @@ Heb je een aantal stressklachten en ben je benieuwd naar een aanpak waarbij jij,
 
 Heb je na het lezen van dit bericht behoefte om meteen iets in gang te zetten om je eigen werkstress te verminderen? Je kunt al een paar dingen doen:
 
-* Ga sporten. Lichaamsbeweging helpt je lijf om te herstellen van stress-hormonen.
-* Zoek ondersteuning op je werk: kun je wat taken kwijt die je veel energie kosten? Kun je er iets bijnemen wat juist energie geeft?
-* Bespreek de mogelijkheid met je leidinggevenden voor ondersteuning
+- Ga sporten. Lichaamsbeweging helpt je lijf om te herstellen van stress-hormonen.
+- Zoek ondersteuning op je werk: kun je wat taken kwijt die je veel energie kosten? Kun je er iets bijnemen wat juist energie geeft?
+- Bespreek de mogelijkheid met je leidinggevenden voor ondersteuning
 
 ## Meer lezen?
 

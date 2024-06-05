@@ -5,11 +5,12 @@ export async function load({ params }) {
 	const { title, date, img, springest } = post.metadata;
 	const content = post.default;
 
-	const allPosts = await fetchContent("trainingen");
+	const allPosts = await fetchContent('trainingen');
 	const sortedPosts = allPosts.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
 
-	const currentIndex = sortedPosts.findIndex(p => p.path === params.training_title);
-	const surroundingDocuments = sortedPosts.slice(Math.max(0, currentIndex - 5), currentIndex)
+	const currentIndex = sortedPosts.findIndex((p) => p.path === params.training_title);
+	const surroundingDocuments = sortedPosts
+		.slice(Math.max(0, currentIndex - 5), currentIndex)
 		.concat(sortedPosts.slice(currentIndex + 1, currentIndex + 6));
 
 	return {
@@ -24,8 +25,8 @@ export async function load({ params }) {
 
 /** @type {import('./$types').EntryGenerator} */
 export async function entries() {
-	const allPosts = await fetchContent("trainingen");
-	return allPosts.map(post => ({ training_title: post.path }));
+	const allPosts = await fetchContent('trainingen');
+	return allPosts.map((post) => ({ training_title: post.path }));
 }
 
 export const prerender = true;

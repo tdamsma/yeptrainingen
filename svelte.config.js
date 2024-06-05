@@ -2,27 +2,28 @@ import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import sveltePreprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
-import path from 'path'
+import path from 'path';
 import rehypeRewrite from 'rehype-rewrite';
 
 /** @type {import('mdsvex').MdsvexOptions} */
 const mdsvexOptions = {
 	extensions: ['.md'],
 	rehypePlugins: [
-		[rehypeRewrite, {
-			rewrite: (node) => {
-				// replace img tags with enhanced:img
-				if (node.type == 'element' && node.tagName == 'img') {
-					node.tagName = 'enhanced:img';
-					// add a css class "post-img" for styling purposes
-					node.properties['class'] = `post-img ${node.properties['class'] ?? ''}`.trimEnd();
+		[
+			rehypeRewrite,
+			{
+				rewrite: (node) => {
+					// replace img tags with enhanced:img
+					if (node.type == 'element' && node.tagName == 'img') {
+						node.tagName = 'enhanced:img';
+						// add a css class "post-img" for styling purposes
+						node.properties['class'] = `post-img ${node.properties['class'] ?? ''}`.trimEnd();
+					}
 				}
 			}
-		}],
+		]
 	]
-}
-
-
+};
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -31,7 +32,7 @@ const config = {
 	preprocess: [
 		mdsvex(mdsvexOptions),
 		vitePreprocess(),
-		sveltePreprocess({ scss: true, pug: true }),
+		sveltePreprocess({ scss: true, pug: true })
 	],
 
 	onwarn: (warning, handler) => {
@@ -51,10 +52,9 @@ const config = {
 			// default options are suitable for most applications
 		}),
 		alias: {
-			$content: path.resolve('content'),
-		},
-	},
+			$content: path.resolve('content')
+		}
+	}
 };
 
 export default config;
-

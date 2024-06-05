@@ -3,20 +3,20 @@ title: Doorzetten voor diversiteit
 img: doorzetten-voor-diversiteit-1.jpg
 alt: inclusief team
 date: 2023-05-15
-intro: Welke stappen helpen teams en organisaties verder op weg naar een inclusief personeelsbestand? 
+intro: Welke stappen helpen teams en organisaties verder op weg naar een inclusief personeelsbestand?
 credits: Images Marijn Damsma Author Marijn Damsma
 tags:
   - diversiteit
 categories:
- - Begeleidingsvaardigheden
+  - Begeleidingsvaardigheden
 english_title: Dedicate to Diversify
 ---
 
 Organisaties die graag inclusiever en diverser willen zijn, merken dat alleen deze ambitie niet voldoende is om het verschil te maken. Zij lopen bijvoorbeeld tegen de volgende zaken aan:
 
->"De mensen die op onze vacatures reageren zijn geschikt, maar brengen niet de diversiteit die we gehoopt hadden."
+> "De mensen die op onze vacatures reageren zijn geschikt, maar brengen niet de diversiteit die we gehoopt hadden."
 
->“Ik merk dat ons digitale assessment niet goed te maken is voor kandidaten die de Nederlandse taal niet beheersen of andere verwachtingen hebben ten opzichte van de relatie medewerker-leidinggevende.”
+> “Ik merk dat ons digitale assessment niet goed te maken is voor kandidaten die de Nederlandse taal niet beheersen of andere verwachtingen hebben ten opzichte van de relatie medewerker-leidinggevende.”
 
 > “We hebben in dit oude pand helaas niet de mogelijkheid om de boel rolstoelvriendelijk te maken.”
 
@@ -56,12 +56,11 @@ Opdrachtgevers (en zeker publieke organisaties) waarderen het als een organisati
 
 Het is best moeilijk om 1 lijstje met tips te maken, omdat inclusie over zo veel kan gaan! Teamleden met een andere moedertaal, culturele achtergrond, met een fysieke of geestelijke beperking, met laaggeletterdheid of anderszins afstand tot de arbeidsmarkt, met een bepaalde seksuele geaardheid, genderidentiteit of levensbeschouwing. We doen toch een poging!
 
-
 1\. Zorg voor bewustwording en training om onbewuste vooroordelen te herkennen en te verminderen. Het kan bijvoorbeeld van toegevoegde waarde zijn om af en toe iemand uit te nodigen (intern of extern) die komt vertellen over de eigen ervaring en wat diegene heeft geholpen om diens weg te vinden. De jongeren die actief zijn bij [De Realisten van CNV Jongeren](https://cnvjongeren.nl/inclusiviteit/realisten-academie-2-0-de-inclusie-makers/), kun je uitnodigen voor een gesprek of lezing.
 
 2\. Stimuleer diversiteit op leiderschapsniveau door middel van mentorprogramma's, leiderschapsontwikkeling en het bevorderen van interne diversiteitsinitiatieven (zoals denktanks, en ERG's)
 
-3\. Maak website- en vacatureteksten uitnodigend en toegankelijk voor iedereen. Zorg ervoor dat de wervings- en selectieprocessen gestructureerd en objectief verlopen. Het werkt goed als veel verschillende mensen zich kunnen herkennen in gebruikte voorbeelden en afbeeldingen. 
+3\. Maak website- en vacatureteksten uitnodigend en toegankelijk voor iedereen. Zorg ervoor dat de wervings- en selectieprocessen gestructureerd en objectief verlopen. Het werkt goed als veel verschillende mensen zich kunnen herkennen in gebruikte voorbeelden en afbeeldingen.
 
 4\. Communiceer duidelijk de voordelen van diversiteit en inclusie voor zowel de organisatie als de individuele medewerkers, en stel het als organisatiedoel vast. Betrek medewerkers bij de ontwikkeling en uitvoering van diversiteits- en inclusie-initiatieven om verder draagvlak te creëren. Zo voorkom je weerstand en verzet tegen verandering.
 
@@ -69,12 +68,12 @@ Het is best moeilijk om 1 lijstje met tips te maken, omdat inclusie over zo veel
 
 6\. Houd er rekening mee dat er tijd gaat zitten in een inclusiever personeelsbestand. Onderschat dit niet, want daardoor komt er soms een te grote druk op bestaande medewerkers. Wijs hen middelen toe voor diversiteits- en inclusie-initiatieven en zorg voor toewijding en ondersteuning van het management. Maak er bijvoorbeeld een project van waar uren op geboekt kunnen worden.
 
- Ik hoop dat deze tips jou/je team/je manager zullen helpen om op een handige en soepele manier voor inclusie te gaan! Als de bal eenmaal rolt, wordt het makkelijker dus zet door! Wil je meer lezen, dan zijn dit ook nog inzichtgevende pagina's om te raadplegen: 
+Ik hoop dat deze tips jou/je team/je manager zullen helpen om op een handige en soepele manier voor inclusie te gaan! Als de bal eenmaal rolt, wordt het makkelijker dus zet door! Wil je meer lezen, dan zijn dit ook nog inzichtgevende pagina's om te raadplegen:
 
- [Movisie, over inclusief beleid](https://www.movisie.nl/inclusief-beleid)
+[Movisie, over inclusief beleid](https://www.movisie.nl/inclusief-beleid)
 
- [Movisie, essay over het wat, waarom en hoe van diversiteit](https://www.movisie.nl/publicatie/essay-inclusie-diversiteit-wat-waarom-hoe)
- 
- [CNV Inclusiviteitpagina](https://cnvjongeren.nl/inclusiviteit/)
+[Movisie, essay over het wat, waarom en hoe van diversiteit](https://www.movisie.nl/publicatie/essay-inclusie-diversiteit-wat-waarom-hoe)
+
+[CNV Inclusiviteitpagina](https://cnvjongeren.nl/inclusiviteit/)
 
 Succes!

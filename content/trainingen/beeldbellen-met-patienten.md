@@ -1,5 +1,5 @@
 ---
-title: "Online - Beeldbellen met patienten"
+title: 'Online - Beeldbellen met patienten'
 img: beeldbellen-met-patienten-1.jpg
 alt: arts-patient gesprek achter laptop
 volgnummer: 2
@@ -15,11 +15,9 @@ De training vindt digitaal plaats (via Zoom) in groepen van drie tot zeven zorgv
 
 Dus heb je twijfels over de toegevoegde waarde van het beeldbellen, of wil je team hierin bekwamen? Mail naar [Marijn@YepTrainingen.nl](mailto:Marijn@YepTrainingen.nl) om meer informatie te krijgen. Geef daarbij graag aan of je op zoek bent naar een maatwerktraining of een open training. We helpen je graag verder!
 
-
 > "Ik heb een patiënt met een angststoornis die zich vaak snel het ergste scenario in het hoofd haalt. Ze stond er op dat ze getest werd, maar ze voldeed niet aan de criteria, en ik kon het niet goed loslaten. Ik merk dat deze korte training me helpt om me minder mee te laten voeren in de emotie van de patiënt."
 
 > "Lekker om in de groep even te stoom af te blazen. En ik merk dat ik sommige zinnetjes uit de training letterlijk gebruik, geeft houvast!"
-
 
 Sarah van der Vlerk werkt als trainer/trainingsacteur veel in een medische context. Ze geeft sinds 2017 medische communicatielessen in de bachelor en master geneeskunde van de VU. Ook is ze trainingsactrice voor de Huisartsenopleiding van het AMC en voor de opleiding Verloskunde.
 

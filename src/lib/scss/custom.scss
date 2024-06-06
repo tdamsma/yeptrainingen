@@ -34,6 +34,8 @@ $enable-rounded: true;
 @import 'bootstrap/scss/bootstrap.scss';
 // @import 'bootstrap-vue/src/index.scss';
 @import 'materia_bootswatch.scss';
+@import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
 img.post-img {
 	width: calc(100% - 60px);

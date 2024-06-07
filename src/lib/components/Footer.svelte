@@ -1,3 +1,7 @@
+<script lang="ts">
+	import * as m from '$lib/paraglide/messages.js';
+</script>
+
 <template lang="pug">
     .jumbotron.jumbotron-fluid(style="background-color: #807d7d")
       .container
@@ -6,18 +10,18 @@
             h2 Site-map
             .row
               .col-sm-6
-                | &gt;&nbsp; #[a.link-geel(href="/") Yep] #[br]
-                | &gt;&nbsp; #[a.link-geel(href="/team") Ons team] #[br]
-                | &gt;&nbsp; #[a.link-geel(href="/trainingen") Trainingen] #[br]
-                | &gt;&nbsp; #[a.link-geel(href="/coaching") Coaching] #[br]
+                | &gt;&nbsp; #[a.link-geel(href="/") {m.footer_home()}] #[br]
+                | &gt;&nbsp; #[a.link-geel(href="/team") {m.footer_team()}] #[br]
+                | &gt;&nbsp; #[a.link-geel(href="/trainingen") {m.footer_trainings()}] #[br]
+                | &gt;&nbsp; #[a.link-geel(href="/coaching") {m.footer_coaching()}] #[br]
               .col-sm-6
-                | &gt;&nbsp; #[a.link-geel(href="/blog") Blog] #[br]
-                | &gt;&nbsp; #[a.link-geel(href="/tarieven") Tarieven] #[br]
-                | &gt;&nbsp; #[a.link-geel(href="/klachten") Klachten] #[br]
-                | &gt;&nbsp; #[a.link-geel(href="/contact") Contact] #[br]
+                | &gt;&nbsp; #[a.link-geel(href="/blog") {m.footer_blog()}] #[br]
+                | &gt;&nbsp; #[a.link-geel(href="/tarieven") {m.footer_tariffs()}] #[br]
+                | &gt;&nbsp; #[a.link-geel(href="/klachten") {m.footer_complaints()}] #[br]
+                | &gt;&nbsp; #[a.link-geel(href="/contact") {m.footer_contact()}] #[br]
           .col-md-1
           .col-md-3.text-light
-            h2.mb-4 Gegevens
+            h2.mb-4 {m.footer_gegevens()}
             p
               | Yep Trainingen #[br]
               |  #[br]
@@ -38,5 +42,5 @@
             a(href="https://www.linkedin.com/company/marijn-blaisse-trainingen", target="_blank")
               enhanced:img(src="/static/images/linkedin.png", alt="linkedin")
             p
-            | Telefoon: 085-7606266
+            | {m.footer_telefoon()}
 </template>

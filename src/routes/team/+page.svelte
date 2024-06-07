@@ -2,6 +2,7 @@
 	import { onMount } from 'svelte';
 	import type { ImageModule, TeamMemberModule, TeamMember } from '$lib/types';
 	import { languageTag } from '$lib/paraglide/runtime.js';
+	import * as m from '$lib/paraglide/messages.js';
 	const TeamMemberModulesNl = import.meta.glob('$content/team/*.nl.md', {
 		eager: true,
 		query: {
@@ -40,19 +41,16 @@
   div
     .jumbotron.jumbotron-fluid.yep-geel
       .row.justify-content-around
-        h1 Ons team
+        h1 {m.team_heading()}
 
     .container.mt-4
       p
-        | Yep is een klein, actief trainingsbureau gevestigd in Amsterdam en Voorburg. Wij verzorgen trainingen op het gebied van samenwerken en persoonlijke
-        | effectiviteit voor ambitieuze professionals. Het resultaat van onze trainingen staat altijd voorop. Wij streven naar de persoonlijke ontwikkeling van
-        | deze professionals, om zo de effectiviteit van organisaties te vergroten. Pas als dat lukt zijn wij tevreden!
+        | {m.team_paragraph1()}
 
-      .row.justify-content-around.mb-1
+      .row.justify-content-around.mb-4
         +each('members as member')
-         
           .col-sm-6.col-md-4.col-lg-3.mt-4.py-3.bg-white
-            enhanced:img.img-fluid(src="{imageModules[`${member.path}.jpg`].default}" alt="{member.meta.name}" title="{member.meta.name}")    
+            enhanced:img.img-fluid(src="{imageModules[`${member.path}.jpg`].default}" alt="{member.meta.name}" title="{member.meta.name}")
             h2.text-center.mt-1 {member.meta.name}
             svelte:component(this="{member.content}")
 </template>

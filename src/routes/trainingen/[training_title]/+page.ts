@@ -1,11 +1,18 @@
 import { fetchContent } from '$lib/utils';
+import { languageTag } from '$lib/paraglide/runtime.js';
+export async function load({ depends, params }) {
+	depends("paraglide:lang");
+	let post;
+	try {
+		post = await import(`$content/trainingen/${params.training_title}.${languageTag()}.md`);
+	} catch (error) {
+		post = await import(`$content/trainingen/_.${languageTag()}._.md`);
+	}
 
-export async function load({ params }) {
-	const post = await import(`$content/trainingen/${params.training_title}.md`);
 	const { title, date, img, springest } = post.metadata;
 	const content = post.default;
 
-	const allPosts = await fetchContent('trainingen');
+	const allPosts = await fetchContent('trainingen', languageTag());
 	const sortedPosts = allPosts.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
 
 	const currentIndex = sortedPosts.findIndex((p) => p.path === params.training_title);
@@ -21,12 +28,6 @@ export async function load({ params }) {
 		springest,
 		surroundingDocuments
 	};
-}
-
-/** @type {import('./$types').EntryGenerator} */
-export async function entries() {
-	const allPosts = await fetchContent('trainingen');
-	return allPosts.map((post) => ({ training_title: post.path }));
 }
 
 export const prerender = true;

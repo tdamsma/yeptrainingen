@@ -42,10 +42,10 @@
 	onMount(() => {
 		trainings = Object.entries(TrainingModules)
 			.map(([path, module]) => ({
-				path: path.replace(/\.nl\.md$/, ''),
+				path: path.replace(/\.(nl|en)\.md$/, ''),
 				name:
 					path
-						.replace(/\.nl\.md$/, '')
+						.replace(/\.(nl|en)\.md$/, '')
 						.split('/')
 						.pop() || path,
 				meta: module.metadata,

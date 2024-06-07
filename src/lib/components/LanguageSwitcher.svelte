@@ -17,19 +17,19 @@
 		nl: '🇳🇱',
 		en: '🇬🇧'
 	} as Record<AvailableLanguageTag, string>;
+	const currentLanguage = languageTag();
+	const newLanguage = currentLanguage === 'nl' ? 'en' : 'nl';
+	const buttonLabel = labels[newLanguage];
 </script>
 
 <div class="language-switcher">
-	<label class="label" for="language-select">Language:</label>
-	<select
-		id="language-select"
-		class="custom-select larger"
-		on:change={(e) => switchToLanguage(/** @type {any} */ (e).target.value)}
+	<button
+		class="language-button"
+		on:click={() => switchToLanguage(newLanguage)}
+		title="Switch language to {newLanguage.toUpperCase()}"
 	>
-		{#each availableLanguageTags as langTag}
-			<option value={langTag} selected={languageTag() === langTag}>{labels[langTag]}</option>
-		{/each}
-	</select>
+		{buttonLabel}
+	</button>
 </div>
 
 <style>
@@ -38,12 +38,10 @@
 		align-items: center;
 	}
 
-	.language-switcher label {
-		margin-right: 8px;
-		color: rgba(0, 0, 0, 0.5);
-		margin-top: 5px;
-	}
-	.larger {
+	.language-button {
 		font-size: 2rem;
+		background: none;
+		border: none;
+		cursor: pointer;
 	}
 </style>

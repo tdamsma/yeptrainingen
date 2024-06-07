@@ -55,7 +55,7 @@
       .jumbotron.jumbotron-fluid.yep-geel
         .row.justify-content-around
           h1 Blog
-      .container.mt-4.larger
+      .container.mt-4.mb-4.larger
         +each('blogs as blog')
           .card.mt-2.overflow-hidden.shadow-none.p-4(style="border: 1px solid #ddd; border-radius: 0.25rem;")
             .row.no-gutters

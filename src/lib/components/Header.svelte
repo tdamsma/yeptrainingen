@@ -1,5 +1,6 @@
 <script lang="ts">
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
+	import * as m from '$lib/paraglide/messages.js';
 </script>
 
 <template lang="pug">
@@ -14,15 +15,15 @@
             li.nav-item
               a.nav-link(href="/") Yep
             li.nav-item
-              a.nav-link(href="/team") Ons team
+              a.nav-link(href="/team") {m.header_ons_team()}
             li.nav-item
-              a.nav-link(href="/trainingen") Trainingen
+              a.nav-link(href="/trainingen") {m.header_trainingen()}
             li.nav-item
-              a.nav-link(href="/coaching") Coaching
+              a.nav-link(href="/coaching") {m.header_coaching()}
             li.nav-item
-              a.nav-link(href="/onze-aanpak") Onze aanpak
+              a.nav-link(href="/onze-aanpak") {m.header_onze_aanpak()}
             li.nav-item
-              a.nav-link(href="/blog") Blog
+              a.nav-link(href="/blog") {m.header_blog()}
           ul.navbar-nav.ml-auto
             li.nav-item
               LanguageSwitcher

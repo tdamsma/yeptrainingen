@@ -1,7 +1,8 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { TrainingModule, ImageModule, Training } from '$lib/types';
-
+	import { languageTag } from '$lib/paraglide/runtime.js';
+	import * as m from '$lib/paraglide/messages.js';
 	const imageModules = import.meta.glob(
 		'$content/trainingen/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{
@@ -12,12 +13,24 @@
 		}
 	) as Record<string, ImageModule>;
 
-	const trainingModules = import.meta.glob('$content/trainingen/*.nl.md', {
+	const TrainingModulesNl = import.meta.glob('$content/trainingen/*.nl.md', {
 		eager: true,
 		query: {
 			enhanced: true
 		}
 	}) as Record<string, TrainingModule>;
+	const TrainingModulesEn = import.meta.glob('$content/trainingen/*.en.md', {
+		eager: true,
+		query: {
+			enhanced: true
+		}
+	}) as Record<string, TrainingModule>;
+
+	const TrainingModulesMap = {
+		nl: TrainingModulesNl,
+		en: TrainingModulesEn
+	};
+	const TrainingModules = TrainingModulesMap[languageTag()];
 
 	let trainings: Training[] = [];
 
@@ -27,7 +40,7 @@
 	}
 
 	onMount(() => {
-		trainings = Object.entries(trainingModules)
+		trainings = Object.entries(TrainingModules)
 			.map(([path, module]) => ({
 				path: path.replace(/\.nl\.md$/, ''),
 				name:
@@ -46,17 +59,15 @@
     div
       .jumbotron.jumbotron-fluid.yep-geel
         .row.justify-content-around
-          h1 Trainingen
-  
+          h1 {m.training_titel()}
+
       .container.mb-5.mt-4
         p
-          | Yep verzorgt maatwerk trainingen voor gedreven professionals, waarin het vergroten van je kracht en effect centraal staat. Om een idee te krijgen van
-          | wat wij zoal kunnen bieden, kun je hieronder een kijkje nemen. Deze pagina kun je zien als ons portfolio: een aantal kenmerkende trainingen die wij
-          | eerder verzorgd hebben. Wil je weten wat we met jouw ontwikkeldoel kunnen? Dan is het handig om even contact op te nemen!
+          | {m.training_intro()}
         p.text-center
-          | Hier staan onze 
-          a.link-groen(href="/tarieven") tarieven
-        h2.text-center.mb-3.mt-5 Trainingsoverzicht
+          | {m.training_tarieven_text()} 
+          a.link-groen(href="/tarieven") {m.training_tarieven_link()}
+        h2.text-center.mb-3.mt-5 {m.training_overzicht()}
         .row.row-cols-1.row-cols-md-3
           +each('trainings as training')
             .col.mb-4

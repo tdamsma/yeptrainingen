@@ -45,7 +45,7 @@
 
     .container.mt-4
       p
-        | {m.team_paragraph1()}
+        | {m.team_paragraaf1()}
 
       .row.justify-content-around.mb-4
         +each('members as member')

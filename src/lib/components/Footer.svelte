@@ -12,12 +12,12 @@
               .col-sm-6
                 | &gt;&nbsp; #[a.link-geel(href="/") {m.footer_home()}] #[br]
                 | &gt;&nbsp; #[a.link-geel(href="/team") {m.footer_team()}] #[br]
-                | &gt;&nbsp; #[a.link-geel(href="/trainingen") {m.footer_trainings()}] #[br]
+                | &gt;&nbsp; #[a.link-geel(href="/trainingen") {m.footer_trainingen()}] #[br]
                 | &gt;&nbsp; #[a.link-geel(href="/coaching") {m.footer_coaching()}] #[br]
               .col-sm-6
                 | &gt;&nbsp; #[a.link-geel(href="/blog") {m.footer_blog()}] #[br]
-                | &gt;&nbsp; #[a.link-geel(href="/tarieven") {m.footer_tariffs()}] #[br]
-                | &gt;&nbsp; #[a.link-geel(href="/klachten") {m.footer_complaints()}] #[br]
+                | &gt;&nbsp; #[a.link-geel(href="/tarieven") {m.footer_tarieven()}] #[br]
+                | &gt;&nbsp; #[a.link-geel(href="/klachten") {m.footer_klachten()}] #[br]
                 | &gt;&nbsp; #[a.link-geel(href="/contact") {m.footer_contact()}] #[br]
           .col-md-1
           .col-md-3.text-light

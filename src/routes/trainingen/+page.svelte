@@ -65,8 +65,8 @@
         p
           | {m.training_intro()}
         p.text-center
-          | {m.training_tarieven_text()} 
-          a.link-groen(href="/tarieven") {m.training_tarieven_link()}
+          | {m.training_tarievenText()} 
+          a.link-groen(href="/tarieven") {m.training_tarievenLink()}
         h2.text-center.mb-3.mt-5 {m.training_overzicht()}
         .row.row-cols-1.row-cols-md-3
           +each('trainings as training')

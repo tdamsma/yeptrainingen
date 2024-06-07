@@ -15,13 +15,13 @@
             li.nav-item
               a.nav-link(href="/") Yep
             li.nav-item
-              a.nav-link(href="/team") {m.header_ons_team()}
+              a.nav-link(href="/team") {m.header_onsTeam()}
             li.nav-item
               a.nav-link(href="/trainingen") {m.header_trainingen()}
             li.nav-item
               a.nav-link(href="/coaching") {m.header_coaching()}
             li.nav-item
-              a.nav-link(href="/onze-aanpak") {m.header_onze_aanpak()}
+              a.nav-link(href="/onze-aanpak") {m.header_onzeAanpak()}
             li.nav-item
               a.nav-link(href="/blog") {m.header_blog()}
           ul.navbar-nav.ml-auto

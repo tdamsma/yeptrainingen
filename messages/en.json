@@ -121,5 +121,16 @@
     "klachten_solution_title": "The solution we propose",
     "klachten_solution_text": "We see a complaint as an opportunity to build a stronger relationship with the customer. Therefore, you can expect a generous solution from us.",
     "klachten_appeal_title": "Appeal option",
-    "klachten_appeal_text": "If the parties fail to reach a satisfactory solution, advice will be sought from an independent, expert third party. Their position will be binding on both parties. This person is Mr. P.K. Huige, Spadinalaan 94, Amsterdam."
+    "klachten_appeal_text": "If the parties fail to reach a satisfactory solution, advice will be sought from an independent, expert third party. Their position will be binding on both parties. This person is Mr. P.K. Huige, Spadinalaan 94, Amsterdam.",
+    "tarieven_title": "Rates",
+    "tarieven_yep_rek": "Yep charges:",
+    "tarieven_info1": "A half-day rate for providing training, for preparatory work, and a coaching rate.",
+    "tarieven_info2": "The training rates apply per group (3-12 people) and are exclusive of VAT. We charge a reduced coaching rate of 105 euros per hour for individuals (VAT-free) and freelancers (excl. VAT).",
+    "tarieven_info3": "We are registered with the CRKBO and therefore have the possibility to invoice VAT-free. If this is more convenient for your organization, let us know, and we will take this into account in the offer. However, we then increase the rates by 10% to cover the extra costs that this registration entails (both directly and indirectly). The net benefit for your organization is thus 11%.",
+    "tarieven_training": "Training",
+    "tarieven_training_price": "€550 per half day",
+    "tarieven_preparatory_work": "Preparatory work",
+    "tarieven_preparatory_work_price": "€400 per half day",
+    "tarieven_coaching": "Coaching",
+    "tarieven_coaching_price": "€150 per hour, minimum of 2 hours."
 }

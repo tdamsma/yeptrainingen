@@ -3,7 +3,7 @@ import { languageTag } from '$lib/paraglide/runtime.js';
 import type { BlogPost } from '$lib/types';
 
 export async function load({ depends, params }) {
-	depends("paraglide:lang");
+	depends('paraglide:lang');
 	let post;
 	try {
 		post = await import(`$content/blog/${params.blog_title}.${languageTag()}.md`);

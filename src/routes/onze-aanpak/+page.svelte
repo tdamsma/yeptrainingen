@@ -11,18 +11,22 @@
 	let data = kenmerkenMap[languageTag()];
 </script>
 
-<template lang="html">
+<template>
 	<div class="container-fluid m-0 p-0 bg-white">
 		<div class="jumbotron jumbotron-fluid yep-geel">
 			<div class="row justify-content-around">
 				<h1>{m.aanpak_title()}</h1>
 			</div>
 		</div>
-		<div class="row overflow-hidden max-height-550">
+		<div class="row overflow-hidden">
 			<div class="col-lg-6 overflow-hidden">
-				<enhanced:img class="fluid" src="/static/images/onze-aanpak-1.jpg" />
+				<enhanced:img
+					style="object-fit: cover; max-height: 600px; width: 100%"
+					class="fluid"
+					src="/static/images/onze-aanpak-1.jpg"
+				/>
 			</div>
-			<div class="col-lg-6 p-3 m-0">
+			<div class="col-lg-6 p-3 m-0 pl-4 pr-5" style="max-width: 800px;">
 				<h2>{m.aanpak_impact_title()}</h2>
 				<p>
 					{m.aanpak_impact_p1()}
@@ -60,7 +64,7 @@
 
 		<div class="jumbotron jumbotron-fluid mt-5 yep-grijs-donker bg-onze-aanpak">
 			<enhanced:img src="/static/images/onze-aanpak.jpg" />
-			<div class="row">
+			<div class="row mx-auto" style="max-width: 1600px">
 				{#each data as { kenmerk, aanpak }}
 					<div class="col-xl-6">
 						<div class="container">
@@ -97,25 +101,24 @@
 
 		<div class="jumbotron jumbotron-fluid bg-light">
 			<div class="row">
-				<div class="col-lg-6 p-4">
-					<h2 class="text-center">{m.aanpak_tips_title()}</h2>
-					<p>
-						{m.aanpak_tips_p1()}
-					</p>
-					<ul>
-						<li>
-							{m.aanpak_tips_ul1()}
-						</li>
-						<li>
-							{m.aanpak_tips_ul2()}
-						</li>
-						<li>
-							{m.aanpak_tips_ul3()}
-						</li>
-					</ul>
+				<div class="col-lg-6 p-4 d-flex justify-content-end">
+					<div class="content" style="max-width: 800px;">
+						<h2 class="text-center">{m.aanpak_tips_title()}</h2>
+						<p>{m.aanpak_tips_p1()}</p>
+						<ul>
+							<li>{m.aanpak_tips_ul1()}</li>
+							<li>{m.aanpak_tips_ul2()}</li>
+							<li>{m.aanpak_tips_ul3()}</li>
+						</ul>
+					</div>
 				</div>
-				<div class="col-lg-6 max-height-550 overflow-hidden">
-					<enhanced:img fluid="fluid" blank-color="#777" src="/static/images/IMG_2597.jpg" />
+				<div class="col-lg-6 overflow-hidden">
+					<enhanced:img
+						style="object-fit: cover; max-height: 400px; width: 100%"
+						fluid="fluid"
+						blank-color="#777"
+						src="/static/images/IMG_2597.jpg"
+					/>
 				</div>
 			</div>
 		</div>

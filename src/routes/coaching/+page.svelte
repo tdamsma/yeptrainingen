@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte';
 	import type { CoachingModule, ImageModule, Coaching } from '$lib/types';
-
+	import { languageTag } from '$lib/paraglide/runtime.js';
 	const imageModules = import.meta.glob(
 		'$content/coaching/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{
@@ -12,12 +12,24 @@
 		}
 	) as Record<string, ImageModule>;
 
-	const coachingModules = import.meta.glob('$content/coaching/*.nl.md', {
+	const coachingModulesNl = import.meta.glob('$content/coaching/*.nl.md', {
 		eager: true,
 		query: {
 			enhanced: true
 		}
 	}) as Record<string, CoachingModule>;
+	const coachingModulesEn = import.meta.glob('$content/coaching/*.en.md', {
+		eager: true,
+		query: {
+			enhanced: true
+		}
+	}) as Record<string, CoachingModule>;
+
+	const coachingModulesMap = {
+		en: coachingModulesEn,
+		nl: coachingModulesNl
+	};
+	const coachingModules = coachingModulesMap[languageTag()];
 
 	let coachings: Coaching[] = [];
 

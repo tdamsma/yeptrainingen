@@ -106,5 +106,20 @@
     "contact_email_placeholder": "your email address",
     "contact_submit": "Sign up",
     "contact_privacy": "We promise to handle your data carefully and never provide it to third parties!",
-    "contact_honeypot": "Leave this field empty if you're human:"
+    "contact_honeypot": "Leave this field empty if you're human:",
+    "klachten_title": "Complaints",
+    "klachten_expectations_title": "What can the customer expect from us?",
+    "klachten_expectations_text": "We provide courses and training designed in consultation (custom work). You can expect the course to closely align with your goals and that we will make adjustments if you change your goals or indicate that you meant something different along the way.",
+    "klachten_definition_title": "What do we mean by a complaint?",
+    "klachten_definition_text": "By a complaint, we mean a written statement explaining why the complainant believes they have been shortchanged.",
+    "klachten_submission_title": "Where should the complaint be submitted?",
+    "klachten_submission_text": "The management of Yep Trainingen, ,  or via info@yeptrainingen.nl",
+    "klachten_response_title": "Our response",
+    "klachten_response_text": "A written acknowledgment of receipt will be sent within 4 working days. Within 3 weeks of the acknowledgment, we will inform you of our position on the complaint. If we fail to do so, we will inform you in a timely manner and specify the new timeframe within which our position can be expected.",
+    "klachten_confidentiality_title": "Confidentiality and administration",
+    "klachten_confidentiality_text": "All documents sent to us will be treated confidentially. All expressed complaints and our responses to them will be kept in our archives for at least 5 years.",
+    "klachten_solution_title": "The solution we propose",
+    "klachten_solution_text": "We see a complaint as an opportunity to build a stronger relationship with the customer. Therefore, you can expect a generous solution from us.",
+    "klachten_appeal_title": "Appeal option",
+    "klachten_appeal_text": "If the parties fail to reach a satisfactory solution, advice will be sought from an independent, expert third party. Their position will be binding on both parties. This person is Mr. P.K. Huige, Spadinalaan 94, Amsterdam."
 }

@@ -1,24 +1,25 @@
+<script lang="ts">
+	import * as m from '$lib/paraglide/messages.js';
+</script>
+
 <template lang="html">
 	<div>
 		<div class="jumbotron jumbotron-fluid yep-geel">
 			<div class="container">
 				<div class="row justify-content-around">
-					<h1>Contact</h1>
+					<h1>{m.contact_title()}</h1>
 				</div>
 			</div>
 		</div>
 		<div class="container p-4 text-center">
-			<h2>Yep Trainingen</h2>
-			<p>
-				<br />
-				
-			</p>
-			<p>Neem voor informatie contact op:</p>
-			<p>Voor trainingsaanbod met Marijn: info@yeptrainingen.nl // 085-7606266</p>
-			<p>Voor coachingsaanbod met Anna: anna@yeptrainingen.nl // 0653628112</p>
-			<p><strong>KvK:</strong> 58989463</p>
-			<p><strong>BTW:</strong> NL154101643B02</p>
-			<p><strong>IBAN:</strong> NL49TRIO0254729886</p>
+			<h2>{m.contact_company_name()}</h2>
+			<p innerHTML={m.contact_address()}></p>
+			<p>{m.contact_information()}</p>
+			<p>{m.contact_training()}</p>
+			<p>{m.contact_coaching()}</p>
+			<p innerHTML={m.contact_kvk()}></p>
+			<p innerHTML={m.contact_vat()}></p>
+			<p innerHTML={m.contact_iban()}></p>
 		</div>
 
 		<div class="container_fluid mt-6 p-4 bg-white">
@@ -31,26 +32,36 @@
 					data-name="Volg onze nieuwsbrief"
 				>
 					<div class="mc4wp-form-fields">
-						<h2>Nieuwsbrief</h2>
+						<h2>{m.contact_newsletter_title()}</h2>
 						<p>
-							Blijf op de hoogte en meld je aan voor onze Nieuwsbrief (ongeveer 1x per kwartaal)
+							{m.contact_newsletter_text()}
 						</p>
 
 						<p>
-							<label>Naam</label><br />
-							<input type="text" name="NAAM" placeholder="voor- en achternaam" required="" />
+							<label>{m.contact_name_label()}</label><br />
+							<input
+								type="text"
+								name="NAAM"
+								placeholder={m.contact_name_placeholder()}
+								required=""
+							/>
 						</p>
 						<p>
-							<label>Emailadres: </label><br />
-							<input type="email" name="EMAIL" placeholder="je mailadres" required />
+							<label>{m.contact_email_label()}:</label><br />
+							<input
+								type="email"
+								name="EMAIL"
+								placeholder={m.contact_email_placeholder()}
+								required
+							/>
 						</p>
 						<p>
-							<input type="submit" value="Aanmelden" />
+							<input type="submit" value={m.contact_submit()} />
 						</p>
-						Wij beloven zorgvuldig om te gaan met je gegevens en deze nooit aan derden te verstrekken!
+						{m.contact_privacy()}
 					</div>
 					<label style="display: none !important"
-						>Laat dit veld leeg als je een mens bent:
+						>{m.contact_honeypot()}
 						<input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off" />
 					</label>
 					<input type="hidden" name="_mc4wp_timestamp" value="1639488557" />

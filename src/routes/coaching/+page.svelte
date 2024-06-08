@@ -2,6 +2,8 @@
 	import { onMount } from 'svelte';
 	import type { CoachingModule, ImageModule, Coaching } from '$lib/types';
 	import { languageTag } from '$lib/paraglide/runtime.js';
+	import * as m from '$lib/paraglide/messages.js';
+
 	const imageModules = import.meta.glob(
 		'$content/coaching/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{
@@ -58,17 +60,16 @@
     .jumbotron.jumbotron-fluid.yep-geel
       .container
         .row.justify-content-around
-          h1 Coaching
+          h1 {m.coaching_titel()}
     .container.mb-5.mt-4
       p
-        | Yep verzorgt coaching voor gedreven professionals waarin het vergroten van je kracht en effect centraal staat. Coaching biedt in twee gevallen uitkomst: wanneer jij (of je medewerker) een erg specifiek leerdoel hebt, waarbij een groepstraining niet nauw aansluit, of wanneer je behoefte hebt aan persoonlijke begeleiding. De coaching kan op zichzelf staan of een aanvulling vormen op een (talenten)programma. Om een idee te krijgen van de thema’s waarop wij andere professionals al hebben begeleid, kun je hieronder een kijkje nemen.
+        | {m.coaching_intro()}
       p
-        | Vraag je je af of wij je kunnen begeleiden met jouw specifieke ontwikkeldoel? Dan is het handig om even contact op te nemen! Hier staan onze tarieven. Alle trajecten zijn zowel online als face-to-face beschikbaar en geschikt voor zowel particulieren, ondernemers als medewerkers.
+        | {m.coaching_vraag()}
         br
-        | We werken doorgaans met een traject van 5 tot 8 sessies. Tijdens een kosteloze intake bepalen we de precieze aanpak.
-      h2.text-center.mb-3.mt-5 Coachingsmogelijkheden
+        | {m.coaching_werkwijze()}
+      h2.text-center.mb-3.mt-5 {m.coaching_overzicht()}
       .row.row-cols-1.row-cols-md-3
-
         +each('coachings as coaching')
           .col.mb-4
             .card.card-cascade.narrower.min-height-330
@@ -81,31 +82,29 @@
                 .card-body.card-body-cascade(style="min-height: 105px")
                   h4.card-title {coaching.meta.title}
                   a.stretched-link.font-bold(href="/coaching/{coaching.name}")
-
-   
     .container-fluid.p-0.m-0
       .container.mb-5.mt-4
         p
-          | Yep verzorgt coaching voor gedreven professionals waarin het vergroten van je kracht en effect centraal staat. Coaching biedt in twee gevallen uitkomst: wanneer jij (of je medewerker) een erg specifiek leerdoel hebt, waarbij een groepstraining niet nauw aansluit, of wanneer je behoefte hebt aan persoonlijke begeleiding. De coaching kan op zichzelf staan of een aanvulling vormen op een (talenten)programma. Om een idee te krijgen van de thema’s waarop wij andere professionals al hebben begeleid, kun je hieronder een kijkje nemen.
+          | {m.coaching_intro()}
         p
-          | Vraag je je af of wij je kunnen begeleiden met jouw specifieke ontwikkeldoel? Dan is het handig om even contact op te nemen! Hier staan onze tarieven. Alle trajecten zijn zowel online als face-to-face beschikbaar en geschikt voor zowel particulieren, ondernemers als medewerkers.
+          | {m.coaching_vraag()}
           br
-          | We werken doorgaans met een traject van 5 tot 8 sessies. Tijdens een kosteloze intake bepalen we de precieze aanpak.
-    .jumbotron.jumbotron-fluid.bg-white.m-0
-      .container-fluid
+          | {m.coaching_werkwijze()}
+    .jumbotron.bg-white.m-0
+      .container
         span.text-center
-          h2 Onze visie
+          h2 {m.coaching_visie()}
           p
-            | Een coachingstraject ziet er altijd anders uit. Veel mensen hebben aan een of twee sessies voldoende richting om weer zelfstandig verder te gaan. Anderen geven de voorkeur aan langdurig contact waarbij ze bijvoorbeeld kunnen sparren over steeds andere aspecten van hun functie of samenwerking. Hoewel de coaching zelf sterk kan verschillen in duur en inhoud is onze visie steeds hetzelfde. Wij geloven dat ieder zelf de informatie en vaardigheden in huis heeft om verder te komen met een plan of doel. Coaching helpt om de aandacht te richten, een stok achter de deur te hebben, te reflecteren, tot nieuw inzichten te komen, een overwogen keuze te maken. Dit zorgt ervoor dat een deelnemer zelf de controle houdt, keuzes maakt waar hij echt achter staat en niet afhankelijk wordt van de coach.
-      .jumbotron.jumbotron-fluid.bg-white.m-0
+          | {m.coaching_visie_text()}
+      .jumbotron.jumbotron.bg-white.m-0
         .row
           .col-lg-4
             enhanced:img.fluid(style="max-width: 100%; height: auto" src="/static/images/anna-stutje.jpg")
-          .col-lg-8.p-4
+          .col-lg-8.p-4(style="max-width: 800px;")
             p
-              | Als je aan de slag wilt met coaching, neem dan contact op met
-              a(rel="noreferrer noopener", href="/contact/", target="_blank") Anna Stutje
-              | . Zij is aangesloten bij de beroepsorganisatie voor coaches (NOBCO) en werkt volgens de Internationale Ethische Code voor coaches. Zij neemt de coaching op zich of brengt je in contact met één van de andere coaches.
+              | {m.coaching_contact()} 
+              a(rel="noreferrer noopener", href="/contact/", target="_blank") {m.coaching_anna()}
+              | . {m.coaching_anna_info()}
             p Coachees over Anna:
             p.rand-links-groen
               i “Anna heeft me geholpen om structuur aan te brengen in de crisis die ik ervaarde in mijn werkende leven. Ze houdt je bij de les en leert je te reflecteren waardoor de coachingssessies doeltreffend zijn. De opdrachten die je mee naar huis krijgt leveren enorm veel op. Het heeft er voor gezorgd dat ik belangrijke keuzes in mijn werk heb kunnen maken en mijn zelfinzicht gegroeid is. Een super fijne gesprekspartner die je laat groeien!” – Vera
@@ -115,17 +114,17 @@
               i “Anna heeft me geholpen bij het formuleren van mijn ‘Why’. Ik zie nu hoe belangrijk het is om een duidelijk beeld van mijn purpose te hebben. Dit heeft geleid tot een veel scherper beeld van de loopbaanstap die ik wil nemen en ik voel nu veel meer zelfvertrouwen om me in mijn netwerk te profileren. Ik heb daarnaast ook nog inzicht gekregen in verschillende kanten van mezelf die soms (ongewenst) de overhand nemen.” – Emma
       .row.bg-light
         .col-lg-3.text-center.p-4
-          h4 Intake
-          | We maken kennis, bepalen wat je wilt bereiken en stellen samen de aanpak vast.
+          h4 {m.coaching_intake()}
+          | {m.coaching_intake_text()}
         .col-lg-3.text-center.p-4
-          h4 Zelfonderzoek
-          | We gaan aan de slag met het vergroten van je zelfkennis om inzicht te krijgen in je verlangens, talenten, valkuilen en uitdagingen. Tussentijdse opdrachten helpen daarbij.
+          h4 {m.coaching_self_examination()}
+          | {m.coaching_self_examination_text()}
         .col-lg-3.text-center.p-4
-          h4 Versterken persoonlijk leiderschap
-          | Weten wat je anders wilt is één ding. Voelen dat je zelf invloed hebt is een belangrijke tweede, zodat je regie kan nemen over jouw situatie.
+          h4 {m.coaching_personal_leadership()}
+          | {m.coaching_personal_leadership_text()}
         .col-lg-3.text-center.p-4
-          h4 Borging
-          | Aan het eind van een traject kijken we vooruit en besteden we aandacht aan wat er nodig is om het geleerde ook in de toekomst in de praktijk te blijven brengen.
+          h4 {m.coaching_consolidation()}
+          | {m.coaching_consolidation_text()}
       enhanced:img.fluid(style="max-width: 100%; height: auto" src="/static/images/site-foto-1-of-1-3.jpg")
 </template>
 

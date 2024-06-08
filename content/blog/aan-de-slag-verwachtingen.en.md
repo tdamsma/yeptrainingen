@@ -1,5 +1,5 @@
 ---
-title: "Get to work: Your expectations are worth your while"
+title: 'Get to work: Your expectations are worth your while'
 img: aan-de-slag-1.jpg
 alt: Get to work
 date: 2020-06-03
@@ -10,9 +10,9 @@ tags:
   - resilience
   - expectations
 categories:
- - Effectiveness
- - Positive Psychology
-english_title: "Get to work: Your expectations are worth your while"
+  - Effectiveness
+  - Positive Psychology
+english_title: 'Get to work: Your expectations are worth your while'
 ---
 
 **Much has been written about the link between our expectations and our experience of happiness. Mo Gawdat even came up with a formula: _happiness = reality – expectations_ (The Logic of Happiness, 2017). This aligns with a series of scientifically based theories, studies, and publications (think of the cognitive behavioral therapy RET and the more recent ACT). If you're struggling with a particular issue, it is worthwhile to examine your expectations, either on your own or with a coach. With the exercises in this blog, you can start right away.**
@@ -25,9 +25,9 @@ We describe three steps you can take to examine your expectations in a structure
 
 ![two people wearing virtual reality glasses](./aan-de-slag-2.jpg)
 
-*   Step 1. Become aware of obstructive expectations.
-*   Step 2. Replace expectations with consciously chosen beliefs.
-*   Step 3. Increase commitment through inner decision.
+- Step 1. Become aware of obstructive expectations.
+- Step 2. Replace expectations with consciously chosen beliefs.
+- Step 3. Increase commitment through inner decision.
 
 The goal of these steps is to consciously choose the guidelines by which you will live. Our society is permeated with expectations. Think of the expectation to work hard and be productive. But how do you view productivity yourself? By consciously formulating your own perspective and deciding to use it as a guideline for your behavior, you can choose your own path with more confidence.
 
@@ -35,22 +35,22 @@ At the end of this blog, we outline the story of Suzan, who used the three steps
 
 **Common obstructive expectations**
 
-*   I must be liked by people around me.
-*   I must have my life in order.
-*   I must be as productive and useful as possible.
-*   I must be happy and grateful because I have it good.
+- I must be liked by people around me.
+- I must have my life in order.
+- I must be as productive and useful as possible.
+- I must be happy and grateful because I have it good.
 
 **Step 1. Become aware of expectations**
 
 Sometimes you already know which obstructive expectation is bothering you. In other cases, further investigation is needed. It is helpful to know clues that indicate an obstructive expectation; an idea of how you _should_ live. One clue is the word ‘must’. Obstructive expectations often have a compelling nature encapsulated in the word ‘must’. To gain insight into your obstructive expectations about your life, you can do the exercise below.
 
-*   a) Grab a pen and paper and complete the following sentence at least three times.
-    I must always… 
-    For example: I must always… be on time.
-*   b) Repeat the sentences you wrote down, but this time start the sentence three times with:
-    I have the thought that… 
-    For example: I have the thought that I must always be on time. Do you notice that with the second variant, you can look at your expectations with a bit more distance?
-*   c) In preparation for step 2: Read the sentences again and circle one of the sentences that you feel most tense about.
+- a) Grab a pen and paper and complete the following sentence at least three times.
+  I must always…
+  For example: I must always… be on time.
+- b) Repeat the sentences you wrote down, but this time start the sentence three times with:
+  I have the thought that…
+  For example: I have the thought that I must always be on time. Do you notice that with the second variant, you can look at your expectations with a bit more distance?
+- c) In preparation for step 2: Read the sentences again and circle one of the sentences that you feel most tense about.
 
 **Step 2: What is your belief? What do you find important?**
 

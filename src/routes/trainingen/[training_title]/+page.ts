@@ -1,7 +1,7 @@
 import { fetchContent } from '$lib/utils';
 import { languageTag } from '$lib/paraglide/runtime.js';
 export async function load({ depends, params }) {
-	depends("paraglide:lang");
+	depends('paraglide:lang');
 	let post;
 	try {
 		post = await import(`$content/trainingen/${params.training_title}.${languageTag()}.md`);

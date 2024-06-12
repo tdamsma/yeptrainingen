@@ -1,5 +1,6 @@
 <script lang="ts">
 	export let data;
+	import * as m from '$lib/paraglide/messages.js';
 
 	interface ImageModule {
 		default: string;
@@ -29,9 +30,9 @@ div
           .training-details-body
             svelte:component(this="{data.content}")
           div.text-center.pt-2
-            button.m-1.btn.btn-primary(title="Stuur een email" onclick="window.location.href='mailto:marijn@yeptrainingen.nl?subject=Informatieverzoek training: {data.title}';") Informeer
+            button.m-1.btn.btn-primary(title="Stuur een email" onclick="window.location.href='mailto:marijn@yeptrainingen.nl?subject=Informatieverzoek training: {data.title}';") {m.trainingen_informeer()}
             +if('data.springest')
-              button.m-1.btn.btn-primary(title="Via Springest" onclick="window.open(`{data.springest}#ervaringen`);") Meer Ervaringen
+              button.m-1.btn.btn-primary(title="Via Springest" onclick="window.open(`{data.springest}#ervaringen`);") {m.trainingen_ervaringen()}
       .col-lg-3.col-md-4.col-sm-5.sidebar
         +each('data.surroundingDocuments as surroundingdata')
           .card.mt-5.overflow-hidden.bg-dark.text-white

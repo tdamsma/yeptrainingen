@@ -2,6 +2,7 @@
 title: Communicatie en interactie
 img: communicatie-en-interactie-1.jpg
 alt: Anna Stutje coacht
+volgnummer: 2
 ---
 
 > “De relatie met collega's verloopt soms stroef. Ik wil bepaalde patronen leren herkennen en doorbreken. Zeker nu ik vanuit mijn functie veel met andere mensen moet samenwerken.”

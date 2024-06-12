@@ -2,6 +2,7 @@
 title: Coaching bij een talentprogramma
 img: coaching-en-talentprogrammas-1.jpg
 alt: Creatief groepsproces
+volgnummer: 4
 ---
 
 > "Hoe houden wij onze jonge talenten binnen boord? Kunnen we iets aanbieden waarmee talenten van elkaar leren en er tegelijkertijd ruimte is voor de specifieke uitdagingen van individuele medewerkers?"

@@ -94,10 +94,6 @@
           .col-lg-4
             enhanced:img.fluid(style="max-width: 100%; height: auto" src="/static/images/anna-stutje.jpg")
           .col-lg-8.p-4(style="max-width: 800px;")
-            p
-              | {m.coaching_contact()} 
-              a(rel="noreferrer noopener", href="/contact/", target="_blank") {m.coaching_anna()}
-              | . {m.coaching_anna_info()}
             p Coachees over Anna:
             p.rand-links-groen
               i “Anna heeft me geholpen om structuur aan te brengen in de crisis die ik ervaarde in mijn werkende leven. Ze houdt je bij de les en leert je te reflecteren waardoor de coachingssessies doeltreffend zijn. De opdrachten die je mee naar huis krijgt leveren enorm veel op. Het heeft er voor gezorgd dat ik belangrijke keuzes in mijn werk heb kunnen maken en mijn zelfinzicht gegroeid is. Een super fijne gesprekspartner die je laat groeien!” – Vera

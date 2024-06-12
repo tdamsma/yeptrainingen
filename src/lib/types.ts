@@ -88,6 +88,7 @@ export interface CoachingMeta {
 	title: string;
 	img: string;
 	alt: string;
+	volgnummer: number;
 }
 export interface Coaching {
 	path: string;

@@ -41,17 +41,18 @@
 	}
 
 	onMount(() => {
-		coachings = Object.entries(coachingModules).map(([path, module]) => ({
-			path: path.replace(/\.nl\.md$/, ''),
-			name:
-				path
-					.replace(/\.nl\.md$/, '')
-					.split('/')
-					.pop() || path,
-			meta: module.metadata,
-			content: module.default
-		}));
-		// .sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
+		coachings = Object.entries(coachingModules)
+			.map(([path, module]) => ({
+				path: path.replace(/\.nl\.md$/, ''),
+				name:
+					path
+						.replace(/\.nl\.md$/, '')
+						.split('/')
+						.pop() || path,
+				meta: module.metadata,
+				content: module.default
+			}))
+			.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
 	});
 </script>
 
@@ -82,14 +83,6 @@
                 .card-body.card-body-cascade(style="min-height: 105px")
                   h4.card-title {coaching.meta.title}
                   a.stretched-link.font-bold(href="/coaching/{coaching.name}")
-    .container-fluid.p-0.m-0
-      .container.mb-5.mt-4
-        p
-          | {m.coaching_intro()}
-        p
-          | {m.coaching_vraag()}
-          br
-          | {m.coaching_werkwijze()}
     .jumbotron.bg-white.m-0
       .container
         span.text-center

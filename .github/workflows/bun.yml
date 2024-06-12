@@ -1,4 +1,4 @@
-name: ci
+name: bun
 
 on:
   push:
@@ -17,12 +17,17 @@ jobs:
       - uses: actions/checkout@v4
 
       - uses: oven-sh/setup-bun@v1
+        with:
+          bun-version: latest
 
       - name: Install dependencies
         run: bun install --check-files
 
       - name: Run linting
         run: bun lint
+
+      - name: Check images
+        run: node ./check-images.js
 
       - name: Run build
         run: bun run build

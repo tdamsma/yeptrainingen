@@ -7,7 +7,9 @@ All structured content is in Markdown files that is converted to a static websit
 
 ## Develop
 
-npm run dev
+the repo is build with bun, but on windows you can use npm
+
+    npm run dev
 
 ## reduce image sizes
 

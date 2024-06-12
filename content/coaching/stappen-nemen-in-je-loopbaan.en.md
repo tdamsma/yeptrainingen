@@ -4,6 +4,7 @@ img: stappen-nemen-loopbaan-1.jpg
 alt: Text on a mood board saying Just start
 volgnummer: 1
 ---
+
 > “I often hear that I have more talent than I use. I want to better understand and utilize my qualities. Maybe I am ready for the next step.”
 
 Career coaching offers an opportunity for thorough self-examination. It involves exploring who you are, what meaningful work means to you, and what unique talents you possess. You will discover what is needed to take a step you previously didn't dare to take.

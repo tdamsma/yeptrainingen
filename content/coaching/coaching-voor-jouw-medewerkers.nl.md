@@ -24,5 +24,4 @@ Hoe ziet de inloopcoaching eruit? Op vaste dagen komt één van onze coaches naa
 Wat we ook aanbieden is een strippenkaart voor 5 of 10 coachgesprekken. Op die manier kun je als organisatie vooraf een aantal sessies inkopen en kunnen medewerkers zich vervolgens laagdrempelig zelf aanmelden. We kunnen afspraken maken over de manier waarop het aanmelden gebeurt en welke terugkoppeling we geven naar leidinggevenden en/of HR. Het grootste voordeel van de strippenkaart is dat er geen vertraging op de lijn zit: wanneer een collega bemerkt dat het tijd is voor een gesprek, kan direct contact met de coach gezocht worden.
 Ongebruikte strippen kunnen gecrediteerd worden.
 
-
 ![afbeelding stedelijk](./coaching-voor-jouw-medewerkers-2.jpg)

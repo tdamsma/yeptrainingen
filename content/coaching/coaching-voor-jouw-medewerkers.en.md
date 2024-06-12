@@ -4,6 +4,7 @@ img: coaching-voor-jouw-medewerkers-1.jpg
 alt: a standing conversation
 volgnummer: 5
 ---
+
 > ”A lot is happening on our work floor. This is a time when our employees could use some extra attention.”
 
 If you think it's important that people in your organization receive some extra guidance, then you want to organize it well. We are happy to think along with you or get started for you right away. Read below how!
@@ -21,8 +22,6 @@ What does walk-in coaching look like? On fixed days, one of our coaches comes to
 ## Coaching Punch card
 
 We also offer 'coaching punch cards' to organisations that want to facilitate easy access to coaching. We would like to tell you more about how it works!
-
-
 
 For some themes, it can be effective to work in a group setting. Take a look at our [training](/trainingen/) to get a better idea of what we can offer.
 

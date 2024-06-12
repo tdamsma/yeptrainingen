@@ -14,4 +14,3 @@ You want young talents to commit to your organization for a longer period by giv
 In our Talent Development Programs, participants learn to recognize their own talents, gain confidence in those talents, turn them into actions, and navigate a well-founded and independent course. In the lives of twenty- and thirty-somethings, so much can happen that coaching can help address doubts, obstacles, and life questions in a timely manner.
 
 ![image trees](./coaching-en-talentprogrammas-2.jpg)
-

@@ -1,7 +1,7 @@
 ---
 title: Coachend Begeleiden
 subtitle: Ondersteun je team in hun proactiviteit
-img: ccoachend-begeleiden-1.jpg
+img: coachend-begeleiden-1.jpg
 alt: Trainer legt iets uit aan de groep
 volgnummer: 4
 ---

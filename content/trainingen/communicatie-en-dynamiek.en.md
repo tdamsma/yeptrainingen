@@ -5,6 +5,7 @@ img: communicatie-1.jpg
 alt: laughing group doing improvisation
 volgnummer: 3
 ---
+
 We provide a lot of custom communication training. Too many to list them all separately on this overview page, which is why we summarize it in this section. We always tailor communication training to your needs and have many themes and experiences to draw from. So, please contact [Marijn@yeptrainingen.nl](mailto:Marijn@yeptrainingen.nl) to explain the group's needs and situation, and we will think along with you!
 
 What can a communication and dynamics training at Yep include?

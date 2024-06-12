@@ -16,7 +16,6 @@
 			<p innerHTML={m.contact_address()}></p>
 			<p>{m.contact_information()}</p>
 			<p>{m.contact_training()}</p>
-			<p>{m.contact_coaching()}</p>
 			<p innerHTML={m.contact_kvk()}></p>
 			<p innerHTML={m.contact_vat()}></p>
 			<p innerHTML={m.contact_iban()}></p>

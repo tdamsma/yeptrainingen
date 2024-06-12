@@ -8,7 +8,6 @@ volgnummer: 4
 
 Coachend begeleiden is een onderwerp dat in veel organisaties hoog op de agenda staat. Van brandweer, leerkracht, consultant tot zorgverlener: sturen door middel van sancties en beloningen blijkt niet goed te werken. In plaats van dat dit de inzet van de werknemer verhoogt, wordt voor een inspectie of audit snel schoon schip gemaakt. Hierdoor komen het organisatieresultaat, de veiligheid en de motivatie van werknemers in het geding.
 
-
 Coachend begeleiden geeft een nieuwe invalshoek. Door de medewerker door middel van vragen en met een betrokken houding te begeleiden gaat deze actiever reflecteren en is deze beter in staat adequate beslissingen te nemen. Beslissingen die bovendien ook goed passen bij de betreffende medewerker zelf. Op deze manier kan er lering worden getrokken uit successen, incidenten, klachten of meldingen. Dit is iets wat in organisaties die protocollair werken niet vanzelf sprekend is.
 Om de omslag te maken naar een coachende stijl van leiderschap, is er een gedragsverandering nodig in alle lagen van de organisatie. Dit is niet gemakkelijk, maar levert veel op! Benieuwd wat er in uw team nodig is voor een ommezwaai naar het positieve? Wij komen graag langs voor een persoonlijk gesprek om samen met u de mogelijkheden en kansen te inventariseren.
 Maak de beweging van aanspreken naar bespreken. Door middel van goede vragen kun je een ander helpen om zelf gemotiveerd tot oplossingen en actie te komen. Coachend begeleiden!

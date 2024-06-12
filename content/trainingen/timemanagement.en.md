@@ -5,6 +5,7 @@ img: timemanagement-1.jpg
 alt: 2 people in conversation
 volgnummer: 12
 ---
+
 Great ambitions, the young family life, the hustle and bustle of the day, uncertainties, and inexperience: these are reasons why almost every starter needs support in the area of time management. And this theme is not only relevant for young professionals: even with a lot of experience, time management remains a challenge. Simply because something new always comes your way. A reorganization, change of tasks or processes, caregiving...
 
 A feeling of dissatisfaction with what you achieve from your plans, or thoughts like: 'I’m going from fire to fire!', 'it’s survival', 'I’m at my max' are signals that it’s time to organize your days more efficiently!

@@ -6,6 +6,7 @@ alt: A group of trainees solve puzzle at a table
 springest: https://www.springest.nl/yep-trainingen-2/talent-ontwikkel-programma-top
 volgnummer: 1
 ---
+
 Our Talent Development Program (TDP) is our flagship program in which we help individuals and organizations achieve social impact. Starters with up to 6 years of work experience follow this intensive and broad program in a group of up to 12 participants. Everything related to personal effectiveness and collaboration in the workplace is covered. This enables participants to stand strongly in their organizations and make the impact they aim for.
 
 ![group TDP](./talent-ontwikkelprogramma-4.jpg)
@@ -17,7 +18,7 @@ The program is available in both an open and a customized versions. Participants
 
 > "An activating program with committed trainers. Sharp feedback, lots of variety, and also one-on-one sparring moments."
 
-You can find more information in our 
+You can find more information in our
 [brochure](../../Brochure-TOP-YEP.pdf). This is available in Dutch only.
 
 [![Brochure Talent Dev Program Yep Trainingen](./talent-ontwikkelprogramma-2.jpg)](../../Brochure-TOP-YEP.pdf)

@@ -19,6 +19,10 @@ Het kan zijn dat in jouw organisatie op dit moment veel speelt op een bepaald th
 
 Hoe ziet de inloopcoaching eruit? Op vaste dagen komt één van onze coaches naar kantoor en kunnen medewerkers zich intekenen voor een kort coachgesprek van 45 minuten. Samen met jou als opdrachtgever gaan we na wat inloopcoaching verder vraagt in termen van organisatie en communicatie aan medewerkers.
 
-Voor sommige thema's kan het effectief zijn om in groepsverband aan de slag te gaan. Kijk ook eens naar ons [trainingen](/trainingen/) om een beter beeld te krijgen van wat we kunnen aanbieden.
+## De Coaching strippenkaart
+
+Wat we ook aanbieden is een strippenkaart voor 5 of 10 coachgesprekken. Op die manier kun je als organisatie vooraf een aantal sessies inkopen en kunnen medewerkers zich vervolgens laagdrempelig zelf aanmelden. We kunnen afspraken maken over de manier waarop het aanmelden gebeurt en welke terugkoppeling we geven naar leidinggevenden en/of HR. Het grootste voordeel van de strippenkaart is dat er geen vertraging op de lijn zit: wanneer een collega bemerkt dat het tijd is voor een gesprek, kan direct contact met de coach gezocht worden.
+Ongebruikte strippen kunnen gecrediteerd worden.
+
 
 ![afbeelding stedelijk](./coaching-voor-jouw-medewerkers-2.jpg)

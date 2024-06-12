@@ -33,7 +33,7 @@ Als leider heb je vaak weinig tijd voor je eigen ontwikkeling. In dit coachingst
 
 > "Mijn agenda loopt over, ik ben constant brandjes aan het blussen en aan het eind van de dag heb ik het gevoel dat ik niet toegekomen ben aan hetgeen echt belangrijk voor me is."
 
-Voor sommigen is goed agendabeheer een vanzelfsprekendheid, voor anderen is het uitdagend terrein. Dit coachtraject heeft als doel te ontdekken wat jij nodig hebt om vanuit rust en overzicht te werken. En inderdaad, dat is voor iedereen wat anders. We gaan heel praktisch aan de slag met het slim organiseren van je werk en staan tegelijkertijd stil bij meer fundamentelere vragen: Met welke taken zou jij je agenda in een ideale wereld willen vullen?
+Zelfs in het leven van de meest georganiseerde persoon is er wel eens hernieuwde aandacht nodig voor timemanagement. Dit coachtraject heeft als doel te ontdekken wat jij nodig hebt om vanuit rust en overzicht te werken. En inderdaad, dat is voor iedereen wat anders. We gaan heel praktisch aan de slag met het slim organiseren van je werk en staan tegelijkertijd stil bij meer fundamentelere vragen: Met welke taken zou jij je agenda in een ideale wereld willen vullen?
 
 Lijkt het je wat om met dit onderwerp aan de slag te gaan in groepsverband? Volg dan onze [training](/trainingen/) over dit onderwerp.
 

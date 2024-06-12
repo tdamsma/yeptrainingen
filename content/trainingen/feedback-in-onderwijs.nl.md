@@ -3,7 +3,7 @@ title: Feedback geven in het onderwijs
 subtitle: Betrek collega's bij voortdurende kwaliteitsverbetering in het onderwijs.
 img: feedback-in-onderwijs-1.jpg
 alt: feedback gesprek tussen 2 leerkrachten
-volgnummer: 4
+volgnummer: 2
 ---
 
 Feedback geven is iets dat je in het onderwijs veel doet: stickers, krullen, strepen, doelgespreken, oudergesprekken, opdrachtbesprekingen en bijvoorbeeld collegiale consultatie zijn hier voorbeelden van. Maar hoe kom je als school met feedback tot **een duurzame verbetering van het onderwijs**? Daar komt best veel bij kijken en dit is ook afhankelijk van de situatie op jullie school. Wij brengen voor maatwerk programma’s graag onze ervaring in op het gebied van:

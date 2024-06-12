@@ -3,6 +3,6 @@ name: Marijn Damsma-Blaisse
 volgnummer: 1
 ---
 
-I am a psychologist-trainer and founder of Yep Trainingen. Working as a trainer is challenging and diverse for me – constantly searching for the context in which a person or group can experience and learn.
+I am a trainer with a background in psychology and I am the founder of Yep Trainingen. Working as a trainer is exciting, challenging and diverse for me. I am constantly searching for the context in which a person or group can experience their impact and learn.
 
-I am most familiar with the topics of communication, coaching skills, and personal effectiveness.
+I am most keen on the topics communication, coaching skills, and personal effectiveness.

@@ -3,7 +3,7 @@ title: Verbindend Beeldbellen
 Subtitle: Digitale oefeningen en gesprekstechnieken om goed contact te ervaren via het scherm.
 img: verbindend-beeldbellen-1.jpg
 alt: trainingsgroep doet online een spel met attributen erbij
-volgnummer: 7
+volgnummer: 21
 ---
 
 # Online - Verbindend beeldbellen

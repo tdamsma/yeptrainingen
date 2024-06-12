@@ -2,6 +2,7 @@
 title: Stappen nemen in je loopbaan
 img: stappen-nemen-loopbaan-1.jpg
 alt: Tekst op collage Just start
+volgnummer: 1
 ---
 
 > “Ik hoor vaak dat ik meer talent heb dan ik benut. Ik wil mijn kwaliteiten beter leren kennen en benutten. Misschien ben ik wel toe aan een volgende stap.”

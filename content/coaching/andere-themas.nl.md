@@ -2,6 +2,7 @@
 title: Andere Thema's
 img: andere-themas-1.jpg
 alt: Groep in gesprek
+volgnummer: 6
 ---
 
 Elk individu is anders en iedereen heeft zijn eigen unieke vragen en uitdagingen. Coaching bij Yep is dus altijd maatwerk. We geven je graag een beeld van thema's waarop veel anderen bij Yep al gecoacht zijn. Staat jouw vraag er niet tussen, twijfel dan niet en neem [contact](/contact/) op.

@@ -2,6 +2,7 @@
 title: Omgaan met stress
 img: coaching-omgaan-met-stress-1.jpg
 alt: 2 vrouwen in een coaching gesprek
+volgnummer: 3
 ---
 
 > "Ik ben constant to do’s aan het afwerken, voel me vaak gestresst en ervaar steeds minder van het plezier dat ik had toen ik ooit met dit werk begon”

@@ -2,6 +2,7 @@
 title: Coaching voor jouw medewerkers
 img: coaching-voor-jouw-medewerkers-1.jpg
 alt: staand gesprek
+volgnummer: 5
 ---
 
 > ”Er speelt veel bij ons op de werkvloer. Dit is een tijd waarin onze medewerkers wel wat extra aandacht kunnen gebruiken.”

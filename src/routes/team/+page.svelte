@@ -50,7 +50,7 @@
       .row.justify-content-around.mb-4
         +each('members as member')
           .col-sm-6.col-md-4.col-lg-3.mt-4.py-3.bg-white
-            enhanced:img.img-fluid(src="{imageModules[`${member.path}.jpg`].default}" alt="{member.meta.name}" title="{member.meta.name}")
+            enhanced:img.img-fluid(sizes="min(1280px, 100vw)" src="{imageModules[`${member.path}.jpg`].default}" alt="{member.meta.name}" title="{member.meta.name}")
             h2.text-center.mt-1 {member.meta.name}
             svelte:component(this="{member.content}")
 </template>

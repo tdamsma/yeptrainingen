@@ -61,7 +61,7 @@
             .row.no-gutters
               .col-lg-3.col-md-4
                 .square-img-container
-                  enhanced:img.square-img.rounded-circle(src="{imageModules[`/content/blog/${blog.meta.img}`].default}" alt="{blog.meta.alt}")
+                  enhanced:img.square-img.rounded-circle(sizes="min(1280px, 100vw)" src="{imageModules[`/content/blog/${blog.meta.img}`].default}" alt="{blog.meta.alt}")
               .col-lg-9.col-md-8(style="display: flex; flex-direction: column; justify-content: center;")
                 .card-body(style="display: flex; flex-direction: column; justify-content: center;")
                   h2.card-title {blog.meta.title}

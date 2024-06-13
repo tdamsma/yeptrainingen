@@ -92,7 +92,7 @@
       .jumbotron.jumbotron.bg-white.m-0
         .row
           .col-lg-4
-            enhanced:img.fluid(style="max-width: 100%; height: auto" src="/static/images/anna-stutje.jpg")
+            enhanced:img.fluid(sizes="min(1280px, 100vw)" style="max-width: 100%; height: auto" src="/static/images/anna-stutje.jpg")
           .col-lg-8.p-4(style="max-width: 800px;")
             p Coachees over Anna:
             p.rand-links-groen
@@ -114,7 +114,7 @@
         .col-lg-3.text-center.p-4
           h4 {m.coaching_consolidation()}
           | {m.coaching_consolidation_text()}
-      enhanced:img.fluid(style="max-width: 100%; height: auto" src="/static/images/site-foto-1-of-1-3.jpg")
+      enhanced:img.fluid(sizes="min(1280px, 100vw)" style="max-width: 100%; height: auto" src="/static/images/site-foto-1-of-1-3.jpg")
 </template>
 
 <style>

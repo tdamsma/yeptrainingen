@@ -57,7 +57,7 @@
 .container-fluid.container-left
   .row.p-0
     .col-md-6.p-0(style="height: 300px; overflow: hidden")
-      enhanced:img.img-fluid(
+      enhanced:img.img-fluid(sizes="min(1280px, 100vw)" 
         src="/static/images/training-yep.jpg"
         style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto;"
         alt="Training Image"
@@ -78,7 +78,7 @@
         h2 {m.home_uitgelicht()}
         a(href="/trainingen/talent-ontwikkelprogramma" class="d-block mt-2")
           .square-img-container.text-left
-            enhanced:img.square-img.thumbnail(
+            enhanced:img.square-img.thumbnail(sizes="min(1280px, 100vw)" 
               src="/static/images/uitgelicht1.png"
               alt="Uitgelicht met burealamp"
             )
@@ -91,7 +91,7 @@
         h2 {m.home_laatsteBlog()}
         a(href=`/blog/{blog.name}`)
           .square-img-container.text-left
-            enhanced:img.square-img.thumbnail(src="{imageModules[`/content/blog/${blog.meta.img}`].default}"  alt="{blog.alt}")
+            enhanced:img.square-img.thumbnail(sizes="min(1280px, 100vw)" src="{imageModules[`/content/blog/${blog.meta.img}`].default}"  alt="{blog.alt}")
           | {blog.meta.title} >>
 
 .container-fluid.container-right.m-0
@@ -104,30 +104,30 @@
       br
     .col-md.p-0
       .float-right(style="max-width: 500px; width: 100%")
-        enhanced:img.img-fluid(src="/static/images/Trainers_van_YEP-1.png" alt="Trainers van YEP")
+        enhanced:img.img-fluid(sizes="min(1280px, 100vw)" src="/static/images/Trainers_van_YEP-1.png" alt="Trainers van YEP")
 
 .jumbotron.jumbotron-fluid.yep-grijs-donker
   Opdrachtgevers
 
 .container-fluid.p-0
-  enhanced:img.img-fluid(src="/static/images/site-foto-1-of-1-3.jpg" alt="Site Photo")
+  enhanced:img.img-fluid(sizes="min(1280px, 100vw)" src="/static/images/site-foto-1-of-1-3.jpg" alt="Site Photo")
 
 .jumbotron.jumbotron-fluid.yep-grijs-donker
   .container.text-light.border-top.border-bottom
     h1.text-center.my-4 {m.home_yepTrainingsBureau()}
     .row.justify-content-around.my-5
       .col-md-3.text-center
-        enhanced:img.img-fluid(src="/static/images/wereldbol.png" alt="Maatschappelijk")
+        enhanced:img.img-fluid(sizes="min(1280px, 100vw)" src="/static/images/wereldbol.png" alt="Maatschappelijk")
         br
         h2.mt-2 {m.home_maatschappelijk()}
         p {m.home_jouwImpactIsOnsDoel()}
       .col-md-3.text-center
-        enhanced:img.img-fluid(src="/static/images/megafoon.png" alt="Actief")
+        enhanced:img.img-fluid(sizes="min(1280px, 100vw)" src="/static/images/megafoon.png" alt="Actief")
         br
         h2.mt-2 {m.home_actief()}
         p {m.home_lerenDoorTeExperimenteren()}
       .col-md-3.text-center
-        enhanced:img.img-fluid(src="/static/images/puzzle.png" alt="Flexibel")
+        enhanced:img.img-fluid(sizes="min(1280px, 100vw)" src="/static/images/puzzle.png" alt="Flexibel")
         br
         h2.mt-2 {m.home_flexibel()}
         p {m.home_jouwOntwikkelVraagStaatCentraal()}
@@ -140,12 +140,12 @@
       .col-md-4.bg-light.py-2.mb-2.text-center
         h2.mb-3 {m.home_trainingen()}
         a(href="trainingen" class="d-block mt-2")
-          enhanced:img.img-fluid.lazyload(src="/static/images/trainings-overzicht.png" alt="Trainingen")
+          enhanced:img.img-fluid.lazyload(sizes="min(1280px, 100vw)" src="/static/images/trainings-overzicht.png" alt="Trainingen")
           p.mt-2 {m.home_leesMeer()} >>
       .col-md-4.bg-light.py-2.mb-2.text-center
         h2.mb-3 {m.home_coaching()}
         a(href="coaching" class="d-block mt-2")
-          enhanced:img.img-fluid.lazyload(src="/static/images/omgaanmetstress.jpg" alt="Coaching")
+          enhanced:img.img-fluid.lazyload(sizes="min(1280px, 100vw)" src="/static/images/omgaanmetstress.jpg" alt="Coaching")
           p.mt-2 {m.home_leesMeer()} >>
 
 </template>

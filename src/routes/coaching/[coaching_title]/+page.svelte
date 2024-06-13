@@ -24,7 +24,7 @@ div
         .container
           .text-center.mb-4
             +if('data.img')
-              enhanced:img.img-fluid(style="object-fit: contain; max-height: 800px; " src="{imageModules[`/content/coaching/${data.img}`].default}" alt="{data.alt}")
+              enhanced:img.img-fluid(sizes="min(1280px, 100vw)" style="object-fit: contain; max-height: 800px; " src="{imageModules[`/content/coaching/${data.img}`].default}" alt="{data.alt}")
           h2 {data.title}
          
           .coaching-details-body
@@ -32,7 +32,7 @@ div
       .col-lg-3.col-md-4.col-sm-5.sidebar
         +each('data.surroundingDocuments as surroundingdata')
           .card.mt-5.overflow-hidden.bg-dark.text-white
-            enhanced:img.card-img-top.rounded-0(src="{imageModules[`/content/coaching/${surroundingdata.meta.img}`].default}"	 alt="{surroundingdata.meta.alt}")
+            enhanced:img.card-img-top.rounded-0(sizes="min(1280px, 100vw)" src="{imageModules[`/content/coaching/${surroundingdata.meta.img}`].default}"	 alt="{surroundingdata.meta.alt}")
             .card-body.p-3
               h5.smalltext.card-title {surroundingdata.meta.title}
             a.stretched-link.font-bold(href=`/coaching/{surroundingdata.path}`)

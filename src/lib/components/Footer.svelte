@@ -31,16 +31,16 @@
               | IBAN: NL49TRIO0254729886 #[br]
           .col-md-1
           .col-md-3.text-light
-            enhanced:img(src="/static/images/Logo-Yep-300x122.png", alt="yeptrainingen")
+            enhanced:img(sizes="min(1280px, 100vw)" src="/static/images/Logo-Yep-300x122.png", alt="yeptrainingen")
             p
             a(href="mailto:info@yeptrainingen.nl", target="_blank")
-              enhanced:img(src="/static/images/email.png", alt="email")
+              enhanced:img(sizes="min(1280px, 100vw)" src="/static/images/email.png", alt="email")
             a(href="https://www.facebook.com/Yeptrainingen", target="_blank")
-              enhanced:img(src="/static/images/facebook.png", alt="facebook")
+              enhanced:img(sizes="min(1280px, 100vw)" src="/static/images/facebook.png", alt="facebook")
             a(href="https://twitter.com/yeptrainingen", target="_blank")
-              enhanced:img(src="/static/images/twitter.png", alt="twitter")
+              enhanced:img(sizes="min(1280px, 100vw)" src="/static/images/twitter.png", alt="twitter")
             a(href="https://www.linkedin.com/company/marijn-blaisse-trainingen", target="_blank")
-              enhanced:img(src="/static/images/linkedin.png", alt="linkedin")
+              enhanced:img(sizes="min(1280px, 100vw)" src="/static/images/linkedin.png", alt="linkedin")
             p
             | {m.footer_telefoon()}
 </template>

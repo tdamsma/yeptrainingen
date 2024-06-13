@@ -11,7 +11,6 @@ the repo is build with bun, but on windows you can use npm
 
     npm run dev
 
-
 ## reduce image sizes
 
 The following command will resize all images in the current directory to a maximum width of 2200 pixels using ImageMagick.

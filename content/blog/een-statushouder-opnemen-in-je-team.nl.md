@@ -27,7 +27,7 @@ Naast dat het gewoon heel mooi is om iemand na een zware periode een kans te gev
 
 Hieronder het voorbeeld van Omar die na een speeddate van de Refugee Talent Hub bij een ingenieursadviesbureau aan de slag ging. Daar kreeg hij naast begeleiding in zijn team ook een incompany traject van Yep Trainingen aangeboden, samen met nog enkele statushouders die als constructeur of ingenieur aan het werk gingen: _Thuis in de Nederlandse werkcultuur_. Beiden kijken positief terug op het onboarding proces dat ook heeft geleid tot een lange termijn dienstverband.
 
-![Een statushouder met diens leidinggevende](./een-statushouder-opnemen-3.jpg)
+![Een statushouder met diens leidinggevende](./een-statushouder-opnemen-3.png)
 
 ## Met welke regelgeving moet ik rekening houden als ik een statushouder in dienst wil nemen?
 

@@ -53,7 +53,12 @@ const config = {
 		}),
 		alias: {
 			$content: path.resolve('content')
-		}
+		},
+		prerender: {
+			origin: "https://www.yeptrainingen.nl",
+			entries: ['*', '/en'],
+			crawl: true,
+		},
 	}
 };
 

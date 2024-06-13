@@ -7,9 +7,9 @@ springest: https://www.springest.nl/yep-trainingen-2/train-de-trainer
 volgnummer: 5
 ---
 
-Our Train-the-trainer is an accessible four-session course in which we cover the most important basics for delivering effective and enjoyable training. The course is based on the UvA Psychology Master's program 'Training and Development', which our trainers have completed. It is conducted in small groups of three to six people, allowing participants to effectively achieve their own learning goals. Check out the [brochure](./../Brochure-Train-de-trainer-Yep.pdf). We will outline our essential course below. Please note that we also offer advanced modules for experienced trainers upon request.
+Our Train-the-trainer is an accessible four-session course in which we cover the most important basics for delivering effective and enjoyable training. The course is based on the UvA Psychology Master's program 'Training and Development', which our trainers have completed. It is conducted in small groups of three to six people, allowing participants to effectively achieve their own learning goals. Check out the [brochure](../../Brochure-Train-de-trainer-Yep.pdf). We will outline our essential course below. Please note that we also offer advanced modules for experienced trainers upon request.
 
-[![Brochure](./train-de-trainer-2.jpg)](./../Brochure-Train-de-trainer-Yep.pdf)
+[![Brochure](./train-de-trainer-2.jpg)](../../Brochure-Train-de-trainer-Yep.pdf)
 
 # The structure of the Train-the-trainer course is as follows:
 

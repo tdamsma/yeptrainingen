@@ -53,6 +53,6 @@ Wil je deze informatie toepassen in je eigen leven? Pak dan meteen pen en papier
 
 Wil je meer sturing bij het veranderen van je eigen gedrag? Vraag dan vrijblijvend een coachingsgesprek aan.
 
-Wil je eerst het doel helder hebben waar je aan wilt werken? Kijk dan eens naar de training [‘van Droom naar Doel’](../trainingen/droom-naar-doel) van Yep Trainingen.
+Wil je eerst het doel helder hebben waar je aan wilt werken? Kijk dan eens naar de training [‘van Droom naar Doel’](../../trainingen/droom-naar-doel) van Yep Trainingen.
 
 Dit was een gastblog van Gusta Marcus. Eindredactie: Marijn Damsma Bronnen: Adriaanse, M.A., Vinkers, C.D.W., De Ridder, D.T.D., Hox, J.J., & De Wit, J.B.F. (2011). Do implementation intentions help toe at a healthy diet? A systematic review and meta-analysis of the empirical evidence. _Appetite_, 56, 183 – 193. Webb, T.L., & Sheeran, P. (2001). Can implementation intentions help to overcome ego-depletion? _Journal of Experimental Social Psychology_, 39, 297-286.

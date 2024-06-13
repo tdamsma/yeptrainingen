@@ -7,7 +7,7 @@
     nav.navbar.navbar-expand-lg.navbar-light.bg-light
       .container.d-flex.justify-content-between
         a.navbar-brand(href="/")
-          enhanced:img.ml-2(src="/static/images/Logo-Yep-300x122.png", alt="yeptrainingen")
+          enhanced:img.ml-2(sizes="min(1280px, 100vw)" src="/static/images/Logo-Yep-300x122.png", alt="yeptrainingen")
         button.navbar-toggler.mr-2(type="button", data-toggle="collapse", data-target="#nav-collapse", aria-controls="nav-collapse", aria-expanded="false", aria-label="Toggle navigation")
           span.navbar-toggler-icon
         #nav-collapse.collapse.navbar-collapse

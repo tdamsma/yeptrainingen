@@ -1,6 +1,20 @@
 <script lang="ts">
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
 	import * as m from '$lib/paraglide/messages.js';
+	import { writable } from 'svelte/store';
+	const isMenuOpen = writable(false);
+
+	let menuOpen;
+
+	// Subscribe to the store
+	isMenuOpen.subscribe((value) => {
+		menuOpen = value;
+	});
+
+	// Function to toggle the menu
+	function toggleMenu() {
+		isMenuOpen.update((n) => !n);
+	}
 </script>
 
 <template lang="pug">
@@ -8,9 +22,15 @@
       .container.d-flex.justify-content-between
         a.navbar-brand(href="/")
           enhanced:img.ml-2(sizes="min(1280px, 100vw)" src="/static/images/Logo-Yep-300x122.png", alt="yeptrainingen")
-        button.navbar-toggler.mr-2(type="button", data-toggle="collapse", data-target="#nav-collapse", aria-controls="nav-collapse", aria-expanded="false", aria-label="Toggle navigation")
+        button.navbar-toggler.mr-2(
+          type="button", 
+          on:click="{toggleMenu}", 
+          aria-controls="nav-collapse", 
+          aria-expanded="{menuOpen}", 
+          aria-label="Toggle navigation"
+          )
           span.navbar-toggler-icon
-        #nav-collapse.collapse.navbar-collapse
+        #nav-collapse.collapse.navbar-collapse(class="{ menuOpen ? 'show' : '' }" )
           ul.navbar-nav.ml-4
             li.nav-item
               a.nav-link(href="/") Yep

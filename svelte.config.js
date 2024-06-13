@@ -55,10 +55,10 @@ const config = {
 			$content: path.resolve('content')
 		},
 		prerender: {
-			origin: "https://www.yeptrainingen.nl",
+			origin: 'https://www.yeptrainingen.nl',
 			entries: ['*', '/en'],
-			crawl: true,
-		},
+			crawl: true
+		}
 	}
 };
 

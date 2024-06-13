@@ -17,17 +17,17 @@ export const i18n = createI18n(runtime, {
 			en: '/our-approach'
 		}
 	},
-	prefixDefaultLanguage: "never",
+	prefixDefaultLanguage: 'never',
 	exclude: [
-		"/Brochure Krachtige Jongvereniging.pdf",
-		"/Brochure Transitieversnellers NederlandinTransitie.pdf",
-		"/Brochure-PEP Yep.pdf",
-		"/Brochure-TOP-YEP.pdf",
-		"/Brochure-Train-de-trainer-Yep.pdf",
-		"/Brochure-Train-de-trainer-Yep.pdf",
-		"/CRKBO_erkenning.jpg",
-		"/favicon.png",
-		"/NL_Ontmoet Yep.pdf",
-		"/images",
+		'/Brochure Krachtige Jongvereniging.pdf',
+		'/Brochure Transitieversnellers NederlandinTransitie.pdf',
+		'/Brochure-PEP Yep.pdf',
+		'/Brochure-TOP-YEP.pdf',
+		'/Brochure-Train-de-trainer-Yep.pdf',
+		'/Brochure-Train-de-trainer-Yep.pdf',
+		'/CRKBO_erkenning.jpg',
+		'/favicon.png',
+		'/NL_Ontmoet Yep.pdf',
+		'/images'
 	]
 });

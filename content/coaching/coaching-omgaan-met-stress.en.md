@@ -23,4 +23,4 @@ In short: if you want to get better at dealing with stress, our coaching is an o
 
 Do you see yourself working on this topic in a group setting and getting inspired by others? That is also possible.
 
-![image clouds](./coaching-omgaan-met-stress-2.jpeg)
+![image clouds](./coaching-omgaan-met-stress-2.jpg)

@@ -1,6 +1,5 @@
 name: bun
 
-
 on:
   push:
     branches:

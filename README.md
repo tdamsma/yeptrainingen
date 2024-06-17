@@ -7,7 +7,7 @@ All structured content is in Markdown files that is converted to a static websit
 
 ## Develop
 
-the repo is build with bun, but on windows you can use npm
+the repo is built with bun, but on windows you can use npm
 
     npm run dev
 

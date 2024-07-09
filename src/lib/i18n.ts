@@ -18,11 +18,5 @@ export const i18n = createI18n(runtime, {
 		}
 	},
 	prefixDefaultLanguage: 'never',
-	exclude: [
-		'/CRKBO_erkenning.jpg',
-		'/favicon.png',
-		/^\/images\/.*/,
-		/^\/_nuxt\/.*/,
-		/\.pdf$/,
-	]
+	exclude: ['/CRKBO_erkenning.jpg', '/favicon.png', /^\/images\/.*/, /^\/_nuxt\/.*/, /\.pdf$/]
 });

@@ -125,11 +125,11 @@
 	"tarieven_yep_rek": "Yep charges:",
 	"tarieven_info1": "A half-day rate for providing training, for preparatory work, and a coaching rate.",
 	"tarieven_info2": "The training rates apply per group (3-12 people) and are exclusive of VAT.",
-	"tarieven_info3": "We are registered with the Dutch CRKBO system and therefore have the possibility to invoice VAT-free. If this is more convenient for your organization, let us know, and we will take this into account in the offer. However, we then increase the rates by 10% to cover the extra costs that this registration entails (both directly and indirectly). The net benefit for your organization is thus 11%.",
+	"tarieven_info3": "We are registered with the Dutch CRKBO system and therefore have the possibility to invoice VAT-free. If this is more convenient for your organization, let us know, and we will take this into account in the offer.",
 	"tarieven_training": "Training",
-	"tarieven_training_price": "€550 per half day",
+	"tarieven_training_price": "€650 per half day",
 	"tarieven_preparatory_work": "Preparatory work",
-	"tarieven_preparatory_work_price": "€400 per half day",
+	"tarieven_preparatory_work_price": "€460 per half day",
 	"tarieven_coaching": "Coaching",
-	"tarieven_coaching_price": "€150 per hour"
+	"tarieven_coaching_price": "€165 per hour"
 }

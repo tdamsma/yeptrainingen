@@ -3,7 +3,7 @@ title: Feedback in schools
 subtitle: Involve colleagues in continuous quality improvement in education.
 img: feedback-in-onderwijs-1.jpg
 alt: feedback gesprek tussen 2 leerkrachten
-volgnummer: 2
+volgnummer: 3
 ---
 
 Providing feedback is something you do a lot in education: stickers, stars, goal setting, parent-teacher meetings, assignment reviews, and peer consultations are examples. But how does your school use feedback to achieve **sustainable improvement in education**? This involves a lot and also depends on your school's situation. We are happy to bring our experience in the following areas for customized programs:

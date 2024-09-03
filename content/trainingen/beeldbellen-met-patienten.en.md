@@ -2,7 +2,7 @@
 title: 'Online - Video consultations with patients'
 img: beeldbellen-met-patienten-1.jpg
 alt: doctor speaking with patient on screen
-volgnummer: 6
+volgnummer: 20
 ---
 
 **In the training Video consultations with patients, you will learn as a general practitioner, specialist, or other healthcare provider how to handle various situations in remote patient consultations. Healthcare providers can practice this in small online groups. For Netherlands-based general practitioners and practice nurses, we can offer the accredited training through the Dutch institute: LHV.**

@@ -2,7 +2,7 @@
 title: 'Online - Beeldbellen met patienten'
 img: beeldbellen-met-patienten-1.jpg
 alt: arts-patient gesprek achter laptop
-volgnummer: 6
+volgnummer: 20
 ---
 
 **In de training Beeldbellen met patiënten, leer je als huisarts, specialist, of andere zorgverlener omgaan met diverse actuele situaties in patiëntconsulten op afstand. Zorgverleners kunnen hiermee in kleine groepjes online oefenen. Voor huisartsen en POH'ers kunnen wij de training geaccrediteerd aanbieden via het LHV**

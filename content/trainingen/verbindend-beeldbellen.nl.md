@@ -8,13 +8,13 @@ volgnummer: 21
 
 # Online - Verbindend beeldbellen
 
-Beeldbellen – het werkt en de techniek is zo onder de knie. Maar hoe bereik je nou diezelfde mate van contact en verbinding met de anderen?
+Organisaties hebben na corona vastgehouden aan videobellen en vergaderen op afstand. Het werkt, is praktisch en de techniek is zo onder de knie. Maar hoe bereik je nou diezelfde mate van contact en verbinding met de anderen? Voor teams die op afstand van elkaar werken of professionals die met clienten goede gesprekken willen voeren loont het om stil te staan bij het zoeken van de verbinding in het digitale samenzijn. 
 
 ![afbeelding verbindend beeldbellen](./verbindend-beeldbellen-2.png)
 
 In maatwerk trainingen rondom dit thema gaan we met de groep de uitdaging aan om aan de hand van enkele praktijksimulaties te ervaren hoe digitaal contact prettiger en effectiever wordt.
 
-Digitale gesprekstechnieken staan centraal. Hierbij kun je denken aan het welkom heten van een nieuwe collega of klant, het reageren op non-verbaal gedrag, het opvangen van emoties, het bieden van structuur in het gesprek, het activeren van je team/gesprekspartner, e.d. Ook het uitproberen van digitale tools en werkvormen behoort tot de mogelijkheden!
+Digitale gesprekstechnieken staan centraal. Hierbij kun je denken aan het welkom heten van een nieuwe collega of klant, het reageren op non-verbaal gedrag, het opvangen van emoties, het bieden van structuur in het gesprek, het activeren van je team/gesprekspartner, e.d. Ook het uitproberen van digitale tools en teambuilding werkvormen behooren tot de mogelijkheden!
 
 Renske:
 

@@ -3,7 +3,7 @@ title: Hybride bijeenkomsten begeleiden
 subtitle: Krijg in 1 ochtend deze vergadervorm onder de knie.
 img: hybride-bijeenkomsten-begeleiden-1.jpg
 alt: 2 personen aan vergadertafel overleggen met 3 personen op een groot scherm
-volgnummer: 2
+volgnummer: 22
 ---
 
 Trainingen, vergaderingen en bijeenkomsten vinden sinds de coronatijd regelmatig met een gemixt gezelschap plaats: een deel van de mensen is fysiek aanwezig, een ander deel logt online in.

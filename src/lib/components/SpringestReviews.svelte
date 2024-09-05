@@ -102,6 +102,8 @@
 </div>
 
 {#if modalVisible}
+	<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+	<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 	<div
 		class="modal"
 		role="dialog"

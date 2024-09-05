@@ -10,7 +10,6 @@ volgnummer: 21
 
 Organizations have continued using video calls and remote meetings after the pandemic. It works, is practical, and the technology is easy to master. But how do you achieve the same level of contact and connection with others? For teams working remotely or professionals who want to have meaningful conversations with clients, it is worthwhile to consider how to foster connection in digital interactions.
 
-
 ![afbeelding verbindend beeldbellen](./verbindend-beeldbellen-2.png)
 
 In custom training sessions on this topic, we take on the challenge with the group by using practical simulations to experience how digital contact can become more pleasant and effective.

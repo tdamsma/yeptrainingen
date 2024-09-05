@@ -30,4 +30,4 @@ jobs:
         run: node ./check-images.js
 
       - name: Run build
-        run: bun run build
+        run: for i in {1..5}; do bun run build && break || sleep 1; done

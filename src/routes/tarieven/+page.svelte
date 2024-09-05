@@ -38,7 +38,7 @@
 			</div>
 		</div>
 		<div class="container-fluid bg-white mt-4 text-center">
-			<enhanced:img class="fluid" src="/static/CRKBO_erkenning.jpg" />
+			<enhanced:img class="fluid" src="/static/CRKBO_erkenning.jpg" alt="CRKBO erkenning" />
 		</div>
 	</div>
 </template>

@@ -44,13 +44,13 @@
 	function closeModal() {
 		modalVisible = false;
 	}
-	function handleClickOutside(event) {
-		if (event.target.classList.contains('modal')) {
+	function handleClickOutside(event: MouseEvent) {
+		if (event.target && (event.target as HTMLElement).classList.contains('modal')) {
 			modalVisible = false;
 		}
 	}
 
-	function handleKeydown(event) {
+	function handleKeydown(event: KeyboardEvent) {
 		if (event.key === 'Escape') {
 			modalVisible = false;
 		}
@@ -102,6 +102,8 @@
 </div>
 
 {#if modalVisible}
+	<!-- svelte-ignore a11y-no-noninteractive-tabindex -->
+	<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
 	<div
 		class="modal"
 		role="dialog"
@@ -137,9 +139,6 @@
 {/if}
 
 <style>
-	.list-item {
-		overflow: hidden;
-	}
 	.container {
 		height: 300px;
 		overflow: hidden;

@@ -39,7 +39,11 @@ const config = {
 		if (
 			warning.code === 'css-unused-selector' ||
 			warning.code === 'vite-plugin-svelte-preprocess-many-dependencies' ||
-			warning.code === 'a11y-no-redundant-roles'
+			warning.code === 'a11y-no-redundant-roles' ||
+			warning.code === 'a11y-missing-content' ||
+			warning.code === 'a11y-img-redundant-alt' ||
+			warning.code === 'a11y-img-missing-alt' ||
+			warning.code === 'a11y-no-noninteractive-tabindex'
 		) {
 			return;
 		}

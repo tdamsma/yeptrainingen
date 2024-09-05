@@ -42,15 +42,6 @@ module.exports = {
 	],
 	rules: {
 		'@typescript-eslint/no-unused-vars': ['warn', { argsIgnorePattern: '^_' }],
-		'@typescript-eslint/ban-types': [
-			'error',
-			{
-				types: {
-					Function: false
-				},
-				extendDefaults: true
-			}
-		],
 		'@typescript-eslint/no-explicit-any': 'off'
 	}
 };

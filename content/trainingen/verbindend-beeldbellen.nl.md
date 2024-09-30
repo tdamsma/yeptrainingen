@@ -8,7 +8,7 @@ volgnummer: 21
 
 # Online - Verbindend beeldbellen
 
-Organisaties hebben na corona vastgehouden aan videobellen en vergaderen op afstand. Het werkt, is praktisch en de techniek is zo onder de knie. Maar hoe bereik je nou diezelfde mate van contact en verbinding met de anderen? Voor teams die op afstand van elkaar werken of professionals die met clienten goede gesprekken willen voeren loont het om stil te staan bij het zoeken van de verbinding in het digitale samenzijn. 
+Organisaties hebben na corona vastgehouden aan videobellen en vergaderen op afstand. Het werkt, is praktisch en de techniek is zo onder de knie. Maar hoe bereik je nou diezelfde mate van contact en verbinding met de anderen? Voor teams die op afstand van elkaar werken of professionals die met clienten goede gesprekken willen voeren loont het om stil te staan bij het zoeken van de verbinding in het digitale samenzijn.
 
 ![afbeelding verbindend beeldbellen](./verbindend-beeldbellen-2.png)
 

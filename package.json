@@ -35,7 +35,7 @@
 		"rehype-rewrite": "^4.0.2",
 		"sass": "^1.78.0",
 		"sharp": "^0.33.5",
-		"svelte": "^4.2.19",
+		"svelte": "^5.2.7",
 		"svelte-check": "^4.0.1",
 		"svelte-preprocess": "^6.0.2",
 		"svelte-sitemap": "^2.6.0",

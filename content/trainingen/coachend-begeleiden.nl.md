@@ -6,9 +6,11 @@ alt: Trainer legt iets uit aan de groep
 volgnummer: 4
 ---
 
-Coachend Leiderschap staat bij veel organisaties hoog op de agenda. Of u nu werkt in de zorg, de brandweer of als consultant, traditioneel leiderschap op basis van sancties en beloningen schiet vaak tekort. In plaats van betrokkenheid en inzet te vergroten, creëert dit afhankelijkheid van externe factoren zoals de aanwezigheid van de leidinggevende. Dit gaat ten koste van de motivatie en het eigenaarschap dat medewerkers tonen. En dat heeft vaak een doorwerking op de sfeer, de veiligheid en de resultaten.
+Coachend Leiderschap staat bij veel organisaties hoog op de agenda. Of je nu werkt in de zorg, het onderwijs, in de productie of als consultant, traditioneel leiderschap op basis van sancties en beloningen schiet tekort. In plaats van betrokkenheid en inzet te vergroten, creëert dit afhankelijkheid van externe factoren zoals de aanwezigheid van de leidinggevende. Dit gaat ten koste van de motivatie en het eigenaarschap dat medewerkers tonen. En dat heeft vaak een doorwerking op de sfeer, de veiligheid en de resultaten.
 
-Coachend begeleiden biedt een krachtig alternatief. Door medewerkers met een betrokken houding te begeleiden en de juiste vragen te stellen, stimuleert u hen om zelfstandig te denken en verantwoordelijkheid te nemen.
+Wat wij ook veel tegenkomen, is een losse stijl van leidinggeven. Verantwoordelijkheden zijn niet helder belegd, functies en regels onduidelijk omschreven. Dit kan ervoor zorgen dat medewerkers elkaar niet aanspreken. De onduidelijkheid vormt hierin een drempel: 'Klopt het wel om jou hierop aan te spreken?'. Dit kan leiden tot duikgedrag, klagen over collega's, en het laat signaleren van problemen.
+
+Coachend begeleiden biedt een krachtig alternatief. Door medewerkers met een betrokken houding te begeleiden en de juiste vragen te stellen, stimuleer je hen om zelfstandig te denken en verantwoordelijkheid te nemen.
 
 ## Wat de leergang Coachend Leiderschap oplevert?
 

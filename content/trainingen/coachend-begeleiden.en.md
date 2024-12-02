@@ -1,14 +1,16 @@
 ---
 title: Coaching Leadership
 subtitle: Empowering teammembers to be proactive!
-img: communicatie-1.jpg
+img: coachend-leiderschap-1.jpg
 alt: laughing group doing improvisation
 volgnummer: 4
 ---
 
-# Coaching Leadership: Empowering Teams and Leaders
+Empowering Teams and Leaders
 
-**Coaching Leadership** is a high priority for many organizations. Whether you work in healthcare, firefighting, or as a consultant, traditional leadership based on sanctions and rewards often falls short. Instead of increasing engagement and effort, it creates dependency on external factors such as the presence of the leader. This comes at the expense of motivation and the sense of ownership employees exhibit, which often negatively impacts the atmosphere, safety, and results.
+**Coaching Leadership** is a high priority for many organizations. Whether you work in healthcare, education, or as a consultant, traditional leadership based on sanctions and rewards often falls short. Instead of increasing engagement and effort, it creates dependency on external factors such as the presence of the leader. This comes at the expense of motivation and the sense of ownership employees exhibit, which often negatively impacts the atmosphere, safety, and results.
+
+What we also frequently encounter is a loose leadership style. Responsibilities are not clearly assigned, roles and rules are poorly defined. This can result in employees hesitating to address each others behaviour. The lack of clarity creates a barrier: "Is it appropriate for me to address you on this issue?" This can lead to avoidance behavior, complaints about colleagues, and delayed problem detection.
 
 **Coaching leadership** provides a powerful alternative. By guiding employees with an engaged attitude and asking the right questions, you encourage them to think independently and take responsibility.
 
@@ -35,9 +37,9 @@ The Coaching Leadership program also offers the organization insights into how t
 
 The transition to coaching leadership demands effort from both leaders and the organization as a whole. What steps are needed within your organization to make this a reality?
 
-We would be happy to discuss this with you. Contact us for a free exploratory conversation. Or take a look at our brochure for more inspiration and a clear overview of our approach and offerings. Pricing details are also included in the [brochure](../../Brochure-CL-Yep.pdf)
+We would be happy to discuss this with you. Contact us for a free exploratory conversation. Or take a look at our brochure for more inspiration and a clear overview of our approach and offerings. Pricing details are also included in the [brochure.](../../Brochure-CL-Yep.pdf)
 
-[![Brochure Talent OntwikkelProgramma Yep Trainingen](./coachend-leiderschap-2.jpg)](../../Brochure-CL-Yep.pdf)
+[![Brochure leergang Coachend Leiderschap Yep Trainingen](./coachend-leiderschap-2.jpg)](../../Brochure-CL-Yep.pdf)
 
 **Coaching leadership**: The key to stronger teams and sustainable results.
 

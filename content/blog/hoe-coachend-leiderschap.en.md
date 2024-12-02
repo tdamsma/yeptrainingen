@@ -1,7 +1,7 @@
 ---
 title: 'Coaching leadership makes all the difference'
-img: hoe-coachend-leiderschap-1.jpg
-alt: 
+img: hoe-coachend-leiderschap-3.jpg
+alt:
 date: 2024-11-27
 intro: 'Coachend Leiderschap: The key to engaged, motivated and goal-oriented teams'
 credits: Images Marijn Damsma Author Marijn Damsma
@@ -22,13 +22,13 @@ This is **coaching leadership**: a style that activates, guides, and directs.
 
 How does it work? Read on to discover how coaching leadership can strengthen your team – and how Yep Trainingen applies this approach in practice.
 
-![Foto trainer Sophie in gesprek](./hoe-coachend-leiderschap-1.jpg)
+![Trainer Sophie talking to a group](./hoe-coachend-leiderschap-1.jpg)
 
 ## More than just trusting your team
 
 The word ‘coaching’ might make you think of a freeform, hands-off leadership style, where trust is given to employees from the start. But **coaching leadership** is actually a balanced approach. It’s about both supporting and directing.
 
-### What does this look like in practice?
+## What does this look like in practice?
 
 1. **Set clear goals and boundaries:**  
    Define teamgoals that align with long-term ambitions, and ensure they are clear and achievable for everyone. Provide clear boundaries to prevent uncertainty and unnecessary searching.

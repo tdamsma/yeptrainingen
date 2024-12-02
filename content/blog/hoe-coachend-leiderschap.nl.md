@@ -1,7 +1,7 @@
 ---
 title: 'Hoe coachend leiderschap het verschil maakt.'
-img: hoe-coachend-leiderschap-2.jpg
-alt: 
+img: hoe-coachend-leiderschap-3.jpg
+alt:
 date: 2024-11-27
 intro: 'Coachend Leiderschap: De sleutel tot betrokken, gemotiveerde én doelgerichte teams'
 credits: Images Marijn Damsma Author Marijn Damsma
@@ -22,13 +22,13 @@ Dat is **coachend leiderschap**: een stijl die inspireert, begeleidt én stuurt.
 
 Hoe dit werkt? Lees verder en ontdek hoe jij met coachend leiderschap jouw team sterker maakt – en hoe Yep Trainingen dit concreet toepast.
 
-![Foto trainer Sophie in gesprek](./hoe-coachend-leiderschap-1.jpg)
- 
+![Trainer Sophie in gesprek aan tafel](./hoe-coachend-leiderschap-1.jpg)
+
 ## Meer dan alleen vertrouwen geven
 
 Het woord ‘coachend’ doet misschien denken aan een vrije, losse stijl van leidinggeven, waarbij je vanaf de start vertrouwen uitspreekt in medewerkers en hen vrij laat. Maar **coachend leiderschap** is juist een gebalanceerde aanpak. Het draait om ondersteunen én sturen.
 
-### Wat betekent dat in de praktijk?
+## Wat betekent dat in de praktijk?
 
 1. **Heldere doelen en kaders stellen:**  
    Bepaal (gezamenlijk) doelen die passen bij langere termijn ambities en zorg dat deze voor iedereen duidelijk en haalbaar zijn. Geef hierbij kaders – daarmee voorkom je onzekerheid en overbodig zoekwerk.
@@ -51,7 +51,7 @@ Aan de andere kant kan een te vrije, losgelaten aanpak ook voor problemen zorgen
 
 - **Onzekerheid:** Zonder duidelijke doelen of kaders missen medewerkers de bevestiging dat zij met het juiste bezig zijn. Dit leidt tot veel vragen en minder daadkracht en productiviteit.
 - **Gebrek aan overdraagbaarheid:** Iedereen werkt op zijn eigen manier, waardoor taken lastiger over te dragen zijn, interne communicatie niet loopt, en kennis bij één persoon blijft hangen.
-- **Je signaleert problemen niet op tijd:** Als het niet goed met iemand gaat, wordt dit vaak niet opgemerkt. Ook ongewenst gedrag of onveilige omgang met data blijft onbesproken.
+- **Je signaleert problemen niet op tijd:** Als het niet goed met iemand gaat, wordt dit vaak niet opgemerkt. Ook ongewenst gedrag of onveilige omgang met data blijft onbesproken. Bijvoorbeeld omdat het onduidelijk is waar de verantwoordelijkheid ligt.
 
 **Coachend leiderschap zorgt voor balans:** vrijheid binnen grenzen, met ruimte voor autonomie, groei én resultaat.
 
@@ -61,15 +61,15 @@ Aan de andere kant kan een te vrije, losgelaten aanpak ook voor problemen zorgen
 
 Bij **Yep Trainingen** geloven we dat coachend leiderschap alleen werkt als het zowel ondersteunend als richtinggevend is. Om goed aan te sluiten bij de doelen en kaders vanuit de organisatie, doen wij deze trainingen altijd in organisatieverband – op maat.
 
-Onze trainingen bevatten vaste elementen die leidinggevenden een stevige basis geven in deze stijl. Bekijk onze brochure voor een overzicht van mogelijke modules in een **Coachend Leiderschap traject**.
+Onze trainingen bevatten vaste elementen die leidinggevenden een stevige basis geven in deze stijl. Bekijk onze [brochure](../../Brochure-CL-Yep.pdf) voor een overzicht van mogelijke onderdelen in een traject Coachend Leiderschap bij Yep.
 
 Hier alvast drie tips om coachend leiderschap in de praktijk te brengen:
 
 - **Evalueer gezamenlijke doelen.**
 - **Vraag zelf om feedback.** Deel een persoonlijk doel en stel een specifieke vraag, bijvoorbeeld:  
-  _“Ik merk de laatste tijd dat ik de aandacht mogelijk wat beter kan verdelen in het team, bijvoorbeeld tijdens vergaderingen. Zou jij daar vanmiddag eens op willen letten en jouw inzichten met me willen delen?”_
+  _“Ik merk de laatste tijd dat ik de aandacht beter zou kunnen verdelen in het team, bijvoorbeeld tijdens vergaderingen. Zou jij daar vanmiddag eens op willen letten en jouw inzichten met me willen delen?”_
 - **Maak tijd vrij voor persoonlijke gesprekken.**
 
 ---
 
-**Wil je ook leren leiding te geven vanuit overzicht, verbinding en ambitie?**
+**Wat wordt jouw volgende stap in leiderschap?**

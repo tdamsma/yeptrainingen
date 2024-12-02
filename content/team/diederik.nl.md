@@ -1,8 +1,8 @@
 ---
-name: Anna Stutje
-volgnummer: 4
+name: Diederik Rijpstra
+volgnummer: 9
 ---
 
-It inspires me to work with people who have the courage and endurence to contiously find their own path. They make difficult decisions and often need to acquire new insights and skills. In my work as a coach I love to stand close-by and provide support during this path-finding adventure.
+Met mijn achtergrond als jazz trompettist en componist vind ik het belangrijk dat mensen hun ontwikkeling aanvliegen als een creatief experiment. Je probeert dingen uit, gaat uit je comfortzone, je killt je darlings en leert daarvan om weer verder te komen. Als trainer en coach ben ik dankbaar dat ik daar een rol in kan spelen. Ik hoor vaak dat ik rust breng, scherpe vragen stel en humor inzet.
 
-I am a member at the Dutch professional organisation for coaches (NOBCO) and work conform the International Ethical Code for coaches.
+Je kunt bij mij terecht voor trainingen gespreksvaardigheden, persoonlijk leiderschap, leiderschap en teamdynamiek (ook met muziek, dat rijmt).

@@ -3,12 +3,11 @@ title: 'Hoe coachend leiderschap het verschil maakt.'
 img: hoe-coachend-leiderschap-2.jpg
 alt: 
 date: 2024-11-27
-intro: Coachend Leiderschap: De sleutel tot betrokken, gemotiveerde én doelgerichte teams
+intro: 'Coachend Leiderschap: De sleutel tot betrokken, gemotiveerde én doelgerichte teams'
 credits: Images Marijn Damsma Author Marijn Damsma
 tags:
   - leiderschap
   - pro-activiteit
-
 categories:
   - Effectiveness
   - Positive Psychology
@@ -24,7 +23,7 @@ Dat is **coachend leiderschap**: een stijl die inspireert, begeleidt én stuurt.
 Hoe dit werkt? Lees verder en ontdek hoe jij met coachend leiderschap jouw team sterker maakt – en hoe Yep Trainingen dit concreet toepast.
 
 ![Foto trainer Sophie in gesprek](./hoe-coachend-leiderschap-1.jpg)
-
+ 
 ## Meer dan alleen vertrouwen geven
 
 Het woord ‘coachend’ doet misschien denken aan een vrije, losse stijl van leidinggeven, waarbij je vanaf de start vertrouwen uitspreekt in medewerkers en hen vrij laat. Maar **coachend leiderschap** is juist een gebalanceerde aanpak. Het draait om ondersteunen én sturen.

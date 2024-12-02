@@ -3,12 +3,11 @@ title: 'Coaching leadership makes all the difference'
 img: hoe-coachend-leiderschap-1.jpg
 alt: 
 date: 2024-11-27
-intro: Coachend Leiderschap: The key to engaged, motivated and goal-oriented teams
+intro: 'Coachend Leiderschap: The key to engaged, motivated and goal-oriented teams'
 credits: Images Marijn Damsma Author Marijn Damsma
 tags:
   - leiderschap
   - pro-activiteit
-
 categories:
   - Effectiveness
   - Positive Psychology

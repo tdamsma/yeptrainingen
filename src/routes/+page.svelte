@@ -138,7 +138,7 @@
         br
         h2.mt-2 {m.home_flexibel()}
         p {m.home_jouwOntwikkelVraagStaatCentraal()}
-    p.text-center.my-5 {m.home_opZoekNaarCoaching()}
+    
 
 .jumbotron.jumbotron-fluid.yep-geel
   .container.text-center

@@ -62,15 +62,22 @@
         style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto;"
         alt="Training Image"
       )
-    .col-md-6.pt-4
+    .col-md-6.pt-4(style="padding-left:40px")
+      br
       h2 {m.home_inzichtDurfVaardigheid()}
         br
         span.yep-geel-donker {m.home_voorMaatschappelijkeImpact()}
+        br
+        br
 
 .jumbotron.jumbotron-fluid.yep-geel
   .container
-    h2 {m.home_leerDrang()}
+    p {m.home_extraTekst()}
+    h2(style="text-align: center;") {m.home_leerDrang()}
+.jumbotron.jumbotron-fluid
+  .container    
     p {m.home_wijZijnErVoorProfessionals()}
+    p {m.home_wijZijnErVoorProfessionals2()}
 .jumbotron.jumbotron-fluid.yep-grijs-donker
   .container
     .row.justify-content-around

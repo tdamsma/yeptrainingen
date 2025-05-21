@@ -1,5 +1,5 @@
 ---
-title: 'Hoe coachend leiderschap het verschil maakt.'
+title: 'Hoe coachend leiderschap het verschil maakt'
 img: hoe-coachend-leiderschap-3.jpg
 alt:
 date: 2024-11-27

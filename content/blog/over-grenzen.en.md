@@ -1,6 +1,6 @@
 ---
 title: 'Learning to Set Boundaries'
-img: grenzen-stellen-1.jpg
+img: over-grenzen-1.jpg
 alt: Office shoes standing between lines
 date: 2025-02-01
 intro: Saying no opens other doors.
@@ -31,7 +31,7 @@ Boundaries can vary widely depending on the situation. Some are clear and univer
 2. **Personal boundaries** – These involve your own preferences and needs. For example: _“I don’t feel comfortable with that, so I’d like to do it differently.”_ Or: _“I don’t want to be disturbed for work on weekends.”_ Or: _“I don’t attend meetings before 10:00 AM.”_ Others can’t predict these in advance because they vary between individuals.
 3. **Task-oriented boundaries** – These relate to priorities and responsibilities. For example: _“No, this isn’t my priority right now.”_ Or: _“This falls outside my role; I suggest you discuss it with Karin.”_ Setting these boundries requires you to know where your priorities lie.
 
-![A person gesturing to stop](./grenzen-stellen-2.jpg)
+![A person gesturing to stop](./over-grenzen-2.jpg)
 
 ## Step 1: Self-awareness\u2014where do your boundaries lie?
 

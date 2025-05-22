@@ -1,10 +1,10 @@
 ---
 title: 'Tot hier en niet verder: 4 manieren om grenzen aan te geven'
 img: grenzen-effectief-uiten-1.jpg
-alt: jongen die zich verwondert
-date: 2025-02-10
+alt: 3 mensen in gesprek vol handgebaren
+date: 2025-05-22
 intro: Geef grenzen effectief aan en verbeter daarmee de onderlinge verhoudingen.
-credits: Images Marijn Damsma Author Anne Prakke en Marijn Damsma
+credits: Images Marijn Damsma Author Josje Tummers en Marijn Damsma
 tags:
   - samenwerken
 categories:
@@ -14,9 +14,9 @@ english_title: Setting effective boundaries
 
 In het vorige blog gingen we in op het leren aanvoelen van je grenzen en hoe je deze leert stellen. Nu deel ik graag meer manieren waarop je grenzen kan stellen, omdat hier zo veel verschillende mogelijkheden in zijn! Afhankelijk van hoe hoe stevig je je grens wil neerzetten zijn er hier een aantal manieren (in toenemende stevigheid) waarop je dit goed kunt doen:
 
-### 1. De luchtige hint (humor)
+### 1. De luchtige hint, humor
 
-Perfect als je de situatie niet meteen te zwaar wilt maken, maar wel een signaal wilt afgeven. Dit kan goed werken als je iemand al goed kent, of bijvoorbeeld in een groep staat en het gedrag niet wil laten gaan, maar ook niet te veel wil benadrukken.
+Perfect als je de situatie niet meteen te zwaar wilt maken, maar wel een signaal wilt afgeven. Dit kan goed werken als je iemand al goed kent, of bijvoorbeeld in een groep staat en het gedrag niet wil laten gaan, maar ook niet te veel wil benadrukken. Bedenk er een knipoog bij!
 
 > _"Zo, jij bent lekker op dreef vandaag!"_
 
@@ -38,7 +38,7 @@ Voor situaties waarin je duidelijk wil maken dat je iets niet gaat doen én de r
 
 > _"Nee, daar kan ik je helaas niet mee helpen binnen mijn rol."_
 
-> _"Ik heb deze dagen echt geen tijd, sorry. Misschien kan Maaike met je meekijken?"_
+> _"Ik heb deze dagen geen ruimte hiervoor, sorry. Misschien kan Maaike met je meekijken?"_
 
 ### 3. Feedback
 
@@ -100,10 +100,12 @@ Ook als je geen hierarchische verhouding hebt, kun je consequenties stellen aan 
 
 ## Tips:
 
-- Maak in je organisatie afspraken over consequenties voor gedrag, zodat je bck-up krijgt als je een consequentie moet stellen. Welke consequentie mag je altijd stellen? Wat zijn gronden voor ontslag op staande voet, hoe werkt dit proces? Wanneer moet iets in het dossier komen? Waar sla je dit op?  Het is spijtig als je een consequentie stelt later toch terug moet krabbelen!
+- Maak in je organisatie afspraken over consequenties voor gedrag, zodat je back-up krijgt als je een consequentie moet stellen. Welke consequentie mag je altijd stellen? Wat zijn gronden voor ontslag op staande voet, hoe werkt dit proces? Wanneer moet iets in het dossier komen? Waar sla je dit op?  Het is spijtig als je een consequentie stelt later toch terug moet krabbelen!
 - Is er geen gedragsprotocol of zijn er geen huisregels? Dit is de moeite waard o op te stellen omdat het mensen in staat stelt om veel gemakkelijker grenzen aan te geven.
 - Zorg dat de consequentie je niet onnodig veel werk oplevert – misschien kun j een consequntie verzinnen waardoor je juist een zorg minder hebt. In de schoolsetting kom ik wel tegen dat een leerling die een opdracht niet doet, een vervangende opdracht moet maken. Dit betekent voor de docent dan ook extra werk als voor de leerling. (opdracht verzinnen, in de gaten houden of het gebeurt, nakijken, feedback..). Hoe het ook kan?
 
-Het kan best negatief voelen om zo met begrenzen bezig te zijn. Paradoxaal genoeg levert het vaak juist meer positiviteit op! Want als men eenmaal doorheeft wat wel en niet de bedoeling is én dit serieus neemt, ontstaan er door de helderheid juist speelruimte en vertrouwen. Succes met het aanpakken van
+Het kan best negatief voelen om zo met begrenzen bezig te zijn. Paradoxaal genoeg levert het vaak juist meer positiviteit op! Want als men eenmaal doorheeft wat wel en niet de bedoeling is én dit serieus neemt, ontstaan er door de helderheid juist speelruimte en vertrouwen. In ons vorige blog [Over grenzen](./over-grenzen) gingen we in op een aantal verschillende soorten grenzen en hoe je deze bij jezelf scherper kan herkennen. Dit kan helpen bij je bewustwording van welke grenzen je meer aandacht zou willen geven. 
 
-Auteur: Co-productie van Josje Tummers en Marijn Damsma Bron afbeeldingen:
+Als je ergens 'nee' tegen zegt, ontstaat de ruimte om 'ja!' te zeggen tegen de dingen waar je echt in gelooft. Wij zijn benieuwd welke deuren jij gaat open zetten, door je grenzen bewuster te bewaken.
+
+Auteur: Co-productie van Josje Tummers en Marijn Damsma Bron afbeeldingen: Yep Trainingen

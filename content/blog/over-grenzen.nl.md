@@ -55,7 +55,8 @@ In onze trainingen komen er vaak situaties voorbij rond grenzen. Soms staat de g
 
 ### Stap 3: Volhouden en opvolgen
 
-Nadat je je grens hebt aangegeven, werkt het versterkend om er nog eens op terug te komen. Het fijnste is het als je dit op een positief moment kan doen: 
+Nadat je je grens hebt aangegeven, werkt het versterkend om er nog eens op terug te komen. Het fijnste is het als je dit op een positief moment kan doen:
+
 > "Hey, bedankt dat het lukt om in het belhokje te gaan zitten. Werkt heel prettig voor mij."
 
 Het kan ook zijn dat je merkt dat het gewenste effect nog niet is bereikt. Ook dan is het goed om terug te komen op jullie gesprek, zodat je grens wel serieus wordt genomen.
@@ -68,15 +69,14 @@ Of, in het geval je de grens kracht bij wil en kan zetten, kun je er een consequ
 
 Grenzen aangeven kan best wennen zijn. Als je normaal ‘ja’ zegt op verzoeken van anderen en je meegaand opstelt rond omgangsvormen, dan is het heel wat om hier ineens assertief in te zijn. Misschien helpt het besef dat de grenzen niet alleen voor jezelf goed zijn! En je kunt het jezelf gemakkelijker maken door wat ‘bedenktijd’ te regelen. Vraagt iemand je om een taak op je te nemen, waarvan je denkt dat hij niet past, dan kun je bijvoorbeeld vragen: “Wil je even naar me op de mail zetten wat je precies zou willen? Dan kijk ik even goed in mijn agenda of ik daar ruimte voor heb.” Een ander zinnetje dat voor veel mensen werkt: “Ik wil er even over nadenken, ik kom erop terug.”
 
-Ja gezegd, maar toch spijt? Geen nood - je kunt er altijd nog op terugkomen. Stel dat je spijt hebt dat je een grens hebt laten lopen, kun je daar alsnog over in gesprek.  
+Ja gezegd, maar toch spijt? Geen nood - je kunt er altijd nog op terugkomen. Stel dat je spijt hebt dat je een grens hebt laten lopen, kun je daar alsnog over in gesprek.
+
 > “Ik zei dat ik dit voor je zou oppakken, maar ik merk dat het mij niet past. Wil je het aan iemand anders vragen?”
 
 > “Ik zag vanmorgen dat je je stem verhefte tegen de stagiair. Ik had haast en kon er niet meteen met je op in gaan, maar je begrijpt dat dit ongewenst gedrag is. Kunnen we er nu even over praten?”
 
-Succes met het beter leren kennen van jouw grenzen! 
+Succes met het beter leren kennen van jouw grenzen!
 
 In ons volgende blog [Tot hier en niet verder: 4 manieren om grenzen aan te geven](./grenzen-effectief-uiten) kun je meer praktische tips vinden. Misschien heeft het wel een groots effect om je grenzen duidelijker te bewaken! Het kan raken aan jouw plezier en welzijn, aan organisatie doelen, teameffectiviteit, vertrouwen en integriteit.
 
-💡En wist je dat we ook teams trainen in het stellen en bewaken van grenzen? In trainingen Timemanagement en in communicatie en leiderschapstrainingen komt het steevast aan bod. En soms is het zelfs het centrale onderwerp. Bijvoorbeeld in een team van verpleegkundigen dat om moet gaan met allerlei wensen en gedrag van (familie van) patienten, terwijl er al veel druk op hen staat. Of in het onderwijs, waarbij ouders snel meer verwachten van docenten dan zij in de praktijk kunnen bieden aan leerlingen. We hebben al heel vaak gezien hoe heldere grenzen helpen om misverstanden te voorkomen en de samenwerking te versterken. Het voordeel van dit als team aanpakken, is dat belemmerende factoren voor grenzen in de organisatie dan makkelijker opgelost kunnen worden. En dat collega's elkaar gaan steunen in de grenzen ipv dat de grens van de één de ander meer werk oplevert. 
-
-
+💡En wist je dat we ook teams trainen in het stellen en bewaken van grenzen? In trainingen Timemanagement en in communicatie en leiderschapstrainingen komt het steevast aan bod. En soms is het zelfs het centrale onderwerp. Bijvoorbeeld in een team van verpleegkundigen dat om moet gaan met allerlei wensen en gedrag van (familie van) patienten, terwijl er al veel druk op hen staat. Of in het onderwijs, waarbij ouders snel meer verwachten van docenten dan zij in de praktijk kunnen bieden aan leerlingen. We hebben al heel vaak gezien hoe heldere grenzen helpen om misverstanden te voorkomen en de samenwerking te versterken. Het voordeel van dit als team aanpakken, is dat belemmerende factoren voor grenzen in de organisatie dan makkelijker opgelost kunnen worden. En dat collega's elkaar gaan steunen in de grenzen ipv dat de grens van de één de ander meer werk oplevert.

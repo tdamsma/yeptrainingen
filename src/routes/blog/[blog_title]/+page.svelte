@@ -30,7 +30,7 @@ div
           .text-center.mb-4
             +if('data.img')
               enhanced:img.img-fluid(sizes="min(1280px, 100vw)" class="post-title-img" src="{imageModules[`/content/blog/${data.img}`].default}" alt="{data.alt}")
-          h2 {data.title}
+          h1 {data.title}
           small.text-muted {formatDate(data.date)}
           .blog-details-body
             svelte:component(this="{data.content}")

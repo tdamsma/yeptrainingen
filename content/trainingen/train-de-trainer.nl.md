@@ -33,7 +33,7 @@ Het vierde dagdeel geven alle deelnemers een korte workshop en ontvangen zij van
 
 ![Trainer voor een groep](./train-de-trainer-3.jpg)
 
-De training is geschikt voor zowel startende als ervaren trainers die inspiratie willen opdoen en hun basis willen verbeteren. De open training kost €800 euro btw vrij. De groep bestaat uit maximaal 6 deelnemers. We plannen nieuwe trainingen in op aanvraag. Hieronder vind je de reeds geplande startdata en het inschrijfformulier. Op Springest staan de reviews van oud-deelnemers. Die kun je [hier](https://www.springest.nl/Yep-Trainingen/train-de-trainer#ervaringen) lezen!
+De training is geschikt voor zowel startende als ervaren trainers die inspiratie willen opdoen en hun basis willen verbeteren. De open training kost €975 btw vrij. De groep bestaat uit maximaal 6 deelnemers. We plannen nieuwe trainingen in op aanvraag. Hieronder vind je de reeds geplande startdata en het inschrijfformulier. Op Springest staan de reviews van oud-deelnemers. Die kun je [hier](https://www.springest.nl/Yep-Trainingen/train-de-trainer#ervaringen) lezen!
 
 Eerst informatie aanvragen kan uiteraard ook. Stuur dan een mailtje naar Marijn@yeptrainingen.nl
 

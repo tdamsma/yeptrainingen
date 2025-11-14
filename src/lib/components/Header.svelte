@@ -17,34 +17,55 @@
 	}
 </script>
 
-<template lang="pug">
-    nav.navbar.navbar-expand-lg.navbar-light.bg-light
-      .container.d-flex.justify-content-between
-        a.navbar-brand(href="/")
-          enhanced:img.ml-2(sizes="min(1280px, 100vw)" src="/static/images/Logo-Yep-300x122.png", alt="yeptrainingen")
-        button.navbar-toggler.mr-2(
-          type="button", 
-          on:click="{toggleMenu}", 
-          aria-controls="nav-collapse", 
-          aria-expanded="{menuOpen}", 
-          aria-label="Toggle navigation"
-          )
-          span.navbar-toggler-icon
-        #nav-collapse.collapse.navbar-collapse(class="{ menuOpen ? 'show' : '' }" )
-          ul.navbar-nav.ml-4
-            li.nav-item
-              a.nav-link(href="/") Yep
-            li.nav-item
-              a.nav-link(href="/team") {m.header_onsTeam()}
-            li.nav-item
-              a.nav-link(href="/trainingen") {m.header_trainingen()}
-            li.nav-item
-              a.nav-link(href="/coaching") {m.header_coaching()}
-            li.nav-item
-              a.nav-link(href="/onze-aanpak") {m.header_onzeAanpak()}
-            li.nav-item
-              a.nav-link(href="/blog") {m.header_blog()}
-          ul.navbar-nav.ml-auto
-            li.nav-item
-              LanguageSwitcher
-</template>
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<div class="container d-flex justify-content-between">
+		<a class="navbar-brand" href="/">
+			<enhanced:img 
+				class="ml-2" 
+				sizes="min(1280px, 100vw)" 
+				src="/static/images/Logo-Yep-300x122.png" 
+				alt="yeptrainingen" 
+			/>
+		</a>
+		<button 
+			class="navbar-toggler mr-2"
+			type="button" 
+			on:click={toggleMenu} 
+			aria-controls="nav-collapse" 
+			aria-expanded={menuOpen} 
+			aria-label="Toggle navigation"
+		>
+			<span class="navbar-toggler-icon"></span>
+		</button>
+		<div 
+			id="nav-collapse" 
+			class="collapse navbar-collapse {menuOpen ? 'show' : ''}"
+		>
+			<ul class="navbar-nav ml-4">
+				<li class="nav-item">
+					<a class="nav-link" href="/">Yep</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/team">{m.header_onsTeam()}</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/trainingen">{m.header_trainingen()}</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/coaching">{m.header_coaching()}</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/onze-aanpak">{m.header_onzeAanpak()}</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="/blog">{m.header_blog()}</a>
+				</li>
+			</ul>
+			<ul class="navbar-nav ml-auto">
+				<li class="nav-item">
+					<LanguageSwitcher />
+				</li>
+			</ul>
+		</div>
+	</div>
+</nav>

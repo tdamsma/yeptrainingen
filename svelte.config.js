@@ -32,7 +32,7 @@ const config = {
 	preprocess: [
 		mdsvex(mdsvexOptions),
 		vitePreprocess(),
-		sveltePreprocess({ scss: true, pug: true })
+		sveltePreprocess({ scss: true })
 	],
 
 	onwarn: (warning, handler) => {

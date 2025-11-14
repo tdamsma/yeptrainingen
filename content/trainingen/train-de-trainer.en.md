@@ -33,7 +33,7 @@ In the fourth session, all participants give a short workshop and receive feedba
 
 ![Trainer in front of a group](./train-de-trainer-3.jpg)
 
-The training is suitable for both novice and experienced trainers who want to gain inspiration and improve their basics. The open training costs €800, tax-free. The group consists of a maximum of 6 participants. We schedule new training sessions on request. Below you will find the already planned start dates and the registration form. Reviews from former participants can be found on Springest. You can read them [here](https://www.springest.nl/Yep-Trainingen/train-de-trainer#ervaringen)!
+The training is suitable for both novice and experienced trainers who want to gain inspiration and improve their basics. The open training costs €975, tax-free. The group consists of a maximum of 6 participants. We schedule new training sessions on request. Below you will find the already planned start dates and the registration form. Reviews from former participants can be found on Springest. You can read them [here](https://www.springest.nl/Yep-Trainingen/train-de-trainer#ervaringen)!
 
 You can also request information first. Send an email to Marijn@yeptrainingen.nl
 

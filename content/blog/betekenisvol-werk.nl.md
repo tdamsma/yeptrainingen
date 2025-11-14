@@ -1,11 +1,16 @@
 ---
 title: 'Betekenisvol werk'
-  - drijfveren
+img: betekenisvol-werk-1.jpg
+alt: vrouw kijkt door het raam naar de stad
+date: 2025-11-14
+intro: Hoe vertaal je jouw waarden en idealen naar concreet en betekenisvol werk?
+credits: Images Marijn Damsma, Foto 3 <a href="https://unsplash.com/@priscilladupreez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Priscilla Du Preez 🇨🇦</a> op <a href="https://unsplash.com/photos/three-men-laughing-while-looking-in-the-laptop-inside-room-XkKCui44iM0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+tags:
   - carriere
+  - impact
 categories:
   - Carriere
-  - Positieve Psychologie
-english_title: 'Meaningful work'
+english_title: Meaningful work
 ---
 
 **Hoe vertaal je jouw waarden en idealen naar concreet en betekenisvol werk?**
@@ -116,6 +121,5 @@ c. **Loop een dagje mee** bij je mogelijke droombaan — zo weet je of het in de
 
 
 ## Heel veel werkplezier gewenst in je nieuwe baan!
-Fotocredits: 
-Foto 1 en 2: Yeptrainingen, Foto 3 <a href="https://unsplash.com/@priscilladupreez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Priscilla Du Preez 🇨🇦</a> op <a href="https://unsplash.com/photos/three-men-laughing-while-looking-in-the-laptop-inside-room-XkKCui44iM0?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+
       

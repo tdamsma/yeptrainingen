@@ -9,6 +9,14 @@ export default defineConfig({
 		enhancedImages(),
 		sveltekit()
 	],
+	css: {
+		preprocessorOptions: {
+			scss: {
+				quietDeps: true, // Suppress deprecation warnings from dependencies
+				silenceDeprecations: ['legacy-js-api', 'import', 'global-builtin', 'color-functions', 'mixed-decls', 'abs-percent']
+			}
+		}
+	},
 	server: {
 		fs: {
 			allow: [

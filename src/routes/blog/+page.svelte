@@ -58,7 +58,10 @@
 	</div>
 	<div class="container mt-4 mb-4 larger">
 		{#each blogs as blog}
-			<div class="card mt-2 overflow-hidden shadow-none p-4" style="border: 1px solid #ddd; border-radius: 0.25rem;">
+			<div
+				class="card mt-2 overflow-hidden shadow-none p-4"
+				style="border: 1px solid #ddd; border-radius: 0.25rem;"
+			>
 				<div class="row no-gutters">
 					<div class="col-lg-3 col-md-4">
 						<div class="square-img-container">
@@ -70,8 +73,14 @@
 							/>
 						</div>
 					</div>
-					<div class="col-lg-9 col-md-8" style="display: flex; flex-direction: column; justify-content: center;">
-						<div class="card-body" style="display: flex; flex-direction: column; justify-content: center;">
+					<div
+						class="col-lg-9 col-md-8"
+						style="display: flex; flex-direction: column; justify-content: center;"
+					>
+						<div
+							class="card-body"
+							style="display: flex; flex-direction: column; justify-content: center;"
+						>
 							<h2 class="card-title">{blog.meta.title}</h2>
 							<div class="card-text">
 								<small class="text-muted">{formatDate(blog.meta.date)}</small>

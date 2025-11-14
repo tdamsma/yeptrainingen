@@ -11,8 +11,7 @@
 	let data = kenmerkenMap[languageTag()];
 </script>
 
-<template>
-	<div class="container-fluid m-0 p-0 bg-white">
+<div class="container-fluid m-0 p-0 bg-white">
 		<div class="jumbotron jumbotron-fluid yep-geel">
 			<div class="row justify-content-around">
 				<h1>{m.aanpak_title()}</h1>
@@ -115,15 +114,13 @@
 				<div class="col-lg-6 overflow-hidden">
 					<enhanced:img
 						style="object-fit: cover; max-height: 400px; width: 100%"
-						fluid="fluid"
-						blank-color="#777"
-						src="/static/images/IMG_2597.jpg"
+					src="/static/images/IMG_2597.jpg"
+					alt="Onze aanpak"
 					/>
 				</div>
 			</div>
 		</div>
 	</div>
-</template>
 
 <style>
 	.bg-onze-aanpak.jumbotron img {

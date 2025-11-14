@@ -9,7 +9,7 @@ export async function load({ depends, params }) {
 		post = await import(`$content/trainingen/_.${languageTag()}._.md`);
 	}
 
-	const { title, date, img, springest } = post.metadata;
+	const { title, date, img, alt, springest } = post.metadata;
 	const content = post.default;
 
 	const allPosts = await fetchContent('trainingen', languageTag());
@@ -25,6 +25,7 @@ export async function load({ depends, params }) {
 		title,
 		date,
 		img,
+		alt,
 		springest,
 		surroundingDocuments
 	};

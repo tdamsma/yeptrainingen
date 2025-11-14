@@ -1,6 +1,6 @@
 import { fetchContent } from '$lib/utils';
 import { languageTag } from '$lib/paraglide/runtime.js';
-import type { BlogPost } from '$lib/types';
+import type { Blog } from '$lib/types';
 
 export async function load({ depends, params }) {
 	depends('paraglide:lang');
@@ -10,10 +10,10 @@ export async function load({ depends, params }) {
 	} catch (error) {
 		post = await import(`$content/blog/_.${languageTag()}._.md`);
 	}
-	const { title, date, img } = post.metadata;
+	const { title, date, img, alt } = post.metadata;
 	const content = post.default;
 
-	const allPosts: BlogPost[] = await fetchContent('blog', languageTag());
+	const allPosts: Blog[] = await fetchContent('blog', languageTag());
 	const sortedPosts = allPosts.sort(
 		(a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime()
 	);
@@ -28,6 +28,7 @@ export async function load({ depends, params }) {
 		title,
 		date,
 		img,
+		alt,
 		surroundingDocuments
 	};
 }

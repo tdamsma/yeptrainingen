@@ -28,7 +28,8 @@ export const fetchContent = async (category: ValidCategory, language: AvailableL
 
 	const allPosts = await Promise.all(
 		iterablePostFiles.map(async ([path, resolver]) => {
-			const { metadata } = await resolver();
+			const post = (await resolver()) as { metadata: any };
+			const { metadata } = post;
 			const postPath = path.replace(`/content/${category}/`, '').replace(`.${language}.md`, '');
 			return {
 				meta: metadata,

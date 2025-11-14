@@ -55,33 +55,51 @@
 	});
 </script>
 
-<template lang="pug">
-    div
-      .jumbotron.jumbotron-fluid.yep-geel
-        .row.justify-content-around
-          h1 {m.training_titel()}
+<div>
+	<div class="jumbotron jumbotron-fluid yep-geel">
+		<div class="row justify-content-around">
+			<h1>{m.training_titel()}</h1>
+		</div>
+	</div>
 
-      .container.mb-5.mt-4
-        p
-          | {m.training_intro()}
-        p.text-center
-          | {m.training_tarievenText()} 
-          a.link-groen(href="/tarieven") {m.training_tarievenLink()}
-        h2.text-center.mb-3.mt-5 {m.training_overzicht()}
-        .row.row-cols-1.row-cols-md-3
-          +each('trainings as training')
-            .col.mb-4
-              .card.card-cascade.narrower.min-height-330
-                .view.view-cascade.overlay
-                  .container2(style="height: 60%")
-                    .rect-img-container
-                      enhanced:img.rect-img.card-img-top.card-img(src="{imageModules[`/content/trainingen/${training.meta.img}`].default}" sizes="50vw" alt=`{training.meta.alt}`)
-                      a(href="#!")
-                        .mask.rgba-white-slight
-                  .card-body.card-body-cascade(style="min-height: 105px")
-                    h4.card-title {training.meta.title}
-                    a.stretched-link.font-bold(href="/trainingen/{training.name}")
-</template>
+	<div class="container mb-5 mt-4">
+		<p>
+			{m.training_intro()}
+		</p>
+		<p class="text-center">
+			{m.training_tarievenText()}
+			<a class="link-groen" href="/tarieven">{m.training_tarievenLink()}</a>
+		</p>
+		<h2 class="text-center mb-3 mt-5">{m.training_overzicht()}</h2>
+		<div class="row row-cols-1 row-cols-md-3">
+			{#each trainings as training}
+				<div class="col mb-4">
+					<div class="card card-cascade narrower min-height-330">
+						<div class="view view-cascade overlay">
+							<div class="container2" style="height: 60%">
+								<div class="rect-img-container">
+									<enhanced:img
+										class="rect-img card-img-top card-img"
+										src={imageModules[`/content/trainingen/${training.meta.img}`].default}
+										sizes="50vw"
+										alt={training.meta.alt}
+									/>
+									<a href="#!">
+										<div class="mask rgba-white-slight"></div>
+									</a>
+								</div>
+							</div>
+							<div class="card-body card-body-cascade" style="min-height: 105px">
+								<h4 class="card-title">{training.meta.title}</h4>
+								<a class="stretched-link font-bold" href="/trainingen/{training.name}"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			{/each}
+		</div>
+	</div>
+</div>
 
 <style lang="css">
 	.card.card-image {

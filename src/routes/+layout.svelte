@@ -17,13 +17,13 @@
 	});
 </script>
 
-<template lang="pug">
-  ParaglideJS( {i18n} )
-    div
-      Header
-      slot
-      Footer
-</template>
+<ParaglideJS {i18n}>
+	<div>
+		<Header />
+		<slot />
+		<Footer />
+	</div>
+</ParaglideJS>
 
 <style lang="scss">
 	@import '$lib/scss/custom.scss';

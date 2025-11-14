@@ -50,23 +50,38 @@
 		.sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
 </script>
 
-<template lang="pug">
-    div
-      .jumbotron.jumbotron-fluid.yep-geel
-        .row.justify-content-around
-          h1 Blog
-      .container.mt-4.mb-4.larger
-        +each('blogs as blog')
-          .card.mt-2.overflow-hidden.shadow-none.p-4(style="border: 1px solid #ddd; border-radius: 0.25rem;")
-            .row.no-gutters
-              .col-lg-3.col-md-4
-                .square-img-container
-                  enhanced:img.square-img.rounded-circle(sizes="min(1280px, 100vw)" src="{imageModules[`/content/blog/${blog.meta.img}`].default}" alt="{blog.meta.alt}")
-              .col-lg-9.col-md-8(style="display: flex; flex-direction: column; justify-content: center;")
-                .card-body(style="display: flex; flex-direction: column; justify-content: center;")
-                  h2.card-title {blog.meta.title}
-                  .card-text
-                    small.text-muted {formatDate(blog.meta.date)}
-                    p {blog.meta.intro}
-              a.stretched-link.font-bold(href=`/blog/{blog.name}`)
-</template>
+<div>
+	<div class="jumbotron jumbotron-fluid yep-geel">
+		<div class="row justify-content-around">
+			<h1>Blog</h1>
+		</div>
+	</div>
+	<div class="container mt-4 mb-4 larger">
+		{#each blogs as blog}
+			<div class="card mt-2 overflow-hidden shadow-none p-4" style="border: 1px solid #ddd; border-radius: 0.25rem;">
+				<div class="row no-gutters">
+					<div class="col-lg-3 col-md-4">
+						<div class="square-img-container">
+							<enhanced:img
+								class="square-img rounded-circle"
+								sizes="min(1280px, 100vw)"
+								src={imageModules[`/content/blog/${blog.meta.img}`].default}
+								alt={blog.meta.alt}
+							/>
+						</div>
+					</div>
+					<div class="col-lg-9 col-md-8" style="display: flex; flex-direction: column; justify-content: center;">
+						<div class="card-body" style="display: flex; flex-direction: column; justify-content: center;">
+							<h2 class="card-title">{blog.meta.title}</h2>
+							<div class="card-text">
+								<small class="text-muted">{formatDate(blog.meta.date)}</small>
+								<p>{blog.meta.intro}</p>
+							</div>
+						</div>
+					</div>
+					<a class="stretched-link font-bold" href="/blog/{blog.name}"></a>
+				</div>
+			</div>
+		{/each}
+	</div>
+</div>

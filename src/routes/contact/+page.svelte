@@ -37,8 +37,9 @@
 						</p>
 
 						<p>
-							<label>{m.contact_name_label()}</label><br />
+							<label for="contact-name">{m.contact_name_label()}</label><br />
 							<input
+								id="contact-name"
 								type="text"
 								name="NAAM"
 								placeholder={m.contact_name_placeholder()}
@@ -46,8 +47,9 @@
 							/>
 						</p>
 						<p>
-							<label>{m.contact_email_label()}:</label><br />
+							<label for="contact-email">{m.contact_email_label()}:</label><br />
 							<input
+								id="contact-email"
 								type="email"
 								name="EMAIL"
 								placeholder={m.contact_email_placeholder()}

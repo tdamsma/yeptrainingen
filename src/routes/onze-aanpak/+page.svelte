@@ -24,6 +24,7 @@
 					style="object-fit: cover; max-height: 600px; width: 100%"
 					class="fluid"
 					src="/static/images/onze-aanpak-1.jpg"
+					alt="YEP trainingen - onze aanpak in actie"
 				/>
 			</div>
 			<div class="col-lg-6 p-3 m-0 pl-4 pr-5" style="max-width: 800px;">
@@ -63,7 +64,7 @@
 		</div>
 
 		<div class="jumbotron jumbotron-fluid mt-5 yep-grijs-donker bg-onze-aanpak">
-			<enhanced:img src="/static/images/onze-aanpak.jpg" />
+			<enhanced:img src="/static/images/onze-aanpak.jpg" alt="YEP trainingen - onze werkwijze" />
 			<div class="row mx-auto" style="max-width: 1600px">
 				{#each data as { kenmerk, aanpak }}
 					<div class="col-xl-6">
@@ -118,6 +119,7 @@
 						fluid="fluid"
 						blank-color="#777"
 						src="/static/images/IMG_2597.jpg"
+						alt="Team van YEP trainingen in actie"
 					/>
 				</div>
 			</div>

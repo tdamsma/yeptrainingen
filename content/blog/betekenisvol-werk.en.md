@@ -1,109 +1,134 @@
 ---
-title: 'Get to work: Your expectations are worth your while'
-img: aan-de-slag-1.jpg
-alt: Get to work
-date: 2020-06-03
-intro: If you're struggling with a particular issue, it is worthwhile to examine your expectations, either on your own or with a coach. With the exercises in this blog, you can start right away.
-credits: Images Marijn Damsma Author Anna Stutje
+title: 'Meaningful work'
+img: betekenisvol-werk-1.jpg
+alt: Great work
+date: 2025-11-14
+intro: How do find work that matches your values and ideas. Work that feels great. Great work.
+credits: Images Marijn Damsma, 3rd picture Unsplash
 tags:
-  - happiness
-  - resilience
-  - expectations
+  - Carreer
+  - Impact
 categories:
-  - Effectiveness
-  - Positive Psychology
-english_title: 'Get to work: Your expectations are worth your while'
+  - Carreer
+english_title: 'Meaningful work'
+---
+**How to Translate Your Values and Ideals into Concrete and Meaningful Work**
+
+> “Beep-beep-beep!”  
+> The alarm goes off. You sigh and roll over again. After hitting *snooze* more times than you should, you finally drag yourself out of bed.  
+> To get ready for work. Because that’s what you’re supposed to do.  
+>
+> You’re not really looking forward to it. You no longer feel much joy, fun, or challenge in your work.  
+> Deep down, you sense that you’re capable of something greater.  
+> But you don’t quite know *what* that is, or how to find meaningful work that truly fits you.  
+> So you stay. At least for now. Or maybe not?  
+
+## What if…
+
+- it **were possible** to go to work with real joy  
+- you found a job that **matches your values and ideals**  
+- you went to work with **as much energy as you come home with**  
+- and you even got paid for it?!  
+
+Wouldn’t that be something? You long for this.  
+But… **how do you actually find such a job?**
+
+![woman looking out the window](./betekenisvol-werk-2.jpg)
+
+---
+First of all, when I say great work, I mean work that feels right, that moves you, that gives meaning.  
+And maybe something is stirring inside, a longing for more purpose.  
+It takes courage to use your talents for something bigger. And the steps below can help create clarity.
+
+Thinking of great work reminds me of a passage from a speech by Steve Jobs that I sometimes show in our Talent Development Program:  
+
+> “Your work is going to fill a large part of your life, and the only way to be truly satisfied is to do what you believe is great work.  
+> And the only way to do great work is to love what you do.  
+> If you haven’t found it yet, keep looking. Don’t settle.  
+> As with all matters of the heart, you’ll know when you find it.  
+> And, like any great relationship, it just gets better and better as the years roll on.”
+
+## Three Steps Toward Meaningful Work That Fits Your Values and Ideals
+
+### 1. Discover Your (Work) Values and Ideals
+
+It all starts with **self-knowledge**. Get to know yourself better and explore what truly matters to you at work.  
+You can do this through tests, conversations with a career coach, or talks with people who know you well.  
+The following exercises, and the short list of work values below, can also help you on your way.
+
+**Exercises:**
+
+- Make a list of all the (side) jobs you’ve ever had.  
+  Look for the common thread: which elements gave you energy, and which drained it?  
+  This helps you see what actually brings you joy at work (and what doesn’t).  
+- Dare to think (or dream) big! If *anything* were possible, what would you want to change in the world?  
+  What problems would you want to help solve? What did you dream of doing as a child?  
+  If you truly allow yourself to dream, chances are you’ll uncover your deeper ideals.  
+- Identify which **work values** matter most to you. Below you’ll find some examples.  
+  Circle the **five** that feel most important.
+
+|                           |                           |                           |
+|---------------------------|---------------------------|---------------------------|
+| Helping people            | Large organization        | Having influence          |
+| Experiencing autonomy     | Structured tasks          | Flexible working hours    |
+| Few colleagues            | Working outdoors          | Working with your mind    |
+| Small/flat organization   | Caring for people         | Fixed working hours       |
+| Stability/security        | Traveling for work        | Variety                   |
+| Self-development          | No boss / be your own boss| Working creatively        |
+| Contributing to society   | No responsibility         | Learning new things       |
+| Physical work             | Status                    | Collaborating with people |
+| Working indoors (office)  | Working with your hands    | Working under pressure    |
+| Large organization        | Growth opportunities      | Being meaningful          |
+
+Find ways that help *you* get to know yourself better.  
+This process may take longer than you expect — but once you know which elements of work give you energy and have clarified your ideals, you can start taking action.
+
 ---
 
-**Much has been written about the link between our expectations and our experience of happiness. Mo Gawdat even came up with a formula: _happiness = reality – expectations_ (The Logic of Happiness, 2017). This aligns with a series of scientifically based theories, studies, and publications (think of the cognitive behavioral therapy RET and the more recent ACT). If you're struggling with a particular issue, it is worthwhile to examine your expectations, either on your own or with a coach. With the exercises in this blog, you can start right away.**
+### 2. Speak Up!
 
-There is no doubt that expectations can lead to mental discomfort. But how do you track down your own expectations? How do you distinguish innocent expectations from obstructive ones? And what do you do when you have identified an obstructive expectation?
+Once you know what drives you in a job, **talk about it!**  
+Share your search for meaningful work with people you meet — in your friend group, at the coffee machine, at social events, with family, or even at the supermarket.  
 
-**Three steps**
+You might be surprised how many people will think along with you:  
 
-We describe three steps you can take to examine your expectations in a structured way:
+> “Have you ever thought about this kind of job?”  
+> “Oh, I might know someone who could help you with that.”
 
-![two people wearing virtual reality glasses](./aan-de-slag-2.jpg)
+Let yourself be inspired by the thinking — and networking — power of the people around you.
 
-- Step 1. Become aware of obstructive expectations.
-- Step 2. Replace expectations with consciously chosen beliefs.
-- Step 3. Increase commitment through inner decision.
+![colleagues having an animated conversation](./betekenisvol-werk-3.jpg)
 
-The goal of these steps is to consciously choose the guidelines by which you will live. Our society is permeated with expectations. Think of the expectation to work hard and be productive. But how do you view productivity yourself? By consciously formulating your own perspective and deciding to use it as a guideline for your behavior, you can choose your own path with more confidence.
+It also helps to formulate a **clear intention** for yourself. For example:
 
-At the end of this blog, we outline the story of Suzan, who used the three steps above to address her expectations about productivity. By consciously formulating her own perspective and deciding to use it as a guideline for her behavior, she was able to make her own choices with more confidence. Which obstructive expectation will you tackle?
+> “By November 2026, I’ve found a job where I can contribute as an engineer to improving my country’s coastal defenses.  
+> I want to be a link in collaboration and help ensure resilience and safety.”  
 
-**Common obstructive expectations**
+Or:
 
-- I must be liked by people around me.
-- I must have my life in order.
-- I must be as productive and useful as possible.
-- I must be happy and grateful because I have it good.
+> “Starting this spring, I want to work informally with friends on a European technology that replaces WhatsApp — built right from the ground up.  
+> I want to be my own boss, keep creativity and joy at the center, and stay focused on the progress we’re making.”  
 
-**Step 1. Become aware of expectations**
+The more concrete you make your intention, the sooner it can become reality.  
+You can believe it or not — but what if it works? Try it for yourself.
 
-Sometimes you already know which obstructive expectation is bothering you. In other cases, further investigation is needed. It is helpful to know clues that indicate an obstructive expectation; an idea of how you _should_ live. One clue is the word ‘must’. Obstructive expectations often have a compelling nature encapsulated in the word ‘must’. To gain insight into your obstructive expectations about your life, you can do the exercise below.
+---
 
-- a) Grab a pen and paper and complete the following sentence at least three times.
-  I must always…
-  For example: I must always… be on time.
-- b) Repeat the sentences you wrote down, but this time start the sentence three times with:
-  I have the thought that…
-  For example: I have the thought that I must always be on time. Do you notice that with the second variant, you can look at your expectations with a bit more distance?
-- c) In preparation for step 2: Read the sentences again and circle one of the sentences that you feel most tense about.
+### 3. Look for (or Create) Your Dream Job
 
-**Step 2: What is your belief? What do you find important?**
+And then it’s time to take action.  
+To make your intention real, you’ll need to get moving.  
 
-Many of our expectations are derived from what our parents and caregivers taught us: “Be careful,” “Do your best,” “Behave.” I suspect everyone recognizes these words. Part of examining expectations is questioning how you view certain themes you are struggling with. In other words: What do you really think? What is your belief? Do you really think everyone should always be on time? Below you will find a simple way to find out!
+Here are a few suggestions:
 
-![woman wearing virtual reality glasses](./aan-de-slag-1.jpg)
+a. **Reach out to people** who already do the kind of work you aspire to.  
+   If you don’t know any, search LinkedIn by job title, take the leap, and ask if you can interview them about their work.  
 
-> At the end of the previous exercise, you circled one of the sentences, for example: I must always respond as quickly as possible to messages (emails, texts) from others in which I am asked for something.
->
-> Imagine you are sitting in a bar with a friend who is struggling with the same expectation as you. He or she wants to hear how you view what is bothering them. He or she asks, for example: Do you also think that people should always respond as quickly as possible to messages from others?
->
-> Formulate your answer to that question. Formulating your belief can be complicated. It may help to force yourself to follow each statement you make with ‘because…’
+b. **Browse through job openings** that seem to match your ideals and work values.  
+   Don’t hesitate to call organizations to ask whether the role might suit you.  
 
-**Step 3: What is your inner decision?**
+c. **Shadow someone for a day** in your potential dream job — to see what it really looks like in practice.  
 
-Expectations we have carried for a long time are not easily set aside. It is human to give good advice to a friend, but to ignore that advice yourself. It’s like a lung doctor who smokes. How can that be? There is a reason why you have not yet acted in line with your belief. Your current behavior yields something, even if it is just being able to act out of routine, which initially takes less effort than conscious action.
 
-When you want to break that routine, it is important to make a firm inner decision to act in line with your own beliefs. It can help to discuss your belief on a certain theme with someone and to express your intention to live according to that belief. Experience also shows that you can increase your commitment to yourself by precisely formulating what will change in your daily practice/behavior, that is, which consequences you decide to accept.
 
-If possible, involve a friend, colleague, or coach in the insights that steps 1 and 2 have given you. Discuss with him or her that your decision is to act in line with your belief and that you would like to share this with him or her.
-
-> Ask this person to think with you about the following question: ‘What will change in practice if I live according to my belief?’
-
-**An example**
-
-Let's walk you through the example of Suzan to get a better picture of how the examination of expectations works.
-
-_Suzan is a hard worker with a busy job. She often feels guilty when she has had an unproductive day. Nowadays, this happens more often than she likes. She gets stressed and is often dissatisfied. She feels the need to examine her expectations and follows the three steps._
-
-**_Step 1_**
-
-_In the exercise, one of the sentences stands out clearly to her. ‘I must always be as useful and productive as possible.’ As she writes the sentence, she immediately feels the tension; there is something compelling in the way she thinks about it. She transforms the sentence: ‘I have the thought that I must always be as useful and productive as possible.’ When she lets this sentence sink in, she notices that the tension decreases because she can look at it with some distance._
-
-**_Step 2_**
-
-_Suzan imagines what she would say to a friend who struggles with the same compelling expectation and asks for her opinion on it. She comes to the following belief:_
-
-_I believe that people don’t always have to be productive, because that doesn’t do justice to what it means to be human. I believe that people should be able to be productive if they want to achieve something, but it shouldn’t bother them, because then working is not enjoyable, not sustainable, and you are not free. The bow doesn’t always have to be tense, I will work within fixed times and even if not everything is finished, the evenings are for myself._
-
-**_Step 3_**
-
-_Suzan calls a colleague with whom she can always talk well about topics she struggles with. She is surprised at how far she has come. She can explain very well to her colleague which expectation is obstructing her and also what her belief is on the theme of productivity. She expresses that she has decided to live according to her belief and that it would help her to discuss what that means for her daily practice._
-
-_While talking with her colleague, she concludes that she should not give too much space to her sense of duty and performance-oriented ‘self’ and that this will not be easy. It means that sometimes she has to endure that others are waiting for her and may not be happy with her, but she is willing to accept that consequence. Her decision is firm._
-
-**How far have you come?**
-
-It is an art of living to remain sharp about your expectations and how they influence the control and happiness you experience in your life. Hopefully, with the above three steps, you have come a long way and now see where the gains lie for you and how you can stand stronger and happier in your life with a belief you have chosen.
-
-It can be pleasant to go through the steps in more detail and be guided in maintaining the consciously chosen behavior.
-
-If you feel the need to be challenged more firmly, a coach can help with that. Take a look here to learn more about the coaching possibilities at Yep.
-
-![Coach Anna Stutje](./aan-de-slag-3.jpg)
-
-This blog was written by Anna Stutje. Since the beginning of 2020, she has been responsible for all coaching activities at Yep.
+## Wishing you all the best as you keep looking!

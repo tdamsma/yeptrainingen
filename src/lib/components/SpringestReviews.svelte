@@ -27,9 +27,7 @@
 	let selectedReviews: Review[] = [];
 	$: selectedReviews = reviewsDoubled.slice(t, t + 4);
 
-	setInterval(() => {
-		t = (t + 1) % reviews.length;
-	}, transitionTimeMS);
+	let intervalId: ReturnType<typeof setInterval> | undefined;
 
 	let modalVisible = false;
 
@@ -60,11 +58,17 @@
 		if (typeof document !== 'undefined') {
 			document.addEventListener('keydown', handleKeydown);
 		}
+		intervalId = setInterval(() => {
+			t = (t + 1) % reviews.length;
+		}, transitionTimeMS);
 	});
 
 	onDestroy(() => {
 		if (typeof document !== 'undefined') {
 			document.removeEventListener('keydown', handleKeydown);
+		}
+		if (intervalId) {
+			clearInterval(intervalId);
 		}
 	});
 </script>

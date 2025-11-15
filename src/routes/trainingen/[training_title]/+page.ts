@@ -30,4 +30,18 @@ export async function load({ depends, params }) {
 	};
 }
 
+/** @type {import('./$types').EntryGenerator} */
+export async function entries() {
+	// During SSG, generate entries for all locales
+	const { locales } = await import('$lib/paraglide/runtime.js');
+	const allEntries = [];
+
+	for (const locale of locales) {
+		const posts = await fetchContent('trainingen', locale);
+		allEntries.push(...posts.map((post) => ({ training_title: post.path })));
+	}
+
+	return allEntries;
+}
+
 export const prerender = true;

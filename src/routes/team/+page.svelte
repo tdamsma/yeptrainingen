@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import type { ImageModule, TeamMemberModule, TeamMember } from '$lib/types';
 	import { languageTag } from '$lib/paraglide/runtime.js';
 	import * as m from '$lib/paraglide/messages.js';
+	import { page } from '$app/stores';
 	const TeamMemberModulesNl = import.meta.glob('$content/team/*.nl.md', {
 		eager: true,
 		query: {
@@ -20,7 +20,6 @@
 		nl: TeamMemberModulesNl,
 		en: TeamMemberModulesEn
 	};
-	const TeamMemberModules = TeamMemberModulesMap[languageTag()];
 
 	const imageModules = import.meta.glob('$content/team/*.jpg', {
 		eager: true,
@@ -28,13 +27,19 @@
 			enhanced: true
 		}
 	}) as Record<string, ImageModule>;
-	const members: TeamMember[] = Object.entries(TeamMemberModules)
-		.map(([path, module]) => ({
-			path: path.replace(/\.(nl|en)\.md$/, ''),
-			meta: module.metadata,
-			content: module.default
-		}))
-		.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
+
+	let members = $derived((() => {
+		// Access $page.url to make this reactive to route changes
+		const _ = $page.url.pathname;
+		const TeamMemberModules = TeamMemberModulesMap[languageTag()];
+		return Object.entries(TeamMemberModules)
+			.map(([path, module]) => ({
+				path: path.replace(/\.(nl|en)\.md$/, ''),
+				meta: module.metadata,
+				content: module.default
+			}))
+			.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
+	})());
 </script>
 
 <div>

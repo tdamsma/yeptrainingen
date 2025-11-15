@@ -1,8 +1,8 @@
 <script lang="ts">
-	import { onMount } from 'svelte';
 	import type { CoachingModule, ImageModule, Coaching } from '$lib/types';
 	import { languageTag } from '$lib/paraglide/runtime.js';
 	import * as m from '$lib/paraglide/messages.js';
+	import { page } from '$app/stores';
 
 	const imageModules = import.meta.glob(
 		'$content/coaching/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
@@ -31,17 +31,17 @@
 		en: coachingModulesEn,
 		nl: coachingModulesNl
 	};
-	const coachingModules = coachingModulesMap[languageTag()];
-
-	let coachings: Coaching[] = [];
 
 	function formatDate(date: string) {
 		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
 		return new Date(date).toLocaleDateString('en', options);
 	}
 
-	onMount(() => {
-		coachings = Object.entries(coachingModules)
+	let coachings = $derived((() => {
+		// Access $page.url to make this reactive to route changes
+		const _ = $page.url.pathname;
+		const coachingModules = coachingModulesMap[languageTag()];
+		return Object.entries(coachingModules)
 			.map(([path, module]) => ({
 				path: path.replace(/\.nl\.md$/, ''),
 				name:
@@ -53,7 +53,7 @@
 				content: module.default
 			}))
 			.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
-	});
+	})());
 </script>
 
 <div class="container-fluid p-0 m-0">

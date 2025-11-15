@@ -37,18 +37,20 @@
 						</p>
 
 						<p>
-							<label>{m.contact_name_label()}</label><br />
+							<label for="newsletter-name">{m.contact_name_label()}</label><br />
 							<input
 								type="text"
+								id="newsletter-name"
 								name="NAAM"
 								placeholder={m.contact_name_placeholder()}
 								required=""
 							/>
 						</p>
 						<p>
-							<label>{m.contact_email_label()}:</label><br />
+							<label for="newsletter-email">{m.contact_email_label()}:</label><br />
 							<input
 								type="email"
+								id="newsletter-email"
 								name="EMAIL"
 								placeholder={m.contact_email_placeholder()}
 								required

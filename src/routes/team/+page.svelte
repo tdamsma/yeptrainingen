@@ -67,7 +67,7 @@
 						title={member.meta.name}
 					/>
 					<h2 class="text-center mt-1">{member.meta.name}</h2>
-					<svelte:component this={member.content} />
+					<member.content />
 				</div>
 			{/each}
 		</div>

@@ -1,19 +1,19 @@
 import { fetchContent } from '$lib/utils';
-import { languageTag } from '$lib/paraglide/runtime.js';
+import { getLocale } from '$lib/paraglide/runtime.js';
 
 export async function load({ depends, params }) {
 	depends('paraglide:lang');
 
 	let post;
 	try {
-		post = await import(`$content/coaching/${params.coaching_title}.${languageTag()}.md`);
+		post = await import(`$content/coaching/${params.coaching_title}.${getLocale()}.md`);
 	} catch (error) {
-		post = await import(`$content/coaching/_.${languageTag()}._.md`);
+		post = await import(`$content/coaching/_.${getLocale()}._.md`);
 	}
 	const { title, date, img } = post.metadata;
 	const content = post.default;
 
-	const allPosts = await fetchContent('coaching', languageTag());
+	const allPosts = await fetchContent('coaching', getLocale());
 	const sortedPosts = allPosts.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
 
 	const currentIndex = sortedPosts.findIndex((p) => p.path === params.coaching_title);
@@ -32,7 +32,7 @@ export async function load({ depends, params }) {
 
 /** @type {import('./$types').EntryGenerator} */
 export async function entries() {
-	const allPosts = await fetchContent('coaching', languageTag());
+	const allPosts = await fetchContent('coaching', getLocale());
 	return allPosts.map((post) => ({ coaching_title: post.path }));
 }
 

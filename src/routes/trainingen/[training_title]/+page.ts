@@ -1,18 +1,18 @@
 import { fetchContent } from '$lib/utils';
-import { languageTag } from '$lib/paraglide/runtime.js';
+import { getLocale } from '$lib/paraglide/runtime.js';
 export async function load({ depends, params }) {
 	depends('paraglide:lang');
 	let post;
 	try {
-		post = await import(`$content/trainingen/${params.training_title}.${languageTag()}.md`);
+		post = await import(`$content/trainingen/${params.training_title}.${getLocale()}.md`);
 	} catch (error) {
-		post = await import(`$content/trainingen/_.${languageTag()}._.md`);
+		post = await import(`$content/trainingen/_.${getLocale()}._.md`);
 	}
 
 	const { title, date, img, springest } = post.metadata;
 	const content = post.default;
 
-	const allPosts = await fetchContent('trainingen', languageTag());
+	const allPosts = await fetchContent('trainingen', getLocale());
 	const sortedPosts = allPosts.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
 
 	const currentIndex = sortedPosts.findIndex((p) => p.path === params.training_title);

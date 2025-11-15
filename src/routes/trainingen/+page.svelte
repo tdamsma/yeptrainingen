@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { TrainingModule, ImageModule, Training } from '$lib/types';
-	import { languageTag } from '$lib/paraglide/runtime.js';
+	import { getLocale } from '$lib/paraglide/runtime.js';
 	import * as m from '$lib/paraglide/messages.js';
 	import { page } from '$app/stores';
 	const imageModules = import.meta.glob(
@@ -39,7 +39,7 @@
 	let trainings = $derived((() => {
 		// Access $page.url to make this reactive to route changes
 		const _ = $page.url.pathname;
-		const TrainingModules = TrainingModulesMap[languageTag()];
+		const TrainingModules = TrainingModulesMap[getLocale()];
 		return Object.entries(TrainingModules)
 			.map(([path, module]) => ({
 				path: path.replace(/\.(nl|en)\.md$/, ''),

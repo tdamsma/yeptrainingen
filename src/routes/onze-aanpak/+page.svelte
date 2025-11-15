@@ -2,7 +2,7 @@
 	import kenmerkenNl from './onze-aanpak.nl.json';
 	import kenmerkenEn from './onze-aanpak.en.json';
 	import * as m from '$lib/paraglide/messages.js';
-	import { languageTag } from '$lib/paraglide/runtime.js';
+	import { getLocale } from '$lib/paraglide/runtime.js';
 	import { page } from '$app/stores';
 
 	const kenmerkenMap = {
@@ -12,7 +12,7 @@
 	let data = $derived((() => {
 		// Access $page.url to make this reactive to route changes
 		const _ = $page.url.pathname;
-		return kenmerkenMap[languageTag()];
+		return kenmerkenMap[getLocale()];
 	})());
 </script>
 

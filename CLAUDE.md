@@ -69,13 +69,16 @@ SvelteKit file-based routing with dynamic segments:
 
 ### Internationalization
 
+- **Library**: Paraglide JS 2.0 (framework-agnostic i18n)
 - **Primary language**: Dutch (nl) - serves at root paths (no prefix)
 - **Secondary language**: English (en) - serves at `/en/*` paths
-- **Configuration**: `src/lib/i18n.ts` and `project.inlang/settings.json`
+- **Configuration**: `vite.config.ts` (urlPatterns), `project.inlang/settings.json`, `src/hooks.server.ts`, `src/hooks.ts`
 - **Message files**: `messages/{nl,en}.json`
-- **Runtime**: Generated at `src/lib/paraglide/` by Paraglide
+- **Runtime**: Generated at `src/lib/paraglide/` by Paraglide compiler
+- **API**: Use `getLocale()` to get current locale, `setLocale()` to change it
+- **Routing**: URL patterns defined in `vite.config.ts`, delocalized by `reroute()` in `hooks.ts`
 
-Path translations are configured in `i18n.ts` pathnames object. Example:
+Path translations are configured in `vite.config.ts` urlPatterns. Example:
 - `/onze-aanpak` (nl) → `/our-approach` (en)
 
 ### Content Fetching Pattern
@@ -182,6 +185,119 @@ npm run dev
 ```
 
 **Important:** Vite caches `import.meta.glob()` results. After adding/restoring files from git history, always restart the dev server.
+
+### Paraglide 2.0 Migration - COMPLETED (November 2025)
+
+**Status:** ✅ Successfully migrated from Paraglide 1.x → 2.0
+
+**Major Changes:**
+- Removed `@inlang/paraglide-sveltekit` dependency (139 packages removed)
+- Added `@inlang/paraglide-js` 2.5.0 (framework-agnostic)
+- Deleted `src/lib/i18n.ts` (no longer needed)
+- Removed `<ParaglideJS>` wrapper component from `+layout.svelte`
+- Created `src/hooks.server.ts` for i18n middleware
+- Created `src/hooks.ts` with `reroute()` function for URL delocalization
+- Updated `vite.config.ts` with `urlPatterns` configuration
+- Migrated API: `languageTag()` → `getLocale()`, `availableLanguageTags` → `locales`
+- Updated `project.inlang/settings.json`: `languageTags` → `locales`, `sourceLanguageTag` → `sourceLocale`
+
+#### Critical Configuration: urlPatterns
+
+In Paraglide 2.0, URL routing is configured via `urlPatterns` in `vite.config.ts`:
+
+```javascript
+paraglideVitePlugin({
+  project: './project.inlang',
+  outdir: './src/lib/paraglide',
+  strategy: ['url', 'cookie', 'baseLocale'],
+  urlPatterns: [
+    // Specific translated routes MUST come first
+    {
+      pattern: '/onze-aanpak',
+      localized: [
+        ['en', '/en/our-approach'],
+        ['nl', '/onze-aanpak']
+      ]
+    },
+    // General wildcard pattern MUST come last
+    {
+      pattern: '/:path(.*)?',
+      localized: [
+        ['en', '/en/:path(.*)?'],
+        ['nl', '/:path(.*)?']  // No prefix for Dutch (base locale)
+      ]
+    }
+  ]
+})
+```
+
+**Pattern Matching Rules:**
+1. Patterns are evaluated in order (first match wins)
+2. More specific patterns must come before general patterns
+3. Wildcard `/:path(.*)?` must be last
+4. Base locale (nl) has no prefix, other locales have `/en/` prefix
+
+#### New Hooks Architecture
+
+**src/hooks.server.ts** - Server-side i18n middleware:
+```javascript
+import { paraglideMiddleware } from '$lib/paraglide/server';
+
+export const handle: Handle = ({ event, resolve }) =>
+  paraglideMiddleware(event.request, ({ request, locale }) => {
+    event.request = request;
+    return resolve(event, {
+      transformPageChunk: ({ html }) => html.replace('%lang%', locale)
+    });
+  });
+```
+
+**src/hooks.ts** - URL delocalization for routing:
+```javascript
+import { deLocalizeUrl } from '$lib/paraglide/runtime';
+
+export const reroute: Reroute = (request) => {
+  return deLocalizeUrl(request.url).pathname;
+};
+```
+
+#### API Migration Pattern
+
+All component and route files were updated:
+- Import: `import { languageTag } from '$lib/paraglide/runtime.js'` → `import { getLocale } from '$lib/paraglide/runtime.js'`
+- Usage: `languageTag()` → `getLocale()`
+- Config: `availableLanguageTags` → `locales`
+
+**Language Switcher** (simplified):
+```javascript
+// Old (v1.x): Used i18n.route() and i18n.resolveRoute()
+// New (v2.0): Uses localizeHref() with data-sveltekit-reload
+<a
+  data-sveltekit-reload
+  href={localizeHref($page.url.pathname, { locale: newLanguage })}
+>
+  Switch Language
+</a>
+```
+
+**IMPORTANT:** The `data-sveltekit-reload` attribute is required for language switches. Without it, SvelteKit may continue rendering in the previous language.
+
+#### Regenerating Paraglide Files
+
+After changing `vite.config.ts` configuration, you must regenerate the runtime:
+```bash
+# Delete generated files
+rm -rf src/lib/paraglide
+
+# Restart dev server (automatically regenerates)
+npm run dev
+```
+
+The Paraglide compiler runs during Vite startup and generates files in `src/lib/paraglide/`:
+- `runtime.js` - Core locale management
+- `server.js` - Server-side middleware
+- `messages.js` - Message function exports
+- `messages/` - Individual message modules
 
 ### Content Restoration from Git History
 

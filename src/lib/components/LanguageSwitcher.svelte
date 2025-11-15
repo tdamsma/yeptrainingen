@@ -1,71 +1,85 @@
 <script lang="ts">
-	import { availableLanguageTags, languageTag } from '$lib/paraglide/runtime';
-	import type { AvailableLanguageTag } from '$lib/paraglide/runtime';
-
-	import { i18n } from '$lib/i18n';
-	import { goto } from '$app/navigation';
+	import { locales, getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { page } from '$app/stores';
-	import { get } from 'svelte/store';
-	import { scale } from 'svelte/transition';
 
-	function switchToLanguage(newLanguage: AvailableLanguageTag) {
-		const canonicalPath = i18n.route(get(page).url.pathname);
-		const localisedPath = i18n.resolveRoute(canonicalPath, newLanguage);
-		goto(localisedPath);
-	}
+	type Locale = (typeof locales)[number];
 
 	const labels = {
 		nl: '🇳🇱',
 		en: '🇬🇧'
-	} as Record<AvailableLanguageTag, string>;
+	} as Record<Locale, string>;
 
-	const currentLanguage = languageTag();
-	const newLanguage = currentLanguage === 'nl' ? 'en' : 'nl';
+	let currentLanguage = $derived(
+		(() => {
+			// Access $page.url to make this reactive to route changes
+			const _ = $page.url.pathname;
+			return getLocale();
+		})()
+	);
+	let newLanguage = $derived(currentLanguage === 'nl' ? 'en' : 'nl');
+	let switchUrl = $derived(localizeHref($page.url.pathname, { locale: newLanguage }));
 </script>
 
-<div class="language-switcher">
-	<button
-		class="language-button"
-		on:click={() => switchToLanguage(newLanguage)}
-		title="Switch language to {newLanguage.toUpperCase()}"
-	>
-		<span
-			transition:scale={{ duration: 250 }}
-			class={`language-flag ${currentLanguage === 'nl' ? 'selected' : ''}`}>{labels.nl}</span
-		>
-		<span
-			transition:scale={{ duration: 250 }}
-			class={`language-flag ${currentLanguage === 'en' ? 'selected' : ''}`}>{labels.en}</span
-		>
-	</button>
-</div>
+<a
+	data-sveltekit-reload
+	href={switchUrl}
+	class="language-toggle"
+	role="button"
+	title="Switch language to {newLanguage.toUpperCase()}"
+>
+	<span class="toggle-track">
+		<span class="toggle-option {currentLanguage === 'nl' ? 'active' : ''}">{labels.nl}</span>
+		<span class="toggle-option {currentLanguage === 'en' ? 'active' : ''}">{labels.en}</span>
+		<span class="toggle-slider {currentLanguage === 'en' ? 'right' : ''}"></span>
+	</span>
+</a>
 
 <style>
-	.language-switcher {
-		display: flex;
-		align-items: center;
-	}
-
-	.language-button {
-		font-size: 1.2rem;
-		background: none;
-		border: none;
+	.language-toggle {
+		text-decoration: none;
 		cursor: pointer;
+	}
+
+	.toggle-track {
 		display: flex;
 		align-items: center;
+		background: #e0e0e0;
+		border-radius: 20px;
+		padding: 2px;
+		position: relative;
+		width: 70px;
+		height: 32px;
 	}
 
-	.language-flag {
-		padding: 0.2rem 0.5rem;
-		transition: color 0.3s ease;
+	.toggle-option {
+		flex: 1;
+		text-align: center;
+		font-size: 1rem;
+		z-index: 1;
+		transition: opacity 0.2s ease;
 	}
 
-	.language-flag.selected {
-		transform: scale(1.4);
-		color: #007bff; /* Bootstrap primary color */
+	.toggle-option.active {
+		opacity: 1;
 	}
 
-	.separator {
-		margin: 0 0.5rem;
+	.toggle-option:not(.active) {
+		opacity: 0.5;
+	}
+
+	.toggle-slider {
+		position: absolute;
+		top: 2px;
+		left: 2px;
+		width: calc(50% - 2px);
+		height: calc(100% - 4px);
+		background: white;
+		border-radius: 18px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+		transition: transform 0.2s ease;
+	}
+
+	.toggle-slider.right {
+		transform: translateX(100%);
 	}
 </style>

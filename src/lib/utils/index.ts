@@ -1,4 +1,7 @@
-import type { AvailableLanguageTag } from '$lib/paraglide/runtime.js';
+import { locales } from '$lib/paraglide/runtime.js';
+
+type Locale = (typeof locales)[number];
+
 const importPathsNl = {
 	blog: import.meta.glob('$content/blog/*.nl.md'),
 	coaching: import.meta.glob('$content/coaching/*.nl.md'),
@@ -17,18 +20,18 @@ const importPathsEn = {
 const importPathsMap = {
 	nl: importPathsNl,
 	en: importPathsEn
-};
+} as const;
 
 type ValidCategory = 'blog' | 'coaching' | 'opdrachtgevers' | 'team' | 'trainingen';
 
-export const fetchContent = async (category: ValidCategory, language: AvailableLanguageTag) => {
+export const fetchContent = async (category: ValidCategory, language: Locale) => {
 	const importPaths = importPathsMap[language];
 	const allPostFiles = importPaths[category];
 	const iterablePostFiles = Object.entries(allPostFiles);
 
 	const allPosts = await Promise.all(
 		iterablePostFiles.map(async ([path, resolver]) => {
-			const { metadata } = await resolver();
+			const { metadata } = await (resolver as () => Promise<{ metadata: any }>)();
 			const postPath = path.replace(`/content/${category}/`, '').replace(`.${language}.md`, '');
 			return {
 				meta: metadata,

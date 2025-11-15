@@ -1,3 +1,5 @@
+import type { Component } from 'svelte';
+
 export interface ImageSources {
 	[key: string]: {
 		sources: any;
@@ -11,19 +13,13 @@ export interface TeamMemberMeta {
 }
 
 export interface TeamMemberModule {
-	default: {
-		render: Function;
-		$$render: Function;
-	};
+	default: Component;
 	metadata: TeamMemberMeta;
 }
 export interface TeamMember {
 	path: string;
 	meta: TeamMemberMeta;
-	content: {
-		render: Function;
-		$$render: Function;
-	};
+	content: Component;
 }
 
 export interface ImageModule {
@@ -45,21 +41,21 @@ export interface BlogMeta {
 	english_title: string;
 }
 export interface BlogModule {
-	default: {
-		render: Function;
-		$$render: Function;
-	};
+	default: Component;
 	metadata: BlogMeta;
 }
 export interface Blog {
 	path: string;
 	name: string;
 	meta: BlogMeta;
-	content: {
-		render: Function;
-		$$render: Function;
-	};
+	content: Component;
 }
+
+// Alias for compatibility
+export type BlogPost = {
+	meta: BlogMeta;
+	path: string;
+};
 
 export interface TrainingMeta {
 	title: string;
@@ -72,16 +68,10 @@ export interface Training {
 	path: string;
 	name: string;
 	meta: TrainingMeta;
-	content: {
-		render: Function;
-		$$render: Function;
-	};
+	content: Component;
 }
 export interface TrainingModule {
-	default: {
-		render: Function;
-		$$render: Function;
-	};
+	default: Component;
 	metadata: TrainingMeta;
 }
 export interface CoachingMeta {
@@ -94,16 +84,10 @@ export interface Coaching {
 	path: string;
 	name: string;
 	meta: CoachingMeta;
-	content: {
-		render: Function;
-		$$render: Function;
-	};
+	content: Component;
 }
 export interface CoachingModule {
-	default: {
-		render: Function;
-		$$render: Function;
-	};
+	default: Component;
 	metadata: CoachingMeta;
 }
 export interface OpdrachtgeverModule {

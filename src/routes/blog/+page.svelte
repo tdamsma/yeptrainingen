@@ -1,6 +1,7 @@
 <script lang="ts">
 	import type { BlogModule, ImageModule, Blog } from '$lib/types';
 	import { languageTag } from '$lib/paraglide/runtime.js';
+	import { page } from '$app/stores';
 
 	const imageModules = import.meta.glob(
 		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
@@ -29,25 +30,31 @@
 		en: blogModulesEn,
 		nl: blogModulesNl
 	};
-	const blogModules = blogModulesMap[languageTag()];
 
 	function formatDate(date: string) {
 		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
 		return new Date(date).toLocaleDateString('en', options);
 	}
 
-	const blogs: Blog[] = Object.entries(blogModules)
-		.map(([path, module]) => ({
-			path: path.replace(/\.(nl|en)\.md$/, ''),
-			name:
-				path
-					.replace(/\.(nl|en)\.md$/, '')
-					.split('/')
-					.pop() || '',
-			meta: module.metadata,
-			content: module.default
-		}))
-		.sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
+	let blogs = $derived((() => {
+		// Access $page.url to make this reactive to route changes
+		const _ = $page.url.pathname;
+		const blogModules = blogModulesMap[languageTag()];
+		return Object.entries(blogModules)
+			.filter(([path]) => !path.includes('_._')) // Filter out fallback 404 files
+			.map(([path, module]) => ({
+				path: path.replace(/\.(nl|en)\.md$/, ''),
+				name:
+					path
+						.replace(/\.(nl|en)\.md$/, '')
+						.split('/')
+						.pop() || '',
+				meta: module.metadata,
+				content: module.default
+			}))
+			.filter((blog) => blog.meta?.date) // Filter out any posts without a date
+			.sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
+	})());
 </script>
 
 <div>

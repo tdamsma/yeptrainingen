@@ -3,22 +3,26 @@
 	import kenmerkenEn from './onze-aanpak.en.json';
 	import * as m from '$lib/paraglide/messages.js';
 	import { languageTag } from '$lib/paraglide/runtime.js';
+	import { page } from '$app/stores';
 
 	const kenmerkenMap = {
 		nl: kenmerkenNl,
 		en: kenmerkenEn
 	};
-	let data = kenmerkenMap[languageTag()];
+	let data = $derived((() => {
+		// Access $page.url to make this reactive to route changes
+		const _ = $page.url.pathname;
+		return kenmerkenMap[languageTag()];
+	})());
 </script>
 
-<template>
-	<div class="container-fluid m-0 p-0 bg-white">
-		<div class="jumbotron jumbotron-fluid yep-geel">
-			<div class="row justify-content-around">
-				<h1>{m.aanpak_title()}</h1>
-			</div>
+<div class="container-fluid m-0 p-0 bg-white">
+	<div class="jumbotron jumbotron-fluid yep-geel">
+		<div class="row justify-content-around">
+			<h1>{m.aanpak_title()}</h1>
 		</div>
-		<div class="row overflow-hidden">
+	</div>
+	<div class="row overflow-hidden">
 			<div class="col-lg-6 overflow-hidden">
 				<enhanced:img
 					style="object-fit: cover; max-height: 600px; width: 100%"
@@ -123,7 +127,6 @@
 			</div>
 		</div>
 	</div>
-</template>
 
 <style>
 	.bg-onze-aanpak.jumbotron img {

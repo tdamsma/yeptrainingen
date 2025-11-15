@@ -35,7 +35,10 @@
 
 	let t = 0;
 	const transitionTimeMS = 2500;
-	const opdrachtgeversDoubled = [...opdrachtgevers, ...opdrachtgevers];
+	const opdrachtgeversDoubled = [...opdrachtgevers, ...opdrachtgevers].map((og, index) => ({
+		...og,
+		uniqueKey: `${og.opdrachtgever}-${index}`
+	}));
 
 	$: selectedOpdrachtgevers = opdrachtgeversDoubled.slice(t, t + 11);
 
@@ -50,7 +53,7 @@
 	<div class="flexcontainer-wrapper-wrapper">
 		<div class="flexcontainer-wrapper">
 			<div class="flexcontainer">
-				{#each selectedOpdrachtgevers as opdrachtgever (opdrachtgever.opdrachtgever)}
+				{#each selectedOpdrachtgevers as opdrachtgever (opdrachtgever.uniqueKey)}
 					<div
 						class="panel"
 						transition:slide={{ delay: 0, duration: transitionTimeMS, easing: linear, axis: 'x' }}

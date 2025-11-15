@@ -3,15 +3,14 @@
 	import type { AvailableLanguageTag } from '$lib/paraglide/runtime';
 
 	import { i18n } from '$lib/i18n';
-	import { goto } from '$app/navigation';
+	import { goto, invalidateAll } from '$app/navigation';
 	import { page } from '$app/stores';
-	import { get } from 'svelte/store';
-	import { scale } from 'svelte/transition';
 
-	function switchToLanguage(newLanguage: AvailableLanguageTag) {
-		const canonicalPath = i18n.route(get(page).url.pathname);
+	async function switchToLanguage(newLanguage: AvailableLanguageTag) {
+		const canonicalPath = i18n.route($page.url.pathname);
 		const localisedPath = i18n.resolveRoute(canonicalPath, newLanguage);
-		goto(localisedPath);
+		await goto(localisedPath);
+		await invalidateAll();
 	}
 
 	const labels = {
@@ -19,22 +18,24 @@
 		en: '🇬🇧'
 	} as Record<AvailableLanguageTag, string>;
 
-	const currentLanguage = languageTag();
-	const newLanguage = currentLanguage === 'nl' ? 'en' : 'nl';
+	let currentLanguage = $derived((() => {
+		// Access $page.url to make this reactive to route changes
+		const _ = $page.url.pathname;
+		return languageTag();
+	})());
+	let newLanguage = $derived(currentLanguage === 'nl' ? 'en' : 'nl');
 </script>
 
 <div class="language-switcher">
 	<button
 		class="language-button"
-		on:click={() => switchToLanguage(newLanguage)}
+		onclick={() => switchToLanguage(newLanguage)}
 		title="Switch language to {newLanguage.toUpperCase()}"
 	>
 		<span
-			transition:scale={{ duration: 250 }}
 			class={`language-flag ${currentLanguage === 'nl' ? 'selected' : ''}`}>{labels.nl}</span
 		>
 		<span
-			transition:scale={{ duration: 250 }}
 			class={`language-flag ${currentLanguage === 'en' ? 'selected' : ''}`}>{labels.en}</span
 		>
 	</button>

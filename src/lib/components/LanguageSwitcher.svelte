@@ -1,35 +1,28 @@
 <script lang="ts">
-	import { availableLanguageTags, languageTag } from '$lib/paraglide/runtime';
-	import type { AvailableLanguageTag } from '$lib/paraglide/runtime';
-
-	import { i18n } from '$lib/i18n';
-	import { goto, invalidateAll } from '$app/navigation';
+	import { locales, getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { page } from '$app/stores';
 
-	async function switchToLanguage(newLanguage: AvailableLanguageTag) {
-		const canonicalPath = i18n.route($page.url.pathname);
-		const localisedPath = i18n.resolveRoute(canonicalPath, newLanguage);
-		await goto(localisedPath);
-		await invalidateAll();
-	}
+	type Locale = typeof locales[number];
 
 	const labels = {
 		nl: '🇳🇱',
 		en: '🇬🇧'
-	} as Record<AvailableLanguageTag, string>;
+	} as Record<Locale, string>;
 
 	let currentLanguage = $derived((() => {
 		// Access $page.url to make this reactive to route changes
 		const _ = $page.url.pathname;
-		return languageTag();
+		return getLocale();
 	})());
 	let newLanguage = $derived(currentLanguage === 'nl' ? 'en' : 'nl');
+	let switchUrl = $derived(localizeHref($page.url.pathname, { locale: newLanguage }));
 </script>
 
 <div class="language-switcher">
-	<button
+	<a
+		data-sveltekit-reload
+		href={switchUrl}
 		class="language-button"
-		onclick={() => switchToLanguage(newLanguage)}
 		title="Switch language to {newLanguage.toUpperCase()}"
 	>
 		<span
@@ -38,7 +31,7 @@
 		<span
 			class={`language-flag ${currentLanguage === 'en' ? 'selected' : ''}`}>{labels.en}</span
 		>
-	</button>
+	</a>
 </div>
 
 <style>

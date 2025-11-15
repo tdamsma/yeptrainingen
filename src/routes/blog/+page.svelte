@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { BlogModule, ImageModule, Blog } from '$lib/types';
-	import { languageTag } from '$lib/paraglide/runtime.js';
+	import { getLocale } from '$lib/paraglide/runtime.js';
 	import { page } from '$app/stores';
 
 	const imageModules = import.meta.glob(
@@ -39,7 +39,7 @@
 	let blogs = $derived((() => {
 		// Access $page.url to make this reactive to route changes
 		const _ = $page.url.pathname;
-		const blogModules = blogModulesMap[languageTag()];
+		const blogModules = blogModulesMap[getLocale()];
 		return Object.entries(blogModules)
 			.filter(([path]) => !path.includes('_._')) // Filter out fallback 404 files
 			.map(([path, module]) => ({

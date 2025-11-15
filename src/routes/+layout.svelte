@@ -1,18 +1,14 @@
 <script>
-	import { ParaglideJS } from '@inlang/paraglide-sveltekit';
-	import { i18n } from '$lib/i18n';
 	import '$lib/styles/vendored-bootstrap.css';
 	import Header from '$lib/components/Header.svelte';
 	import Footer from '$lib/components/Footer.svelte';
 </script>
 
-<ParaglideJS {i18n}>
-	<div>
-		<Header />
-		<slot />
-		<Footer />
-	</div>
-</ParaglideJS>
+<div>
+	<Header />
+	<slot />
+	<Footer />
+</div>
 
 <style>
 	@media (max-width: 575.98px) {

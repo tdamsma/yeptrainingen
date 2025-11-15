@@ -48,7 +48,6 @@ html {
 	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
-
 nav {
 	display: block;
 }
@@ -88,12 +87,10 @@ p {
 	margin-bottom: 1rem;
 }
 
-
 ul {
 	margin-top: 0;
 	margin-bottom: 1rem;
 }
-
 
 ul ul {
 	margin-bottom: 0;
@@ -275,25 +272,21 @@ small,
 }
 
 @media (min-width: 576px) {
-	
 	.container {
 		max-width: 540px;
 	}
 }
 @media (min-width: 768px) {
-	
 	.container {
 		max-width: 720px;
 	}
 }
 @media (min-width: 992px) {
-	
 	.container {
 		max-width: 960px;
 	}
 }
 @media (min-width: 1200px) {
-	
 	.container {
 		max-width: 1140px;
 	}
@@ -314,7 +307,6 @@ small,
 	padding-right: 0;
 	padding-left: 0;
 }
-
 
 .col-xl-6,
 .col-lg-9,
@@ -970,7 +962,6 @@ button.bg-dark:focus {
 	padding-top: 0.5rem !important;
 }
 
-
 .py-2 {
 	padding-bottom: 0.5rem !important;
 }
@@ -979,11 +970,9 @@ button.bg-dark:focus {
 	padding: 1rem !important;
 }
 
-
 .py-3 {
 	padding-top: 1rem !important;
 }
-
 
 .py-3 {
 	padding-bottom: 1rem !important;
@@ -1012,7 +1001,6 @@ button.bg-dark:focus {
 .m-auto {
 	margin: auto !important;
 }
-
 
 .mx-auto {
 	margin-right: auto !important;
@@ -1073,7 +1061,7 @@ a.text-light:focus {
 	a:not(.btn) {
 		text-decoration: underline;
 	}
-	
+
 	blockquote {
 		border: 1px solid #bbb;
 		page-break-inside: avoid;
@@ -1199,7 +1187,6 @@ button {
 p {
 	margin: 0 0 1em;
 }
-
 
 input[type='text'],
 input[type='email'],

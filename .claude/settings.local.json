@@ -38,7 +38,10 @@
       "WebSearch",
       "Bash(find:*)",
       "WebFetch(domain:inlang.com)",
-      "WebFetch(domain:raw.githubusercontent.com)"
+      "WebFetch(domain:raw.githubusercontent.com)",
+      "Bash(npm run lint:*)",
+      "Bash(npm run format:*)",
+      "Bash(npm run check:*)"
     ],
     "deny": [],
     "ask": []

@@ -40,7 +40,8 @@
 						<button
 							class="m-1 btn btn-primary"
 							title="Stuur een email"
-							onclick={() => window.location.href = `mailto:marijn@yeptrainingen.nl?subject=Informatieverzoek training: ${data.title}`}
+							onclick={() =>
+								(window.location.href = `mailto:marijn@yeptrainingen.nl?subject=Informatieverzoek training: ${data.title}`)}
 						>
 							{m.trainingen_informeer()}
 						</button>

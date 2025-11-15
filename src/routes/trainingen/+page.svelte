@@ -36,23 +36,25 @@
 		return new Date(date).toLocaleDateString('en', options);
 	}
 
-	let trainings = $derived((() => {
-		// Access $page.url to make this reactive to route changes
-		const _ = $page.url.pathname;
-		const TrainingModules = TrainingModulesMap[getLocale()];
-		return Object.entries(TrainingModules)
-			.map(([path, module]) => ({
-				path: path.replace(/\.(nl|en)\.md$/, ''),
-				name:
-					path
-						.replace(/\.(nl|en)\.md$/, '')
-						.split('/')
-						.pop() || path,
-				meta: module.metadata,
-				content: module.default
-			}))
-			.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
-	})());
+	let trainings = $derived(
+		(() => {
+			// Access $page.url to make this reactive to route changes
+			const _ = $page.url.pathname;
+			const TrainingModules = TrainingModulesMap[getLocale()];
+			return Object.entries(TrainingModules)
+				.map(([path, module]) => ({
+					path: path.replace(/\.(nl|en)\.md$/, ''),
+					name:
+						path
+							.replace(/\.(nl|en)\.md$/, '')
+							.split('/')
+							.pop() || path,
+					meta: module.metadata,
+					content: module.default
+				}))
+				.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
+		})()
+	);
 </script>
 
 <div>

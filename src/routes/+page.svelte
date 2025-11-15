@@ -38,25 +38,27 @@
 	}
 
 	// Make this reactive to the current language - use $page to trigger updates on route change
-	let blogs = $derived((() => {
-		// Access $page.url to make this reactive to route changes
-		const _ = $page.url.pathname;
-		const blogModules = blogModulesMap[getLocale()];
-		return Object.entries(blogModules)
-			.filter(([path]) => !path.includes('_._')) // Filter out fallback 404 files
-			.map(([path, module]) => ({
-				path: path.replace(/\.nl\.md$/, ''),
-				name:
-					path
-						.replace(/\.nl\.md$/, '')
-						.split('/')
-						.pop() || '',
-				meta: module.metadata,
-				content: module.default
-			}))
-			.filter((blog) => blog.meta?.date) // Filter out any posts without a date
-			.sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
-	})());
+	let blogs = $derived(
+		(() => {
+			// Access $page.url to make this reactive to route changes
+			const _ = $page.url.pathname;
+			const blogModules = blogModulesMap[getLocale()];
+			return Object.entries(blogModules)
+				.filter(([path]) => !path.includes('_._')) // Filter out fallback 404 files
+				.map(([path, module]) => ({
+					path: path.replace(/\.nl\.md$/, ''),
+					name:
+						path
+							.replace(/\.nl\.md$/, '')
+							.split('/')
+							.pop() || '',
+					meta: module.metadata,
+					content: module.default
+				}))
+				.filter((blog) => blog.meta?.date) // Filter out any posts without a date
+				.sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
+		})()
+	);
 
 	let blog = $derived(blogs[0]);
 </script>
@@ -73,13 +75,13 @@
 			/>
 		</div>
 		<div class="col-md-6 pt-4" style="padding-left:40px">
-			<br>
+			<br />
 			<h2>
 				{m.home_inzichtDurfVaardigheid()}
-				<br>
+				<br />
 				<span class="yep-geel-donker">{m.home_voorMaatschappelijkeImpact()}</span>
-				<br>
-				<br>
+				<br />
+				<br />
 			</h2>
 		</div>
 	</div>
@@ -141,11 +143,11 @@
 <div class="container-fluid container-right m-0">
 	<div class="row">
 		<div class="col-md full-width">
-			<br>
-			<br>
+			<br />
+			<br />
 			<h1 class="yep-geel-donker">{m.home_trainingCoachingAdvies()}</h1>
 			<h1>{m.home_neemJeTalentSerieus()}</h1>
-			<br>
+			<br />
 		</div>
 		<div class="col-md p-0">
 			<div class="float-right" style="max-width: 500px; width: 100%">
@@ -184,7 +186,7 @@
 					src="/static/images/wereldbol.png"
 					alt="Maatschappelijk"
 				/>
-				<br>
+				<br />
 				<h2 class="mt-2">{m.home_maatschappelijk()}</h2>
 				<p>{m.home_jouwImpactIsOnsDoel()}</p>
 			</div>
@@ -195,7 +197,7 @@
 					src="/static/images/megafoon.png"
 					alt="Actief"
 				/>
-				<br>
+				<br />
 				<h2 class="mt-2">{m.home_actief()}</h2>
 				<p>{m.home_lerenDoorTeExperimenteren()}</p>
 			</div>
@@ -206,7 +208,7 @@
 					src="/static/images/puzzle.png"
 					alt="Flexibel"
 				/>
-				<br>
+				<br />
 				<h2 class="mt-2">{m.home_flexibel()}</h2>
 				<p>{m.home_jouwOntwikkelVraagStaatCentraal()}</p>
 			</div>

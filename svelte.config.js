@@ -51,12 +51,12 @@ const config = {
 			// default options are suitable for most applications
 		}),
 		alias: {
-			$content: path.resolve('content')
+			$content: path.resolve('content_minimal')
 		},
 		prerender: {
 			origin: 'https://www.yeptrainingen.nl',
 			entries: ['*', '/en'],
-			crawl: true
+			crawl: false // Temporarily disabled to test build
 		}
 	}
 };

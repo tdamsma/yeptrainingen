@@ -12,11 +12,11 @@ export default defineConfig({
 	server: {
 		fs: {
 			allow: [
-				'content_minimal/blog',
-				'content_minimal/coaching',
-				'content_minimal/opdrachtgevers',
-				'content_minimal/team',
-				'content_minimal/trainingen'
+				'content/blog',
+				'content/coaching',
+				'content/opdrachtgevers',
+				'content/team',
+				'content/trainingen'
 			]
 		}
 	}

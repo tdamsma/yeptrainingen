@@ -1,6 +1,5 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-import sveltePreprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
 import path from 'path';
 import rehypeRewrite from 'rehype-rewrite';
@@ -29,11 +28,7 @@ const mdsvexOptions = {
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: [
-		mdsvex(mdsvexOptions),
-		vitePreprocess(),
-		sveltePreprocess({ scss: true, pug: true })
-	],
+	preprocess: [mdsvex(mdsvexOptions), vitePreprocess()],
 
 	onwarn: (warning, handler) => {
 		if (

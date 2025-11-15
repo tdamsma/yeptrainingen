@@ -28,18 +28,20 @@
 		}
 	}) as Record<string, ImageModule>;
 
-	let members = $derived((() => {
-		// Access $page.url to make this reactive to route changes
-		const _ = $page.url.pathname;
-		const TeamMemberModules = TeamMemberModulesMap[getLocale()];
-		return Object.entries(TeamMemberModules)
-			.map(([path, module]) => ({
-				path: path.replace(/\.(nl|en)\.md$/, ''),
-				meta: module.metadata,
-				content: module.default
-			}))
-			.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
-	})());
+	let members = $derived(
+		(() => {
+			// Access $page.url to make this reactive to route changes
+			const _ = $page.url.pathname;
+			const TeamMemberModules = TeamMemberModulesMap[getLocale()];
+			return Object.entries(TeamMemberModules)
+				.map(([path, module]) => ({
+					path: path.replace(/\.(nl|en)\.md$/, ''),
+					meta: module.metadata,
+					content: module.default
+				}))
+				.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
+		})()
+	);
 </script>
 
 <div>

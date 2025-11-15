@@ -36,25 +36,27 @@
 		return new Date(date).toLocaleDateString('en', options);
 	}
 
-	let blogs = $derived((() => {
-		// Access $page.url to make this reactive to route changes
-		const _ = $page.url.pathname;
-		const blogModules = blogModulesMap[getLocale()];
-		return Object.entries(blogModules)
-			.filter(([path]) => !path.includes('_._')) // Filter out fallback 404 files
-			.map(([path, module]) => ({
-				path: path.replace(/\.(nl|en)\.md$/, ''),
-				name:
-					path
-						.replace(/\.(nl|en)\.md$/, '')
-						.split('/')
-						.pop() || '',
-				meta: module.metadata,
-				content: module.default
-			}))
-			.filter((blog) => blog.meta?.date) // Filter out any posts without a date
-			.sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
-	})());
+	let blogs = $derived(
+		(() => {
+			// Access $page.url to make this reactive to route changes
+			const _ = $page.url.pathname;
+			const blogModules = blogModulesMap[getLocale()];
+			return Object.entries(blogModules)
+				.filter(([path]) => !path.includes('_._')) // Filter out fallback 404 files
+				.map(([path, module]) => ({
+					path: path.replace(/\.(nl|en)\.md$/, ''),
+					name:
+						path
+							.replace(/\.(nl|en)\.md$/, '')
+							.split('/')
+							.pop() || '',
+					meta: module.metadata,
+					content: module.default
+				}))
+				.filter((blog) => blog.meta?.date) // Filter out any posts without a date
+				.sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
+		})()
+	);
 </script>
 
 <div>
@@ -65,7 +67,10 @@
 	</div>
 	<div class="container mt-4 mb-4 larger">
 		{#each blogs as blog}
-			<div class="card mt-2 overflow-hidden shadow-none p-4" style="border: 1px solid #ddd; border-radius: 0.25rem;">
+			<div
+				class="card mt-2 overflow-hidden shadow-none p-4"
+				style="border: 1px solid #ddd; border-radius: 0.25rem;"
+			>
 				<div class="row no-gutters">
 					<div class="col-lg-3 col-md-4">
 						<div class="square-img-container">
@@ -77,8 +82,14 @@
 							/>
 						</div>
 					</div>
-					<div class="col-lg-9 col-md-8" style="display: flex; flex-direction: column; justify-content: center;">
-						<div class="card-body" style="display: flex; flex-direction: column; justify-content: center;">
+					<div
+						class="col-lg-9 col-md-8"
+						style="display: flex; flex-direction: column; justify-content: center;"
+					>
+						<div
+							class="card-body"
+							style="display: flex; flex-direction: column; justify-content: center;"
+						>
 							<h2 class="card-title">{blog.meta.title}</h2>
 							<div class="card-text">
 								<small class="text-muted">{formatDate(blog.meta.date)}</small>

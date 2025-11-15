@@ -2,18 +2,20 @@
 	import { locales, getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { page } from '$app/stores';
 
-	type Locale = typeof locales[number];
+	type Locale = (typeof locales)[number];
 
 	const labels = {
 		nl: '🇳🇱',
 		en: '🇬🇧'
 	} as Record<Locale, string>;
 
-	let currentLanguage = $derived((() => {
-		// Access $page.url to make this reactive to route changes
-		const _ = $page.url.pathname;
-		return getLocale();
-	})());
+	let currentLanguage = $derived(
+		(() => {
+			// Access $page.url to make this reactive to route changes
+			const _ = $page.url.pathname;
+			return getLocale();
+		})()
+	);
 	let newLanguage = $derived(currentLanguage === 'nl' ? 'en' : 'nl');
 	let switchUrl = $derived(localizeHref($page.url.pathname, { locale: newLanguage }));
 </script>
@@ -25,12 +27,8 @@
 		class="language-button"
 		title="Switch language to {newLanguage.toUpperCase()}"
 	>
-		<span
-			class={`language-flag ${currentLanguage === 'nl' ? 'selected' : ''}`}>{labels.nl}</span
-		>
-		<span
-			class={`language-flag ${currentLanguage === 'en' ? 'selected' : ''}`}>{labels.en}</span
-		>
+		<span class={`language-flag ${currentLanguage === 'nl' ? 'selected' : ''}`}>{labels.nl}</span>
+		<span class={`language-flag ${currentLanguage === 'en' ? 'selected' : ''}`}>{labels.en}</span>
 	</a>
 </div>
 

@@ -61,6 +61,12 @@ export interface Blog {
 	};
 }
 
+// Alias for compatibility
+export type BlogPost = {
+	meta: BlogMeta;
+	path: string;
+};
+
 export interface TrainingMeta {
 	title: string;
 	img: string;

@@ -97,7 +97,8 @@
 							</div>
 						</div>
 					</div>
-					<a class="stretched-link font-bold" href="/blog/{blog.name}"></a>
+					<a class="stretched-link font-bold" href="/blog/{blog.name}" aria-label="Read {blog.meta.title}"
+>					</a>
 				</div>
 			</div>
 		{/each}

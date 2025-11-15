@@ -86,14 +86,17 @@
 										sizes="50vw"
 										alt={training.meta.alt}
 									/>
-									<a href="#!">
+									<a href="#!" aria-hidden="true" tabindex="-1">
 										<div class="mask rgba-white-slight"></div>
 									</a>
 								</div>
 							</div>
 							<div class="card-body card-body-cascade" style="min-height: 105px">
 								<h4 class="card-title">{training.meta.title}</h4>
-								<a class="stretched-link font-bold" href="/trainingen/{training.name}"></a>
+								<a
+									class="stretched-link font-bold"
+									href="/trainingen/{training.name}"
+									aria-label="Read about {training.meta.title}"></a>
 							</div>
 						</div>
 					</div>

@@ -71,7 +71,7 @@
 				sizes="min(1280px, 100vw)"
 				src="/static/images/training-yep.jpg"
 				style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto;"
-				alt="Training Image"
+				alt="Training session at YEP"
 			/>
 		</div>
 		<div class="col-md-6 pt-4" style="padding-left:40px">
@@ -171,7 +171,7 @@
 		class="img-fluid"
 		sizes="min(1280px, 100vw)"
 		src="/static/images/site-foto-1-of-1-3.jpg"
-		alt="Site Photo"
+		alt="YEP trainers facilitating group discussion"
 	/>
 </div>
 

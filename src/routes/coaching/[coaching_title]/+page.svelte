@@ -50,7 +50,10 @@
 						<div class="card-body p-3">
 							<h5 class="smalltext card-title">{surroundingdata.meta.title}</h5>
 						</div>
-						<a class="stretched-link font-bold" href="/coaching/{surroundingdata.path}"></a>
+						<a
+							class="stretched-link font-bold"
+							href="/coaching/{surroundingdata.path}"
+							aria-label="Read {surroundingdata.meta.title}"></a>
 					</div>
 				{/each}
 			</div>

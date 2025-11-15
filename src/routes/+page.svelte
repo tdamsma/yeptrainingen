@@ -77,27 +77,27 @@
 	</div>
 </div>
 
-<div class="jumbotron jumbotron-fluid yep-geel">
+<div class="jumbotron yep-geel">
 	<div class="container">
 		<p>{m.home_extraTekst()}</p>
 		<h2 style="text-align: center;">{m.home_leerDrang()}</h2>
 	</div>
 </div>
 
-<div class="jumbotron jumbotron-fluid">
+<div class="jumbotron">
 	<div class="container">
 		<p>{m.home_wijZijnErVoorProfessionals()}</p>
 		<p>{m.home_wijZijnErVoorProfessionals2()}</p>
 	</div>
 </div>
 
-<div class="jumbotron jumbotron-fluid yep-grijs-donker">
+<div class="jumbotron yep-grijs-donker">
 	<div class="container">
 		<div class="row justify-content-around">
 			<div class="col-md-3 border bg-light p-2 text-center">
 				<h2>{m.home_uitgelicht()}</h2>
 				<a href="/trainingen/talent-ontwikkelprogramma" class="d-block mt-2">
-					<div class="square-img-container text-left">
+					<div class="square-img-container text-start">
 						<enhanced:img
 							class="square-img thumbnail"
 							sizes="min(1280px, 100vw)"
@@ -115,7 +115,7 @@
 			<div class="col-md-3 border bg-light p-2 text-center">
 				<h2>{m.home_laatsteBlog()}</h2>
 				<a href="/blog/{blog.name}">
-					<div class="square-img-container text-left">
+					<div class="square-img-container text-start">
 						<enhanced:img
 							class="square-img thumbnail"
 							sizes="min(1280px, 100vw)"
@@ -140,7 +140,7 @@
 			<br />
 		</div>
 		<div class="col-md p-0">
-			<div class="float-right" style="max-width: 500px; width: 100%">
+			<div class="float-end" style="max-width: 500px; width: 100%">
 				<enhanced:img
 					class="img-fluid"
 					sizes="min(1280px, 100vw)"
@@ -152,7 +152,7 @@
 	</div>
 </div>
 
-<div class="jumbotron jumbotron-fluid yep-grijs-donker">
+<div class="jumbotron yep-grijs-donker">
 	<Opdrachtgevers />
 </div>
 
@@ -165,7 +165,7 @@
 	/>
 </div>
 
-<div class="jumbotron jumbotron-fluid yep-grijs-donker">
+<div class="jumbotron yep-grijs-donker">
 	<div class="container text-light border-top border-bottom">
 		<h1 class="text-center my-4">{m.home_yepTrainingsBureau()}</h1>
 		<div class="row justify-content-around my-5">
@@ -206,7 +206,7 @@
 	</div>
 </div>
 
-<div class="jumbotron jumbotron-fluid yep-geel">
+<div class="jumbotron yep-geel">
 	<div class="container text-center">
 		<h1>{m.home_bekijkOnsAanbod()}</h1>
 		<div class="row justify-content-around mt-5">

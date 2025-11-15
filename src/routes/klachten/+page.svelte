@@ -4,7 +4,7 @@
 
 <template lang="html">
 	<div>
-		<div class="jumbotron jumbotron-fluid yep-geel">
+		<div class="jumbotron yep-geel">
 			<div class="container">
 				<div class="row justify-content-around">
 					<h1>{m.klachten_title()}</h1>

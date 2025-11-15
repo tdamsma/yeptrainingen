@@ -30,10 +30,12 @@ $enable-rounded: true;
 //then bootstrap & bootstrap-vue should be added after
 //all other custom scss files or css should be added here
 //so that they inherit the custom SCSS variables
-@import 'materia_variables.scss';
-@import 'bootstrap/scss/bootstrap.scss';
+// Temporarily disabled Bootswatch theme for Bootstrap 5 migration
+// @import 'materia_variables.scss';
+// Temporarily disabled to test build
+//@import 'bootstrap/scss/bootstrap.scss';
 // @import 'bootstrap-vue/src/index.scss';
-@import 'materia_bootswatch.scss';
+// @import 'materia_bootswatch.scss';
 @import url('https://fonts.googleapis.com/css?family=Dosis&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 
@@ -105,7 +107,7 @@ a:hover {
 	font-size: 30px;
 }
 
-@include media-breakpoint-between(0, md) {
+@media (max-width: 767.98px) {
 	.text-overlay .title {
 		font-size: 25px;
 	}
@@ -192,38 +194,38 @@ h2 {
 	max-height: 550px;
 }
 
-@include media-breakpoint-between(lg, xl) {
+@media (min-width: 992px) and (max-width: 1199.98px) {
 	.container-right {
 		padding-left: calc(calc(calc(100% - 1140px) / 2) + 15px);
 	}
 }
 
-@include media-breakpoint-between(md, lg) {
+@media (min-width: 768px) and (max-width: 991.98px) {
 	.container-right {
 		padding-left: calc(calc(calc(100% - 960px) / 2) + 15px);
 	}
 }
 
-@include media-breakpoint-between(sm, md) {
+@media (min-width: 576px) and (max-width: 767.98px) {
 	.container-right {
 		padding-left: calc(calc(calc(100% - 720px) / 2) + 15px);
 	}
 }
 
-@include media-breakpoint-between(0, sm) {
+@media (max-width: 575.98px) {
 	.container-right {
 		padding-left: calc(calc(calc(100% - 540px) / 2) + 15px);
 	}
 }
 
-@include media-breakpoint-between(lg, 9999999) {
+@media (min-width: 992px) {
 	.modal-content {
 		min-height: 80vh;
 		min-width: 100%;
 	}
 }
 
-@include media-breakpoint-between(0, lg) {
+@media (max-width: 991.98px) {
 	.modal-dialog.modal-xl {
 		max-width: 100%;
 		margin: 0;

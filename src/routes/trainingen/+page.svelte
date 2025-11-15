@@ -56,7 +56,7 @@
 </script>
 
 <div>
-	<div class="jumbotron jumbotron-fluid yep-geel">
+	<div class="jumbotron yep-geel">
 		<div class="row justify-content-around">
 			<h1>{m.training_titel()}</h1>
 		</div>

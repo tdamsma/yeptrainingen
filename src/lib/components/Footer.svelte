@@ -2,7 +2,7 @@
 	import * as m from '$lib/paraglide/messages.js';
 </script>
 
-<div class="jumbotron jumbotron-fluid" style="background-color: #807d7d">
+<div class="jumbotron" style="background-color: #807d7d">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-4 text-light">

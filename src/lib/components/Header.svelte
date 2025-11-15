@@ -21,14 +21,14 @@
 	<div class="container d-flex justify-content-between">
 		<a class="navbar-brand" href="/">
 			<enhanced:img
-				class="ml-2"
+				class="ms-2"
 				sizes="min(1280px, 100vw)"
 				src="/static/images/Logo-Yep-300x122.png"
 				alt="yeptrainingen"
 			/>
 		</a>
 		<button
-			class="navbar-toggler mr-2"
+			class="navbar-toggler me-2"
 			type="button"
 			on:click={toggleMenu}
 			aria-controls="nav-collapse"
@@ -38,7 +38,7 @@
 			<span class="navbar-toggler-icon"></span>
 		</button>
 		<div id="nav-collapse" class="collapse navbar-collapse {menuOpen ? 'show' : ''}">
-			<ul class="navbar-nav ml-4">
+			<ul class="navbar-nav ms-4">
 				<li class="nav-item">
 					<a class="nav-link" href="/">Yep</a>
 				</li>
@@ -58,7 +58,7 @@
 					<a class="nav-link" href="/blog">{m.header_blog()}</a>
 				</li>
 			</ul>
-			<ul class="navbar-nav ml-auto">
+			<ul class="navbar-nav ms-auto">
 				<li class="nav-item">
 					<LanguageSwitcher />
 				</li>

@@ -28,13 +28,13 @@
 <style lang="scss">
 	@import '$lib/scss/custom.scss';
 
-	@include media-breakpoint-down(sm) {
+	@media (max-width: 575.98px) {
 		.navbar-brand > img {
 			height: 50px;
 		}
 	}
 
-	@include media-breakpoint-between(sm, md) {
+	@media (min-width: 576px) and (max-width: 767.98px) {
 		.navbar-brand > img {
 			height: 80px;
 		}

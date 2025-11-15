@@ -12,7 +12,7 @@
 </script>
 
 <div class="container-fluid m-0 p-0 bg-white">
-		<div class="jumbotron jumbotron-fluid yep-geel">
+		<div class="jumbotron yep-geel">
 			<div class="row justify-content-around">
 				<h1>{m.aanpak_title()}</h1>
 			</div>
@@ -25,7 +25,7 @@
 					src="/static/images/onze-aanpak-1.jpg"
 				/>
 			</div>
-			<div class="col-lg-6 p-3 m-0 pl-4 pr-5" style="max-width: 800px;">
+			<div class="col-lg-6 p-3 m-0 ps-4 pe-5" style="max-width: 800px;">
 				<h2>{m.aanpak_impact_title()}</h2>
 				<p>
 					{m.aanpak_impact_p1()}
@@ -61,7 +61,7 @@
 			</p>
 		</div>
 
-		<div class="jumbotron jumbotron-fluid mt-5 yep-grijs-donker bg-onze-aanpak">
+		<div class="jumbotron mt-5 yep-grijs-donker bg-onze-aanpak">
 			<enhanced:img src="/static/images/onze-aanpak.jpg" />
 			<div class="row mx-auto" style="max-width: 1600px">
 				{#each data as { kenmerk, aanpak }}
@@ -98,7 +98,7 @@
 			</div>
 		</div>
 
-		<div class="jumbotron jumbotron-fluid bg-light">
+		<div class="jumbotron bg-light">
 			<div class="row">
 				<div class="col-lg-6 p-4 d-flex justify-content-end">
 					<div class="content" style="max-width: 800px;">

@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pkill:*)",
+      "Bash(timeout 60 bun run build:*)",
+      "Bash(xargs:*)",
+      "Bash(npm run build:*)",
+      "Bash(npm install)",
+      "Bash(./tmp/install-output.log 2)",
+      "Bash(./tmp/install-debug.log)",
+      "Bash(echo:*)",
+      "Bash(bun install:*)",
+      "Bash(bun run build:*)",
+      "Bash(./tmp/build-output.log 2)",
+      "Bash(./tmp/build-debug.log)",
+      "Bash(cat:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

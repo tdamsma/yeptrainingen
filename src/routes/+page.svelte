@@ -53,106 +53,187 @@
 	const blog = blogs[0];
 </script>
 
-<template lang="pug">
-.container-fluid.container-left
-  .row.p-0
-    .col-md-6.p-0(style="height: 300px; overflow: hidden")
-      enhanced:img.img-fluid(sizes="min(1280px, 100vw)" 
-        src="/static/images/training-yep.jpg"
-        style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto;"
-        alt="Training Image"
-      )
-    .col-md-6.pt-4(style="padding-left:40px")
-      br
-      h2 {m.home_inzichtDurfVaardigheid()}
-        br
-        span.yep-geel-donker {m.home_voorMaatschappelijkeImpact()}
-        br
-        br
+<div class="container-fluid container-left">
+	<div class="row p-0">
+		<div class="col-md-6 p-0" style="height: 300px; overflow: hidden">
+			<enhanced:img
+				class="img-fluid"
+				sizes="min(1280px, 100vw)"
+				src="/static/images/training-yep.jpg"
+				style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto;"
+				alt="Training Image"
+			/>
+		</div>
+		<div class="col-md-6 pt-4" style="padding-left:40px">
+			<br>
+			<h2>
+				{m.home_inzichtDurfVaardigheid()}
+				<br>
+				<span class="yep-geel-donker">{m.home_voorMaatschappelijkeImpact()}</span>
+				<br>
+				<br>
+			</h2>
+		</div>
+	</div>
+</div>
 
-.jumbotron.jumbotron-fluid.yep-geel
-  .container
-    p {m.home_extraTekst()}
-    h2(style="text-align: center;") {m.home_leerDrang()}
-.jumbotron.jumbotron-fluid
-  .container    
-    p {m.home_wijZijnErVoorProfessionals()}
-    p {m.home_wijZijnErVoorProfessionals2()}
-.jumbotron.jumbotron-fluid.yep-grijs-donker
-  .container
-    .row.justify-content-around
-      .col-md-3.border.bg-light.p-2.text-center
-        h2 {m.home_uitgelicht()}
-        a(href="/trainingen/talent-ontwikkelprogramma" class="d-block mt-2")
-          .square-img-container.text-left
-            enhanced:img.square-img.thumbnail(sizes="min(1280px, 100vw)" 
-              src="/static/images/uitgelicht1.png"
-              alt="Uitgelicht met burealamp"
-            )
-          | {m.home_talentOntwikkelProgramma()} >>
-      .col-md-5.border.bg-light.p-2.text-center
-        h2 {m.home_reviews()}
-        SpringestReviews
+<div class="jumbotron jumbotron-fluid yep-geel">
+	<div class="container">
+		<p>{m.home_extraTekst()}</p>
+		<h2 style="text-align: center;">{m.home_leerDrang()}</h2>
+	</div>
+</div>
 
-      .col-md-3.border.bg-light.p-2.text-center
-        h2 {m.home_laatsteBlog()}
-        a(href=`/blog/{blog.name}`)
-          .square-img-container.text-left
-            enhanced:img.square-img.thumbnail(sizes="min(1280px, 100vw)" src="{imageModules[`/content/blog/${blog.meta.img}`].default}"  alt="{blog.alt}")
-          | {blog.meta.title} >>
+<div class="jumbotron jumbotron-fluid">
+	<div class="container">
+		<p>{m.home_wijZijnErVoorProfessionals()}</p>
+		<p>{m.home_wijZijnErVoorProfessionals2()}</p>
+	</div>
+</div>
 
-.container-fluid.container-right.m-0
-  .row
-    .col-md.full-width
-      br
-      br
-      h1.yep-geel-donker {m.home_trainingCoachingAdvies()}
-      h1 {m.home_neemJeTalentSerieus()}
-      br
-    .col-md.p-0
-      .float-right(style="max-width: 500px; width: 100%")
-        enhanced:img.img-fluid(sizes="min(1280px, 100vw)" src="/static/images/Trainers_van_YEP-1.png" alt="Trainers van YEP")
+<div class="jumbotron jumbotron-fluid yep-grijs-donker">
+	<div class="container">
+		<div class="row justify-content-around">
+			<div class="col-md-3 border bg-light p-2 text-center">
+				<h2>{m.home_uitgelicht()}</h2>
+				<a href="/trainingen/talent-ontwikkelprogramma" class="d-block mt-2">
+					<div class="square-img-container text-left">
+						<enhanced:img
+							class="square-img thumbnail"
+							sizes="min(1280px, 100vw)"
+							src="/static/images/uitgelicht1.png"
+							alt="Uitgelicht met burealamp"
+						/>
+					</div>
+					{m.home_talentOntwikkelProgramma()} >>
+				</a>
+			</div>
+			<div class="col-md-5 border bg-light p-2 text-center">
+				<h2>{m.home_reviews()}</h2>
+				<SpringestReviews />
+			</div>
+			<div class="col-md-3 border bg-light p-2 text-center">
+				<h2>{m.home_laatsteBlog()}</h2>
+				<a href="/blog/{blog.name}">
+					<div class="square-img-container text-left">
+						<enhanced:img
+							class="square-img thumbnail"
+							sizes="min(1280px, 100vw)"
+							src={imageModules[`/content/blog/${blog.meta.img}`].default}
+							alt={blog.meta.alt}
+						/>
+					</div>
+					{blog.meta.title} >>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>
 
-.jumbotron.jumbotron-fluid.yep-grijs-donker
-  Opdrachtgevers
+<div class="container-fluid container-right m-0">
+	<div class="row">
+		<div class="col-md full-width">
+			<br>
+			<br>
+			<h1 class="yep-geel-donker">{m.home_trainingCoachingAdvies()}</h1>
+			<h1>{m.home_neemJeTalentSerieus()}</h1>
+			<br>
+		</div>
+		<div class="col-md p-0">
+			<div class="float-right" style="max-width: 500px; width: 100%">
+				<enhanced:img
+					class="img-fluid"
+					sizes="min(1280px, 100vw)"
+					src="/static/images/Trainers_van_YEP-1.png"
+					alt="Trainers van YEP"
+				/>
+			</div>
+		</div>
+	</div>
+</div>
 
-.container-fluid.p-0
-  enhanced:img.img-fluid(sizes="min(1280px, 100vw)" src="/static/images/site-foto-1-of-1-3.jpg" alt="Site Photo")
+<div class="jumbotron jumbotron-fluid yep-grijs-donker">
+	<Opdrachtgevers />
+</div>
 
-.jumbotron.jumbotron-fluid.yep-grijs-donker
-  .container.text-light.border-top.border-bottom
-    h1.text-center.my-4 {m.home_yepTrainingsBureau()}
-    .row.justify-content-around.my-5
-      .col-md-3.text-center
-        enhanced:img.img-fluid(sizes="min(1280px, 100vw)" src="/static/images/wereldbol.png" alt="Maatschappelijk")
-        br
-        h2.mt-2 {m.home_maatschappelijk()}
-        p {m.home_jouwImpactIsOnsDoel()}
-      .col-md-3.text-center
-        enhanced:img.img-fluid(sizes="min(1280px, 100vw)" src="/static/images/megafoon.png" alt="Actief")
-        br
-        h2.mt-2 {m.home_actief()}
-        p {m.home_lerenDoorTeExperimenteren()}
-      .col-md-3.text-center
-        enhanced:img.img-fluid(sizes="min(1280px, 100vw)" src="/static/images/puzzle.png" alt="Flexibel")
-        br
-        h2.mt-2 {m.home_flexibel()}
-        p {m.home_jouwOntwikkelVraagStaatCentraal()}
-    
+<div class="container-fluid p-0">
+	<enhanced:img
+		class="img-fluid"
+		sizes="min(1280px, 100vw)"
+		src="/static/images/site-foto-1-of-1-3.jpg"
+		alt="Site Photo"
+	/>
+</div>
 
-.jumbotron.jumbotron-fluid.yep-geel
-  .container.text-center
-    h1 {m.home_bekijkOnsAanbod()}
-    .row.justify-content-around.mt-5
-      .col-md-4.bg-light.py-2.mb-2.text-center
-        h2.mb-3 {m.home_trainingen()}
-        a(href="trainingen" class="d-block mt-2")
-          enhanced:img.img-fluid.lazyload(sizes="min(1280px, 100vw)" src="/static/images/trainings-overzicht.png" alt="Trainingen")
-          p.mt-2 {m.home_leesMeer()} >>
-      .col-md-4.bg-light.py-2.mb-2.text-center
-        h2.mb-3 {m.home_coaching()}
-        a(href="coaching" class="d-block mt-2")
-          enhanced:img.img-fluid.lazyload(sizes="min(1280px, 100vw)" src="/static/images/omgaanmetstress.jpg" alt="Coaching")
-          p.mt-2 {m.home_leesMeer()} >>
+<div class="jumbotron jumbotron-fluid yep-grijs-donker">
+	<div class="container text-light border-top border-bottom">
+		<h1 class="text-center my-4">{m.home_yepTrainingsBureau()}</h1>
+		<div class="row justify-content-around my-5">
+			<div class="col-md-3 text-center">
+				<enhanced:img
+					class="img-fluid"
+					sizes="min(1280px, 100vw)"
+					src="/static/images/wereldbol.png"
+					alt="Maatschappelijk"
+				/>
+				<br>
+				<h2 class="mt-2">{m.home_maatschappelijk()}</h2>
+				<p>{m.home_jouwImpactIsOnsDoel()}</p>
+			</div>
+			<div class="col-md-3 text-center">
+				<enhanced:img
+					class="img-fluid"
+					sizes="min(1280px, 100vw)"
+					src="/static/images/megafoon.png"
+					alt="Actief"
+				/>
+				<br>
+				<h2 class="mt-2">{m.home_actief()}</h2>
+				<p>{m.home_lerenDoorTeExperimenteren()}</p>
+			</div>
+			<div class="col-md-3 text-center">
+				<enhanced:img
+					class="img-fluid"
+					sizes="min(1280px, 100vw)"
+					src="/static/images/puzzle.png"
+					alt="Flexibel"
+				/>
+				<br>
+				<h2 class="mt-2">{m.home_flexibel()}</h2>
+				<p>{m.home_jouwOntwikkelVraagStaatCentraal()}</p>
+			</div>
+		</div>
+	</div>
+</div>
 
-</template>
+<div class="jumbotron jumbotron-fluid yep-geel">
+	<div class="container text-center">
+		<h1>{m.home_bekijkOnsAanbod()}</h1>
+		<div class="row justify-content-around mt-5">
+			<div class="col-md-4 bg-light py-2 mb-2 text-center">
+				<h2 class="mb-3">{m.home_trainingen()}</h2>
+				<a href="trainingen" class="d-block mt-2">
+					<enhanced:img
+						class="img-fluid lazyload"
+						sizes="min(1280px, 100vw)"
+						src="/static/images/trainings-overzicht.png"
+						alt="Trainingen"
+					/>
+					<p class="mt-2">{m.home_leesMeer()} >></p>
+				</a>
+			</div>
+			<div class="col-md-4 bg-light py-2 mb-2 text-center">
+				<h2 class="mb-3">{m.home_coaching()}</h2>
+				<a href="coaching" class="d-block mt-2">
+					<enhanced:img
+						class="img-fluid lazyload"
+						sizes="min(1280px, 100vw)"
+						src="/static/images/omgaanmetstress.jpg"
+						alt="Coaching"
+					/>
+					<p class="mt-2">{m.home_leesMeer()} >></p>
+				</a>
+			</div>
+		</div>
+	</div>
+</div>

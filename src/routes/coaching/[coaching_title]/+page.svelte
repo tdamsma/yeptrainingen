@@ -58,7 +58,7 @@
 	</div>
 </div>
 
-<style lang="scss">
+<style>
 	.smalltext {
 		font-size: 16px;
 	}

@@ -5,7 +5,13 @@
       "Bash(npm run build:*)",
       "Bash(tee:*)",
       "Bash(npx sass:*)",
-      "Bash(npm install:*)"
+      "Bash(npm install:*)",
+      "Bash(git commit:*)",
+      "Bash(ncu:*)",
+      "Bash(git checkout:*)",
+      "Bash(nvm use:*)",
+      "Bash(cat:*)",
+      "Bash(git add:*)"
     ],
     "deny": [],
     "ask": []

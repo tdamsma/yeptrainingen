@@ -89,14 +89,15 @@
 										sizes="50vw"
 										alt={coaching.meta.alt}
 									/>
-									<a href="#!">
-										<div class="mask rgba-white-slight"></div>
-									</a>
+									<div class="mask rgba-white-slight"></div>
 								</div>
 							</div>
 							<div class="card-body card-body-cascade" style="min-height: 105px">
 								<h4 class="card-title">{coaching.meta.title}</h4>
-								<a class="stretched-link font-bold" href="/coaching/{coaching.name}"></a>
+								<a
+									class="stretched-link font-bold"
+									href="/coaching/{coaching.name}"
+									aria-label="Read about {coaching.meta.title}"></a>
 							</div>
 						</div>
 					</div>

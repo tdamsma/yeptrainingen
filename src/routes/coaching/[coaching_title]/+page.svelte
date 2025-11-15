@@ -66,17 +66,6 @@
 		font-size: 16px;
 	}
 
-	.nuxt-content > p > img {
-		max-height: 500px;
-		max-width: 100%;
-		display: block;
-		margin-left: auto;
-		margin-right: auto;
-		-webkit-filter: drop-shadow(5px 5px 5px #999);
-		filter: drop-shadow(5px 5px 5px #999);
-		margin-bottom: 20px;
-		margin-top: 20px;
-	}
 	.card-img-top {
 		height: auto;
 	}

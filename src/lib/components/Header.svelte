@@ -48,3 +48,17 @@
 		</div>
 	</div>
 </nav>
+
+<style>
+	@media (max-width: 575.98px) {
+		.navbar-brand :global(img) {
+			height: 50px;
+		}
+	}
+
+	@media (min-width: 576px) and (max-width: 767.98px) {
+		.navbar-brand :global(img) {
+			height: 80px;
+		}
+	}
+</style>

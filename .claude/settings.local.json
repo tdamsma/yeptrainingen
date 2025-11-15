@@ -41,7 +41,8 @@
       "WebFetch(domain:raw.githubusercontent.com)",
       "Bash(npm run lint:*)",
       "Bash(npm run format:*)",
-      "Bash(npm run check:*)"
+      "Bash(npm run check:*)",
+      "Bash(npx purgecss:*)"
     ],
     "deny": [],
     "ask": []

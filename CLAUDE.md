@@ -129,3 +129,159 @@ Blog post pages show "surrounding documents" - 3 posts before and 3 posts after 
 
 ### Vite Server Configuration
 The dev server explicitly allows file system access to content directories to enable dynamic imports from the `/content` folder (configured in `vite.config.ts`).
+
+## Recent Migration Notes (November 2025)
+
+### Svelte 5 + Vite 7 Upgrade - COMPLETED
+
+**Status:** ✅ Successfully upgraded to Svelte 5.43.6 and Vite 7.2.2
+
+**Branch:** `claude2` (6 commits ahead of `origin/claude2`)
+
+**Major Changes:**
+- Upgraded from Svelte 4 → 5 (runes mode)
+- Upgraded from Vite 5 → 7
+- Removed Bootstrap and Sass as dependencies
+- Vendored Bootstrap 4.6.2 CSS to `src/lib/styles/vendored-bootstrap.css`
+- All components working with Svelte 5 syntax
+
+### Critical Bugs Fixed
+
+#### 1. Blog Listing Errors (TypeError: Cannot read properties of undefined)
+**Problem:** Blog and homepage pages crashed when trying to sort blog posts by date because:
+- Fallback 404 files (`_.nl._.md`, `_.en._.md`) don't have `date` metadata
+- These files were included in blog listings via `import.meta.glob()`
+
+**Solution (commit 3027251):**
+```javascript
+// In src/routes/+page.svelte and src/routes/blog/+page.svelte
+let blogs = $derived((() => {
+  const blogModules = blogModulesMap[languageTag()];
+  return Object.entries(blogModules)
+    .filter(([path]) => !path.includes('_._')) // Filter out fallback 404 files
+    .map(([path, module]) => ({ /* ... */ }))
+    .filter((blog) => blog.meta?.date) // Filter out any posts without a date
+    .sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
+})());
+```
+
+**Key Pattern:** Always filter blog/content listings to exclude:
+1. Fallback files (containing `_._`)
+2. Any items without required metadata fields
+
+#### 2. Missing Images After Git Restore
+**Problem:** After restoring content from git history, Vite's `import.meta.glob()` cache didn't pick up newly added image files, causing:
+```
+TypeError: can't access property "default", imageModules["/content/blog/..."] is undefined
+```
+
+**Solution:** Restart the dev server to force Vite to re-scan the file system:
+```bash
+# Kill the dev server and restart
+npm run dev
+```
+
+**Important:** Vite caches `import.meta.glob()` results. After adding/restoring files from git history, always restart the dev server.
+
+### Content Restoration from Git History
+
+Content was temporarily removed in commit `909734a` to speed up development iteration. To restore content:
+
+```bash
+# Example: Restore a blog post and its images
+git show 909734a^:content/blog/post-name.nl.md > content/blog/post-name.nl.md
+git show 909734a^:content/blog/post-name.en.md > content/blog/post-name.en.md
+git show 909734a^:content/blog/post-image.jpg > content/blog/post-image.jpg
+
+# Then restart dev server
+npm run dev
+```
+
+**Currently Restored Content:**
+- 3 blog posts (hoe-coachend-leiderschap, over-grenzen, activerende-online-teamspellen)
+- 1 training program (talent-ontwikkelprogramma)
+- All fallback 404 handlers
+
+### Known Issues & Warnings (Non-Critical)
+
+**Deprecated Plugin API:**
+```
+[vite-plugin-svelte] The following plugins use the deprecated 'plugin.api.sveltePreprocess' field:
+@inlang/paraglide-sveltekit/vite/register-preprocessor
+```
+- **Impact:** None currently
+- **Action:** Wait for @inlang/paraglide-sveltekit maintainers to update
+
+**Unused CSS Selectors (38+ instances):**
+- Leftover styles from Bootstrap migration
+- **Impact:** None functional, slightly larger CSS bundle
+- **Action:** Can be cleaned up in a future optimization pass
+
+**Accessibility Warnings:**
+- Missing aria-labels on card overlay links
+- Redundant "image" in alt text
+- **Impact:** May affect screen reader users
+- **Action:** Address in accessibility improvement pass
+
+**Svelte 5 Deprecation:**
+```
+<svelte:component>` is deprecated in runes mode — components are dynamic by default
+```
+- **Location:** `src/routes/team/+page.svelte:75`
+- **Impact:** None currently, will need fix before Svelte 6
+- **Action:** Replace `<svelte:component>` with direct component reference
+
+### Development Workflow Notes
+
+**After modifying content files:**
+1. Vite should hot-reload automatically for `.md` file changes
+2. If images don't appear, restart dev server
+3. Browser hard refresh (Cmd+Shift+R / Ctrl+Shift+R) clears cached JS
+
+**Debugging content loading issues:**
+```bash
+# Check what files Vite is globbing
+ls -la content/blog/*.{nl,en}.md
+ls -la content/blog/*.{jpg,png}
+
+# Check dev server logs
+# Look for: [vite] (ssr) page reload content/blog/...
+
+# Check browser console for:
+# - TypeError with imageModules
+# - TypeError with .meta.date
+```
+
+**Common fixes:**
+- Missing images → Restore from git or restart dev server
+- Undefined metadata errors → Add filter to exclude posts without required fields
+- 404 files in listings → Filter out paths containing `_._`
+
+### Image Size Optimization
+
+**Large Images Alert:**
+- `hoe-coachend-leiderschap-3.jpg` is **6.9 MB** (needs optimization)
+
+**To resize images:**
+```bash
+# From README.md - resize all images in current dir to max 1600px width
+find . -type f \( -iname "*.jpg" -o -iname "*.jpeg" -o -iname "*.png" \) -exec sh -c '
+for img do
+    width=$(identify -format "%w" "$img")
+    if [ "$width" -gt 1600 ]; then
+        mogrify -resize 1600x "$img"
+    fi
+done
+' sh {} +
+```
+
+### Production Build Checklist
+
+Before building for production:
+1. ✅ Ensure all content files have required metadata (title, date, img, etc.)
+2. ✅ Check that all referenced images exist in `/content` directories
+3. ✅ Run `npm run check` to verify TypeScript types
+4. ⚠️ Optimize large images (>1MB)
+5. ✅ Test both Dutch (/) and English (/en) routes
+6. Run `npm run build` and check for errors
+7. Run `npm run preview` to test the production build locally

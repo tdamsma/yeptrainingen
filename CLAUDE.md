@@ -10,7 +10,7 @@ This is the YEP Trainingen website - a statically generated, multilingual (Dutch
 
 ### Primary Commands
 
-- `npm run dev` - Start development server (can also use `bun run dev`)
+- `npm run dev` - Start development server
 - `npm run build` - Build static site for production
 - `npm run preview` - Preview production build locally
 - `npm run check` - Run Svelte type checking

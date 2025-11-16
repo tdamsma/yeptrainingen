@@ -3,8 +3,8 @@
 
 	export let data;
 
-	function formatDate(date) {
-		const options = { year: 'numeric', month: 'short', day: 'numeric' };
+	function formatDate(date: string) {
+		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
 		return new Date(date).toLocaleDateString('nl-NL', options);
 	}
 
@@ -41,7 +41,7 @@
 					<h1>{data.title}</h1>
 					<small class="text-muted">{formatDate(data.date)}</small>
 					<div class="blog-details-body">
-						<svelte:component this={data.content} />
+						<data.content />
 					</div>
 				</div>
 			</div>

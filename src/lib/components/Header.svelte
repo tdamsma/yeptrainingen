@@ -51,12 +51,28 @@
 </nav>
 
 <style>
+	/* 
+	 * Responsive logo sizing aligned with Bootstrap 4 breakpoints.
+	 * 
+	 * Bootstrap defines breakpoints in src/lib/styles/vendored-bootstrap.css:
+	 *   --breakpoint-xs: 0
+	 *   --breakpoint-sm: 576px
+	 *   --breakpoint-md: 768px
+	 *   --breakpoint-lg: 992px
+	 *   --breakpoint-xl: 1200px
+	 * 
+	 * Bootstrap uses .98px offset for max-width queries to prevent overlap
+	 * between adjacent breakpoint ranges (e.g., 575.98px is just below 576px).
+	 */
+
+	/* Extra small devices (portrait phones, <576px) */
 	@media (max-width: 575.98px) {
 		.navbar-brand :global(img) {
 			height: 50px;
 		}
 	}
 
+	/* Small devices (landscape phones, 576px - 767.98px) */
 	@media (min-width: 576px) and (max-width: 767.98px) {
 		.navbar-brand :global(img) {
 			height: 80px;

@@ -74,7 +74,7 @@
 						<a
 							class="stretched-link font-bold"
 							href={localizeHref(`/trainingen/${surroundingdata.path}`)}
-						aria-label="Read {surroundingdata.meta.title}"
+							aria-label="Read {surroundingdata.meta.title}"
 						></a>
 					</div>
 				{/each}

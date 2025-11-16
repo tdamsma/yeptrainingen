@@ -12,7 +12,10 @@
 	</div>
 	<div class="container p-4 text-center">
 		<h2>{m.contact_company_name()}</h2>
-		<p>{@html m.contact_address()}</p>
+		<p>
+			{m.contact_address_line1()}<br />
+			{m.contact_address_line2()}
+		</p>
 		<p>{m.contact_information()}</p>
 		<p>{m.contact_training()}</p>
 		<p><strong>{m.contact_kvk_label()}</strong> {m.contact_kvk_value()}</p>

@@ -180,7 +180,7 @@
 				sizes="min(1280px, 100vw)"
 				style="max-width: 100%; height: auto"
 				src="/static/images/site-foto-1-of-1-3.jpg"
-			alt="Coaching services"
+				alt="Coaching services"
 			/>
 		</div>
 	</div>

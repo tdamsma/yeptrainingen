@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { localizeHref } from '$lib/paraglide/runtime.js';
+
 	export let data;
 
 	interface ImageModule {
@@ -52,7 +54,7 @@
 						</div>
 						<a
 							class="stretched-link font-bold"
-							href="/coaching/{surroundingdata.path}"
+							href={localizeHref(`/coaching/${surroundingdata.path}`)}
 							aria-label="Read {surroundingdata.meta.title}"></a>
 					</div>
 				{/each}

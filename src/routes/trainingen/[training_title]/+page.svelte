@@ -1,6 +1,8 @@
 <script lang="ts">
-	export let data;
+	import { localizeHref } from '$lib/paraglide/runtime.js';
 	import * as m from '$lib/paraglide/messages.js';
+
+	export let data;
 
 	interface ImageModule {
 		default: string;
@@ -69,7 +71,7 @@
 						<div class="card-body p-3">
 							<h5 class="smalltext card-title">{surroundingdata.meta.title}</h5>
 						</div>
-						<a class="stretched-link font-bold" href="/trainingen/{surroundingdata.path}"></a>
+						<a class="stretched-link font-bold" href={localizeHref(`/trainingen/${surroundingdata.path}`)}></a>
 					</div>
 				{/each}
 			</div>

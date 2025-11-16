@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { CoachingModule, ImageModule, Coaching } from '$lib/types';
-	import { getLocale } from '$lib/paraglide/runtime.js';
+	import { getLocale, localizeHref } from '$lib/paraglide/runtime.js';
 	import * as m from '$lib/paraglide/messages.js';
 	import { page } from '$app/stores';
 
@@ -96,7 +96,7 @@
 								<h4 class="card-title">{coaching.meta.title}</h4>
 								<a
 									class="stretched-link font-bold"
-									href="/coaching/{coaching.name}"
+									href={localizeHref(`/coaching/${coaching.name}`)}
 									aria-label="Read about {coaching.meta.title}"></a>
 							</div>
 						</div>

@@ -81,12 +81,6 @@
 </div>
 
 <style scoped>
-	img {
-		width: 200px;
-		height: auto;
-		max-height: 200px;
-	}
-
 	.overflow-container {
 		overflow: hidden;
 		width: 100%;

@@ -122,6 +122,7 @@
 						sizes="min(1280px, 100vw)"
 						style="max-width: 100%; height: auto"
 						src="/static/images/anna-stutje.jpg"
+						alt="Anna Stutje, coach"
 					/>
 				</div>
 				<div class="col-lg-8 p-4" style="max-width: 800px;">

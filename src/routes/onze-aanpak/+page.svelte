@@ -30,6 +30,7 @@
 				style="object-fit: cover; max-height: 600px; width: 100%"
 				class="fluid"
 				src="/static/images/onze-aanpak-1.jpg"
+				alt="Training session in progress"
 			/>
 		</div>
 		<div class="col-lg-6 p-3 m-0 pl-4 pr-5" style="max-width: 800px;">
@@ -69,7 +70,7 @@
 	</div>
 
 	<div class="jumbotron jumbotron-fluid mt-5 yep-grijs-donker bg-onze-aanpak">
-		<enhanced:img src="/static/images/onze-aanpak.jpg" />
+		<enhanced:img src="/static/images/onze-aanpak.jpg" alt="Our approach illustration" />
 		<div class="row mx-auto" style="max-width: 1600px">
 			{#each data as { kenmerk, aanpak }}
 				<div class="col-xl-6">
@@ -122,6 +123,7 @@
 				<enhanced:img
 					style="object-fit: cover; max-height: 400px; width: 100%"
 					src="/static/images/IMG_2597.jpg"
+					alt="Team collaboration"
 				/>
 			</div>
 		</div>
@@ -129,16 +131,6 @@
 </div>
 
 <style>
-	.bg-onze-aanpak.jumbotron img {
-		position: absolute;
-		top: 0;
-		left: 0;
-		width: 100%;
-		height: 100%;
-		object-fit: cover;
-		z-index: 0;
-	}
-
 	.bg-onze-aanpak.jumbotron {
 		position: relative;
 	}

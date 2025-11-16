@@ -101,8 +101,12 @@
 							</div>
 						</div>
 					</div>
-					<a class="stretched-link font-bold" href={localizeHref(`/blog/${blog.name}`)} aria-label="Read {blog.meta.title}"
->					</a>
+					<a
+						class="stretched-link font-bold"
+						href={localizeHref(`/blog/${blog.name}`)}
+						aria-label="Read {blog.meta.title}"
+					>
+					</a>
 				</div>
 			</div>
 		{/each}

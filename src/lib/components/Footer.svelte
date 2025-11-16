@@ -12,14 +12,20 @@
 					<div class="col-sm-6">
 						&gt;&nbsp; <a class="link-geel" href={localizeHref('/')}>{m.footer_home()}</a><br />
 						&gt;&nbsp; <a class="link-geel" href={localizeHref('/team')}>{m.footer_team()}</a><br />
-						&gt;&nbsp; <a class="link-geel" href={localizeHref('/trainingen')}>{m.footer_trainingen()}</a><br />
-						&gt;&nbsp; <a class="link-geel" href={localizeHref('/coaching')}>{m.footer_coaching()}</a><br />
+						&gt;&nbsp;
+						<a class="link-geel" href={localizeHref('/trainingen')}>{m.footer_trainingen()}</a><br
+						/>
+						&gt;&nbsp;
+						<a class="link-geel" href={localizeHref('/coaching')}>{m.footer_coaching()}</a><br />
 					</div>
 					<div class="col-sm-6">
 						&gt;&nbsp; <a class="link-geel" href={localizeHref('/blog')}>{m.footer_blog()}</a><br />
-						&gt;&nbsp; <a class="link-geel" href={localizeHref('/tarieven')}>{m.footer_tarieven()}</a><br />
-						&gt;&nbsp; <a class="link-geel" href={localizeHref('/klachten')}>{m.footer_klachten()}</a><br />
-						&gt;&nbsp; <a class="link-geel" href={localizeHref('/contact')}>{m.footer_contact()}</a><br />
+						&gt;&nbsp;
+						<a class="link-geel" href={localizeHref('/tarieven')}>{m.footer_tarieven()}</a><br />
+						&gt;&nbsp;
+						<a class="link-geel" href={localizeHref('/klachten')}>{m.footer_klachten()}</a><br />
+						&gt;&nbsp;
+						<a class="link-geel" href={localizeHref('/contact')}>{m.footer_contact()}</a><br />
 					</div>
 				</div>
 			</div>

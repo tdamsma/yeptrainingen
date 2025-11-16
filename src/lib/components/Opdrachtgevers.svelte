@@ -81,6 +81,14 @@
 </div>
 
 <style scoped>
+	img {
+		max-width: 200px;
+		width: 100%;
+		height: auto;
+		max-height: 200px;
+		object-fit: contain;
+	}
+
 	.overflow-container {
 		overflow: hidden;
 		width: 100%;
@@ -99,6 +107,7 @@
 		display: flex;
 		overflow: hidden;
 		width: 2000px;
+		max-width: 100%;
 	}
 
 	.flexcontainer {
@@ -111,5 +120,49 @@
 		width: 200px;
 		padding: 0;
 		overflow: hidden;
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	}
+
+	/* Responsive styles for narrow screens */
+	@media (max-width: 768px) {
+		img {
+			max-width: 120px;
+			max-height: 120px;
+		}
+
+		.flexcontainer-wrapper {
+			width: 1200px;
+		}
+
+		.flexcontainer {
+			width: 1440px;
+			margin-left: -120px;
+		}
+
+		.panel {
+			width: 120px;
+		}
+	}
+
+	@media (max-width: 480px) {
+		img {
+			max-width: 80px;
+			max-height: 80px;
+		}
+
+		.flexcontainer-wrapper {
+			width: 800px;
+		}
+
+		.flexcontainer {
+			width: 960px;
+			margin-left: -80px;
+		}
+
+		.panel {
+			width: 80px;
+		}
 	}
 </style>

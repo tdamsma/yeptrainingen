@@ -2,6 +2,12 @@
 	import LanguageSwitcher from './LanguageSwitcher.svelte';
 	import * as m from '$lib/paraglide/messages.js';
 	import { localizeHref } from '$lib/paraglide/runtime.js';
+
+	let isMenuOpen = $state(false);
+
+	function toggleMenu() {
+		isMenuOpen = !isMenuOpen;
+	}
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -12,15 +18,14 @@
 		<button
 			class="navbar-toggler mr-2"
 			type="button"
-			data-toggle="collapse"
-			data-target="#nav-collapse"
+			onclick={toggleMenu}
 			aria-controls="nav-collapse"
-			aria-expanded="false"
+			aria-expanded={isMenuOpen}
 			aria-label="Toggle navigation"
 		>
 			<span class="navbar-toggler-icon"></span>
 		</button>
-		<div id="nav-collapse" class="collapse navbar-collapse">
+		<div id="nav-collapse" class="collapse navbar-collapse {isMenuOpen ? 'show' : ''}">
 			<ul class="navbar-nav ml-4">
 				<li class="nav-item">
 					<a class="nav-link" href={localizeHref('/')}>Yep</a>
@@ -51,15 +56,22 @@
 </nav>
 
 <style>
+	.navbar-brand :global(img) {
+		height: auto;
+		max-height: 100px;
+		width: auto;
+		max-width: 100%;
+	}
+
 	@media (max-width: 575.98px) {
 		.navbar-brand :global(img) {
-			height: 50px;
+			max-height: 50px;
 		}
 	}
 
 	@media (min-width: 576px) and (max-width: 767.98px) {
 		.navbar-brand :global(img) {
-			height: 80px;
+			max-height: 80px;
 		}
 	}
 </style>

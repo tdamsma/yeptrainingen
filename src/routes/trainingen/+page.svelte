@@ -94,7 +94,8 @@
 								<a
 									class="stretched-link font-bold"
 									href={localizeHref(`/trainingen/${training.name}`)}
-									aria-label="Read about {training.meta.title}"></a>
+									aria-label="Read about {training.meta.title}"
+								></a>
 							</div>
 						</div>
 					</div>

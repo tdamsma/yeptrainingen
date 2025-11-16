@@ -97,7 +97,8 @@
 								<a
 									class="stretched-link font-bold"
 									href={localizeHref(`/coaching/${coaching.name}`)}
-									aria-label="Read about {coaching.meta.title}"></a>
+									aria-label="Read about {coaching.meta.title}"
+								></a>
 							</div>
 						</div>
 					</div>

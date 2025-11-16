@@ -25,6 +25,7 @@
 		data-sveltekit-reload
 		href={switchUrl}
 		class="language-button"
+		role="button"
 		title="Switch language to {newLanguage.toUpperCase()}"
 	>
 		<span class={`language-flag ${currentLanguage === 'nl' ? 'selected' : ''}`}>{labels.nl}</span>

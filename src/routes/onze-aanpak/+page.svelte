@@ -30,7 +30,7 @@
 				style="object-fit: cover; max-height: 600px; width: 100%"
 				class="fluid"
 				src="/static/images/onze-aanpak-1.jpg"
-				alt="Training session in progress"
+				alt="A group of participants engaged in a training session, seated around a table with a facilitator presenting"
 			/>
 		</div>
 		<div class="col-lg-6 p-3 m-0 pl-4 pr-5" style="max-width: 800px;">

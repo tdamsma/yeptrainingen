@@ -121,8 +121,6 @@
 			<div class="col-lg-6 overflow-hidden">
 				<enhanced:img
 					style="object-fit: cover; max-height: 400px; width: 100%"
-					fluid="fluid"
-					blank-color="#777"
 					src="/static/images/IMG_2597.jpg"
 				/>
 			</div>

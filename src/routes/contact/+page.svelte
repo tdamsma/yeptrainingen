@@ -12,12 +12,12 @@
 	</div>
 	<div class="container p-4 text-center">
 		<h2>{m.contact_company_name()}</h2>
-		<p innerHTML={m.contact_address()}></p>
+		<p>{@html m.contact_address()}</p>
 		<p>{m.contact_information()}</p>
 		<p>{m.contact_training()}</p>
-		<p innerHTML={m.contact_kvk()}></p>
-		<p innerHTML={m.contact_vat()}></p>
-		<p innerHTML={m.contact_iban()}></p>
+		<p><strong>{m.contact_kvk_label()}</strong> {m.contact_kvk_value()}</p>
+		<p><strong>{m.contact_vat_label()}</strong> {m.contact_vat_value()}</p>
+		<p><strong>{m.contact_iban_label()}</strong> {m.contact_iban_value()}</p>
 	</div>
 
 	<div class="container_fluid mt-6 p-4 bg-white">
@@ -42,7 +42,7 @@
 							id="newsletter-name"
 							name="NAAM"
 							placeholder={m.contact_name_placeholder()}
-							required=""
+							required
 						/>
 					</p>
 					<p>

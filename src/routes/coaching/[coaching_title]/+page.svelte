@@ -36,7 +36,7 @@
 					</div>
 					<h2>{data.title}</h2>
 					<div class="coaching-details-body">
-						<svelte:component this={data.content} />
+						<data.content />
 					</div>
 				</div>
 			</div>

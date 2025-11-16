@@ -67,6 +67,7 @@
 						title={member.meta.name}
 					/>
 					<h2 class="text-center mt-1">{member.meta.name}</h2>
+
 					<member.content />
 				</div>
 			{/each}

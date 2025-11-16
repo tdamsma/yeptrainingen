@@ -1,5 +1,6 @@
 <script lang="ts">
 	import * as m from '$lib/paraglide/messages.js';
+	import { localizeHref } from '$lib/paraglide/runtime.js';
 </script>
 
 <div class="jumbotron jumbotron-fluid" style="background-color: #807d7d">
@@ -9,16 +10,16 @@
 				<h2>Site-map</h2>
 				<div class="row">
 					<div class="col-sm-6">
-						&gt;&nbsp; <a class="link-geel" href="/">{m.footer_home()}</a><br />
-						&gt;&nbsp; <a class="link-geel" href="/team">{m.footer_team()}</a><br />
-						&gt;&nbsp; <a class="link-geel" href="/trainingen">{m.footer_trainingen()}</a><br />
-						&gt;&nbsp; <a class="link-geel" href="/coaching">{m.footer_coaching()}</a><br />
+						&gt;&nbsp; <a class="link-geel" href={localizeHref('/')}>{m.footer_home()}</a><br />
+						&gt;&nbsp; <a class="link-geel" href={localizeHref('/team')}>{m.footer_team()}</a><br />
+						&gt;&nbsp; <a class="link-geel" href={localizeHref('/trainingen')}>{m.footer_trainingen()}</a><br />
+						&gt;&nbsp; <a class="link-geel" href={localizeHref('/coaching')}>{m.footer_coaching()}</a><br />
 					</div>
 					<div class="col-sm-6">
-						&gt;&nbsp; <a class="link-geel" href="/blog">{m.footer_blog()}</a><br />
-						&gt;&nbsp; <a class="link-geel" href="/tarieven">{m.footer_tarieven()}</a><br />
-						&gt;&nbsp; <a class="link-geel" href="/klachten">{m.footer_klachten()}</a><br />
-						&gt;&nbsp; <a class="link-geel" href="/contact">{m.footer_contact()}</a><br />
+						&gt;&nbsp; <a class="link-geel" href={localizeHref('/blog')}>{m.footer_blog()}</a><br />
+						&gt;&nbsp; <a class="link-geel" href={localizeHref('/tarieven')}>{m.footer_tarieven()}</a><br />
+						&gt;&nbsp; <a class="link-geel" href={localizeHref('/klachten')}>{m.footer_klachten()}</a><br />
+						&gt;&nbsp; <a class="link-geel" href={localizeHref('/contact')}>{m.footer_contact()}</a><br />
 					</div>
 				</div>
 			</div>

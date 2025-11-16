@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { TrainingModule, ImageModule, Training } from '$lib/types';
-	import { getLocale } from '$lib/paraglide/runtime.js';
+	import { getLocale, localizeHref } from '$lib/paraglide/runtime.js';
 	import * as m from '$lib/paraglide/messages.js';
 	import { page } from '$app/stores';
 	const imageModules = import.meta.glob(
@@ -70,7 +70,7 @@
 		</p>
 		<p class="text-center">
 			{m.training_tarievenText()}
-			<a class="link-groen" href="/tarieven">{m.training_tarievenLink()}</a>
+			<a class="link-groen" href={localizeHref('/tarieven')}>{m.training_tarievenLink()}</a>
 		</p>
 		<h2 class="text-center mb-3 mt-5">{m.training_overzicht()}</h2>
 		<div class="row row-cols-1 row-cols-md-3">
@@ -93,7 +93,7 @@
 								<h4 class="card-title">{training.meta.title}</h4>
 								<a
 									class="stretched-link font-bold"
-									href="/trainingen/{training.name}"
+									href={localizeHref(`/trainingen/${training.name}`)}
 									aria-label="Read about {training.meta.title}"></a>
 							</div>
 						</div>

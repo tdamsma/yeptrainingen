@@ -3,7 +3,7 @@
 	import Opdrachtgevers from '$lib/components/Opdrachtgevers.svelte';
 	import SpringestReviews from '$lib/components/SpringestReviews.svelte';
 	import * as m from '$lib/paraglide/messages.js';
-	import { getLocale } from '$lib/paraglide/runtime.js';
+	import { getLocale, localizeHref } from '$lib/paraglide/runtime.js';
 	import { page } from '$app/stores';
 	const imageModules = import.meta.glob(
 		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
@@ -46,17 +46,21 @@
 			return Object.entries(blogModules)
 				.filter(([path]) => !path.includes('_._')) // Filter out fallback 404 files
 				.map(([path, module]) => ({
-					path: path.replace(/\.nl\.md$/, ''),
+					path: path.replace(/\.(nl|en)\.md$/, ''),
 					name:
 						path
-							.replace(/\.nl\.md$/, '')
+							.replace(/\.(nl|en)\.md$/, '')
 							.split('/')
 							.pop() || '',
 					meta: module.metadata,
 					content: module.default
 				}))
 				.filter((blog) => blog.meta?.date) // Filter out any posts without a date
-				.sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
+				.sort((a, b) => {
+					const dateA = a.meta?.date ? new Date(a.meta.date).getTime() : 0;
+					const dateB = b.meta?.date ? new Date(b.meta.date).getTime() : 0;
+					return dateB - dateA;
+				});
 		})()
 	);
 
@@ -106,7 +110,7 @@
 		<div class="row justify-content-around">
 			<div class="col-md-3 border bg-light p-2 text-center">
 				<h2>{m.home_uitgelicht()}</h2>
-				<a href="/trainingen/talent-ontwikkelprogramma" class="d-block mt-2">
+				<a href={localizeHref('/trainingen/talent-ontwikkelprogramma')} class="d-block mt-2">
 					<div class="square-img-container text-left">
 						<enhanced:img
 							class="square-img thumbnail"
@@ -124,17 +128,19 @@
 			</div>
 			<div class="col-md-3 border bg-light p-2 text-center">
 				<h2>{m.home_laatsteBlog()}</h2>
-				<a href="/blog/{blog.name}">
-					<div class="square-img-container text-left">
-						<enhanced:img
-							class="square-img thumbnail"
-							sizes="min(1280px, 100vw)"
-							src={imageModules[`/content/blog/${blog.meta.img}`].default}
-							alt={blog.meta.alt}
-						/>
-					</div>
-					{blog.meta.title} >>
-				</a>
+				{#if blog}
+					<a href={localizeHref(`/blog/${blog.name}`)}>
+						<div class="square-img-container text-left">
+							<enhanced:img
+								class="square-img thumbnail"
+								sizes="min(1280px, 100vw)"
+								src={imageModules[`/content/blog/${blog.meta.img}`].default}
+								alt={blog.meta.alt}
+							/>
+						</div>
+						{blog.meta.title} >>
+					</a>
+				{/if}
 			</div>
 		</div>
 	</div>
@@ -222,7 +228,7 @@
 		<div class="row justify-content-around mt-5">
 			<div class="col-md-4 bg-light py-2 mb-2 text-center">
 				<h2 class="mb-3">{m.home_trainingen()}</h2>
-				<a href="trainingen" class="d-block mt-2">
+				<a href={localizeHref('/trainingen')} class="d-block mt-2">
 					<enhanced:img
 						class="img-fluid lazyload"
 						sizes="min(1280px, 100vw)"
@@ -234,7 +240,7 @@
 			</div>
 			<div class="col-md-4 bg-light py-2 mb-2 text-center">
 				<h2 class="mb-3">{m.home_coaching()}</h2>
-				<a href="coaching" class="d-block mt-2">
+				<a href={localizeHref('/coaching')} class="d-block mt-2">
 					<enhanced:img
 						class="img-fluid lazyload"
 						sizes="min(1280px, 100vw)"

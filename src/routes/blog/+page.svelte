@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { BlogModule, ImageModule, Blog } from '$lib/types';
-	import { getLocale } from '$lib/paraglide/runtime.js';
+	import { getLocale, localizeHref } from '$lib/paraglide/runtime.js';
 	import { page } from '$app/stores';
 
 	const imageModules = import.meta.glob(
@@ -54,7 +54,11 @@
 					content: module.default
 				}))
 				.filter((blog) => blog.meta?.date) // Filter out any posts without a date
-				.sort((a, b) => new Date(b.meta.date).getTime() - new Date(a.meta.date).getTime());
+				.sort((a, b) => {
+					const dateA = a.meta?.date ? new Date(a.meta.date).getTime() : 0;
+					const dateB = b.meta?.date ? new Date(b.meta.date).getTime() : 0;
+					return dateB - dateA;
+				});
 		})()
 	);
 </script>
@@ -97,7 +101,7 @@
 							</div>
 						</div>
 					</div>
-					<a class="stretched-link font-bold" href="/blog/{blog.name}" aria-label="Read {blog.meta.title}"
+					<a class="stretched-link font-bold" href={localizeHref(`/blog/${blog.name}`)} aria-label="Read {blog.meta.title}"
 >					</a>
 				</div>
 			</div>

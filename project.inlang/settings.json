@@ -1,6 +1,7 @@
 {
 	"$schema": "https://inlang.com/schema/project-settings",
 	"sourceLocale": "nl",
+	"baseLocale": "nl",
 	"locales": ["nl", "en"],
 	"modules": [
 		"https://cdn.jsdelivr.net/npm/@inlang/message-lint-rule-empty-pattern@latest/dist/index.js",

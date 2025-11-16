@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { localizeHref } from '$lib/paraglide/runtime.js';
+
 	export let data;
 
 	function formatDate(date) {
@@ -57,7 +59,7 @@
 						</div>
 						<a
 							class="stretched-link font-bold"
-							href="/blog/{surroundingdata.path}"
+							href={localizeHref(`/blog/${surroundingdata.path}`)}
 							aria-label="Read {surroundingdata.meta.title}"></a>
 					</div>
 				{/each}

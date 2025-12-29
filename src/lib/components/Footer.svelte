@@ -24,8 +24,6 @@
             h2.mb-4 {m.footer_gegevens()}
             p
               | Yep Trainingen #[br]
-              | Koningin Wilhelminalaan 84 #[br]
-              | 2274 AL Voorburg #[br] #[br]
               | KvK: 58989463 #[br]
               | BTW: NL001795751B66 #[br]
               | IBAN: NL49TRIO0254729886 #[br]
@@ -35,12 +33,10 @@
             p
             a(href="mailto:info@yeptrainingen.nl", target="_blank")
               enhanced:img(sizes="min(1280px, 100vw)" src="/static/images/email.png", alt="email")
-            a(href="https://www.facebook.com/Yeptrainingen", target="_blank")
-              enhanced:img(sizes="min(1280px, 100vw)" src="/static/images/facebook.png", alt="facebook")
-            a(href="https://twitter.com/yeptrainingen", target="_blank")
-              enhanced:img(sizes="min(1280px, 100vw)" src="/static/images/twitter.png", alt="twitter")
-            a(href="https://www.linkedin.com/company/marijn-blaisse-trainingen", target="_blank")
+            a(href="https://www.linkedin.com/company/yeptrainingen", target="_blank")
               enhanced:img(sizes="min(1280px, 100vw)" src="/static/images/linkedin.png", alt="linkedin")
+            a(href="https://www.instagram.com/yeptrainingen", target="_blank" style="width:42px; height:42px")
+              enhanced:img(sizes="min(1280px, 100vw)" src="/static/images/instagram.png", alt="instagram")
             p
             | {m.footer_telefoon()}
 </template>

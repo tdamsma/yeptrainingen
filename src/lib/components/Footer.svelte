@@ -24,8 +24,6 @@
             h2.mb-4 {m.footer_gegevens()}
             p
               | Yep Trainingen #[br]
-              |  #[br]
-              |  #[br] #[br]
               | KvK: 58989463 #[br]
               | BTW: NL001795751B66 #[br]
               | IBAN: NL49TRIO0254729886 #[br]

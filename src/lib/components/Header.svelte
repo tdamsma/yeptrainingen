@@ -31,7 +31,7 @@
 					<a class="nav-link" href={localizeHref('/')}>Yep</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/team')}>{m.header_onsTeam()}</a>
+					<a class="nav-link" href={localizeHref('/team')}>{m.header_ons_team()}</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href={localizeHref('/trainingen')}>{m.header_trainingen()}</a>
@@ -40,7 +40,7 @@
 					<a class="nav-link" href={localizeHref('/coaching')}>{m.header_coaching()}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/onze-aanpak')}>{m.header_onzeAanpak()}</a>
+					<a class="nav-link" href={localizeHref('/onze-aanpak')}>{m.header_onze_aanpak()}</a>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href={localizeHref('/blog')}>{m.header_blog()}</a>
@@ -57,7 +57,6 @@
 
 <style>
 	.navbar-brand :global(img) {
-		height: auto;
 		max-height: 100px;
 		width: auto;
 		max-width: 100%;

@@ -57,7 +57,11 @@
 						alt="linkedin"
 					/>
 				</a>
-				<a href="https://www.instagram.com/yeptrainingen" target="_blank" style="width:42px; height:42px">
+				<a
+					href="https://www.instagram.com/yeptrainingen"
+					target="_blank"
+					style="width:42px; height:42px"
+				>
 					<enhanced:img
 						sizes="min(1280px, 100vw)"
 						src="/static/images/instagram.png"

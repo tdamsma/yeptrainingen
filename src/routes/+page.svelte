@@ -81,9 +81,9 @@
 		<div class="col-md-6 pt-4" style="padding-left:40px">
 			<br />
 			<h2>
-				{m.home_inzichtDurfVaardigheid()}
+				{m.home_inzicht_durf_vaardigheid()}
 				<br />
-				<span class="yep-geel-donker">{m.home_voorMaatschappelijkeImpact()}</span>
+				<span class="yep-geel-donker">{m.home_voor_maatschappelijke_impact()}</span>
 				<br />
 				<br />
 			</h2>
@@ -93,15 +93,15 @@
 
 <div class="jumbotron jumbotron-fluid yep-geel">
 	<div class="container">
-		<p>{m.home_extraTekst()}</p>
-		<h2 style="text-align: center;">{m.home_leerDrang()}</h2>
+		<p>{m.home_extra_tekst()}</p>
+		<h2 style="text-align: center;">{m.home_leer_drang()}</h2>
 	</div>
 </div>
 
 <div class="jumbotron jumbotron-fluid">
 	<div class="container">
-		<p>{m.home_wijZijnErVoorProfessionals()}</p>
-		<p>{m.home_wijZijnErVoorProfessionals2()}</p>
+		<p>{m.home_wij_zijn_er_voor_professionals()}</p>
+		<p>{m.home_wij_zijn_er_voor_professionals2()}</p>
 	</div>
 </div>
 
@@ -119,7 +119,7 @@
 							alt="Uitgelicht met burealamp"
 						/>
 					</div>
-					{m.home_talentOntwikkelProgramma()} >>
+					{m.home_talent_ontwikkel_programma()} >>
 				</a>
 			</div>
 			<div class="col-md-5 border bg-light p-2 text-center">
@@ -127,7 +127,7 @@
 				<SpringestReviews />
 			</div>
 			<div class="col-md-3 border bg-light p-2 text-center">
-				<h2>{m.home_laatsteBlog()}</h2>
+				<h2>{m.home_laatste_blog()}</h2>
 				{#if blog}
 					<a href={localizeHref(`/blog/${blog.name}`)}>
 						<div class="square-img-container text-left">
@@ -151,8 +151,8 @@
 		<div class="col-md full-width">
 			<br />
 			<br />
-			<h1 class="yep-geel-donker">{m.home_trainingCoachingAdvies()}</h1>
-			<h1>{m.home_neemJeTalentSerieus()}</h1>
+			<h1 class="yep-geel-donker">{m.home_training_coaching_advies()}</h1>
+			<h1>{m.home_neem_je_talent_serieus()}</h1>
 			<br />
 		</div>
 		<div class="col-md p-0">
@@ -183,7 +183,7 @@
 
 <div class="jumbotron jumbotron-fluid yep-grijs-donker">
 	<div class="container text-light border-top border-bottom">
-		<h1 class="text-center my-4">{m.home_yepTrainingsBureau()}</h1>
+		<h1 class="text-center my-4">{m.home_yep_trainings_bureau()}</h1>
 		<div class="row justify-content-around my-5">
 			<div class="col-md-3 text-center">
 				<enhanced:img
@@ -194,7 +194,7 @@
 				/>
 				<br />
 				<h2 class="mt-2">{m.home_maatschappelijk()}</h2>
-				<p>{m.home_jouwImpactIsOnsDoel()}</p>
+				<p>{m.home_jouw_impact_is_ons_doel()}</p>
 			</div>
 			<div class="col-md-3 text-center">
 				<enhanced:img
@@ -205,7 +205,7 @@
 				/>
 				<br />
 				<h2 class="mt-2">{m.home_actief()}</h2>
-				<p>{m.home_lerenDoorTeExperimenteren()}</p>
+				<p>{m.home_leren_door_te_experimenteren()}</p>
 			</div>
 			<div class="col-md-3 text-center">
 				<enhanced:img
@@ -216,7 +216,7 @@
 				/>
 				<br />
 				<h2 class="mt-2">{m.home_flexibel()}</h2>
-				<p>{m.home_jouwOntwikkelVraagStaatCentraal()}</p>
+				<p>{m.home_jouw_ontwikkel_vraag_staat_centraal()}</p>
 			</div>
 		</div>
 	</div>
@@ -224,7 +224,7 @@
 
 <div class="jumbotron jumbotron-fluid yep-geel">
 	<div class="container text-center">
-		<h1>{m.home_bekijkOnsAanbod()}</h1>
+		<h1>{m.home_bekijk_ons_aanbod()}</h1>
 		<div class="row justify-content-around mt-5">
 			<div class="col-md-4 bg-light py-2 mb-2 text-center">
 				<h2 class="mb-3">{m.home_trainingen()}</h2>
@@ -235,7 +235,7 @@
 						src="/static/images/trainings-overzicht.png"
 						alt="Trainingen"
 					/>
-					<p class="mt-2">{m.home_leesMeer()} >></p>
+					<p class="mt-2">{m.home_lees_meer()} >></p>
 				</a>
 			</div>
 			<div class="col-md-4 bg-light py-2 mb-2 text-center">
@@ -247,7 +247,7 @@
 						src="/static/images/omgaanmetstress.jpg"
 						alt="Coaching"
 					/>
-					<p class="mt-2">{m.home_leesMeer()} >></p>
+					<p class="mt-2">{m.home_lees_meer()} >></p>
 				</a>
 			</div>
 		</div>

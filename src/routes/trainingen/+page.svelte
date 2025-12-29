@@ -69,8 +69,8 @@
 			{m.training_intro()}
 		</p>
 		<p class="text-center">
-			{m.training_tarievenText()}
-			<a class="link-groen" href={localizeHref('/tarieven')}>{m.training_tarievenLink()}</a>
+			{m.training_tarieven_text()}
+			<a class="link-groen" href={localizeHref('/tarieven')}>{m.training_tarieven_link()}</a>
 		</p>
 		<h2 class="text-center mb-3 mt-5">{m.training_overzicht()}</h2>
 		<div class="row row-cols-1 row-cols-md-3">

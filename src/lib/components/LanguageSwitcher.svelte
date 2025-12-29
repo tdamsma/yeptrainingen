@@ -1,43 +1,36 @@
 <script lang="ts">
-	import { availableLanguageTags, languageTag } from '$lib/paraglide/runtime';
-	import type { AvailableLanguageTag } from '$lib/paraglide/runtime';
-
-	import { i18n } from '$lib/i18n';
-	import { goto } from '$app/navigation';
+	import { locales, getLocale, localizeHref } from '$lib/paraglide/runtime';
 	import { page } from '$app/stores';
-	import { get } from 'svelte/store';
-	import { scale } from 'svelte/transition';
 
-	function switchToLanguage(newLanguage: AvailableLanguageTag) {
-		const canonicalPath = i18n.route(get(page).url.pathname);
-		const localisedPath = i18n.resolveRoute(canonicalPath, newLanguage);
-		goto(localisedPath);
-	}
+	type Locale = (typeof locales)[number];
 
 	const labels = {
 		nl: '🇳🇱',
 		en: '🇬🇧'
-	} as Record<AvailableLanguageTag, string>;
+	} as Record<Locale, string>;
 
-	const currentLanguage = languageTag();
-	const newLanguage = currentLanguage === 'nl' ? 'en' : 'nl';
+	let currentLanguage = $derived(
+		(() => {
+			// Access $page.url to make this reactive to route changes
+			const _ = $page.url.pathname;
+			return getLocale();
+		})()
+	);
+	let newLanguage = $derived(currentLanguage === 'nl' ? 'en' : 'nl');
+	let switchUrl = $derived(localizeHref($page.url.pathname, { locale: newLanguage }));
 </script>
 
 <div class="language-switcher">
-	<button
+	<a
+		data-sveltekit-reload
+		href={switchUrl}
 		class="language-button"
-		on:click={() => switchToLanguage(newLanguage)}
+		role="button"
 		title="Switch language to {newLanguage.toUpperCase()}"
 	>
-		<span
-			transition:scale={{ duration: 250 }}
-			class={`language-flag ${currentLanguage === 'nl' ? 'selected' : ''}`}>{labels.nl}</span
-		>
-		<span
-			transition:scale={{ duration: 250 }}
-			class={`language-flag ${currentLanguage === 'en' ? 'selected' : ''}`}>{labels.en}</span
-		>
-	</button>
+		<span class={`language-flag ${currentLanguage === 'nl' ? 'selected' : ''}`}>{labels.nl}</span>
+		<span class={`language-flag ${currentLanguage === 'en' ? 'selected' : ''}`}>{labels.en}</span>
+	</a>
 </div>
 
 <style>

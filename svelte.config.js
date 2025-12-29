@@ -1,6 +1,5 @@
 import adapter from '@sveltejs/adapter-static';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
-import sveltePreprocess from 'svelte-preprocess';
 import { mdsvex } from 'mdsvex';
 import path from 'path';
 import rehypeRewrite from 'rehype-rewrite';
@@ -19,6 +18,19 @@ const mdsvexOptions = {
 						// add a css class "post-img" for styling purposes
 						node.properties['class'] = `post-img ${node.properties['class'] ?? ''}`.trimEnd();
 					}
+
+					// add aria-label to links containing only images (for accessibility)
+					if (node.type == 'element' && node.tagName == 'a') {
+						const hasOnlyImage =
+							node.children?.length === 1 &&
+							node.children[0].type === 'element' &&
+							(node.children[0].tagName === 'img' || node.children[0].tagName === 'enhanced:img');
+
+						if (hasOnlyImage && !node.properties.ariaLabel) {
+							const imgAlt = node.children[0].properties?.alt || 'document';
+							node.properties.ariaLabel = `Download: ${imgAlt}`;
+						}
+					}
 				}
 			}
 		]
@@ -29,11 +41,7 @@ const mdsvexOptions = {
 const config = {
 	// Consult https://kit.svelte.dev/docs/integrations#preprocessors
 	// for more information about preprocessors
-	preprocess: [
-		mdsvex(mdsvexOptions),
-		vitePreprocess(),
-		sveltePreprocess({ scss: true, pug: true })
-	],
+	preprocess: [mdsvex(mdsvexOptions), vitePreprocess()],
 
 	onwarn: (warning, handler) => {
 		if (

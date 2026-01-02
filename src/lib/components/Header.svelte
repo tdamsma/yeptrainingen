@@ -35,16 +35,24 @@
 					<a class="nav-link" href={localizeHref('/')} onclick={closeMenu}>Yep</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/team')} onclick={closeMenu}>{m.header_ons_team()}</a>
+					<a class="nav-link" href={localizeHref('/team')} onclick={closeMenu}
+						>{m.header_ons_team()}</a
+					>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/trainingen')} onclick={closeMenu}>{m.header_trainingen()}</a>
+					<a class="nav-link" href={localizeHref('/trainingen')} onclick={closeMenu}
+						>{m.header_trainingen()}</a
+					>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/coaching')} onclick={closeMenu}>{m.header_coaching()}</a>
+					<a class="nav-link" href={localizeHref('/coaching')} onclick={closeMenu}
+						>{m.header_coaching()}</a
+					>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/onze-aanpak')} onclick={closeMenu}>{m.header_onze_aanpak()}</a>
+					<a class="nav-link" href={localizeHref('/onze-aanpak')} onclick={closeMenu}
+						>{m.header_onze_aanpak()}</a
+					>
 				</li>
 				<li class="nav-item">
 					<a class="nav-link" href={localizeHref('/blog')} onclick={closeMenu}>{m.header_blog()}</a>

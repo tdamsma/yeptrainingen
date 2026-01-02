@@ -70,7 +70,11 @@
 	</div>
 
 	<div class="jumbotron jumbotron-fluid mt-5 yep-grijs-donker bg-onze-aanpak">
-		<enhanced:img class="aanpak-bg-img" src="/static/images/onze-aanpak.jpg" alt="Our approach illustration" />
+		<enhanced:img
+			class="aanpak-bg-img"
+			src="/static/images/onze-aanpak.jpg"
+			alt="Our approach illustration"
+		/>
 		<div class="row mx-auto cards-container">
 			{#each data as { kenmerk, aanpak }}
 				<div class="col-xl-6">

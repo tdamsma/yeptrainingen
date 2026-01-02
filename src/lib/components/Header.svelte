@@ -8,6 +8,10 @@
 	function toggleMenu() {
 		isMenuOpen = !isMenuOpen;
 	}
+
+	function closeMenu() {
+		isMenuOpen = false;
+	}
 </script>
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -28,22 +32,22 @@
 		<div id="nav-collapse" class="collapse navbar-collapse {isMenuOpen ? 'show' : ''}">
 			<ul class="navbar-nav ml-4">
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/')}>Yep</a>
+					<a class="nav-link" href={localizeHref('/')} onclick={closeMenu}>Yep</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/team')}>{m.header_ons_team()}</a>
+					<a class="nav-link" href={localizeHref('/team')} onclick={closeMenu}>{m.header_ons_team()}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/trainingen')}>{m.header_trainingen()}</a>
+					<a class="nav-link" href={localizeHref('/trainingen')} onclick={closeMenu}>{m.header_trainingen()}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/coaching')}>{m.header_coaching()}</a>
+					<a class="nav-link" href={localizeHref('/coaching')} onclick={closeMenu}>{m.header_coaching()}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/onze-aanpak')}>{m.header_onze_aanpak()}</a>
+					<a class="nav-link" href={localizeHref('/onze-aanpak')} onclick={closeMenu}>{m.header_onze_aanpak()}</a>
 				</li>
 				<li class="nav-item">
-					<a class="nav-link" href={localizeHref('/blog')}>{m.header_blog()}</a>
+					<a class="nav-link" href={localizeHref('/blog')} onclick={closeMenu}>{m.header_blog()}</a>
 				</li>
 			</ul>
 			<ul class="navbar-nav ml-auto">

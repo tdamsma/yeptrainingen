@@ -70,12 +70,12 @@
 	</div>
 
 	<div class="jumbotron jumbotron-fluid mt-5 yep-grijs-donker bg-onze-aanpak">
-		<enhanced:img src="/static/images/onze-aanpak.jpg" alt="Our approach illustration" />
-		<div class="row mx-auto" style="max-width: 1600px">
+		<enhanced:img class="aanpak-bg-img" src="/static/images/onze-aanpak.jpg" alt="Our approach illustration" />
+		<div class="row mx-auto cards-container">
 			{#each data as { kenmerk, aanpak }}
 				<div class="col-xl-6">
-					<div class="container">
-						<div class="card" style="float: left; width: 50%; z-index: 2">
+					<div class="card-pair">
+						<div class="card kenmerk-card">
 							<div class="card-header">
 								<h2>{m.aanpak_kenmerk()}</h2>
 							</div>
@@ -86,10 +86,7 @@
 								{/each}
 							</div>
 						</div>
-						<div
-							class="card"
-							style="float: right; width: 70%; position: relative; top: -50px; z-index: auto"
-						>
+						<div class="card aanpak-card">
 							<div style="text-align: center" class="card-header">
 								<h2>{m.aanpak_aanpak()}</h2>
 							</div>
@@ -133,5 +130,98 @@
 <style>
 	.bg-onze-aanpak.jumbotron {
 		position: relative;
+	}
+
+	.aanpak-bg-img {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		z-index: 0;
+	}
+
+	.cards-container {
+		max-width: 1600px;
+		position: relative;
+		z-index: 1;
+	}
+
+	@media (max-width: 767px) {
+		.cards-container {
+			max-width: 100%;
+		}
+
+		.aanpak-bg-img {
+			display: none;
+		}
+	}
+
+	.card-pair {
+		position: relative;
+		padding: 20px;
+	}
+
+	/* Desktop: overlapping cards layout */
+	@media (min-width: 768px) {
+		.kenmerk-card {
+			float: left;
+			width: 50%;
+			z-index: 2;
+		}
+
+		.aanpak-card {
+			float: right;
+			width: 70%;
+			position: relative;
+			top: -50px;
+			z-index: 1;
+		}
+
+		.card-pair::after {
+			content: '';
+			display: table;
+			clear: both;
+		}
+	}
+
+	/* Mobile: stacked cards with alternating margins */
+	@media (max-width: 767px) {
+		.bg-onze-aanpak.jumbotron {
+			padding: 1rem 0.5rem;
+		}
+
+		.card-pair {
+			padding: 5px 0;
+		}
+
+		.kenmerk-card {
+			width: 95%;
+			margin-left: 0;
+			margin-right: auto;
+			margin-bottom: -20px;
+			z-index: 1;
+			position: relative;
+		}
+
+		.aanpak-card {
+			width: 95%;
+			margin-left: auto;
+			margin-right: 0;
+			margin-bottom: 20px;
+			z-index: 2;
+			position: relative;
+		}
+
+		.kenmerk-card .card-body,
+		.aanpak-card .card-body {
+			padding: 0.75rem;
+		}
+
+		.kenmerk-card .card-header,
+		.aanpak-card .card-header {
+			padding: 0.5rem 0.75rem;
+		}
 	}
 </style>

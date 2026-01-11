@@ -14,9 +14,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - uses: actions/setup-node@v4
+      - uses: actions/setup-node@v6
         with:
           node-version: '24'
           cache: 'npm'
@@ -31,4 +31,4 @@ jobs:
         run: node ./check-images.js
 
       - name: Run build
-        run: for i in {1..5}; do npm run build && break || sleep 1; done
+        run: npm run build

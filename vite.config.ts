@@ -14,7 +14,6 @@ const mdsvexOptions: MdsvexOptions = {
 		[
 			rehypeRewrite,
 			{
-				// eslint-disable-next-line @typescript-eslint/no-explicit-any
 				rewrite: (node: any) => {
 					// replace img tags with enhanced:img
 					if (node.type == 'element' && node.tagName == 'img') {
@@ -38,7 +37,6 @@ const mdsvexOptions: MdsvexOptions = {
 				}
 			}
 			// rehype-rewrite's hast-typed Plugin does not match mdsvex's unified v9 Plugin type
-			// eslint-disable-next-line @typescript-eslint/no-explicit-any
 		] as any
 	]
 };

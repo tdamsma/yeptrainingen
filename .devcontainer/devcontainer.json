@@ -19,7 +19,7 @@
 				"terminal.integrated.shell.linux": "/bin/zsh"
 			},
 			// Add the IDs of extensions you want installed when the container is created.
-			"extensions": ["dbaeumer.vscode-eslint", "octref.vetur"]
+			"extensions": ["octref.vetur"]
 		}
 	},
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

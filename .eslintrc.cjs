@@ -5,11 +5,10 @@ module.exports = {
 		'eslint:recommended',
 		'plugin:@typescript-eslint/recommended',
 		'plugin:svelte/recommended',
-		'plugin:jsx-a11y/recommended',
 		'prettier'
 	],
 	parser: '@typescript-eslint/parser',
-	plugins: ['@typescript-eslint', 'jsx-a11y'],
+	plugins: ['@typescript-eslint'],
 	parserOptions: {
 		sourceType: 'module',
 		ecmaVersion: 2020,
@@ -29,10 +28,7 @@ module.exports = {
 			},
 			rules: {
 				'svelte/valid-compile': 'off',
-				'svelte/no-at-html-tags': 'warn',
-				'jsx-a11y/no-noninteractive-tabindex': 'warn',
-				'jsx-a11y/no-noninteractive-element-interactions': 'warn',
-				'jsx-a11y/no-static-element-interactions': 'warn'
+				'svelte/no-at-html-tags': 'warn'
 			}
 		}
 	],

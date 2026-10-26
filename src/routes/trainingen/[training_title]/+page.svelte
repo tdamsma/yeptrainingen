@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { localizeHref } from '$lib/paraglide/runtime.js';
-	import * as m from '$lib/paraglide/messages.js';
+	import { localizeHref } from '#lib/paraglide/runtime.js';
+	import * as m from '#lib/paraglide/messages.js';
 
 	export let data;
 

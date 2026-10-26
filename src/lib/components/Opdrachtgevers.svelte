@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
 	import { linear } from 'svelte/easing';
-	import type { ImageModule, Opdrachtgever, OpdrachtgeverModule } from '$lib/types';
+	import type { ImageModule, Opdrachtgever, OpdrachtgeverModule } from '#lib/types.js';
 
 	const imageModules = import.meta.glob(
 		'$content/opdrachtgevers/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
@@ -14,10 +14,7 @@
 	) as Record<string, ImageModule>;
 
 	const opdrachtgeverModules = import.meta.glob('$content/opdrachtgevers/*.json', {
-		eager: true,
-		query: {
-			enhanced: true
-		}
+		eager: true
 	}) as Record<string, OpdrachtgeverModule>;
 
 	function formatDate(date: string) {

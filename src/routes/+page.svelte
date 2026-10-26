@@ -1,48 +1,37 @@
 <script lang="ts">
-	import type { BlogModule, ImageModule, Blog } from '$lib/types';
-	import Opdrachtgevers from '$lib/components/Opdrachtgevers.svelte';
-	import SpringestReviews from '$lib/components/SpringestReviews.svelte';
-	import * as m from '$lib/paraglide/messages.js';
-	import { getLocale, localizeHref } from '$lib/paraglide/runtime.js';
-	import { page } from '$app/stores';
+	import type { BlogModule, ImageModule, Blog } from '#lib/types.js';
+	import Opdrachtgevers from '#lib/components/Opdrachtgevers.svelte';
+	import SpringestReviews from '#lib/components/SpringestReviews.svelte';
+	import * as m from '#lib/paraglide/messages.js';
+	import { getLocale, localizeHref } from '#lib/paraglide/runtime.js';
+	import { page } from '$app/state';
+
 	const imageModules = import.meta.glob(
 		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
-		{
-			eager: true,
-			query: {
-				enhanced: true
-			}
-		}
+		{ eager: true, query: { enhanced: true } }
 	) as Record<string, ImageModule>;
 	const blogModulesNl = import.meta.glob(`$content/blog/*.nl.md`, {
 		eager: true,
-		query: {
-			enhanced: true
-		}
+		query: { enhanced: true }
 	}) as Record<string, BlogModule>;
 	const blogModulesEn = import.meta.glob(`$content/blog/*.en.md`, {
 		eager: true,
-		query: {
-			enhanced: true
-		}
+		query: { enhanced: true }
 	}) as Record<string, BlogModule>;
-
-	const blogModulesMap = {
-		en: blogModulesEn,
-		nl: blogModulesNl
-	};
+	const blogModulesMap = { en: blogModulesEn, nl: blogModulesNl };
 
 	function formatDate(date: string) {
 		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
 		return new Date(date).toLocaleDateString('en', options);
 	}
 
-	// Make this reactive to the current language - use $page to trigger updates on route change
+	// Make this reactive to the current language - use page to trigger updates on route change
 	let blogs = $derived(
 		(() => {
-			// Access $page.url to make this reactive to route changes
-			const _ = $page.url.pathname;
+			// Access page.url to make this reactive to route changes
+			const _ = page.url.pathname;
 			const blogModules = blogModulesMap[getLocale()];
+
 			return Object.entries(blogModules)
 				.filter(([path]) => !path.includes('_._')) // Filter out fallback 404 files
 				.map(([path, module]) => ({
@@ -76,7 +65,7 @@
 				src="/static/images/training-yep.jpg"
 				style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto;"
 				alt="Training session at YEP"
-			/>
+			></enhanced:img>
 		</div>
 		<div class="col-md-6 pt-4" style="padding-left:40px">
 			<br />
@@ -117,7 +106,7 @@
 							sizes="min(1280px, 100vw)"
 							src="/static/images/uitgelicht1.png"
 							alt="Uitgelicht met burealamp"
-						/>
+						></enhanced:img>
 					</div>
 					{m.home_talent_ontwikkel_programma()} >>
 				</a>
@@ -136,7 +125,7 @@
 								sizes="min(1280px, 100vw)"
 								src={imageModules[`/content/blog/${blog.meta.img}`].default}
 								alt={blog.meta.alt}
-							/>
+							></enhanced:img>
 						</div>
 						{blog.meta.title} >>
 					</a>
@@ -162,7 +151,7 @@
 					sizes="min(1280px, 100vw)"
 					src="/static/images/Trainers_van_YEP-1.png"
 					alt="Trainers van YEP"
-				/>
+				></enhanced:img>
 			</div>
 		</div>
 	</div>
@@ -178,7 +167,7 @@
 		sizes="min(1280px, 100vw)"
 		src="/static/images/site-foto-1-of-1-3.jpg"
 		alt="YEP trainers facilitating group discussion"
-	/>
+	></enhanced:img>
 </div>
 
 <div class="jumbotron jumbotron-fluid yep-grijs-donker">
@@ -191,7 +180,7 @@
 					sizes="min(1280px, 100vw)"
 					src="/static/images/wereldbol.png"
 					alt="Maatschappelijk"
-				/>
+				></enhanced:img>
 				<br />
 				<h2 class="mt-2">{m.home_maatschappelijk()}</h2>
 				<p>{m.home_jouw_impact_is_ons_doel()}</p>
@@ -202,7 +191,7 @@
 					sizes="min(1280px, 100vw)"
 					src="/static/images/megafoon.png"
 					alt="Actief"
-				/>
+				></enhanced:img>
 				<br />
 				<h2 class="mt-2">{m.home_actief()}</h2>
 				<p>{m.home_leren_door_te_experimenteren()}</p>
@@ -213,7 +202,7 @@
 					sizes="min(1280px, 100vw)"
 					src="/static/images/puzzle.png"
 					alt="Flexibel"
-				/>
+				></enhanced:img>
 				<br />
 				<h2 class="mt-2">{m.home_flexibel()}</h2>
 				<p>{m.home_jouw_ontwikkel_vraag_staat_centraal()}</p>
@@ -234,7 +223,7 @@
 						sizes="min(1280px, 100vw)"
 						src="/static/images/trainings-overzicht.png"
 						alt="Trainingen"
-					/>
+					></enhanced:img>
 					<p class="mt-2">{m.home_lees_meer()} >></p>
 				</a>
 			</div>
@@ -246,7 +235,7 @@
 						sizes="min(1280px, 100vw)"
 						src="/static/images/omgaanmetstress.jpg"
 						alt="Coaching"
-					/>
+					></enhanced:img>
 					<p class="mt-2">{m.home_lees_meer()} >></p>
 				</a>
 			</div>

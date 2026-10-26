@@ -1,36 +1,22 @@
 <script lang="ts">
-	import type { CoachingModule, ImageModule, Coaching } from '$lib/types';
-	import { getLocale, localizeHref } from '$lib/paraglide/runtime.js';
-	import * as m from '$lib/paraglide/messages.js';
-	import { page } from '$app/stores';
+	import type { CoachingModule, ImageModule, Coaching } from '#lib/types.js';
+	import { getLocale, localizeHref } from '#lib/paraglide/runtime.js';
+	import * as m from '#lib/paraglide/messages.js';
+	import { page } from '$app/state';
 
 	const imageModules = import.meta.glob(
 		'$content/coaching/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
-		{
-			eager: true,
-			query: {
-				enhanced: true
-			}
-		}
+		{ eager: true, query: { enhanced: true } }
 	) as Record<string, ImageModule>;
-
 	const coachingModulesNl = import.meta.glob('$content/coaching/*.nl.md', {
 		eager: true,
-		query: {
-			enhanced: true
-		}
+		query: { enhanced: true }
 	}) as Record<string, CoachingModule>;
 	const coachingModulesEn = import.meta.glob('$content/coaching/*.en.md', {
 		eager: true,
-		query: {
-			enhanced: true
-		}
+		query: { enhanced: true }
 	}) as Record<string, CoachingModule>;
-
-	const coachingModulesMap = {
-		en: coachingModulesEn,
-		nl: coachingModulesNl
-	};
+	const coachingModulesMap = { en: coachingModulesEn, nl: coachingModulesNl };
 
 	function formatDate(date: string) {
 		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
@@ -39,8 +25,8 @@
 
 	let coachings = $derived(
 		(() => {
-			// Access $page.url to make this reactive to route changes
-			const _ = $page.url.pathname;
+			// Access page.url to make this reactive to route changes
+			const _ = page.url.pathname;
 			const coachingModules = coachingModulesMap[getLocale()];
 			return Object.entries(coachingModules)
 				.map(([path, module]) => ({
@@ -67,9 +53,8 @@
 		</div>
 	</div>
 	<div class="container mb-5 mt-4">
-		<p>
-			{m.coaching_intro()}
-		</p>
+		<p>{m.coaching_intro()}</p>
+
 		<p>
 			{m.coaching_vraag()}
 			<br />
@@ -88,7 +73,7 @@
 										src={imageModules[`/content/coaching/${coaching.meta.img}`].default}
 										sizes="50vw"
 										alt={coaching.meta.alt}
-									/>
+									></enhanced:img>
 									<div class="mask rgba-white-slight"></div>
 								</div>
 							</div>
@@ -123,7 +108,7 @@
 						style="max-width: 100%; height: auto"
 						src="/static/images/anna-stutje.jpg"
 						alt="Anna Stutje, coach"
-					/>
+					></enhanced:img>
 				</div>
 				<div class="col-lg-8 p-4" style="max-width: 800px;">
 					<p>Coachees over Anna:</p>
@@ -181,7 +166,7 @@
 				style="max-width: 100%; height: auto"
 				src="/static/images/site-foto-1-of-1-3.jpg"
 				alt="Coaching services"
-			/>
+			></enhanced:img>
 		</div>
 	</div>
 </div>

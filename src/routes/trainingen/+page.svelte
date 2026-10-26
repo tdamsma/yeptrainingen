@@ -1,35 +1,22 @@
 <script lang="ts">
-	import type { TrainingModule, ImageModule, Training } from '$lib/types';
-	import { getLocale, localizeHref } from '$lib/paraglide/runtime.js';
-	import * as m from '$lib/paraglide/messages.js';
-	import { page } from '$app/stores';
+	import type { TrainingModule, ImageModule, Training } from '#lib/types.js';
+	import { getLocale, localizeHref } from '#lib/paraglide/runtime.js';
+	import * as m from '#lib/paraglide/messages.js';
+	import { page } from '$app/state';
+
 	const imageModules = import.meta.glob(
 		'$content/trainingen/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
-		{
-			eager: true,
-			query: {
-				enhanced: true
-			}
-		}
+		{ eager: true, query: { enhanced: true } }
 	) as Record<string, ImageModule>;
-
 	const TrainingModulesNl = import.meta.glob('$content/trainingen/*.nl.md', {
 		eager: true,
-		query: {
-			enhanced: true
-		}
+		query: { enhanced: true }
 	}) as Record<string, TrainingModule>;
 	const TrainingModulesEn = import.meta.glob('$content/trainingen/*.en.md', {
 		eager: true,
-		query: {
-			enhanced: true
-		}
+		query: { enhanced: true }
 	}) as Record<string, TrainingModule>;
-
-	const TrainingModulesMap = {
-		nl: TrainingModulesNl,
-		en: TrainingModulesEn
-	};
+	const TrainingModulesMap = { nl: TrainingModulesNl, en: TrainingModulesEn };
 
 	function formatDate(date: string) {
 		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
@@ -38,8 +25,8 @@
 
 	let trainings = $derived(
 		(() => {
-			// Access $page.url to make this reactive to route changes
-			const _ = $page.url.pathname;
+			// Access page.url to make this reactive to route changes
+			const _ = page.url.pathname;
 			const TrainingModules = TrainingModulesMap[getLocale()];
 			return Object.entries(TrainingModules)
 				.map(([path, module]) => ({
@@ -85,7 +72,7 @@
 										src={imageModules[`/content/trainingen/${training.meta.img}`].default}
 										sizes="50vw"
 										alt={training.meta.alt}
-									/>
+									></enhanced:img>
 									<div class="mask rgba-white-slight"></div>
 								</div>
 							</div>

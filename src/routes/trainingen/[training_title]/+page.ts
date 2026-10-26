@@ -1,5 +1,5 @@
-import { fetchContent } from '$lib/utils';
-import { getLocale } from '$lib/paraglide/runtime.js';
+import { fetchContent } from '#lib/utils/index.js';
+import { getLocale } from '#lib/paraglide/runtime.js';
 export async function load({ depends, params }) {
 	depends('paraglide:lang');
 	let post;
@@ -34,7 +34,7 @@ export async function load({ depends, params }) {
 /** @type {import('./$types').EntryGenerator} */
 export async function entries() {
 	// During SSG, generate entries for all locales
-	const { locales } = await import('$lib/paraglide/runtime.js');
+	const { locales } = await import('#lib/paraglide/runtime.js');
 	const allEntries = [];
 
 	for (const locale of locales) {

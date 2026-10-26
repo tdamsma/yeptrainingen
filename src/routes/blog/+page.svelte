@@ -1,35 +1,21 @@
 <script lang="ts">
-	import type { BlogModule, ImageModule, Blog } from '$lib/types';
-	import { getLocale, localizeHref } from '$lib/paraglide/runtime.js';
-	import { page } from '$app/stores';
+	import type { BlogModule, ImageModule, Blog } from '#lib/types.js';
+	import { getLocale, localizeHref } from '#lib/paraglide/runtime.js';
+	import { page } from '$app/state';
 
 	const imageModules = import.meta.glob(
 		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
-		{
-			eager: true,
-			query: {
-				enhanced: true
-			}
-		}
+		{ eager: true, query: { enhanced: true } }
 	) as Record<string, ImageModule>;
-
 	const blogModulesNl = import.meta.glob(`$content/blog/*.nl.md`, {
 		eager: true,
-		query: {
-			enhanced: true
-		}
+		query: { enhanced: true }
 	}) as Record<string, BlogModule>;
 	const blogModulesEn = import.meta.glob(`$content/blog/*.en.md`, {
 		eager: true,
-		query: {
-			enhanced: true
-		}
+		query: { enhanced: true }
 	}) as Record<string, BlogModule>;
-
-	const blogModulesMap = {
-		en: blogModulesEn,
-		nl: blogModulesNl
-	};
+	const blogModulesMap = { en: blogModulesEn, nl: blogModulesNl };
 
 	function formatDate(date: string) {
 		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
@@ -38,9 +24,10 @@
 
 	let blogs = $derived(
 		(() => {
-			// Access $page.url to make this reactive to route changes
-			const _ = $page.url.pathname;
+			// Access page.url to make this reactive to route changes
+			const _ = page.url.pathname;
 			const blogModules = blogModulesMap[getLocale()];
+
 			return Object.entries(blogModules)
 				.filter(([path]) => !path.includes('_._')) // Filter out fallback 404 files
 				.map(([path, module]) => ({
@@ -83,7 +70,7 @@
 								sizes="min(1280px, 100vw)"
 								src={imageModules[`/content/blog/${blog.meta.img}`].default}
 								alt={blog.meta.alt}
-							/>
+							></enhanced:img>
 						</div>
 					</div>
 					<div

@@ -1,37 +1,27 @@
 <script lang="ts">
-	import type { ImageModule, TeamMemberModule, TeamMember } from '$lib/types';
-	import { getLocale } from '$lib/paraglide/runtime.js';
-	import * as m from '$lib/paraglide/messages.js';
-	import { page } from '$app/stores';
+	import type { ImageModule, TeamMemberModule, TeamMember } from '#lib/types.js';
+	import { getLocale } from '#lib/paraglide/runtime.js';
+	import * as m from '#lib/paraglide/messages.js';
+	import { page } from '$app/state';
+
 	const TeamMemberModulesNl = import.meta.glob('$content/team/*.nl.md', {
 		eager: true,
-		query: {
-			enhanced: true
-		}
+		query: { enhanced: true }
 	}) as Record<string, TeamMemberModule>;
 	const TeamMemberModulesEn = import.meta.glob('$content/team/*.en.md', {
 		eager: true,
-		query: {
-			enhanced: true
-		}
+		query: { enhanced: true }
 	}) as Record<string, TeamMemberModule>;
-
-	const TeamMemberModulesMap = {
-		nl: TeamMemberModulesNl,
-		en: TeamMemberModulesEn
-	};
-
+	const TeamMemberModulesMap = { nl: TeamMemberModulesNl, en: TeamMemberModulesEn };
 	const imageModules = import.meta.glob('$content/team/*.jpg', {
 		eager: true,
-		query: {
-			enhanced: true
-		}
+		query: { enhanced: true }
 	}) as Record<string, ImageModule>;
 
 	let members = $derived(
 		(() => {
-			// Access $page.url to make this reactive to route changes
-			const _ = $page.url.pathname;
+			// Access page.url to make this reactive to route changes
+			const _ = page.url.pathname;
 			const TeamMemberModules = TeamMemberModulesMap[getLocale()];
 			return Object.entries(TeamMemberModules)
 				.map(([path, module]) => ({
@@ -65,9 +55,9 @@
 						src={imageModules[`${member.path}.jpg`].default}
 						alt={member.meta.name}
 						title={member.meta.name}
-					/>
-					<h2 class="text-center mt-1">{member.meta.name}</h2>
+					></enhanced:img>
 
+					<h2 class="text-center mt-1">{member.meta.name}</h2>
 					<member.content />
 				</div>
 			{/each}

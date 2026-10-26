@@ -7,14 +7,14 @@
 	import { page } from '$app/state';
 
 	const imageModules = import.meta.glob(
-		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
+		'/content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{ eager: true, query: { enhanced: true } }
 	) as Record<string, ImageModule>;
-	const blogModulesNl = import.meta.glob(`$content/blog/*.nl.md`, {
+	const blogModulesNl = import.meta.glob(`/content/blog/*.nl.md`, {
 		eager: true,
 		query: { enhanced: true }
 	}) as Record<string, BlogModule>;
-	const blogModulesEn = import.meta.glob(`$content/blog/*.en.md`, {
+	const blogModulesEn = import.meta.glob(`/content/blog/*.en.md`, {
 		eager: true,
 		query: { enhanced: true }
 	}) as Record<string, BlogModule>;

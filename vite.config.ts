@@ -4,8 +4,8 @@ import { sveltekit } from '@sveltejs/kit/vite';
 import { enhancedImages } from '@sveltejs/enhanced-img';
 import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex, type MdsvexOptions } from 'mdsvex';
-import path from 'node:path';
 import rehypeRewrite from 'rehype-rewrite';
+import { svelteSitemap } from 'svelte-sitemap/vite';
 import { defineConfig } from 'vite';
 
 const mdsvexOptions: MdsvexOptions = {
@@ -84,10 +84,6 @@ export default defineConfig({
 			},
 			extensions: ['.svelte', '.md'],
 			adapter: adapter(),
-			// deprecated in Kit 3 but kept: import.meta.glob keys depend on the /content prefix
-			alias: {
-				$content: path.resolve('content')
-			},
 			paths: {
 				origin: 'https://www.yeptrainingen.nl'
 			},
@@ -95,7 +91,8 @@ export default defineConfig({
 				entries: ['*', '/en'],
 				crawl: true
 			}
-		})
+		}),
+		svelteSitemap({ domain: 'https://www.yeptrainingen.nl' })
 	],
 	server: {
 		fs: {

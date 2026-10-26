@@ -5,14 +5,14 @@
 	import { page } from '$app/state';
 
 	const imageModules = import.meta.glob(
-		'$content/trainingen/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
+		'/content/trainingen/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{ eager: true, query: { enhanced: true } }
 	) as Record<string, ImageModule>;
-	const TrainingModulesNl = import.meta.glob('$content/trainingen/*.nl.md', {
+	const TrainingModulesNl = import.meta.glob('/content/trainingen/*.nl.md', {
 		eager: true,
 		query: { enhanced: true }
 	}) as Record<string, TrainingModule>;
-	const TrainingModulesEn = import.meta.glob('$content/trainingen/*.en.md', {
+	const TrainingModulesEn = import.meta.glob('/content/trainingen/*.en.md', {
 		eager: true,
 		query: { enhanced: true }
 	}) as Record<string, TrainingModule>;

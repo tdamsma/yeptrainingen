@@ -4,7 +4,7 @@
 	import type { ImageModule, Opdrachtgever, OpdrachtgeverModule } from '#lib/types.js';
 
 	const imageModules = import.meta.glob(
-		'$content/opdrachtgevers/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
+		'/content/opdrachtgevers/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{
 			eager: true,
 			query: {
@@ -13,7 +13,7 @@
 		}
 	) as Record<string, ImageModule>;
 
-	const opdrachtgeverModules = import.meta.glob('$content/opdrachtgevers/*.json', {
+	const opdrachtgeverModules = import.meta.glob('/content/opdrachtgevers/*.json', {
 		eager: true
 	}) as Record<string, OpdrachtgeverModule>;
 
@@ -56,7 +56,7 @@
 						transition:slide={{ delay: 0, duration: transitionTimeMS, easing: linear, axis: 'x' }}
 					>
 						{#if opdrachtgever.url !== ''}
-							<a href={opdrachtgever.url}>
+							<a href={opdrachtgever.url} aria-label={opdrachtgever.opdrachtgever}>
 								<enhanced:img
 									src={imageModules[`${opdrachtgever.name}.png`].default}
 									alt={opdrachtgever.opdrachtgever}
@@ -78,7 +78,7 @@
 </div>
 
 <style scoped>
-	img {
+	.panel :global(img) {
 		max-width: 200px;
 		width: 100%;
 		height: auto;
@@ -124,7 +124,7 @@
 
 	/* Responsive styles for narrow screens */
 	@media (max-width: 768px) {
-		img {
+		.panel :global(img) {
 			max-width: 120px;
 			max-height: 120px;
 		}
@@ -144,7 +144,7 @@
 	}
 
 	@media (max-width: 480px) {
-		img {
+		.panel :global(img) {
 			max-width: 80px;
 			max-height: 80px;
 		}

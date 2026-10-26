@@ -13,7 +13,7 @@
 	}
 
 	const imageModules = import.meta.glob(
-		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
+		'/content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{
 			eager: true,
 			query: {

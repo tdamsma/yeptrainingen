@@ -9,7 +9,7 @@
 	}
 
 	const imageModules = import.meta.glob(
-		'$content/trainingen/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
+		'/content/trainingen/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{
 			eager: true,
 			query: {

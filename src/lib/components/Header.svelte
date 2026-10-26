@@ -16,7 +16,7 @@
 
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
 	<div class="container d-flex justify-content-between">
-		<a class="navbar-brand" href={localizeHref('/')}>
+		<a class="navbar-brand" href={localizeHref('/')} aria-label="YEP Trainingen">
 			<enhanced:img class="ml-2" src="/static/images/Logo-Yep-300x122.png" alt="yeptrainingen" />
 		</a>
 		<button

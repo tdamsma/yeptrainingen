@@ -4,11 +4,13 @@ on:
   push:
     branches:
       - main
-      - master
   pull_request:
     branches:
       - main
-      - master
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   build:
@@ -24,6 +26,14 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
+      # npm ci wipes node_modules, so restore encoded images after it; a miss falls back to the newest cache
+      - name: Restore image cache
+        uses: actions/cache@v4
+        with:
+          path: node_modules/.cache/imagetools
+          key: imagetools-${{ hashFiles('content/**/*.jpg', 'content/**/*.jpeg', 'content/**/*.png', 'content/**/*.webp', 'package-lock.json') }}
+          restore-keys: imagetools-
+
       - name: Run linting
         run: npm run lint
 
@@ -32,3 +42,18 @@ jobs:
 
       - name: Run build
         run: npm run build
+
+      - name: Deploy to Cloudflare
+        if: github.event_name == 'push' && github.ref == 'refs/heads/main'
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: deploy
+
+      # Secrets are not available to PRs from forks
+      - name: Upload preview version
+        if: github.event_name == 'pull_request' && github.event.pull_request.head.repo.full_name == github.repository
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          command: versions upload --preview-alias pr-${{ github.event.number }}

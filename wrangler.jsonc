@@ -1,5 +1,6 @@
 {
 	"name": "yeptrainingen",
+	"account_id": "3a96b17c85b44b8722f7b1aee8531162",
 	"compatibility_date": "2026-01-11",
 	"assets": {
 		"directory": "./build"

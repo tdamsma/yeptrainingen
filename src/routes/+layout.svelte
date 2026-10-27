@@ -1,4 +1,10 @@
 <script>
+	// self-hosted so text does not wait on a CSS chain to fonts.googleapis.com
+	import '@fontsource/roboto/latin-300.css';
+	import '@fontsource/roboto/latin-400.css';
+	import '@fontsource/roboto/latin-500.css';
+	import '@fontsource/roboto/latin-700.css';
+	import '@fontsource/dosis/latin-400.css';
 	import '#lib/styles/vendored-bootstrap.css';
 	import Header from '#lib/components/Header.svelte';
 	import Footer from '#lib/components/Footer.svelte';

@@ -11,7 +11,7 @@ export async function load({ depends, params }) {
 		posts[`/content/trainingen/_.${getLocale()}._.md`];
 	const post = await loadPost();
 
-	const { title, img, alt, springest } = post.metadata;
+	const { title, img, alt, springest, description } = post.metadata;
 	const content = post.default;
 
 	const allPosts = await fetchContent('trainingen', getLocale());
@@ -28,6 +28,7 @@ export async function load({ depends, params }) {
 		img,
 		alt,
 		springest,
+		description,
 		surroundingDocuments
 	};
 }

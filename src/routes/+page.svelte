@@ -1,4 +1,5 @@
 <script lang="ts">
+	import PageHead from '#lib/components/PageHead.svelte';
 	import type { BlogMeta, ImageModule, Blog } from '#lib/types.js';
 	import Opdrachtgevers from '#lib/components/Opdrachtgevers.svelte';
 	import SpringestReviews from '#lib/components/SpringestReviews.svelte';
@@ -6,9 +7,10 @@
 	import { getLocale, localizeHref } from '#lib/paraglide/runtime.js';
 	import { page } from '$app/state';
 
+	// glob imports ignore the sizes attribute, so thumbnail widths are set here
 	const imageModules = import.meta.glob(
 		'/content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
-		{ eager: true, query: { enhanced: true } }
+		{ eager: true, query: { enhanced: true, w: '400;800' } }
 	) as Record<string, ImageModule>;
 	const blogModulesNl = import.meta.glob(`/content/blog/*.nl.md`, {
 		eager: true,
@@ -50,12 +52,14 @@
 	let blog = $derived(blogs[0]);
 </script>
 
+<PageHead title={m.home_training_coaching_advies()} description={m.home_extra_tekst()} />
+
 <div class="container-fluid container-left">
 	<div class="row p-0">
 		<div class="col-md-6 p-0" style="height: 300px; overflow: hidden">
 			<enhanced:img
 				class="img-fluid"
-				sizes="min(1280px, 100vw)"
+				sizes="(min-width: 768px) 50vw, 100vw"
 				src="/static/images/training-yep.jpg"
 				style="position: absolute; top: -100%; left: 0; right: 0; bottom: -100%; margin: auto;"
 				alt="Training session at YEP"
@@ -97,7 +101,7 @@
 					<div class="square-img-container text-left">
 						<enhanced:img
 							class="square-img thumbnail"
-							sizes="min(1280px, 100vw)"
+							sizes="(min-width: 768px) 25vw, 100vw"
 							src="/static/images/uitgelicht1.png"
 							alt="Uitgelicht met burealamp"
 						></enhanced:img>
@@ -116,7 +120,7 @@
 						<div class="square-img-container text-left">
 							<enhanced:img
 								class="square-img thumbnail"
-								sizes="min(1280px, 100vw)"
+								sizes="(min-width: 768px) 25vw, 100vw"
 								src={imageModules[`/content/blog/${blog.meta.img}`].default}
 								alt={blog.meta.alt}
 							></enhanced:img>
@@ -142,7 +146,7 @@
 			<div class="float-right" style="max-width: 500px; width: 100%">
 				<enhanced:img
 					class="img-fluid"
-					sizes="min(1280px, 100vw)"
+					sizes="(min-width: 768px) 500px, 100vw"
 					src="/static/images/Trainers_van_YEP-1.png"
 					alt="Trainers van YEP"
 				></enhanced:img>
@@ -171,7 +175,7 @@
 			<div class="col-md-3 text-center">
 				<enhanced:img
 					class="img-fluid"
-					sizes="min(1280px, 100vw)"
+					sizes="(min-width: 768px) 25vw, 100vw"
 					src="/static/images/wereldbol.png"
 					alt="Maatschappelijk"
 				></enhanced:img>
@@ -182,7 +186,7 @@
 			<div class="col-md-3 text-center">
 				<enhanced:img
 					class="img-fluid"
-					sizes="min(1280px, 100vw)"
+					sizes="(min-width: 768px) 25vw, 100vw"
 					src="/static/images/megafoon.png"
 					alt="Actief"
 				></enhanced:img>
@@ -193,7 +197,7 @@
 			<div class="col-md-3 text-center">
 				<enhanced:img
 					class="img-fluid"
-					sizes="min(1280px, 100vw)"
+					sizes="(min-width: 768px) 25vw, 100vw"
 					src="/static/images/puzzle.png"
 					alt="Flexibel"
 				></enhanced:img>
@@ -214,7 +218,7 @@
 				<a href={localizeHref('/trainingen')} class="d-block mt-2">
 					<enhanced:img
 						class="img-fluid lazyload"
-						sizes="min(1280px, 100vw)"
+						sizes="(min-width: 768px) 33vw, 100vw"
 						src="/static/images/trainings-overzicht.png"
 						alt="Trainingen"
 					></enhanced:img>
@@ -226,7 +230,7 @@
 				<a href={localizeHref('/coaching')} class="d-block mt-2">
 					<enhanced:img
 						class="img-fluid lazyload"
-						sizes="min(1280px, 100vw)"
+						sizes="(min-width: 768px) 33vw, 100vw"
 						src="/static/images/omgaanmetstress.jpg"
 						alt="Coaching"
 					></enhanced:img>

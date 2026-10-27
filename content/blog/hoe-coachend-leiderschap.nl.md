@@ -1,7 +1,7 @@
 ---
 title: 'Hoe coachend leiderschap het verschil maakt'
 img: hoe-coachend-leiderschap-3.jpg
-alt:
+alt: Hand wijst naar een van de spelkaarten op tafel
 date: 2024-11-27
 intro: 'Coachend Leiderschap: De sleutel tot betrokken, gemotiveerde én doelgerichte teams'
 credits: Images Marijn Damsma Author Marijn Damsma

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import PageHead from '#lib/components/PageHead.svelte';
 	import type { ImageModule, TeamMemberModule, TeamMember } from '#lib/types.js';
 	import { getLocale } from '#lib/paraglide/runtime.js';
 	import * as m from '#lib/paraglide/messages.js';
@@ -11,9 +12,10 @@
 		eager: true
 	}) as Record<string, TeamMemberModule>;
 	const TeamMemberModulesMap = { nl: TeamMemberModulesNl, en: TeamMemberModulesEn };
+	// glob imports ignore the sizes attribute, so thumbnail widths are set here
 	const imageModules = import.meta.glob('/content/team/*.jpg', {
 		eager: true,
-		query: { enhanced: true }
+		query: { enhanced: true, w: '400;800' }
 	}) as Record<string, ImageModule>;
 
 	let members = $derived(
@@ -32,6 +34,8 @@
 	);
 </script>
 
+<PageHead title={m.team_heading()} description={m.team_paragraaf1()} />
+
 <div>
 	<div class="jumbotron jumbotron-fluid yep-geel">
 		<div class="row justify-content-around">
@@ -49,7 +53,7 @@
 				<div class="col-sm-6 col-md-4 col-lg-3 mt-4 py-3 bg-white">
 					<enhanced:img
 						class="img-fluid"
-						sizes="min(1280px, 100vw)"
+						sizes="(min-width: 992px) 25vw, (min-width: 768px) 33vw, (min-width: 576px) 50vw, 100vw"
 						src={imageModules[`${member.path}.jpg`].default}
 						alt={member.meta.name}
 						title={member.meta.name}

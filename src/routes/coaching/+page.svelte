@@ -1,12 +1,14 @@
 <script lang="ts">
+	import PageHead from '#lib/components/PageHead.svelte';
 	import type { CoachingMeta, ImageModule, Coaching } from '#lib/types.js';
 	import { getLocale, localizeHref } from '#lib/paraglide/runtime.js';
 	import * as m from '#lib/paraglide/messages.js';
 	import { page } from '$app/state';
 
+	// glob imports ignore the sizes attribute, so thumbnail widths are set here
 	const imageModules = import.meta.glob(
 		'/content/coaching/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
-		{ eager: true, query: { enhanced: true } }
+		{ eager: true, query: { enhanced: true, w: '400;800' } }
 	) as Record<string, ImageModule>;
 	const coachingModulesNl = import.meta.glob('/content/coaching/*.nl.md', {
 		eager: true,
@@ -37,6 +39,8 @@
 		})()
 	);
 </script>
+
+<PageHead title={m.coaching_titel()} description={m.coaching_intro()} />
 
 <div class="container-fluid p-0 m-0">
 	<div class="jumbotron jumbotron-fluid yep-geel">

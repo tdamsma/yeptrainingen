@@ -1,4 +1,5 @@
 <script lang="ts">
+	import PageHead from '#lib/components/PageHead.svelte';
 	import { formatDate } from '#lib/utils/index.js';
 	import { localizeHref } from '#lib/paraglide/runtime.js';
 
@@ -17,7 +18,14 @@
 			}
 		}
 	) as Record<string, ImageModule>;
+	// glob imports ignore the sizes attribute, so sidebar widths are set here
+	const thumbModules = import.meta.glob(
+		'/content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
+		{ eager: true, query: { enhanced: true, w: '400;800' } }
+	) as Record<string, ImageModule>;
 </script>
+
+<PageHead title={data.title} description={data.description} />
 
 <div>
 	<div class="container mt-3 mb-3 bg-white pt-4">
@@ -46,12 +54,12 @@
 					<div class="card mt-5 overflow-hidden bg-dark text-white">
 						<enhanced:img
 							class="card-img-top rounded-0"
-							sizes="min(1280px, 100vw)"
-							src={imageModules[`/content/blog/${surroundingdata.meta.img}`].default}
+							sizes="(min-width: 768px) 25vw, (min-width: 576px) 42vw, 100vw"
+							src={thumbModules[`/content/blog/${surroundingdata.meta.img}`].default}
 							alt={surroundingdata.meta.alt}
 						/>
 						<div class="card-body p-3">
-							<h5 class="smalltext card-title">{surroundingdata.meta.title}</h5>
+							<h2 class="smalltext card-title">{surroundingdata.meta.title}</h2>
 						</div>
 						<a
 							class="stretched-link font-bold"

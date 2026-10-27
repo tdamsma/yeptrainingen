@@ -1,6 +1,9 @@
 <script lang="ts">
+	import PageHead from '#lib/components/PageHead.svelte';
 	import * as m from '#lib/paraglide/messages.js';
 </script>
+
+<PageHead title={m.klachten_title()} description={m.klachten_expectations_text()} />
 
 <div>
 	<div class="jumbotron jumbotron-fluid yep-geel">

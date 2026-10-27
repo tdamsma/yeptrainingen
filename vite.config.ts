@@ -20,6 +20,8 @@ const mdsvexOptions: MdsvexOptions = {
 						node.tagName = 'enhanced:img';
 						// add a css class "post-img" for styling purposes
 						node.properties['class'] = `post-img ${node.properties['class'] ?? ''}`.trimEnd();
+						// without sizes enhanced-img assumes a 2x source and serves a half-width 1x file
+						node.properties['sizes'] = '(min-width: 1200px) 800px, 100vw';
 					}
 
 					// add aria-label to links containing only images (for accessibility)

@@ -20,11 +20,6 @@
 	}) as Record<string, BlogMeta>;
 	const blogModulesMap = { en: blogModulesEn, nl: blogModulesNl };
 
-	function formatDate(date: string) {
-		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
-		return new Date(date).toLocaleDateString('en', options);
-	}
-
 	// Make this reactive to the current language - use page to trigger updates on route change
 	let blogs = $derived(
 		(() => {

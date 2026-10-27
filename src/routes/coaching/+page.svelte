@@ -20,11 +20,6 @@
 	}) as Record<string, CoachingMeta>;
 	const coachingModulesMap = { en: coachingModulesEn, nl: coachingModulesNl };
 
-	function formatDate(date: string) {
-		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
-		return new Date(date).toLocaleDateString('en', options);
-	}
-
 	let coachings = $derived(
 		(() => {
 			// Access page.url to make this reactive to route changes

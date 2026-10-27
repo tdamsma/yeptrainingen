@@ -1,4 +1,4 @@
-import { locales } from '#lib/paraglide/runtime.js';
+import { getLocale, locales } from '#lib/paraglide/runtime.js';
 
 type Locale = (typeof locales)[number];
 
@@ -42,3 +42,10 @@ export const fetchContent = async (category: ValidCategory, language: Locale) =>
 
 	return allPosts;
 };
+
+export const formatDate = (date: string | Date) =>
+	new Date(date).toLocaleDateString(getLocale(), {
+		year: 'numeric',
+		month: 'short',
+		day: 'numeric'
+	});

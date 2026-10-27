@@ -1,13 +1,9 @@
 <script lang="ts">
 	import PageHead from '#lib/components/PageHead.svelte';
+	import { formatDate } from '#lib/utils/index.js';
 	import { localizeHref } from '#lib/paraglide/runtime.js';
 
 	export let data;
-
-	function formatDate(date: string) {
-		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
-		return new Date(date).toLocaleDateString('nl-NL', options);
-	}
 
 	interface ImageModule {
 		default: string;

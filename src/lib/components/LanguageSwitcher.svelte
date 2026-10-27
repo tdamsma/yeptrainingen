@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { locales, getLocale, localizeHref } from '#lib/paraglide/runtime.js';
+	import { locales, getLocale, localizeHref, deLocalizeHref } from '#lib/paraglide/runtime.js';
 	import { page } from '$app/state';
 
 	type Locale = (typeof locales)[number];
@@ -17,7 +17,24 @@
 		})()
 	);
 	let newLanguage = $derived<Locale>(currentLanguage === 'nl' ? 'en' : 'nl');
-	let switchUrl = $derived(localizeHref(page.url.pathname, { locale: newLanguage }));
+	// keys only; the loaders stay lazy so no content is bundled here
+	const contentFiles = new Set(
+		Object.keys(import.meta.glob('/content/{blog,coaching,trainingen}/*.md'))
+	);
+
+	// untranslated posts link to the overview, so neither visitors nor the prerender crawler reach a not-found page
+	function translatedPath(pathname: string, locale: Locale) {
+		const path = deLocalizeHref(pathname);
+		const match = path.match(/^\/(blog|coaching|trainingen)\/([^/]+)$/);
+		if (match && !contentFiles.has(`/content/${match[1]}/${match[2]}.${locale}.md`)) {
+			return `/${match[1]}`;
+		}
+		return path;
+	}
+
+	let switchUrl = $derived(
+		localizeHref(translatedPath(page.url.pathname, newLanguage), { locale: newLanguage })
+	);
 </script>
 
 <a

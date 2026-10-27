@@ -8,8 +8,23 @@ import rehypeRewrite from 'rehype-rewrite';
 import { svelteSitemap } from 'svelte-sitemap/vite';
 import { defineConfig, type Plugin } from 'vite';
 
+const textOf = (node: any): string => node.value ?? (node.children ?? []).map(textOf).join('');
+
+// pages without an intro get their first paragraph as <meta name="description">
+function remarkDescription() {
+	return (tree: any, file: any) => {
+		const fm = (file.data.fm ??= {});
+		const firstParagraph = tree.children
+			.filter((node: any) => node.type === 'paragraph')
+			.map(textOf)
+			.find((text: string) => text.trim());
+		fm.description = fm.intro || firstParagraph?.trim() || '';
+	};
+}
+
 const mdsvexOptions: MdsvexOptions = {
 	extensions: ['.md'],
+	remarkPlugins: [remarkDescription],
 	rehypePlugins: [
 		[
 			rehypeRewrite,

@@ -74,7 +74,6 @@
 	style="height: 300px; overflow: hidden"
 	role="button"
 	tabindex="0"
-	aria-label="Open Reviews Modal"
 	on:click={() => (modalVisible = true)}
 	on:keydown={(e) => (e.key === 'Enter' ? (modalVisible = true) : null)}
 >

@@ -1,11 +1,14 @@
 <script lang="ts">
+	import PageHead from '#lib/components/PageHead.svelte';
+	import * as m from '#lib/paraglide/messages.js';
 	import type { BlogMeta, ImageModule, Blog } from '#lib/types.js';
 	import { getLocale, localizeHref } from '#lib/paraglide/runtime.js';
 	import { page } from '$app/state';
 
+	// glob imports ignore the sizes attribute, so thumbnail widths are set here
 	const imageModules = import.meta.glob(
 		'/content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
-		{ eager: true, query: { enhanced: true } }
+		{ eager: true, query: { enhanced: true, w: '400;800' } }
 	) as Record<string, ImageModule>;
 	const blogModulesNl = import.meta.glob(`/content/blog/*.nl.md`, {
 		eager: true,
@@ -49,6 +52,8 @@
 	);
 </script>
 
+<PageHead title="Blog" description={m.blog_description()} />
+
 <div>
 	<div class="jumbotron jumbotron-fluid yep-geel">
 		<div class="row justify-content-around">
@@ -66,7 +71,7 @@
 						<div class="square-img-container">
 							<enhanced:img
 								class="square-img rounded-circle"
-								sizes="min(1280px, 100vw)"
+								sizes="(min-width: 992px) 255px, (min-width: 768px) 230px, 100vw"
 								src={imageModules[`/content/blog/${blog.meta.img}`].default}
 								alt={blog.meta.alt}
 							></enhanced:img>

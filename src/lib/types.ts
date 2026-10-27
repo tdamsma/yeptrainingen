@@ -39,6 +39,7 @@ export interface BlogMeta {
 	tags: string[];
 	categories: string[];
 	english_title: string;
+	description: string;
 }
 export interface BlogModule {
 	default: Component;
@@ -63,6 +64,7 @@ export interface TrainingMeta {
 	alt: string;
 	volgnummer: number;
 	springest?: string;
+	description: string;
 }
 export interface Training {
 	path: string;
@@ -79,6 +81,7 @@ export interface CoachingMeta {
 	img: string;
 	alt: string;
 	volgnummer: number;
+	description: string;
 }
 export interface Coaching {
 	path: string;

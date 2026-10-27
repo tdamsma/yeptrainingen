@@ -11,7 +11,7 @@ export async function load({ depends, params }) {
 		posts[`/content/coaching/${params.coaching_title}.${getLocale()}.md`] ??
 		posts[`/content/coaching/_.${getLocale()}._.md`];
 	const post = await loadPost();
-	const { title, img, alt } = post.metadata;
+	const { title, img, alt, description } = post.metadata;
 	const content = post.default;
 
 	const allPosts = await fetchContent('coaching', getLocale());
@@ -27,6 +27,7 @@ export async function load({ depends, params }) {
 		title,
 		img,
 		alt,
+		description,
 		surroundingDocuments
 	};
 }

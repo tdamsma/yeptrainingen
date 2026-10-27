@@ -1,7 +1,7 @@
 ---
 title: 'Coaching leadership makes all the difference'
 img: hoe-coachend-leiderschap-3.jpg
-alt:
+alt: Hand pointing at one of the game cards on a table
 date: 2024-11-27
 intro: 'Coachend Leiderschap: The key to engaged, motivated and goal-oriented teams'
 credits: Images Marijn Damsma Author Marijn Damsma

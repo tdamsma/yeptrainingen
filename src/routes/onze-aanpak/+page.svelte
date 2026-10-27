@@ -1,4 +1,5 @@
 <script>
+	import PageHead from '#lib/components/PageHead.svelte';
 	import kenmerkenNl from './onze-aanpak.nl.json';
 	import kenmerkenEn from './onze-aanpak.en.json';
 	import * as m from '#lib/paraglide/messages.js';
@@ -17,6 +18,8 @@
 		})()
 	);
 </script>
+
+<PageHead title={m.aanpak_title()} description={m.aanpak_insight_p1()} />
 
 <div class="container-fluid m-0 p-0 bg-white">
 	<div class="jumbotron jumbotron-fluid yep-geel">

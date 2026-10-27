@@ -10,7 +10,7 @@ export async function load({ depends, params }) {
 		posts[`/content/blog/${params.blog_title}.${getLocale()}.md`] ??
 		posts[`/content/blog/_.${getLocale()}._.md`];
 	const post = await loadPost();
-	const { title, date, img, alt } = post.metadata;
+	const { title, date, img, alt, description } = post.metadata;
 	const content = post.default;
 
 	const allPosts: BlogPost[] = await fetchContent('blog', getLocale());
@@ -29,6 +29,7 @@ export async function load({ depends, params }) {
 		date,
 		img,
 		alt,
+		description,
 		surroundingDocuments
 	};
 }

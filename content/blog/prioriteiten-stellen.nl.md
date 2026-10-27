@@ -1,7 +1,7 @@
 ---
 title: 'Prioriteiten stellen.'
 img: prioriteiten-stellen-1.jpg
-alt:
+alt: "Klembord met de afvinklijst 'First things first'"
 date: 2016-12-01
 intro: Hoe zorg je ervoor dat je wél toe komt aan die dingen die je belangrijk vindt?
 credits: Images Marijn Damsma Author Marijn Damsma

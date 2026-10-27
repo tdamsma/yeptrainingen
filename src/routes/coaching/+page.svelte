@@ -27,10 +27,10 @@
 			const coachingModules = coachingModulesMap[getLocale()];
 			return Object.entries(coachingModules)
 				.map(([path, metadata]) => ({
-					path: path.replace(/\.nl\.md$/, ''),
+					path: path.replace(/\.(nl|en)\.md$/, ''),
 					name:
 						path
-							.replace(/\.nl\.md$/, '')
+							.replace(/\.(nl|en)\.md$/, '')
 							.split('/')
 							.pop() || path,
 					meta: metadata

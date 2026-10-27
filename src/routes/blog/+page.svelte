@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { BlogModule, ImageModule, Blog } from '#lib/types.js';
+	import type { BlogMeta, ImageModule, Blog } from '#lib/types.js';
 	import { getLocale, localizeHref } from '#lib/paraglide/runtime.js';
 	import { page } from '$app/state';
 
@@ -9,12 +9,12 @@
 	) as Record<string, ImageModule>;
 	const blogModulesNl = import.meta.glob(`/content/blog/*.nl.md`, {
 		eager: true,
-		query: { enhanced: true }
-	}) as Record<string, BlogModule>;
+		import: 'metadata'
+	}) as Record<string, BlogMeta>;
 	const blogModulesEn = import.meta.glob(`/content/blog/*.en.md`, {
 		eager: true,
-		query: { enhanced: true }
-	}) as Record<string, BlogModule>;
+		import: 'metadata'
+	}) as Record<string, BlogMeta>;
 	const blogModulesMap = { en: blogModulesEn, nl: blogModulesNl };
 
 	function formatDate(date: string) {
@@ -30,15 +30,14 @@
 
 			return Object.entries(blogModules)
 				.filter(([path]) => !path.includes('_._')) // Filter out fallback 404 files
-				.map(([path, module]) => ({
+				.map(([path, metadata]) => ({
 					path: path.replace(/\.(nl|en)\.md$/, ''),
 					name:
 						path
 							.replace(/\.(nl|en)\.md$/, '')
 							.split('/')
 							.pop() || '',
-					meta: module.metadata,
-					content: module.default
+					meta: metadata
 				}))
 				.filter((blog) => blog.meta?.date) // Filter out any posts without a date
 				.sort((a, b) => {

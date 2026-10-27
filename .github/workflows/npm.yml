@@ -24,12 +24,13 @@ jobs:
       - name: Install dependencies
         run: npm ci
 
-      # npm ci wipes node_modules, so restore encoded images after it; a miss falls back to the newest cache
+      # npm ci wipes node_modules, so restore encoded images after it; a miss falls back to the newest cache.
+      # The key covers everything that decides which image variants exist, since a primary-key hit never saves new ones.
       - name: Restore image cache
         uses: actions/cache@v4
         with:
           path: node_modules/.cache/imagetools
-          key: imagetools-${{ hashFiles('content/**/*.jpg', 'content/**/*.jpeg', 'content/**/*.png', 'content/**/*.webp', 'static/**/*.jpg', 'static/**/*.png', 'package-lock.json') }}
+          key: imagetools-${{ hashFiles('content/**/*.jpg', 'content/**/*.jpeg', 'content/**/*.png', 'content/**/*.webp', 'static/**/*.jpg', 'static/**/*.png', 'content/**/*.md', 'src/**/*.svelte', 'vite.config.ts', 'package-lock.json') }}
           restore-keys: imagetools-
 
       - name: Run linting

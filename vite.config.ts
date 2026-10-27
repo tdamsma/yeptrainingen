@@ -6,7 +6,7 @@ import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 import { mdsvex, type MdsvexOptions } from 'mdsvex';
 import rehypeRewrite from 'rehype-rewrite';
 import { svelteSitemap } from 'svelte-sitemap/vite';
-import { defineConfig } from 'vite';
+import { defineConfig, type Plugin } from 'vite';
 
 const mdsvexOptions: MdsvexOptions = {
 	extensions: ['.md'],
@@ -41,6 +41,18 @@ const mdsvexOptions: MdsvexOptions = {
 	]
 };
 
+// enhanced-img's markup hook has order 'pre', so it runs before Svelte preprocessing and never sees the <enhanced:img> tags mdsvex emits for Markdown images
+async function enhancedImagesAfterPreprocess(): Promise<Plugin[]> {
+	const plugins = await enhancedImages();
+	for (const plugin of plugins) {
+		if (plugin.name === 'vite-plugin-enhanced-img-markup' && typeof plugin.transform === 'object') {
+			plugin.enforce = 'pre';
+			delete plugin.transform.order;
+		}
+	}
+	return plugins;
+}
+
 export default defineConfig({
 	plugins: [
 		paraglideVitePlugin({
@@ -64,7 +76,6 @@ export default defineConfig({
 				}
 			]
 		}),
-		enhancedImages(),
 		// SvelteKit 3 no longer reads svelte.config.js, so all Svelte/Kit config lives here
 		sveltekit({
 			preprocess: [mdsvex(mdsvexOptions), vitePreprocess()],
@@ -92,6 +103,8 @@ export default defineConfig({
 				crawl: true
 			}
 		}),
+		// must come after sveltekit() so it runs after its preprocess plugin
+		enhancedImagesAfterPreprocess(),
 		svelteSitemap({ domain: 'https://www.yeptrainingen.nl' })
 	],
 	server: {

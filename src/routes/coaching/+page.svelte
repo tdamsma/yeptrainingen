@@ -1,5 +1,5 @@
 <script lang="ts">
-	import type { CoachingModule, ImageModule, Coaching } from '#lib/types.js';
+	import type { CoachingMeta, ImageModule, Coaching } from '#lib/types.js';
 	import { getLocale, localizeHref } from '#lib/paraglide/runtime.js';
 	import * as m from '#lib/paraglide/messages.js';
 	import { page } from '$app/state';
@@ -10,12 +10,12 @@
 	) as Record<string, ImageModule>;
 	const coachingModulesNl = import.meta.glob('/content/coaching/*.nl.md', {
 		eager: true,
-		query: { enhanced: true }
-	}) as Record<string, CoachingModule>;
+		import: 'metadata'
+	}) as Record<string, CoachingMeta>;
 	const coachingModulesEn = import.meta.glob('/content/coaching/*.en.md', {
 		eager: true,
-		query: { enhanced: true }
-	}) as Record<string, CoachingModule>;
+		import: 'metadata'
+	}) as Record<string, CoachingMeta>;
 	const coachingModulesMap = { en: coachingModulesEn, nl: coachingModulesNl };
 
 	function formatDate(date: string) {
@@ -29,15 +29,14 @@
 			const _ = page.url.pathname;
 			const coachingModules = coachingModulesMap[getLocale()];
 			return Object.entries(coachingModules)
-				.map(([path, module]) => ({
+				.map(([path, metadata]) => ({
 					path: path.replace(/\.nl\.md$/, ''),
 					name:
 						path
 							.replace(/\.nl\.md$/, '')
 							.split('/')
 							.pop() || path,
-					meta: module.metadata,
-					content: module.default
+					meta: metadata
 				}))
 				.sort((a, b) => a.meta.volgnummer - b.meta.volgnummer);
 		})()

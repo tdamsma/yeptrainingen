@@ -5,12 +5,10 @@
 	import { page } from '$app/state';
 
 	const TeamMemberModulesNl = import.meta.glob('/content/team/*.nl.md', {
-		eager: true,
-		query: { enhanced: true }
+		eager: true
 	}) as Record<string, TeamMemberModule>;
 	const TeamMemberModulesEn = import.meta.glob('/content/team/*.en.md', {
-		eager: true,
-		query: { enhanced: true }
+		eager: true
 	}) as Record<string, TeamMemberModule>;
 	const TeamMemberModulesMap = { nl: TeamMemberModulesNl, en: TeamMemberModulesEn };
 	const imageModules = import.meta.glob('/content/team/*.jpg', {

@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { formatDate } from '#lib/utils/index.js';
 	import type { BlogMeta, ImageModule, Blog } from '#lib/types.js';
 	import { getLocale, localizeHref } from '#lib/paraglide/runtime.js';
 	import { page } from '$app/state';
@@ -16,11 +17,6 @@
 		import: 'metadata'
 	}) as Record<string, BlogMeta>;
 	const blogModulesMap = { en: blogModulesEn, nl: blogModulesNl };
-
-	function formatDate(date: string) {
-		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
-		return new Date(date).toLocaleDateString('en', options);
-	}
 
 	let blogs = $derived(
 		(() => {

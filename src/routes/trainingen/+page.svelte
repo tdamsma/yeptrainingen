@@ -18,11 +18,6 @@
 	}) as Record<string, TrainingMeta>;
 	const TrainingModulesMap = { nl: TrainingModulesNl, en: TrainingModulesEn };
 
-	function formatDate(date: string) {
-		const options: Intl.DateTimeFormatOptions = { year: 'numeric', month: 'short', day: 'numeric' };
-		return new Date(date).toLocaleDateString('en', options);
-	}
-
 	let trainings = $derived(
 		(() => {
 			// Access page.url to make this reactive to route changes

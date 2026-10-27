@@ -1,6 +1,6 @@
 <script lang="ts">
-	import { locales, getLocale, localizeHref } from '$lib/paraglide/runtime';
-	import { page } from '$app/stores';
+	import { locales, getLocale, localizeHref } from '#lib/paraglide/runtime.js';
+	import { page } from '$app/state';
 
 	type Locale = (typeof locales)[number];
 
@@ -11,13 +11,13 @@
 
 	let currentLanguage = $derived(
 		(() => {
-			// Access $page.url to make this reactive to route changes
-			const _ = $page.url.pathname;
+			// Access page.url to make this reactive to route changes
+			const _ = page.url.pathname;
 			return getLocale();
 		})()
 	);
-	let newLanguage = $derived(currentLanguage === 'nl' ? 'en' : 'nl');
-	let switchUrl = $derived(localizeHref($page.url.pathname, { locale: newLanguage }));
+	let newLanguage = $derived<Locale>(currentLanguage === 'nl' ? 'en' : 'nl');
+	let switchUrl = $derived(localizeHref(page.url.pathname, { locale: newLanguage }));
 </script>
 
 <a

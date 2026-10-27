@@ -1,6 +1,6 @@
 <script lang="ts">
-	import * as m from '$lib/paraglide/messages.js';
-	import { localizeHref } from '$lib/paraglide/runtime.js';
+	import * as m from '#lib/paraglide/messages.js';
+	import { localizeHref } from '#lib/paraglide/runtime.js';
 </script>
 
 <div class="jumbotron jumbotron-fluid" style="background-color: #807d7d">
@@ -47,10 +47,14 @@
 					alt="yeptrainingen"
 				/>
 				<p></p>
-				<a href="mailto:info@yeptrainingen.nl" target="_blank">
+				<a href="mailto:info@yeptrainingen.nl" target="_blank" aria-label="E-mail">
 					<enhanced:img sizes="min(1280px, 100vw)" src="/static/images/email.png" alt="email" />
 				</a>
-				<a href="https://www.linkedin.com/company/yeptrainingen" target="_blank">
+				<a
+					href="https://www.linkedin.com/company/yeptrainingen"
+					target="_blank"
+					aria-label="LinkedIn"
+				>
 					<enhanced:img
 						sizes="min(1280px, 100vw)"
 						src="/static/images/linkedin.png"
@@ -60,6 +64,7 @@
 				<a
 					href="https://www.instagram.com/yeptrainingen"
 					target="_blank"
+					aria-label="Instagram"
 					style="width:42px; height:42px"
 				>
 					<enhanced:img

@@ -1,20 +1,20 @@
-import { locales } from '$lib/paraglide/runtime.js';
+import { locales } from '#lib/paraglide/runtime.js';
 
 type Locale = (typeof locales)[number];
 
 const importPathsNl = {
-	blog: import.meta.glob('$content/blog/*.nl.md'),
-	coaching: import.meta.glob('$content/coaching/*.nl.md'),
-	opdrachtgevers: import.meta.glob('$content/opdrachtgevers/*.nl.md'),
-	team: import.meta.glob('$content/team/*.nl.md'),
-	trainingen: import.meta.glob('$content/trainingen/*.nl.md')
+	blog: import.meta.glob('/content/blog/*.nl.md'),
+	coaching: import.meta.glob('/content/coaching/*.nl.md'),
+	opdrachtgevers: import.meta.glob('/content/opdrachtgevers/*.nl.md'),
+	team: import.meta.glob('/content/team/*.nl.md'),
+	trainingen: import.meta.glob('/content/trainingen/*.nl.md')
 };
 const importPathsEn = {
-	blog: import.meta.glob('$content/blog/*.en.md'),
-	coaching: import.meta.glob('$content/coaching/*.en.md'),
-	opdrachtgevers: import.meta.glob('$content/opdrachtgevers/*.en.md'),
-	team: import.meta.glob('$content/team/*.en.md'),
-	trainingen: import.meta.glob('$content/trainingen/*.en.md')
+	blog: import.meta.glob('/content/blog/*.en.md'),
+	coaching: import.meta.glob('/content/coaching/*.en.md'),
+	opdrachtgevers: import.meta.glob('/content/opdrachtgevers/*.en.md'),
+	team: import.meta.glob('/content/team/*.en.md'),
+	trainingen: import.meta.glob('/content/trainingen/*.en.md')
 };
 
 const importPathsMap = {

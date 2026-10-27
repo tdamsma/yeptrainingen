@@ -1,9 +1,9 @@
 <script>
 	import kenmerkenNl from './onze-aanpak.nl.json';
 	import kenmerkenEn from './onze-aanpak.en.json';
-	import * as m from '$lib/paraglide/messages.js';
-	import { getLocale } from '$lib/paraglide/runtime.js';
-	import { page } from '$app/stores';
+	import * as m from '#lib/paraglide/messages.js';
+	import { getLocale } from '#lib/paraglide/runtime.js';
+	import { page } from '$app/state';
 
 	const kenmerkenMap = {
 		nl: kenmerkenNl,
@@ -11,8 +11,8 @@
 	};
 	let data = $derived(
 		(() => {
-			// Access $page.url to make this reactive to route changes
-			const _ = $page.url.pathname;
+			// Access page.url to make this reactive to route changes
+			const _ = page.url.pathname;
 			return kenmerkenMap[getLocale()];
 		})()
 	);
@@ -31,7 +31,7 @@
 				class="fluid"
 				src="/static/images/onze-aanpak-1.jpg"
 				alt="A group of participants engaged in a training session, seated around a table with a facilitator presenting"
-			/>
+			></enhanced:img>
 		</div>
 		<div class="col-lg-6 p-3 m-0 pl-4 pr-5" style="max-width: 800px;">
 			<h2>{m.aanpak_impact_title()}</h2>
@@ -56,10 +56,8 @@
 	</div>
 	<div class="container m-auto bg-white pt-4">
 		<h2>{m.aanpak_insight_title()}</h2>
-		<p>
-			{m.aanpak_insight_p1()}
-		</p>
-		<p>&nbsp;</p>
+		<p>{m.aanpak_insight_p1()}</p>
+		<p></p>
 		<h2>{m.aanpak_target_title()}</h2>
 		<p>
 			{m.aanpak_target_p1()}
@@ -74,7 +72,7 @@
 			class="aanpak-bg-img"
 			src="/static/images/onze-aanpak.jpg"
 			alt="Our approach illustration"
-		/>
+		></enhanced:img>
 		<div class="row mx-auto cards-container">
 			{#each data as { kenmerk, aanpak }}
 				<div class="col-xl-6">
@@ -125,7 +123,7 @@
 					style="object-fit: cover; max-height: 400px; width: 100%"
 					src="/static/images/IMG_2597.jpg"
 					alt="Team collaboration"
-				/>
+				></enhanced:img>
 			</div>
 		</div>
 	</div>

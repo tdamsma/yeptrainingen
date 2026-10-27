@@ -1,7 +1,45 @@
 import { paraglideVitePlugin } from '@inlang/paraglide-js';
+import adapter from '@sveltejs/adapter-static';
 import { sveltekit } from '@sveltejs/kit/vite';
 import { enhancedImages } from '@sveltejs/enhanced-img';
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
+import { mdsvex, type MdsvexOptions } from 'mdsvex';
+import rehypeRewrite from 'rehype-rewrite';
+import { svelteSitemap } from 'svelte-sitemap/vite';
 import { defineConfig } from 'vite';
+
+const mdsvexOptions: MdsvexOptions = {
+	extensions: ['.md'],
+	rehypePlugins: [
+		[
+			rehypeRewrite,
+			{
+				rewrite: (node: any) => {
+					// replace img tags with enhanced:img
+					if (node.type == 'element' && node.tagName == 'img') {
+						node.tagName = 'enhanced:img';
+						// add a css class "post-img" for styling purposes
+						node.properties['class'] = `post-img ${node.properties['class'] ?? ''}`.trimEnd();
+					}
+
+					// add aria-label to links containing only images (for accessibility)
+					if (node.type == 'element' && node.tagName == 'a') {
+						const hasOnlyImage =
+							node.children?.length === 1 &&
+							node.children[0].type === 'element' &&
+							(node.children[0].tagName === 'img' || node.children[0].tagName === 'enhanced:img');
+
+						if (hasOnlyImage && !node.properties.ariaLabel) {
+							const imgAlt = node.children[0].properties?.alt || 'document';
+							node.properties.ariaLabel = `Download: ${imgAlt}`;
+						}
+					}
+				}
+			}
+			// rehype-rewrite's hast-typed Plugin does not match mdsvex's unified v9 Plugin type
+		] as any
+	]
+};
 
 export default defineConfig({
 	plugins: [
@@ -27,7 +65,34 @@ export default defineConfig({
 			]
 		}),
 		enhancedImages(),
-		sveltekit()
+		// SvelteKit 3 no longer reads svelte.config.js, so all Svelte/Kit config lives here
+		sveltekit({
+			preprocess: [mdsvex(mdsvexOptions), vitePreprocess()],
+			onwarn: (warning, handler) => {
+				if (
+					warning.code === 'css-unused-selector' ||
+					warning.code === 'vite-plugin-svelte-preprocess-many-dependencies' ||
+					warning.code === 'a11y-no-redundant-roles' ||
+					warning.code === 'a11y-missing-content' ||
+					warning.code === 'a11y-img-redundant-alt' ||
+					warning.code === 'a11y-img-missing-alt' ||
+					warning.code === 'a11y-no-noninteractive-tabindex'
+				) {
+					return;
+				}
+				handler(warning);
+			},
+			extensions: ['.svelte', '.md'],
+			adapter: adapter(),
+			paths: {
+				origin: 'https://www.yeptrainingen.nl'
+			},
+			prerender: {
+				entries: ['*', '/en'],
+				crawl: true
+			}
+		}),
+		svelteSitemap({ domain: 'https://www.yeptrainingen.nl' })
 	],
 	server: {
 		fs: {

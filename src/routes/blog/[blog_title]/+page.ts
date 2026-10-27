@@ -1,15 +1,15 @@
-import { fetchContent } from '$lib/utils';
-import { getLocale } from '$lib/paraglide/runtime.js';
-import type { BlogPost } from '$lib/types';
+import { fetchContent } from '#lib/utils/index.js';
+import { getLocale } from '#lib/paraglide/runtime.js';
+import type { BlogModule, BlogPost } from '#lib/types.js';
+
+const posts = import.meta.glob<BlogModule>('/content/blog/*.md');
 
 export async function load({ depends, params }) {
 	depends('paraglide:lang');
-	let post;
-	try {
-		post = await import(`$content/blog/${params.blog_title}.${getLocale()}.md`);
-	} catch (error) {
-		post = await import(`$content/blog/_.${getLocale()}._.md`);
-	}
+	const loadPost =
+		posts[`/content/blog/${params.blog_title}.${getLocale()}.md`] ??
+		posts[`/content/blog/_.${getLocale()}._.md`];
+	const post = await loadPost();
 	const { title, date, img, alt } = post.metadata;
 	const content = post.default;
 
@@ -36,7 +36,7 @@ export async function load({ depends, params }) {
 /** @type {import('./$types').EntryGenerator} */
 export async function entries() {
 	// During SSG, generate entries for all locales
-	const { locales } = await import('$lib/paraglide/runtime.js');
+	const { locales } = await import('#lib/paraglide/runtime.js');
 	const allEntries = [];
 
 	for (const locale of locales) {

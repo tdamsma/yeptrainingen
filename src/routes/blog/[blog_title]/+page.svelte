@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { localizeHref } from '$lib/paraglide/runtime.js';
+	import { localizeHref } from '#lib/paraglide/runtime.js';
 
 	export let data;
 
@@ -13,7 +13,7 @@
 	}
 
 	const imageModules = import.meta.glob(
-		'$content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
+		'/content/blog/*.{avif,gif,heif,jpeg,jpg,png,tiff,webp,svg}',
 		{
 			eager: true,
 			query: {
